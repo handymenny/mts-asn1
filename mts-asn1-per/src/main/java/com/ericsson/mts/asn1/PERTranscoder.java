@@ -47,7 +47,7 @@ public class PERTranscoder {
     }
 
     /**
-     * Decode of the constrained whole number ITU-T X.691. 10.5. NOTE (Tutorial)
+     * Decode of the constrained whole number ITU-T X.691. 11.5. NOTE (Tutorial)
      * This subclause is referenced by other clauses, and itself references
      * earlier clauses for the production of a nonnegative-data-integer or a
      * 2's-complement-data-integer encoding.
@@ -68,9 +68,11 @@ public class PERTranscoder {
             throw new IllegalArgumentException("illegal ranges lb=" + lb + ", ub=" + ub);
         }
 
-        if (range.compareTo(BigInteger.valueOf(256)) < 0) {
+        if(range.equals(BigInteger.valueOf(1))) {
+            n = BigInteger.valueOf(0);
+        } else if (!aligned || range.compareTo(BigInteger.valueOf(256)) < 0) {
             /*
-             * 1. Where the range is less than or equal to 255, the value encodes
+             * 1. In unaligned variant or where the range is less than or equal to 255, the value encodes
              * into a bit-field of the minimum size for the range.
              */
             n = stream.bigReadBits(max.bitLength()).add(lb);
@@ -248,7 +250,7 @@ public class PERTranscoder {
     }
 
     /**
-     * Decode the length determinant ITU-T X.691. 10.9. General rules for
+     * Decode the length determinant ITU-T X.691. 11.9. General rules for
      * encoding a length determinant
      *
      * @param stream binary streaù
@@ -256,7 +258,8 @@ public class PERTranscoder {
      * @throws IOException input exception
      */
     public int decodeLengthDeterminant(BitInputStream stream) throws IOException {
-        skipAlignedBits(stream);
+        if(aligned)
+            skipAlignedBits(stream);
         int result = stream.read();
         if ((result & 0b10000000) != 0b00000000) {
             if ((result & 0b11000000) == 0b10000000) {
@@ -292,10 +295,13 @@ public class PERTranscoder {
      * @throws IOException input exception
      */
     public byte[] decodeOctetString(BitInputStream stream, BigInteger len) throws IOException {
-        if (len.compareTo(new BigInteger("2")) <= 0) {
-            return stream.readUnalignedByteArray(len.intValueExact());
-        } else if (len.compareTo(BigInteger.valueOf(64L * 1024L)) < 0) {
-            return stream.readAlignedByteArray(len.intValueExact());
+       if (len.compareTo(BigInteger.valueOf(64L * 1024L)) < 0) {
+           // Octet strings of fixed length less than or equal to two octets are not octet-aligned. All other octet strings are octet-aligned
+           // in the ALIGNED variant.
+           if (!aligned || len.compareTo(new BigInteger("2")) <= 0) {
+               return stream.readUnalignedByteArray(len.intValueExact());
+           }
+           return stream.readAlignedByteArray(len.intValueExact());
         } else {
             throw new RuntimeException("unsupported case");
         }
@@ -327,13 +333,8 @@ public class PERTranscoder {
      */
     public String readsBitsAsString(BitInputStream s, int n) throws IOException {
         StringBuilder sb = new StringBuilder(n);
-        if (aligned) {
-            for (int i = 0; i < n; i++) {
-                sb.append(s.readBit() == 0 ? '0' : '1');
-            }
-
-        } else {
-            throw new RuntimeException();
+        for (int i = 0; i < n; i++) {
+            sb.append(s.readBit() == 0 ? '0' : '1');
         }
         return sb.toString();
     }
@@ -344,7 +345,9 @@ public class PERTranscoder {
      * @param stream binary stream
      */
     public void skipAlignedBits(InputStream stream) {
-        ((BitInputStream) stream).skipUnreadedBits();
+        if (aligned) {
+            ((BitInputStream) stream).skipUnreadedBits();
+        }
     }
 
     //Output stream part
@@ -388,7 +391,7 @@ public class PERTranscoder {
             throw new InvalidParameterException("Bad range " + range);
         } else {
             if (!range.equals(ONE)) {
-                if (range.compareTo(BigInteger.valueOf(255)) <= 0) {
+                if (!aligned || range.compareTo(BigInteger.valueOf(255)) <= 0) {
                     this.encodeBitField(s, value, range.subtract(BigInteger.valueOf(1)).bitLength());
                 } else if (range.compareTo(BigInteger.valueOf(256)) == 0) {
                     if (aligned) {

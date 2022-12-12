@@ -167,7 +167,12 @@ public class PERSequenceTranslator extends AbstractSequenceTranslator {
                 }
 
                 if (additionalBit) {
-                    byte[] data = s.readAlignedByteArray(perTranscoder.decodeLengthDeterminant(s));
+                    byte[] data;
+                    if (perTranscoder.isAligned()) {
+                        data = s.readAlignedByteArray(perTranscoder.decodeLengthDeterminant(s));
+                    } else {
+                        data = s.readUnalignedByteArray(perTranscoder.decodeLengthDeterminant(s));
+                    }
                     // TODO : decode for real (and display octetstring for unknown)
                     AbstractTranslator typeTranslator;
                     if (null != field) {
