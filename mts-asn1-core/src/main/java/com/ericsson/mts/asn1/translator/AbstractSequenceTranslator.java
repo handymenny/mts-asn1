@@ -36,7 +36,7 @@ public abstract class AbstractSequenceTranslator extends AbstractTranslator {
 
     public AbstractTranslator init(MainRegistry mainRegistry, ASN1Parser.SequenceTypeContext ctx) throws NotHandledCaseException {
         AtomicReference<Boolean> isOptionnal = new AtomicReference<>(false);
-        if (ctx.extensionAndException() != null) {
+        if (ctx.extensionAndException() != null || ctx.componentTypeLists() == null) {
             hasEllipsis = true;
         } else {
             if (ctx.componentTypeLists().getChild(0).getClass().getSimpleName().compareTo(ASN1Parser.RootComponentTypeListContext.class.getSimpleName()) == 0) {
