@@ -32,7 +32,7 @@ public class PERIntegerTranslator extends AbstractIntegerTranslator {
         logger.trace("Enter {}", this);
         BigInteger lb = null, ub = null;
         if (constraints.hasSingleValueConstraints()) {
-            throw new NotHandledCaseException();
+            return;
         }
 
         if (constraints.hasValueRangeConstraint()) {
@@ -84,7 +84,7 @@ public class PERIntegerTranslator extends AbstractIntegerTranslator {
         BigInteger number;
 
         if (constraints.hasSingleValueConstraints()) {
-            throw new NotHandledCaseException();
+           return constraints.getSingleValueConstraint();
         }
 
         if (constraints.isExtensible()) {

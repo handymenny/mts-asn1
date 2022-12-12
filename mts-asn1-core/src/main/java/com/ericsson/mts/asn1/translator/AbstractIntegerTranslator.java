@@ -47,9 +47,6 @@ public abstract class AbstractIntegerTranslator extends AbstractTranslator {
         if (constraintContext.get(0) != null) {
             constraints = new Constraints(mainRegistry);
             constraints.addConstraint(constraintContext.get(0));
-            if (!constraints.hasValueRangeConstraint() || constraints.hasSizeConstraint()) {
-                throw new RuntimeException();
-            }
         }
         return this;
     }
