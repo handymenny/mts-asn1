@@ -42,10 +42,7 @@ public abstract class AbstractSequenceTranslator extends AbstractTranslator {
             if (ctx.componentTypeLists().getChild(0).getClass().getSimpleName().compareTo(ASN1Parser.RootComponentTypeListContext.class.getSimpleName()) == 0) {
                 ctx.componentTypeLists().rootComponentTypeList(0).componentTypeList().componentType().forEach(componentTypeContext -> {
                     if (componentTypeContext.namedType() != null) {
-                        if (componentTypeContext.DEFAULT_LITERAL() != null) {
-                            throw new NotHandledCaseException();
-                        }
-                        if (componentTypeContext.OPTIONAL_LITERAL() != null) {
+                        if (componentTypeContext.DEFAULT_LITERAL() != null || componentTypeContext.OPTIONAL_LITERAL() != null) {
                             isOptionnal.set(true);
                             rootSequenceOptionalCount++;
                         }
@@ -81,10 +78,7 @@ public abstract class AbstractSequenceTranslator extends AbstractTranslator {
                             ctx.componentTypeLists().extensionAdditions().extensionAdditionList().extensionAddition().forEach(extensionAdditionContext -> {
                                 if (extensionAdditionContext.componentType() != null) {
                                     if (extensionAdditionContext.componentType().namedType() != null) {
-                                        if (extensionAdditionContext.componentType().DEFAULT_LITERAL() != null) {
-                                            throw new NotHandledCaseException();
-                                        }
-                                        if (extensionAdditionContext.componentType().OPTIONAL_LITERAL() != null) {
+                                        if (extensionAdditionContext.componentType().DEFAULT_LITERAL() != null  || extensionAdditionContext.componentType().OPTIONAL_LITERAL() != null) {
                                             isOptionnal.set(true);
                                         }
                                         AbstractTranslator abstractTranslator = mainRegistry.getTranslator(extensionAdditionContext.componentType().namedType().asnType());
