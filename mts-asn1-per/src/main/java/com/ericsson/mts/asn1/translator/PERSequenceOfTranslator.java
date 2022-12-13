@@ -132,7 +132,9 @@ public class PERSequenceOfTranslator extends AbstractSequenceOfTranslator {
             */
 
             BigInteger n;
-            if (ub != null && BigInteger.valueOf(65536).compareTo(ub) >= 0) {
+
+            /* If there is no finite maximum or "ub" is greater than or equal to 64K we say that "ub" is unset */
+            if (ub != null && BigInteger.valueOf(65536).compareTo(ub) > 0) {
                 n = perTranscoder.decodeConstrainedNumber(lb, ub, s);
             } else {
                 n = BigInteger.valueOf(perTranscoder.decodeLengthDeterminant(s));
