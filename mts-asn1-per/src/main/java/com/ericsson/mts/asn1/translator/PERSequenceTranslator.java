@@ -37,15 +37,78 @@ public class PERSequenceTranslator extends AbstractSequenceTranslator {
     @Override
     public void doEncode(BitArray s, FormatReader reader, TranslatorContext translatorContext, List<String> inputFieldList, Map<String, String> registry) throws Exception {
         logger.trace("Enter {} encoder, name {}, with input fields {}", this.getClass().getSimpleName(), this.name, inputFieldList);
+        boolean[] extensionBitmap = new boolean[additionnalFieldList.size()];
+        boolean extensionPresent = false;
         if (hasEllipsis || optionalExtensionMarker || (extensionAndException != -1)) {
-            for (Field field : additionnalFieldList) {
-                if (inputFieldList.contains(field.getName())) {
-                    throw new NotHandledCaseException();
+            for (int i = 0; i < additionnalFieldList.size(); i++) {
+                AdditionalField addField = additionnalFieldList.get(i);
+                if (addField.isExtensionAdditionGroup()) {
+                    for (Field field: ((FieldGroup)addField).getChildren()) {
+                        if(inputFieldList.contains(field.getName())) {
+                            extensionBitmap[i] = true;
+                            extensionPresent = true;
+                            break;
+                        }
+                    }
+                } else if (inputFieldList.contains(((Field)addField).getName())) {
+                    extensionBitmap[i] = true;
+                    extensionPresent = true;
                 }
             }
-            s.writeBit(0);
+            s.writeBit(extensionPresent ? 1 : 0);
         }
 
+        encodeSequenceFields(s, reader, translatorContext, inputFieldList, registry, fieldList);
+        if (extensionPresent) {
+            // Write extension bitmap
+            perTranscoder.encodeNormallySmallWholeNumber(s, BigInteger.valueOf(additionnalFieldList.size() -1 ));
+            for(int i = 0; i < additionnalFieldList.size(); i++) {
+                s.writeBit(extensionBitmap[i] ? 1 : 0);
+            }
+            if (perTranscoder.isAligned()) {
+                perTranscoder.skipAlignedBits(s);
+            }
+
+            for (int i = 0; i < additionnalFieldList.size(); i++) {
+                if (extensionBitmap[i]) {
+                    AdditionalField addField = additionnalFieldList.get(i);
+                    BitArray bitArray = new BitArray();
+
+                    if (addField.isExtensionAdditionGroup()) {
+                        // Extension Addition Group are encoded like Sequence
+                        encodeSequenceFields(bitArray, reader, translatorContext, inputFieldList, registry,
+                                ((FieldGroup) addField).getChildren());
+                    } else {
+                        encodeSequenceField(bitArray, reader, translatorContext, registry, (Field) addField);
+                    }
+
+                    logger.trace("Open type for field {} : octet length={}", addField, perTranscoder.toByteCount(bitArray.getLength().intValueExact()));
+                    perTranscoder.encodeLengthDeterminant(s, BigInteger.valueOf(perTranscoder.toByteCount((bitArray.getLength()).intValueExact())));
+                    // align needed before any concat
+                    bitArray.skipAlignedBits();
+                    s.concatBitArray(bitArray);
+                }
+            }
+        }
+
+    }
+
+    private void encodeSequenceField(BitArray s, FormatReader reader, TranslatorContext translatorContext, Map<String, String> registry, Field field) throws Exception {
+        AbstractTranslator typeTranslator = field.getType();
+        List<String> parameters = typeTranslator.getParameters();
+        if (parameters.isEmpty()) {
+            field.getType().encode(field.getName(), s, reader, translatorContext);
+        } else {
+            //Building parameter list to pass to target translator
+            List<String> inputParameters = new ArrayList<>();
+            for (String parameter : field.getParameters()) {
+                inputParameters.add(registry.get(parameter));
+            }
+            typeTranslator.encode(field.getName(), s, reader, translatorContext, inputParameters);
+        }
+    }
+
+    private void encodeSequenceFields(BitArray s, FormatReader reader, TranslatorContext translatorContext, List<String> inputFieldList, Map<String, String> registry, List<Field> fieldList) throws Exception {
         //Build preamble (bit-map)
         BigInteger preambleLength = BigInteger.ZERO;
         for (Field field : fieldList) {
@@ -66,18 +129,7 @@ public class PERSequenceTranslator extends AbstractSequenceTranslator {
         for (Field field : fieldList) {
             if (inputFieldList.contains(field.getName())) {
                 logger.trace("Encode field " + field.getName());
-                AbstractTranslator typeTranslator = field.getType();
-                List<String> parameters = typeTranslator.getParameters();
-                if (parameters.isEmpty()) {
-                    field.getType().encode(field.getName(), s, reader, translatorContext);
-                } else {
-                    //Building parameter list to pass to target translator
-                    List<String> inputParameters = new ArrayList<>();
-                    for (String parameter : field.getParameters()) {
-                        inputParameters.add(registry.get(parameter));
-                    }
-                    typeTranslator.encode(field.getName(), s, reader, translatorContext, inputParameters);
-                }
+                encodeSequenceField(s, reader, translatorContext, registry, field);
             } else {
                 if (!field.getOptionnal()) {
                     throw new InvalidParameterException("Sequence " + name + " need field " + field.getName());
@@ -89,7 +141,6 @@ public class PERSequenceTranslator extends AbstractSequenceTranslator {
     @Override
     public void doDecode(BitInputStream s, FormatWriter writer, TranslatorContext translatorContext, Map<String, String> registry) throws Exception {
         logger.trace("{} : {}", this.name, this);
-        boolean rootSequenceHasOptional = false;
         boolean isExtendedSequence = false;
 
         if (hasEllipsis || optionalExtensionMarker || (extensionAndException != -1)) {
@@ -98,40 +149,7 @@ public class PERSequenceTranslator extends AbstractSequenceTranslator {
 
         logger.trace("{} : isExtendedSequence : {}", this.name, isExtendedSequence);
 
-        for (Field field : fieldList) {
-            if (field.getOptionnal()) {
-                rootSequenceHasOptional = true;
-                break;
-            }
-        }
-
-        if (rootSequenceHasOptional) {
-            for (int i = 0; i < optionalBitmap.length; i++) {
-                optionalBitmap[i] = (1 == s.readBit());
-            }
-        }
-
-        logger.trace("{} : optional bitmap is {}", this.name, optionalBitmap);
-
-        int optionalBitmapIndex = 0;
-
-        for (Field field : fieldList) {
-            if (!field.getOptionnal() || optionalBitmap[optionalBitmapIndex++]) {
-                logger.trace("{} : decode field {} ", this.name, field.getName());
-                AbstractTranslator typeTranslator = field.getType();
-                List<String> parameters = typeTranslator.getParameters();
-                if (parameters.isEmpty()) {
-                    typeTranslator.decode(field.getName(), s, writer, translatorContext);
-                } else {
-                    //Building parameter list to pass to target translator
-                    List<String> inputParameters = new ArrayList<>();
-                    for (String parameter : field.getParameters()) {
-                        inputParameters.add(registry.get(parameter));
-                    }
-                    typeTranslator.decode(field.getName(), s, writer, translatorContext, inputParameters);
-                }
-            }
-        }
+        decodeSequenceFields(s, writer, translatorContext, registry, fieldList, optionalBitmap);
 
         if (isExtendedSequence) {
             logger.trace("{} : is and extended sequence", this.name);
@@ -157,13 +175,13 @@ public class PERSequenceTranslator extends AbstractSequenceTranslator {
                 perTranscoder.skipAlignedBits(s);
             }
 
-            Iterator<Field> additionalFieldsIterator = this.additionnalFieldList.iterator();
+            Iterator<AdditionalField> additionalFieldsIterator = this.additionnalFieldList.iterator();
             for (boolean additionalBit : additionalBitmap) {
-                Field field;
+                AdditionalField additionalField;
                 if (additionalFieldsIterator.hasNext()) {
-                    field = additionalFieldsIterator.next();
+                    additionalField = additionalFieldsIterator.next();
                 } else {
-                    field = null;
+                    additionalField = null;
                 }
 
                 if (additionalBit) {
@@ -173,21 +191,64 @@ public class PERSequenceTranslator extends AbstractSequenceTranslator {
                     } else {
                         data = s.readUnalignedByteArray(perTranscoder.decodeLengthDeterminant(s));
                     }
-                    // TODO : decode for real (and display octetstring for unknown)
-                    AbstractTranslator typeTranslator;
-                    if (null != field) {
-                        typeTranslator = field.getType();
-                        List<String> parameters = typeTranslator.getParameters();
-                        if (parameters.isEmpty()) {
-                            typeTranslator.decode(field.getName(), new BitInputStream(new ByteArrayInputStream(data)), writer, translatorContext);
+                    BitInputStream is = new BitInputStream(new ByteArrayInputStream(data));
+
+                    if (null != additionalField) {
+                        if (additionalField.isExtensionAdditionGroup()) {
+                            // Extension Addition Group are encoded like Sequence
+                            FieldGroup group = ((FieldGroup) additionalField);
+                            decodeSequenceFields(is, writer, translatorContext, registry, group.getChildren(), new boolean[group.getOptionalCount()]);
                         } else {
-                            throw new NotHandledCaseException("Case of extension with parameters not handled yet");
+                            decodeSequenceField(s, writer, translatorContext, registry, (Field)additionalField);
                         }
                     } else {
                         logger.error("skipped additional field of " + data.length + " bytes");
                     }
                 }
             }
+        }
+    }
+
+    private void decodeSequenceFields(BitInputStream s, FormatWriter writer, TranslatorContext translatorContext, Map<String, String> registry, List<Field> fieldList, boolean[] optionalBitmap) throws Exception {
+        boolean rootSequenceHasOptional = false;
+
+        for (Field field : fieldList) {
+            if (field.getOptionnal()) {
+                rootSequenceHasOptional = true;
+                break;
+            }
+        }
+
+        if (rootSequenceHasOptional) {
+            for (int i = 0; i < optionalBitmap.length; i++) {
+                optionalBitmap[i] = (1 == s.readBit());
+            }
+        }
+
+        logger.trace("{} : optional bitmap is {}", this.name, optionalBitmap);
+
+        int optionalBitmapIndex = 0;
+
+        for (Field field : fieldList) {
+            if (!field.getOptionnal() || optionalBitmap[optionalBitmapIndex++]) {
+                decodeSequenceField(s, writer, translatorContext, registry, field);
+            }
+        }
+    }
+
+    private void decodeSequenceField(BitInputStream s, FormatWriter writer, TranslatorContext translatorContext, Map<String, String> registry, Field field) throws Exception {
+        logger.trace("{} : decode field {} ", this.name, field.getName());
+        AbstractTranslator typeTranslator = field.getType();
+        List<String> parameters = typeTranslator.getParameters();
+        if (parameters.isEmpty()) {
+            typeTranslator.decode(field.getName(), s, writer, translatorContext);
+        } else {
+            //Building parameter list to pass to target translator
+            List<String> inputParameters = new ArrayList<>();
+            for (String parameter : field.getParameters()) {
+                inputParameters.add(registry.get(parameter));
+            }
+            typeTranslator.decode(field.getName(), s, writer, translatorContext, inputParameters);
         }
     }
 }

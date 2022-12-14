@@ -27,7 +27,7 @@ import java.util.concurrent.atomic.AtomicReference;
 public abstract class AbstractSequenceTranslator extends AbstractTranslator {
 
     protected List<Field> fieldList = new ArrayList<>();
-    protected List<Field> additionnalFieldList = new ArrayList<>();
+    protected List<AdditionalField> additionnalFieldList = new ArrayList<>();
     protected boolean hasEllipsis = false;
     protected int extensionAndException = -1;
     protected boolean optionalExtensionMarker = false;
@@ -102,6 +102,36 @@ public abstract class AbstractSequenceTranslator extends AbstractTranslator {
                                     } else {
                                         throw new NotHandledCaseException();
                                     }
+                                } else if(extensionAdditionContext.extensionAdditionGroup() != null) {
+                                    FieldGroup additionalGroup = new FieldGroup();
+                                    extensionAdditionContext.extensionAdditionGroup().componentTypeList().componentType().forEach(componentTypeContext -> {
+                                            if (componentTypeContext.namedType() != null) {
+                                                if (componentTypeContext.DEFAULT_LITERAL() != null || componentTypeContext.OPTIONAL_LITERAL() != null) {
+                                                    isOptionnal.set(true);
+                                                }
+                                                AbstractTranslator abstractTranslator = mainRegistry.getTranslator(componentTypeContext.namedType().asnType());
+                                                Field field = new Field(componentTypeContext.namedType().IDENTIFIER().getText(),
+                                                        abstractTranslator,
+                                                        isOptionnal.get());
+                                                if (componentTypeContext.namedType().asnType().referencedType() != null) {
+                                                    if (componentTypeContext.namedType().asnType().referencedType().definedType().actualParameterList() != null) {
+                                                        this.handleParameters(componentTypeContext.namedType().asnType().referencedType().definedType().actualParameterList(), field);
+                                                    }
+                                                }
+                                                if (componentTypeContext.namedType().asnType().builtinType() != null) {
+                                                    if (componentTypeContext.namedType().asnType().builtinType().objectClassFieldType() != null) {
+                                                        //Add catalog to field parameter
+                                                        field.addParameter(abstractTranslator.getParameters().get(0));
+                                                    }
+                                                }
+
+                                                additionalGroup.add(field);
+                                                isOptionnal.set(false);
+                                            } else {
+                                                throw new NotHandledCaseException();
+                                            }
+                                    });
+                                    additionnalFieldList.add(additionalGroup);
                                 } else {
                                     throw new NotHandledCaseException();
                                 }
@@ -184,7 +214,11 @@ public abstract class AbstractSequenceTranslator extends AbstractTranslator {
                 + '}';
     }
 
-    protected class Field {
+    protected abstract class AdditionalField {
+        abstract boolean isExtensionAdditionGroup();
+    }
+
+    protected class Field extends AdditionalField {
 
         String name;
         AbstractTranslator type;
@@ -217,5 +251,34 @@ public abstract class AbstractSequenceTranslator extends AbstractTranslator {
             return isOptionnal;
         }
 
+        @Override
+        boolean isExtensionAdditionGroup() {
+            return false;
+        }
+    }
+
+    protected class FieldGroup extends AdditionalField {
+        private List<Field> children = new ArrayList<>();
+        private int optionalCount = 0;
+
+        public boolean add(Field child) {
+            if (child.isOptionnal) {
+                optionalCount++;
+            }
+            return children.add(child);
+        }
+
+        @Override
+        boolean isExtensionAdditionGroup() {
+            return true;
+        }
+
+        public int getOptionalCount() {
+            return optionalCount;
+        }
+
+        public List<Field> getChildren() {
+            return children;
+        }
     }
 }
