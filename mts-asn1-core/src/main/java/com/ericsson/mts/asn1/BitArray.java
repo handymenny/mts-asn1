@@ -36,7 +36,7 @@ public class BitArray {
             length = length.add(BigInteger.valueOf(8));
         } else {
             for (int i = 0; i < 8; i++) {
-                this.writeBit((b >> (8 - i)));
+                this.writeBit((b >> (7 - i)));
             }
         }
     }
