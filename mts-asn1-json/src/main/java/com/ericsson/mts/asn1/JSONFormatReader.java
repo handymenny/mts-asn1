@@ -77,7 +77,10 @@ public class JSONFormatReader implements FormatReader {
     public int enterArray(String name) {
         logger.trace("Enter array {}", name);
         stack.push(currentNode);
-        currentNode = currentNode.get(name);
+        currentNode = getFromStack(currentNode);
+        if (name != null) {
+            currentNode = currentNode.get(name);
+        }
         arrayStack.push(0);
         if (currentNode == null) {
             throw new NullPointerException("Name : " + name);
@@ -97,27 +100,38 @@ public class JSONFormatReader implements FormatReader {
 
     @Override
     public boolean booleanValue(String name) {
+        JsonNode node = getFromStack(currentNode);
+        if (name == null) {
+            return node.booleanValue();
+        }
         return getFromStack(currentNode).get(name).booleanValue();
     }
 
     @Override
     public String bitsValue(String name) {
+        JsonNode node = getFromStack(currentNode);
+        if (name == null) {
+            return node.textValue();
+        }
         return getFromStack(currentNode).get(name).textValue();
     }
 
     @Override
     public String bytesValue(String name) {
         JsonNode node = getFromStack(currentNode);
-        if (node.isTextual()) {
+        if (name == null || node.isTextual()) {
             return node.textValue();
         }
         return node.get(name).textValue();
-
     }
 
     @Override
     public BigInteger intValue(String name) {
-        return getFromStack(currentNode).get(name).bigIntegerValue();
+        JsonNode node = getFromStack(currentNode);
+        if (name == null) {
+            return node.bigIntegerValue();
+        }
+        return node.get(name).bigIntegerValue();
     }
 
     @Override
@@ -132,7 +146,11 @@ public class JSONFormatReader implements FormatReader {
 
     @Override
     public String stringValue(String name) {
-        return getFromStack(currentNode).get(name).asText();
+        JsonNode node = getFromStack(currentNode);
+        if (name == null) {
+            return node.asText();
+        }
+        return node.get(name).asText();
     }
 
     @Override
