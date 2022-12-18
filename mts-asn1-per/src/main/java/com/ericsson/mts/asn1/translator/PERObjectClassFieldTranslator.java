@@ -66,7 +66,7 @@ public class PERObjectClassFieldTranslator extends AbstractObjectClassFieldTrans
                 logger.trace("Leave open type : tag={} , name={}", tag, name);
                 logger.trace("Open type for field {} : octet length={}", name, perTranscoder.toByteCount(bitArray.getLength().intValueExact()));
                 perTranscoder.encodeLengthDeterminant(s, BigInteger.valueOf(perTranscoder.toByteCount((bitArray.getLength()).intValueExact())));
-                perTranscoder.skipAlignedBits(bitArray);
+                bitArray.skipAlignedBits();
                 s.concatBitArray(bitArray);
                 reader.leaveObject(name);
             }
