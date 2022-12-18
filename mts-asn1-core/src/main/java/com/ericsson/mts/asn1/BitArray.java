@@ -82,4 +82,9 @@ public class BitArray {
         //Use for debug
         return FormatWriter.bytesToHex(outputStream.toByteArray()) + Integer.toString(currentByte, 16);
     }
+
+    @Override
+    public String toString() {
+        return getActualBinaryMessage();
+    }
 }
