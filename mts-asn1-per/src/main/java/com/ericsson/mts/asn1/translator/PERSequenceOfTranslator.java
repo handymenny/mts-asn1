@@ -62,7 +62,7 @@ public class PERSequenceOfTranslator extends AbstractSequenceOfTranslator {
             if (ub != null && ub.compareTo(BigInteger.valueOf(65536)) < 0) {
                 perTranscoder.encodeConstrainedWholeNumber(s, BigInteger.valueOf(numberOfComponents), lb, ub);
             } else {
-                perTranscoder.encodeSemiConstrainedWholeNumber(s, lb, BigInteger.valueOf(numberOfComponents));
+                perTranscoder.encodeLengthDeterminant(s, BigInteger.valueOf(numberOfComponents));
             }
             launchEncode(s, reader, registry, BigInteger.valueOf(numberOfComponents));
         }
