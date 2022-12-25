@@ -49,12 +49,13 @@
         <module>mts-asn1-json</module>
         <module>mts-asn1-xml</module>
         <module>mts-asn1-per</module>
+        <module>mts-asn1-converter</module>
         <module>mts-asn1-maven-plugin</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <junit.version>5.4.0</junit.version>
+        <junit.version>5.9.0</junit.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
