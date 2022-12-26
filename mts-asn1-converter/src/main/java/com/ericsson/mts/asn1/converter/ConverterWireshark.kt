@@ -2,16 +2,37 @@ package com.ericsson.mts.asn1.converter
 
 import com.ericsson.mts.asn1.ASN1Parser.*
 import java.math.BigInteger
+import java.util.Stack
 
 /**
  * Implementation of [AbstractConverter] for Wireshark
  */
 class ConverterWireshark : AbstractConverter() {
     private var previousWasContaining = false
+    private var identifierArrayStack = Stack<String>()
 
     override fun resetStatus() {
         super.resetStatus()
         previousWasContaining = false
+        identifierArrayStack.clear()
+    }
+
+    override fun popStacks(indentation: Int) {
+        while (indentationArrayStack.isNotEmpty() && indentationArrayStack.peek() >= indentation) {
+            identifierArrayStack.pop()
+            indentationArrayStack.pop()
+            writer.leaveArray(null)
+        }
+        super.popStacks(indentation)
+    }
+
+    private fun getArrayIdentifier(): String? {
+        if (identifierArrayStack.isNotEmpty()) {
+            if(indentationObjectStack.isEmpty() || indentationArrayStack.peek() > indentationObjectStack.peek()) {
+                return identifierArrayStack.peek()
+            }
+        }
+        return null
     }
 
     override fun cleanup(text: String): String {
@@ -31,7 +52,8 @@ class ConverterWireshark : AbstractConverter() {
         context: SequenceTypeContext
     ): Int {
         if (!previousWasContaining) {
-            writer.enterObject(identifier)
+            val identifierCustom = getArrayIdentifier() ?: identifier
+            writer.enterObject(identifierCustom)
         } else {
             previousWasContaining = false
         }
@@ -54,7 +76,8 @@ class ConverterWireshark : AbstractConverter() {
         indentation: Int,
         context: EnumeratedTypeContext
     ): Int {
-        writer.stringValue(identifier, getStringValue(identifier, lineArray[index]))
+        val identifierCustom = getArrayIdentifier() ?: identifier
+        writer.stringValue(identifierCustom, getStringValue(identifier, lineArray[index]))
         return 1
     }
 
@@ -72,7 +95,8 @@ class ConverterWireshark : AbstractConverter() {
                 read++
             } while (newLevel == getIndentationLevel(lineArray[read + 1]))
         }
-        writer.bitsValue(identifier, getBitsValue(lineArray[index]))
+        val identifierCustom = getArrayIdentifier() ?: identifier
+        writer.bitsValue(identifierCustom, getBitsValue(lineArray[index]))
         return read
     }
 
@@ -83,7 +107,8 @@ class ConverterWireshark : AbstractConverter() {
         indentation: Int,
         context: IntegerTypeContext
     ): Int {
-        writer.intValue(identifier, getIntValue(identifier, lineArray[index]), null)
+        val identifierCustom = getArrayIdentifier() ?: identifier
+        writer.intValue(identifierCustom, getIntValue(identifier, lineArray[index]), null)
         return 1
     }
 
@@ -115,7 +140,8 @@ class ConverterWireshark : AbstractConverter() {
         context: BuiltinTypeContext
     ): Int {
         if (context.BOOLEAN_LITERAL() != null) {
-            writer.booleanValue(identifier, getBooleanValue(identifier, lineArray[index]))
+            val identifierCustom = getArrayIdentifier() ?: identifier
+            writer.booleanValue(identifierCustom, getBooleanValue(identifier, lineArray[index]))
         }
         return 1
     }
@@ -137,8 +163,10 @@ class ConverterWireshark : AbstractConverter() {
         indentation: Int,
         context: SequenceOfTypeContext
     ): Int {
-        writer.enterArray(identifier)
+        val identifierCustom = getArrayIdentifier() ?: identifier
+        writer.enterArray(identifierCustom)
         indentationArrayStack.push(indentation)
+        identifierArrayStack.push(identifierCustom)
         return 1
     }
 
@@ -169,7 +197,8 @@ class ConverterWireshark : AbstractConverter() {
         indentation: Int,
         context: OctetStringTypeContext
     ): Int {
-        writer.enterObject(identifier)
+        val identifierCustom = getArrayIdentifier() ?: identifier
+        writer.enterObject(identifierCustom)
         previousWasContaining = true
         return 1
     }
@@ -192,7 +221,8 @@ class ConverterWireshark : AbstractConverter() {
         context: ChoiceTypeContext
     ): Int {
         if (context.alternativeTypeLists().rootAlternativeTypeList().alternativeTypeList() != null) {
-            writer.enterObject(identifier)
+            val identifierCustom = getArrayIdentifier() ?: identifier
+            writer.enterObject(identifierCustom)
             typesStack.push(
                 context.alternativeTypeLists().rootAlternativeTypeList().alternativeTypeList()
                     .namedType()

@@ -543,7 +543,7 @@ abstract class AbstractConverter {
      * @param indentation the indentation level
      *
      */
-    protected fun popStacks(indentation: Int) {
+    protected open fun popStacks(indentation: Int) {
         while (indentationObjectStack.isNotEmpty() && indentationObjectStack.peek() >= indentation) {
             indentationObjectStack.pop()
             typesStack.pop()
