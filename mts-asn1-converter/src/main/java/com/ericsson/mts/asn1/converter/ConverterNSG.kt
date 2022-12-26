@@ -68,10 +68,11 @@ class ConverterNSG : AbstractConverter() {
                 } while (newLevel == getIndentationLevel(nextLine))
             }
         }
-        val length = getLowerBound(identifier)?.intValueExact() ?: 0
-        while (bits.length < length) {
-            bits += '0'
-        }
+        // Min number of bits
+        bits = bits.dropLastWhile { it == '0' }
+        val minLength = getLowerBound(identifier)?.intValueExact() ?: 0
+        // Pad if needed
+        bits = bits.padEnd(minLength, '0')
         writer.bitsValue(identifier, bits)
         return read
     }

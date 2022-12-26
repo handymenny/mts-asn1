@@ -100,7 +100,12 @@ class ConverterWireshark : AbstractConverter() {
             } while (newLevel == getIndentationLevel(lineArray[read + 1]))
         }
         val identifierCustom = getArrayIdentifier() ?: identifier
-        writer.bitsValue(identifierCustom, getBitsValue(lineArray[index]))
+        // Get min number of bits
+        var bits = getBitsValue(lineArray[index])?.dropLastWhile { it == '0' } ?: "0"
+        val minLength = getLowerBound(identifier)?.intValueExact() ?: 0
+        // Pad if needed
+        bits = bits.padEnd(minLength, '0')
+        writer.bitsValue(identifierCustom, bits)
         return read
     }
 
