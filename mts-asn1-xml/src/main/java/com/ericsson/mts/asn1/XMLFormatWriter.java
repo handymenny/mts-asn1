@@ -11,6 +11,8 @@
 package com.ericsson.mts.asn1;
 
 import com.ericsson.mts.asn1.factory.FormatWriter;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -23,6 +25,7 @@ import java.math.BigInteger;
 public class XMLFormatWriter implements FormatWriter {
     private Document document;
     private Element currentNode;
+    private Logger logger = LoggerFactory.getLogger(XMLFormatWriter.class.getSimpleName());
 
     public XMLFormatWriter() throws ParserConfigurationException {
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
@@ -57,6 +60,7 @@ public class XMLFormatWriter implements FormatWriter {
 
     @Override
     public void enterObject(String name) {
+        logger.trace("Enter object {}", name);
         createNewElement(name, false);
     }
 
@@ -72,6 +76,7 @@ public class XMLFormatWriter implements FormatWriter {
 
     @Override
     public void enterArray(String name) {
+        logger.trace("Enter array {}", name);
         createNewElement(name, false);
     }
 
