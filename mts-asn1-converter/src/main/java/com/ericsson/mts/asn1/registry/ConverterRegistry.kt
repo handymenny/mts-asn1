@@ -103,7 +103,7 @@ class ConverterRegistry {
      * @return builtin type context as [BuiltinTypeContext]
      */
     fun getType(identifier: String): ParserRuleContext? {
-        return getTranslatorContext(identifier)?.asnType()
+        return getTranslatorContext(identifier)?.asnType()?.let { getType(it) }
     }
 
     /**
