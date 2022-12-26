@@ -204,7 +204,7 @@ class ConverterNSG : AbstractConverter() {
                         typesStack.push(indentationObject)
                         writer.enterObject(identifier)
                         if (nextLine.contains("->")) {
-                            processLines(0,  listOf(nextLine.split("->").last()), overrideIndentation = newLevel, overrideIdentifier = identifier)
+                            processLines(0, listOf( nextLine.split("->").last()), overrideIndentation = newLevel, disablePop= true)
                         }
                         read++
                     } else {
@@ -283,7 +283,7 @@ class ConverterNSG : AbstractConverter() {
         }
         val line = lineArray[index]
         if (line.contains("->")) {
-            processLines(0, listOf(line.split("->").last()), overrideIndentation = indentation, overrideIdentifier = identifier)
+            processLines(0, listOf(line.split("->").last()), overrideIndentation = indentation, disablePop = true)
         }
         return 1
     }
