@@ -23,11 +23,6 @@ class ConverterWireshark : AbstractConverter() {
         return result
     }
 
-    override fun addMessageType(messageBody: String, messageType: String): String {
-        val indentation = getIndentation(messageBody) ?: ""
-        return "$indentation$messageType\n" + messageBody
-    }
-
     override fun parseSequence(
         index: Int,
         lineArray: List<String>,

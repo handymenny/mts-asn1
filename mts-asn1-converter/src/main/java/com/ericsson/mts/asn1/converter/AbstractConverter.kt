@@ -46,12 +46,18 @@ abstract class AbstractConverter {
         writer = formatWriter
         registry = converterRegistry
         resetStatus()
-        val lineArray = addMessageType(cleanup(messageBody), messageType).lines()
-        var index = 0
+        val lineArray = cleanup(messageBody).lines()
+        var index = -1
+
+        // Process messageType, using special -1 indentation
+        index += processLines(0, listOf(messageType).plus(lineArray), overrideIndentation = -1)
+
+        // process messageBody
         while (index < lineArray.size) {
             index += processLines(index, lineArray)
         }
-        popStacks(0)
+        // pops -1 indentation
+        popStacks(-1)
     }
 
     /**
@@ -399,19 +405,6 @@ abstract class AbstractConverter {
         indentation: Int,
         context: SetOfTypeContext
     ): Int
-
-    /**
-     *
-     * This method adds messageType to messageBody.
-     *
-     * Implementors of this method should make sure that [convert] can process the messageType like any other element in messageBody.
-     * They should add it in a separate line at the beginning of messageBody, with proper indentation.
-     *
-     * @param messageBody the message body.
-     * @param messageType the message type.
-     * @return a string containing both [messageType] and [messageBody].
-     */
-    protected abstract fun addMessageType(messageBody: String, messageType: String): String
 
     /**
      *
