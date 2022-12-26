@@ -36,7 +36,7 @@ class ConverterWireshark : AbstractConverter() {
     }
 
     override fun cleanup(text: String): String {
-        val cleanupRegex = listOf("^\\s*\\[.*".toRegex(RegexOption.MULTILINE), "^\\s*Item\\s\\d+".toRegex(RegexOption.MULTILINE))
+        val cleanupRegex = listOf("^\\s*\\[.*\r?\n".toRegex(RegexOption.MULTILINE), "^\\s*Item\\s\\d+\r?\n".toRegex(RegexOption.MULTILINE))
         var result: String = text
         cleanupRegex.forEach {
             result = result.replace(it, "")
