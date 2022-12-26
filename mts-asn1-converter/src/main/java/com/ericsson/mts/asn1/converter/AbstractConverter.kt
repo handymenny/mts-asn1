@@ -71,13 +71,15 @@ abstract class AbstractConverter {
      * @param lineArray the array containing the lines to process.
      * @param overrideIndentation the indentation that will override the one derived automatically.
      * @param overrideType the ASN.1 Type that will override the one derived automatically.
+     * @param overrideIdentifier the identifier that will override the one derived automatically.
      * @return the number of lines processed.
      */
     protected fun processLines(
         index: Int,
         lineArray: List<String>,
         overrideIndentation: Int? = null,
-        overrideType: ParserRuleContext? = null
+        overrideType: ParserRuleContext? = null,
+        overrideIdentifier: String? = null
     ): Int {
         val line = lineArray[index]
 
@@ -86,7 +88,7 @@ abstract class AbstractConverter {
             return 1
         }
 
-        val identifier = getIdentifier(line)
+        val identifier = overrideIdentifier ?: getIdentifier(line)
         val indentation = overrideIndentation ?: getIndentationLevel(line)
         popStacks(indentation)
 
