@@ -169,7 +169,7 @@ class ConverterNSG : AbstractConverter() {
             is EnumeratedTypeContext -> {
                 var nextLine = lineArray[index + read]
                 while (nextLine.matches("^\\s*\\[\\d+]\\s*:.*$".toRegex())) {
-                    writer.stringValue("", getStringValue("", nextLine))
+                    writer.stringValue(identifier, getStringValue("", nextLine))
                     read++
                     nextLine = lineArray[index + read]
                 }
@@ -179,7 +179,7 @@ class ConverterNSG : AbstractConverter() {
                 var newLevel = getIndentationLevel(nextLine)
                 while (indentation < newLevel) {
                     popStacks(newLevel)
-                    read += processLines(index + read, lineArray, overrideType = subType)
+                    read += processLines(index + read, lineArray, overrideType = subType, overrideIdentifier = identifier)
                     nextLine = lineArray[index + read]
                     newLevel = getIndentationLevel(nextLine)
                 }
@@ -188,7 +188,7 @@ class ConverterNSG : AbstractConverter() {
             is IntegerTypeContext -> {
                 var nextLine = lineArray[index + read]
                 while (nextLine.matches("^\\s*\\[\\d+]\\s*:.*$".toRegex())) {
-                    writer.intValue("", getIntValue("", nextLine), null)
+                    writer.intValue(identifier, getIntValue("", nextLine), null)
                     read++
                     nextLine = lineArray[index + read]
                 }
@@ -204,7 +204,7 @@ class ConverterNSG : AbstractConverter() {
                         typesStack.push(indentationObject)
                         writer.enterObject(identifier)
                         if (nextLine.contains("->")) {
-                            processLines(0,  listOf(nextLine.split("->").last()), overrideIndentation = newLevel)
+                            processLines(0,  listOf(nextLine.split("->").last()), overrideIndentation = newLevel, overrideIdentifier = identifier)
                         }
                         read++
                     } else {
@@ -251,7 +251,7 @@ class ConverterNSG : AbstractConverter() {
         var read = 1
         val subType = getContaining(identifier)
         if (subType != null) {
-            read = processLines(index, lineArray, overrideType = subType)
+            read = processLines(index, lineArray, overrideType = subType, overrideIdentifier = identifier)
         }
         return read
     }
@@ -283,7 +283,7 @@ class ConverterNSG : AbstractConverter() {
         }
         val line = lineArray[index]
         if (line.contains("->")) {
-            processLines(0, listOf(line.split("->").last()), overrideIndentation = indentation)
+            processLines(0, listOf(line.split("->").last()), overrideIndentation = indentation, overrideIdentifier = identifier)
         }
         return 1
     }
