@@ -72,6 +72,8 @@ abstract class AbstractConverter {
      * @param overrideIndentation the indentation that will override the one derived automatically.
      * @param overrideType the ASN.1 Type that will override the one derived automatically.
      * @param overrideIdentifier the identifier that will override the one derived automatically.
+     * @param disablePop setting this to true will disable "autoPop" functionality, i.e. the function [popStacks]
+     * won't be called (automatically)
      * @return the number of lines processed.
      */
     protected fun processLines(
@@ -79,7 +81,8 @@ abstract class AbstractConverter {
         lineArray: List<String>,
         overrideIndentation: Int? = null,
         overrideType: ParserRuleContext? = null,
-        overrideIdentifier: String? = null
+        overrideIdentifier: String? = null,
+        disablePop: Boolean = false
     ): Int {
         val line = lineArray[index]
 
@@ -90,7 +93,9 @@ abstract class AbstractConverter {
 
         val identifier = overrideIdentifier ?: getIdentifier(line)
         val indentation = overrideIndentation ?: getIndentationLevel(line)
-        popStacks(indentation)
+
+        if(!disablePop)
+            popStacks(indentation)
 
         return when (val type = overrideType ?: getType(identifier)) {
             is BitStringTypeContext -> parseBitString(index, lineArray, identifier, indentation, type)
