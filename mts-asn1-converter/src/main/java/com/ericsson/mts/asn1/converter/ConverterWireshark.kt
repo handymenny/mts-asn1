@@ -41,6 +41,10 @@ class ConverterWireshark : AbstractConverter() {
         cleanupRegex.forEach {
             result = result.replace(it, "")
         }
+        val addSpaceWorkarounds = listOf("eLCID-Support-r15")
+        addSpaceWorkarounds.forEach {
+            result = result.replace(it, " $it")
+        }
         return result
     }
 
