@@ -561,10 +561,19 @@ abstract class AbstractConverter {
     }
 
     private fun find(identifier: String): AsnTypeContext? {
-        return typesStack.takeIf {
-            it.isNotEmpty()
-        }?.peek()?.find {
+        if (typesStack.isEmpty()) {
+            return null
+        }
+
+        val componentTypeList = typesStack.peek()
+
+        val componentType = componentTypeList.find {
             it.IDENTIFIER().text == identifier
-        }?.asnType()
+        } ?: componentTypeList.find {
+            /* Try to find even types that have changed name in recent specs
+            example profile-0x0001 -> profile-0x0001-r15 */
+            it.IDENTIFIER().text.split("-").first() == identifier
+        }
+        return componentType?.asnType()
     }
 }
