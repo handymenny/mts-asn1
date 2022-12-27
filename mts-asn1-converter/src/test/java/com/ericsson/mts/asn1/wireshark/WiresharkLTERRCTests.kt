@@ -21,9 +21,9 @@ class WiresharkLTERRCTests : AbstractTests() {
     fun testUeEutraCapability() {
         test(
             "UE-EUTRA-Capability",
-            "/data/LTERRC/UL_DCCH/UEEutraCapability_Wireshark.txt",
-            "/data/LTERRC/UL_DCCH/UeEutraCapability.json",
-            "/data/LTERRC/UL_DCCH/UeEutraCapability.xml"
+            "/data/Wireshark/UEEutraCapability.txt",
+            "/data/oracle/UeEutraCapability.json",
+            "/data/oracle/UeEutraCapability.xml"
         )
     }
 
@@ -32,9 +32,9 @@ class WiresharkLTERRCTests : AbstractTests() {
     fun testUeEutraCapabilityBandCombinationAdd() {
         test(
             "UE-EUTRA-Capability",
-            "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationAdd_Wireshark.txt",
-            "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationAdd.json",
-            "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationAdd.xml"
+            "/data/Wireshark/UeEutraCapabilityBandCombinationAdd.txt",
+            "/data/oracle/UeEutraCapabilityBandCombinationAdd.json",
+            "/data/oracle/UeEutraCapabilityBandCombinationAdd.xml"
         )
     }
 
@@ -43,9 +43,9 @@ class WiresharkLTERRCTests : AbstractTests() {
     fun testUeEutraCapabilityBandCombinationAdd2() {
         test(
             "UE-EUTRA-Capability",
-            "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationAdd2_Wireshark.txt",
-            "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationAdd2.json",
-            "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationAdd2.xml"
+            "/data/Wireshark/UeEutraCapabilityBandCombinationAdd2.txt",
+            "/data/oracle/UeEutraCapabilityBandCombinationAdd2.json",
+            "/data/oracle/UeEutraCapabilityBandCombinationAdd2.xml"
         )
     }
 
@@ -54,9 +54,9 @@ class WiresharkLTERRCTests : AbstractTests() {
     fun testUeEutraCapabilityBandCombinationReduced() {
         test(
             "UE-EUTRA-Capability",
-            "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationReduced_Wireshark.txt",
-            "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationReduced.json",
-            "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationReduced.xml"
+            "/data/Wireshark/UeEutraCapabilityBandCombinationReduced.txt",
+            "/data/oracle/UeEutraCapabilityBandCombinationReduced.json",
+            "/data/oracle/UeEutraCapabilityBandCombinationReduced.xml"
         )
     }
 

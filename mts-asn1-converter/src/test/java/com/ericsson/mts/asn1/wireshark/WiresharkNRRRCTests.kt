@@ -23,9 +23,9 @@ class WiresharkNRRRCTests : AbstractTests() {
     fun testUeMrdcCapability() {
         test(
             "UE-MRDC-Capability",
-            "/data/NRRRC/UeMrdcCapability_Wireshark.txt",
-            "/data/NRRRC/UeMrdcCapability.json",
-            "/data/NRRRC/UeMrdcCapability.xml"
+            "/data/Wireshark/UeMrdcCapability.txt",
+            "/data/oracle/UeMrdcCapability.json",
+            "/data/oracle/UeMrdcCapability.xml"
         )
 
     }
@@ -35,9 +35,9 @@ class WiresharkNRRRCTests : AbstractTests() {
     fun testUeNrCapability() {
         test(
             "UE-NR-Capability",
-            "/data/NRRRC/UeNrCapability_Wireshark.txt",
-            "/data/NRRRC/UeNrCapability.json",
-            "/data/NRRRC/UeNrCapability.xml"
+            "/data/Wireshark/UeNrCapability.txt",
+            "/data/oracle/UeNrCapability.json",
+            "/data/oracle/UeNrCapability.xml"
         )
     }
     companion object {

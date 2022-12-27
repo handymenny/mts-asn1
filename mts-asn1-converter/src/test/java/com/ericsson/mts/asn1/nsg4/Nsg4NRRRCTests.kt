@@ -23,9 +23,9 @@ class Nsg4NRRRCTests : AbstractTests() {
     fun testUeMrdcCapability() {
         test(
             "UE-MRDC-Capability",
-            "/data/NRRRC/UeMrdcCapability_NSG4.txt",
-            "/data/NRRRC/UeMrdcCapability.json",
-            "/data/NRRRC/UeMrdcCapability.xml"
+            "/data/NSG4/UEMrdcCapability.txt",
+            "/data/oracle/UeMrdcCapability.json",
+            "/data/oracle/UeMrdcCapability.xml"
         )
 
     }
@@ -35,9 +35,9 @@ class Nsg4NRRRCTests : AbstractTests() {
     fun testUeNrCapability() {
         test(
             "UE-NR-Capability",
-            "/data/NRRRC/UeNrCapability_NSG4.txt",
-            "/data/NRRRC/UeNrCapability.json",
-            "/data/NRRRC/UeNrCapability.xml"
+            "/data/NSG4/UeNrCapability.txt",
+            "/data/oracle/UeNrCapability.json",
+            "/data/oracle/UeNrCapability.xml"
         )
     }
 

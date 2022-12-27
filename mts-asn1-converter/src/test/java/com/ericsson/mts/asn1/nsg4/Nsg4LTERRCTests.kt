@@ -21,9 +21,9 @@ class Nsg4LTERRCTests : AbstractTests() {
     fun testUeEutraCapability() {
         test(
             "UE-EUTRA-Capability",
-            "/data/LTERRC/UL_DCCH/UEEutraCapability_NSG4.txt",
-            "/data/LTERRC/UL_DCCH/UeEutraCapability.json",
-            "/data/LTERRC/UL_DCCH/UeEutraCapability.xml"
+            "/data/NSG4/UEEutraCapability.txt",
+            "/data/oracle/UeEutraCapability.json",
+            "/data/oracle/UeEutraCapability.xml"
         )
     }
 
@@ -32,9 +32,9 @@ class Nsg4LTERRCTests : AbstractTests() {
     fun testUeEutraCapabilityBandCombinationAdd2() {
         test(
             "UE-EUTRA-Capability",
-            "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationAdd2_NSG4.txt",
-            "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationAdd2.json",
-            "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationAdd2.xml"
+            "/data/NSG4/UeEutraCapabilityBandCombinationAdd2.txt",
+            "/data/oracle/UeEutraCapabilityBandCombinationAdd2.json",
+            "/data/oracle/UeEutraCapabilityBandCombinationAdd2.xml"
         )
     }
 
