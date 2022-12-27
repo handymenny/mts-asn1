@@ -155,7 +155,7 @@ class ConverterNSG : AbstractConverter() {
                 var newLevel = getIndentationLevel(nextLine)
                 while (indentation < newLevel) {
                     popStacks(newLevel)
-                    if(nextLine.matches("^\\s*\\[\\d+]\\s*".toRegex())) {
+                    if(nextLine.matches("^.*\\[\\d+]\\s*".toRegex())) {
                         indentationObjectStack.push(newLevel)
                         typesStack.push(indentationObject)
                         writer.enterObject(identifier)
@@ -169,7 +169,7 @@ class ConverterNSG : AbstractConverter() {
             }
             is EnumeratedTypeContext -> {
                 var nextLine = lineArray[index + read]
-                while (nextLine.matches("^\\s*\\[\\d+]\\s*:.*$".toRegex())) {
+                while (nextLine.matches("^.*\\[\\d+]\\s*:.*$".toRegex())) {
                     writer.stringValue(identifier, getStringValue("", nextLine))
                     read++
                     nextLine = lineArray[index + read]
@@ -188,7 +188,7 @@ class ConverterNSG : AbstractConverter() {
             }
             is IntegerTypeContext -> {
                 var nextLine = lineArray[index + read]
-                while (nextLine.matches("^\\s*\\[\\d+]\\s*:.*$".toRegex())) {
+                while (nextLine.matches("^.*\\[\\d+]\\s*:.*$".toRegex())) {
                     writer.intValue(identifier, getIntValue("", nextLine), null)
                     read++
                     nextLine = lineArray[index + read]
@@ -200,7 +200,7 @@ class ConverterNSG : AbstractConverter() {
                 var newLevel = getIndentationLevel(nextLine)
                 while (indentation < newLevel) {
                     popStacks(newLevel)
-                    if (nextLine.matches("^\\s*\\[\\d+]\\s*.*".toRegex())) {
+                    if (nextLine.matches("^.*\\[\\d+]\\s*.*".toRegex())) {
                         indentationObjectStack.push(newLevel)
                         typesStack.push(indentationObject)
                         writer.enterObject(identifier)
@@ -306,6 +306,16 @@ class ConverterNSG : AbstractConverter() {
     }
 
     private fun getBitsValue(identifier: String, line: String): String? {
+        // NSG 2.x = F(4 bits) or F0(4 bits) or 'F'H '1'B (31)
+        if (line.contains("bits")) {
+            val match = "$identifier\\s:\\s([0-9A-F]+)\\((\\d+)\\sbit".toRegex().find(line)
+            return match?.groups?.get(1)?.value?.let {
+                BigInteger(it, 16).toString(2).padStart(match.groups[2]?.value?.toInt() ?: 0, '0')
+            }
+        } else if(line.contains("'H")) {
+            return "$identifier\\s:\\s'[0-1]*'?B?\\s?'?[A-F]*'?H?\\s?\\((\\d+)\\)".toRegex().find(line)?.groups?.get(1)?.value?.let { BigInteger(it).toString(2) }
+        }
+        // NSG 3.x and 4.x '11000000 00000000 00000000 00000000'B(3221225472) or '11'B(3)
         return "$identifier\\s:\\s'([0-1\\s]+)'B".toRegex().find(line)?.groups?.get(1)?.value?.replace("[\\s.]".toRegex(), "")
 
     }
