@@ -51,7 +51,8 @@ class ConverterNSG : AbstractConverter() {
     ): Int {
         val line = lineArray[index]
         var read = 1
-        var bits = getBitsValue(identifier, line)
+        val minLength = getLowerBound(identifier)?.intValueExact() ?: 0
+        var bits = getBitsValue(identifier, line, minLength)
         if (bits.isNullOrBlank()) {
             bits = ""
             var nextLine = lineArray[index + read]
@@ -68,11 +69,14 @@ class ConverterNSG : AbstractConverter() {
                 } while (newLevel == getIndentationLevel(nextLine))
             }
         }
-        // Min number of bits
-        bits = bits.dropLastWhile { it == '0' }
-        val minLength = getLowerBound(identifier)?.intValueExact() ?: 0
-        // Pad if needed
-        bits = bits.padEnd(minLength, '0')
+        if (bits.length >= minLength) {
+            // Min number of bits
+            bits = bits.dropLastWhile { it == '0' }
+        }
+        if (bits.length < minLength) {
+            // Pad if needed
+            bits = bits.padEnd(minLength, '0')
+        }
         writer.bitsValue(identifier, bits)
         return read
     }
@@ -141,10 +145,10 @@ class ConverterNSG : AbstractConverter() {
         var read = 1
         writer.enterArray(identifier)
         indentationArrayStack.push(indentation)
-        val test = context.asnType().referencedType().definedType().IDENTIFIER()[0]
-        when (val subType = getType(test.toString())) {
+        val subtypeIdentifier = context.asnType().referencedType().definedType().IDENTIFIER()[0]
+        when (val subType = getType(subtypeIdentifier.toString())) {
             is SequenceTypeContext -> {
-                val indentationObject =
+                val subTypeComponents =
                     combineComponentListAndAdditions(
                         subType.componentTypeLists().rootComponentTypeList(0).componentTypeList()
                             .componentType(),
@@ -155,13 +159,30 @@ class ConverterNSG : AbstractConverter() {
                 var newLevel = getIndentationLevel(nextLine)
                 while (indentation < newLevel) {
                     popStacks(newLevel)
-                    if(nextLine.matches("^.*\\[\\d+]\\s*".toRegex())) {
+
+                    // True if we don't have different indentation between index and index identifier
+                    var disablePop = false
+                    // True if newIdentifier is in subTypeComponents
+                    var objectFound = false
+
+                    // NSG 2.x = SupportedBandList[0], NSG 4.x = [0]
+                    val newIdentifier = getIdentifier(nextLine)
+                    if(newIdentifier.isNotBlank() && findIdInComponentTypes(newIdentifier, subTypeComponents) != null) {
+                        objectFound = true
+                        if (typesStack.isEmpty() || typesStack.peek() != subTypeComponents) {
+                            indentationObjectStack.push(newLevel)
+                            typesStack.push(subTypeComponents)
+                            writer.enterObject(identifier)
+                            disablePop = true
+                        }
+                    }
+                    if(!objectFound && nextLine.matches("^.*\\[\\d+]\\s*".toRegex())) {
                         indentationObjectStack.push(newLevel)
-                        typesStack.push(indentationObject)
+                        typesStack.push(subTypeComponents)
                         writer.enterObject(identifier)
                         read++
                     } else {
-                        read += processLines(index + read, lineArray)
+                        read += processLines(index + read, lineArray, disablePop = disablePop)
                     }
                     nextLine = lineArray[index + read]
                     newLevel = getIndentationLevel(nextLine)
@@ -305,15 +326,22 @@ class ConverterNSG : AbstractConverter() {
         return "true" == "$identifier\\s:\\s(true|false)".toRegex().find(line)?.groups?.get(1)?.value
     }
 
-    private fun getBitsValue(identifier: String, line: String): String? {
+    private fun getBitsValue(identifier: String, line: String, lowerBound: Int = 0): String? {
         // NSG 2.x = F(4 bits) or F0(4 bits) or 'F'H '1'B (31)
         if (line.contains("bits")) {
             val match = "$identifier\\s:\\s([0-9A-F]+)\\((\\d+)\\sbit".toRegex().find(line)
             return match?.groups?.get(1)?.value?.let {
-                BigInteger(it, 16).toString(2).padStart(match.groups[2]?.value?.toInt() ?: 0, '0')
+                BigInteger(it, 16).toString(2).padStart(
+                    match.groups[2]?.value?.toInt() ?: 0, '0'
+                )
             }
         } else if(line.contains("'H")) {
-            return "$identifier\\s:\\s'[0-1]*'?B?\\s?'?[A-F]*'?H?\\s?\\((\\d+)\\)".toRegex().find(line)?.groups?.get(1)?.value?.let { BigInteger(it).toString(2) }
+            return "$identifier\\s:\\s'[0-9A-F]*'?H?\\s?'?[0-1]*'?B?\\s?\\((\\d+)\\)".toRegex().find(line)
+                ?.groups?.get(1)?.value?.let {
+                BigInteger(it).toString(2).padStart(
+                    lowerBound, '0'
+                )
+            }
         }
         // NSG 3.x and 4.x '11000000 00000000 00000000 00000000'B(3221225472) or '11'B(3)
         return "$identifier\\s:\\s'([0-1\\s]+)'B".toRegex().find(line)?.groups?.get(1)?.value?.replace("[\\s.]".toRegex(), "")
