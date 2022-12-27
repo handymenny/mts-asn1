@@ -40,6 +40,17 @@ class WiresharkLTERRCTests : AbstractTests() {
 
     @Test
     @Throws(Exception::class)
+    fun testUeEutraCapabilityBandCombinationAdd2() {
+        test(
+            "UE-EUTRA-Capability",
+            "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationAdd2_Wireshark.txt",
+            "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationAdd2.json",
+            "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationAdd2.xml"
+        )
+    }
+
+    @Test
+    @Throws(Exception::class)
     fun testUeEutraCapabilityBandCombinationReduced() {
         test(
             "UE-EUTRA-Capability",

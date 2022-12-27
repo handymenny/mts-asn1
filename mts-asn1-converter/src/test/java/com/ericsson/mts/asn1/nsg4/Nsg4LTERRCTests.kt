@@ -27,6 +27,17 @@ class Nsg4LTERRCTests : AbstractTests() {
         )
     }
 
+    @Test
+    @Throws(Exception::class)
+    fun testUeEutraCapabilityBandCombinationAdd2() {
+        test(
+            "UE-EUTRA-Capability",
+            "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationAdd2_NSG4.txt",
+            "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationAdd2.json",
+            "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationAdd2.xml"
+        )
+    }
+
     companion object {
         @BeforeAll
         @JvmStatic
