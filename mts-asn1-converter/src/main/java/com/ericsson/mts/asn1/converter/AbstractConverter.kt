@@ -458,7 +458,7 @@ abstract class AbstractConverter {
      *
      */
     protected fun getType(identifier: String): ParserRuleContext? {
-        val found = find(identifier)
+        val found = findIdInComponentTypes(identifier)
 
         return if (found?.builtinType() != null) {
             registry.getType(found)
@@ -477,7 +477,7 @@ abstract class AbstractConverter {
      *
      */
     protected fun getContaining(identifier: String): ParserRuleContext? {
-        val found = find(identifier)
+        val found = findIdInComponentTypes(identifier)
 
         return if (found?.builtinType() != null) {
             registry.getContaining(found)
@@ -532,7 +532,7 @@ abstract class AbstractConverter {
     protected fun getLowerBound(
         identifier: String,
     ): BigInteger? {
-        val found = find(identifier)
+        val found = findIdInComponentTypes(identifier)
 
         return if (found?.builtinType() != null) {
             registry.getLowerBoundSizeConstraint(found)
@@ -560,19 +560,23 @@ abstract class AbstractConverter {
         }
     }
 
-    private fun find(identifier: String): AsnTypeContext? {
-        if (typesStack.isEmpty()) {
-            return null
+    protected fun findIdInComponentTypes(identifier: String, componentTypes: List<NamedTypeContext>? = null): AsnTypeContext? {
+        var componentTypeList = componentTypes
+
+        if (componentTypeList == null) {
+            if (typesStack.isEmpty()) {
+                return null
+            }
+            componentTypeList = typesStack.peek()
         }
 
-        val componentTypeList = typesStack.peek()
-
-        val componentType = componentTypeList.find {
+        val componentType = componentTypeList!!.find {
             it.IDENTIFIER().text == identifier
         } ?: componentTypeList.find {
             /* Try to find even types that have changed name in recent specs
             example profile-0x0001 -> profile-0x0001-r15 */
-            it.IDENTIFIER().text.split("-").first() == identifier
+            it.IDENTIFIER().text.dropLastWhile { it != '-'
+            }.removeSuffix("-") == identifier
         }
         return componentType?.asnType()
     }
