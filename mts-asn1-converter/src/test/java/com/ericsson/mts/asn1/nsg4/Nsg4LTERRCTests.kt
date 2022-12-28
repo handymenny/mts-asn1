@@ -38,6 +38,28 @@ class Nsg4LTERRCTests : AbstractTests() {
         )
     }
 
+    @Test
+    @Throws(Exception::class)
+    fun testUEEutraCapabilityRequestDiffFallback() {
+        test(
+            "UE-EUTRA-Capability",
+            "/data/NSG4/UEEutraCapabilityRequestDiffFallback.txt",
+            "/data/oracle/UEEutraCapabilityRequestDiffFallback.json",
+            "/data/oracle/UEEutraCapabilityRequestDiffFallback.xml"
+        )
+    }
+
+    @Test
+    @Throws(Exception::class)
+    fun testUEEutraCapabilitySkipFallback() {
+        test(
+            "UE-EUTRA-Capability",
+            "/data/NSG4/UEEutraCapabilitySkipFallback.txt",
+            "/data/oracle/UEEutraCapabilitySkipFallback.json",
+            "/data/oracle/UEEutraCapabilitySkipFallback.xml"
+        )
+    }
+
     companion object {
         @BeforeAll
         @JvmStatic

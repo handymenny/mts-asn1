@@ -60,6 +60,28 @@ class WiresharkLTERRCTests : AbstractTests() {
         )
     }
 
+    @Test
+    @Throws(Exception::class)
+    fun testUEEutraCapabilityRequestDiffFallback() {
+        test(
+            "UE-EUTRA-Capability",
+            "/data/Wireshark/UEEutraCapabilityRequestDiffFallback.txt",
+            "/data/oracle/UEEutraCapabilityRequestDiffFallback.json",
+            "/data/oracle/UEEutraCapabilityRequestDiffFallback.xml"
+        )
+    }
+
+    @Test
+    @Throws(Exception::class)
+    fun testUEEutraCapabilitySkipFallback() {
+        test(
+            "UE-EUTRA-Capability",
+            "/data/Wireshark/UEEutraCapabilitySkipFallback.txt",
+            "/data/oracle/UEEutraCapabilitySkipFallback.json",
+            "/data/oracle/UEEutraCapabilitySkipFallback.xml"
+        )
+    }
+
     companion object {
         @BeforeAll
         @JvmStatic
