@@ -1,0 +1,307 @@
+LTE RRC Signaling Messages
+  Version : 12
+  RRC Release Number : 11
+  RRC Version Minor : 4
+  RRC Version Major : 7
+  RB ID : 1
+  Physical Cell ID : 423
+  E-ARFCN : 6400
+  SFN : 0
+  Channel : 8
+  Bitmask of SIBS : 0
+  Message Length : 83
+  ul-dcch
+    message
+      c1
+        ueCapabilityInformation
+          rrc-TransactionIdentifier : 1
+          criticalExtensions
+            c1
+              ueCapabilityInformation-r8
+                ue-CapabilityRAT-ContainerList
+                  UE-CapabilityRAT-ContainerList[0]
+                    rat-Type : eutra
+                    ueCapabilityRAT-Container
+                      accessStratumRelease : rel10
+                      ue-Category : 4
+                      pdcp-Parameters
+                        supportedROHC-Profiles
+                          profile0x0001 : true
+                          profile0x0002 : true
+                          profile0x0003 : false
+                          profile0x0004 : false
+                          profile0x0006 : false
+                          profile0x0101 : false
+                          profile0x0102 : false
+                          profile0x0103 : false
+                          profile0x0104 : false
+                      phyLayerParameters
+                        ue-TxAntennaSelectionSupported : false
+                        ue-SpecificRefSigsSupported : false
+                      rf-Parameters
+                        supportedBandListEUTRA
+                          SupportedBandListEUTRA[0]
+                            bandEUTRA : 20
+                            halfDuplex : false
+                          SupportedBandListEUTRA[1]
+                            bandEUTRA : 3
+                            halfDuplex : false
+                          SupportedBandListEUTRA[2]
+                            bandEUTRA : 7
+                            halfDuplex : false
+                          SupportedBandListEUTRA[3]
+                            bandEUTRA : 1
+                            halfDuplex : false
+                          SupportedBandListEUTRA[4]
+                            bandEUTRA : 8
+                            halfDuplex : false
+                      measParameters
+                        bandListEUTRA
+                          BandListEUTRA[0]
+                            interFreqBandList
+                              InterFreqBandList[0]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[1]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[2]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[3]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[4]
+                                interFreqNeedForGaps : true
+                          BandListEUTRA[1]
+                            interFreqBandList
+                              InterFreqBandList[0]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[1]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[2]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[3]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[4]
+                                interFreqNeedForGaps : true
+                          BandListEUTRA[2]
+                            interFreqBandList
+                              InterFreqBandList[0]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[1]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[2]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[3]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[4]
+                                interFreqNeedForGaps : true
+                          BandListEUTRA[3]
+                            interFreqBandList
+                              InterFreqBandList[0]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[1]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[2]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[3]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[4]
+                                interFreqNeedForGaps : true
+                          BandListEUTRA[4]
+                            interFreqBandList
+                              InterFreqBandList[0]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[1]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[2]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[3]
+                                interFreqNeedForGaps : true
+                              InterFreqBandList[4]
+                                interFreqNeedForGaps : true
+                      featureGroupIndicators : '7E0DD89A'H (2114836634)
+                      interRAT-Parameters
+                      nonCriticalExtension
+                        phyLayerParameters-v920
+                        interRAT-ParametersGERAN-v920
+                        csg-ProximityIndicationParameters-r9
+                        neighCellSI-AcquisitionParameters-r9
+                          intraFreqSI-AcquisitionForHO-r9 : supported
+                          interFreqSI-AcquisitionForHO-r9 : supported
+                        son-Parameters-r9
+                          rach-Report-r9 : supported
+                        nonCriticalExtension
+                          lateNonCriticalExtension
+                            featureGroupIndRel9Add-r9 : '00000000'H (0)
+                          nonCriticalExtension
+                            ue-Category-v1020 : 6
+                            rf-Parameters-v1020
+                              supportedBandCombination-r10
+                                SupportedBandCombination-r10[0]
+                                  BandCombinationParameters-r10[0]
+                                    bandEUTRA-r10 : 20
+                                    bandParametersUL-r10
+                                      BandParametersUL-r10[0]
+                                        ca-BandwidthClassUL-r10 : a
+                                    bandParametersDL-r10
+                                      BandParametersDL-r10[0]
+                                        ca-BandwidthClassDL-r10 : a
+                                        supportedMIMO-CapabilityDL-r10 : twoLayers
+                                SupportedBandCombination-r10[1]
+                                  BandCombinationParameters-r10[0]
+                                    bandEUTRA-r10 : 3
+                                    bandParametersUL-r10
+                                      BandParametersUL-r10[0]
+                                        ca-BandwidthClassUL-r10 : a
+                                    bandParametersDL-r10
+                                      BandParametersDL-r10[0]
+                                        ca-BandwidthClassDL-r10 : a
+                                        supportedMIMO-CapabilityDL-r10 : twoLayers
+                                SupportedBandCombination-r10[2]
+                                  BandCombinationParameters-r10[0]
+                                    bandEUTRA-r10 : 7
+                                    bandParametersUL-r10
+                                      BandParametersUL-r10[0]
+                                        ca-BandwidthClassUL-r10 : a
+                                    bandParametersDL-r10
+                                      BandParametersDL-r10[0]
+                                        ca-BandwidthClassDL-r10 : a
+                                        supportedMIMO-CapabilityDL-r10 : twoLayers
+                                SupportedBandCombination-r10[3]
+                                  BandCombinationParameters-r10[0]
+                                    bandEUTRA-r10 : 1
+                                    bandParametersUL-r10
+                                      BandParametersUL-r10[0]
+                                        ca-BandwidthClassUL-r10 : a
+                                    bandParametersDL-r10
+                                      BandParametersDL-r10[0]
+                                        ca-BandwidthClassDL-r10 : a
+                                        supportedMIMO-CapabilityDL-r10 : twoLayers
+                                SupportedBandCombination-r10[4]
+                                  BandCombinationParameters-r10[0]
+                                    bandEUTRA-r10 : 8
+                                    bandParametersUL-r10
+                                      BandParametersUL-r10[0]
+                                        ca-BandwidthClassUL-r10 : a
+                                    bandParametersDL-r10
+                                      BandParametersDL-r10[0]
+                                        ca-BandwidthClassDL-r10 : a
+                                        supportedMIMO-CapabilityDL-r10 : twoLayers
+                                SupportedBandCombination-r10[5]
+                                  BandCombinationParameters-r10[0]
+                                    bandEUTRA-r10 : 3
+                                    bandParametersUL-r10
+                                      BandParametersUL-r10[0]
+                                        ca-BandwidthClassUL-r10 : a
+                                    bandParametersDL-r10
+                                      BandParametersDL-r10[0]
+                                        ca-BandwidthClassDL-r10 : c
+                                        supportedMIMO-CapabilityDL-r10 : twoLayers
+                                SupportedBandCombination-r10[6]
+                                  BandCombinationParameters-r10[0]
+                                    bandEUTRA-r10 : 1
+                                    bandParametersUL-r10
+                                      BandParametersUL-r10[0]
+                                        ca-BandwidthClassUL-r10 : a
+                                    bandParametersDL-r10
+                                      BandParametersDL-r10[0]
+                                        ca-BandwidthClassDL-r10 : c
+                                        supportedMIMO-CapabilityDL-r10 : twoLayers
+                            measParameters-v1020
+                              bandCombinationListEUTRA-r10
+                                BandCombinationListEUTRA-r10[0]
+                                  interFreqBandList
+                                    InterFreqBandList[0]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[1]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[2]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[3]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[4]
+                                      interFreqNeedForGaps : true
+                                BandCombinationListEUTRA-r10[1]
+                                  interFreqBandList
+                                    InterFreqBandList[0]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[1]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[2]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[3]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[4]
+                                      interFreqNeedForGaps : true
+                                BandCombinationListEUTRA-r10[2]
+                                  interFreqBandList
+                                    InterFreqBandList[0]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[1]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[2]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[3]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[4]
+                                      interFreqNeedForGaps : true
+                                BandCombinationListEUTRA-r10[3]
+                                  interFreqBandList
+                                    InterFreqBandList[0]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[1]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[2]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[3]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[4]
+                                      interFreqNeedForGaps : true
+                                BandCombinationListEUTRA-r10[4]
+                                  interFreqBandList
+                                    InterFreqBandList[0]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[1]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[2]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[3]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[4]
+                                      interFreqNeedForGaps : true
+                                BandCombinationListEUTRA-r10[5]
+                                  interFreqBandList
+                                    InterFreqBandList[0]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[1]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[2]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[3]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[4]
+                                      interFreqNeedForGaps : true
+                                BandCombinationListEUTRA-r10[6]
+                                  interFreqBandList
+                                    InterFreqBandList[0]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[1]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[2]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[3]
+                                      interFreqNeedForGaps : true
+                                    InterFreqBandList[4]
+                                      interFreqNeedForGaps : true
+                            featureGroupIndRel10-r10 : '40200000'H (1075838976)
+                            ue-BasedNetwPerfMeasParameters-r10
+                              loggedMeasurementsIdle-r10 : supported
+                              standaloneGNSS-Location-r10 : supported
+                            nonCriticalExtension
+                              rf-Parameters-v1060
+                                supportedBandCombinationExt-r10
+                                  SupportedBandCombinationExt-r10[0]
+                                  SupportedBandCombinationExt-r10[1]
+                                  SupportedBandCombinationExt-r10[2]
+                                  SupportedBandCombinationExt-r10[3]
+                                  SupportedBandCombinationExt-r10[4]
+                                  SupportedBandCombinationExt-r10[5]
+                                  SupportedBandCombinationExt-r10[6]
