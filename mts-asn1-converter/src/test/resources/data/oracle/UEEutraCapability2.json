@@ -18876,15 +18876,11 @@
                                       {
                                         "intraBandContiguousCC-InfoList-r12": [
                                           {
-                                            "fourLayerTM3-TM4-perCC-r12": "supported"
-                                          },
-                                          {
+                                            "fourLayerTM3-TM4-perCC-r12": "supported",
                                             "supportedMIMO-CapabilityDL-r12": "fourLayers"
-                                          }
+                                          },
+                                          {}
                                         ]
-                                      },
-                                      {
-                                        "intraBandContiguousCC-InfoList-r12": []
                                       }
                                     ]
                                   }
@@ -18901,15 +18897,11 @@
                                       {
                                         "intraBandContiguousCC-InfoList-r12": [
                                           {
-                                            "fourLayerTM3-TM4-perCC-r12": "supported"
-                                          },
-                                          {
+                                            "fourLayerTM3-TM4-perCC-r12": "supported",
                                             "supportedMIMO-CapabilityDL-r12": "fourLayers"
-                                          }
+                                          },
+                                          {}
                                         ]
-                                      },
-                                      {
-                                        "intraBandContiguousCC-InfoList-r12": []
                                       }
                                     ]
                                   }

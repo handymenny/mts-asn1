@@ -1302,90 +1302,10 @@
                                                     <supportedBandCombination-v10i0>
                                                         <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
-                                                            </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
-                                                            <bandParameterList-v10i0>
                                                                 <bandParametersDL-v10i0>
-                                                                    <bandParametersDL-v10i0>
-                                                                        <fourLayerTM3-TM4-r10>supported</fourLayerTM3-TM4-r10>
-                                                                    </bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
                                                                 </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                    </supportedBandCombination-v10i0>
-                                                    <supportedBandCombination-v10i0>
-                                                        <bandParameterList-v10i0>
-                                                            <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
-                                                            </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
-                                                            <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0>
-                                                                    <bandParametersDL-v10i0>
-                                                                        <fourLayerTM3-TM4-r10>supported</fourLayerTM3-TM4-r10>
-                                                                    </bandParametersDL-v10i0>
-                                                                </bandParametersDL-v10i0>
-                                                            </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                    </supportedBandCombination-v10i0>
-                                                    <supportedBandCombination-v10i0>
-                                                        <bandParameterList-v10i0>
-                                                            <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
-                                                            </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
-                                                            <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0>
-                                                                    <bandParametersDL-v10i0>
-                                                                        <fourLayerTM3-TM4-r10>supported</fourLayerTM3-TM4-r10>
-                                                                    </bandParametersDL-v10i0>
-                                                                </bandParametersDL-v10i0>
-                                                            </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                    </supportedBandCombination-v10i0>
-                                                    <supportedBandCombination-v10i0>
-                                                        <bandParameterList-v10i0>
-                                                            <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
-                                                            </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
-                                                            <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0>
-                                                                    <bandParametersDL-v10i0>
-                                                                        <fourLayerTM3-TM4-r10>supported</fourLayerTM3-TM4-r10>
-                                                                    </bandParametersDL-v10i0>
-                                                                </bandParametersDL-v10i0>
-                                                            </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                    </supportedBandCombination-v10i0>
-                                                    <supportedBandCombination-v10i0>
-                                                        <bandParameterList-v10i0>
-                                                            <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
-                                                            </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
-                                                            <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0>
-                                                                    <bandParametersDL-v10i0>
-                                                                        <fourLayerTM3-TM4-r10>supported</fourLayerTM3-TM4-r10>
-                                                                    </bandParametersDL-v10i0>
-                                                                </bandParametersDL-v10i0>
-                                                            </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                    </supportedBandCombination-v10i0>
-                                                    <supportedBandCombination-v10i0>
-                                                        <bandParameterList-v10i0>
-                                                            <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
-                                                            </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
                                                                 <bandParametersDL-v10i0>
                                                                     <bandParametersDL-v10i0>
@@ -1399,13 +1319,73 @@
                                                         <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
                                                                 <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
+                                                            </bandParameterList-v10i0>
+                                                            <bandParameterList-v10i0>
+                                                                <bandParametersDL-v10i0>
                                                                     <bandParametersDL-v10i0>
                                                                         <fourLayerTM3-TM4-r10>supported</fourLayerTM3-TM4-r10>
                                                                     </bandParametersDL-v10i0>
                                                                 </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
                                                         </bandParameterList-v10i0>
+                                                    </supportedBandCombination-v10i0>
+                                                    <supportedBandCombination-v10i0>
                                                         <bandParameterList-v10i0>
+                                                            <bandParameterList-v10i0>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
+                                                            </bandParameterList-v10i0>
+                                                            <bandParameterList-v10i0>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0>
+                                                                        <fourLayerTM3-TM4-r10>supported</fourLayerTM3-TM4-r10>
+                                                                    </bandParametersDL-v10i0>
+                                                                </bandParametersDL-v10i0>
+                                                            </bandParameterList-v10i0>
+                                                        </bandParameterList-v10i0>
+                                                    </supportedBandCombination-v10i0>
+                                                    <supportedBandCombination-v10i0>
+                                                        <bandParameterList-v10i0>
+                                                            <bandParameterList-v10i0>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
+                                                            </bandParameterList-v10i0>
+                                                            <bandParameterList-v10i0>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0>
+                                                                        <fourLayerTM3-TM4-r10>supported</fourLayerTM3-TM4-r10>
+                                                                    </bandParametersDL-v10i0>
+                                                                </bandParametersDL-v10i0>
+                                                            </bandParameterList-v10i0>
+                                                        </bandParameterList-v10i0>
+                                                    </supportedBandCombination-v10i0>
+                                                    <supportedBandCombination-v10i0>
+                                                        <bandParameterList-v10i0>
+                                                            <bandParameterList-v10i0>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
+                                                            </bandParameterList-v10i0>
+                                                            <bandParameterList-v10i0>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0>
+                                                                        <fourLayerTM3-TM4-r10>supported</fourLayerTM3-TM4-r10>
+                                                                    </bandParametersDL-v10i0>
+                                                                </bandParametersDL-v10i0>
+                                                            </bandParameterList-v10i0>
+                                                        </bandParameterList-v10i0>
+                                                    </supportedBandCombination-v10i0>
+                                                    <supportedBandCombination-v10i0>
+                                                        <bandParameterList-v10i0>
+                                                            <bandParameterList-v10i0>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
+                                                            </bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
                                                                 <bandParametersDL-v10i0>
                                                                     <bandParametersDL-v10i0>
@@ -1424,10 +1404,12 @@
                                                                     </bandParametersDL-v10i0>
                                                                 </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0>
+                                                                        <fourLayerTM3-TM4-r10>supported</fourLayerTM3-TM4-r10>
+                                                                    </bandParametersDL-v10i0>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
                                                         </bandParameterList-v10i0>
                                                     </supportedBandCombination-v10i0>
@@ -1440,10 +1422,26 @@
                                                                     </bandParametersDL-v10i0>
                                                                 </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
+                                                            <bandParameterList-v10i0>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
+                                                            </bandParameterList-v10i0>
                                                         </bandParameterList-v10i0>
+                                                    </supportedBandCombination-v10i0>
+                                                    <supportedBandCombination-v10i0>
                                                         <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0>
+                                                                        <fourLayerTM3-TM4-r10>supported</fourLayerTM3-TM4-r10>
+                                                                    </bandParametersDL-v10i0>
+                                                                </bandParametersDL-v10i0>
+                                                            </bandParameterList-v10i0>
+                                                            <bandParameterList-v10i0>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
                                                         </bandParameterList-v10i0>
                                                     </supportedBandCombination-v10i0>
@@ -1553,10 +1551,10 @@
                                                     <supportedBandCombination-v10i0>
                                                         <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
                                                                 <bandParametersDL-v10i0>
                                                                     <bandParametersDL-v10i0>
@@ -1564,20 +1562,20 @@
                                                                     </bandParametersDL-v10i0>
                                                                 </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
                                                         </bandParameterList-v10i0>
                                                     </supportedBandCombination-v10i0>
                                                     <supportedBandCombination-v10i0>
                                                         <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
                                                                 <bandParametersDL-v10i0>
                                                                     <bandParametersDL-v10i0>
@@ -1585,20 +1583,20 @@
                                                                     </bandParametersDL-v10i0>
                                                                 </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
                                                         </bandParameterList-v10i0>
                                                     </supportedBandCombination-v10i0>
                                                     <supportedBandCombination-v10i0>
                                                         <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
                                                                 <bandParametersDL-v10i0>
                                                                     <bandParametersDL-v10i0>
@@ -1606,20 +1604,20 @@
                                                                     </bandParametersDL-v10i0>
                                                                 </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
                                                         </bandParameterList-v10i0>
                                                     </supportedBandCombination-v10i0>
                                                     <supportedBandCombination-v10i0>
                                                         <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
                                                                 <bandParametersDL-v10i0>
                                                                     <bandParametersDL-v10i0>
@@ -1627,20 +1625,20 @@
                                                                     </bandParametersDL-v10i0>
                                                                 </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
                                                         </bandParameterList-v10i0>
                                                     </supportedBandCombination-v10i0>
                                                     <supportedBandCombination-v10i0>
                                                         <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
                                                                 <bandParametersDL-v10i0>
                                                                     <bandParametersDL-v10i0>
@@ -1648,20 +1646,20 @@
                                                                     </bandParametersDL-v10i0>
                                                                 </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
                                                         </bandParameterList-v10i0>
                                                     </supportedBandCombination-v10i0>
                                                     <supportedBandCombination-v10i0>
                                                         <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
                                                                 <bandParametersDL-v10i0>
                                                                     <bandParametersDL-v10i0>
@@ -1669,20 +1667,20 @@
                                                                     </bandParametersDL-v10i0>
                                                                 </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
                                                         </bandParameterList-v10i0>
                                                     </supportedBandCombination-v10i0>
                                                     <supportedBandCombination-v10i0>
                                                         <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
                                                                 <bandParametersDL-v10i0>
                                                                     <bandParametersDL-v10i0>
@@ -1690,20 +1688,20 @@
                                                                     </bandParametersDL-v10i0>
                                                                 </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
                                                         </bandParameterList-v10i0>
                                                     </supportedBandCombination-v10i0>
                                                     <supportedBandCombination-v10i0>
                                                         <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
                                                                 <bandParametersDL-v10i0>
                                                                     <bandParametersDL-v10i0>
@@ -1711,20 +1709,20 @@
                                                                     </bandParametersDL-v10i0>
                                                                 </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
                                                         </bandParameterList-v10i0>
                                                     </supportedBandCombination-v10i0>
                                                     <supportedBandCombination-v10i0>
                                                         <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
                                                                 <bandParametersDL-v10i0>
                                                                     <bandParametersDL-v10i0>
@@ -1732,10 +1730,10 @@
                                                                     </bandParametersDL-v10i0>
                                                                 </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
-                                                        </bandParameterList-v10i0>
-                                                        <bandParameterList-v10i0>
                                                             <bandParameterList-v10i0>
-                                                                <bandParametersDL-v10i0/>
+                                                                <bandParametersDL-v10i0>
+                                                                    <bandParametersDL-v10i0/>
+                                                                </bandParametersDL-v10i0>
                                                             </bandParameterList-v10i0>
                                                         </bandParameterList-v10i0>
                                                     </supportedBandCombination-v10i0>

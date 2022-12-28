@@ -18877,14 +18877,10 @@
                                                                                 <intraBandContiguousCC-InfoList-r12>
                                                                                     <intraBandContiguousCC-InfoList-r12>
                                                                                         <fourLayerTM3-TM4-perCC-r12>supported</fourLayerTM3-TM4-perCC-r12>
-                                                                                    </intraBandContiguousCC-InfoList-r12>
-                                                                                    <intraBandContiguousCC-InfoList-r12>
                                                                                         <supportedMIMO-CapabilityDL-r12>fourLayers</supportedMIMO-CapabilityDL-r12>
                                                                                     </intraBandContiguousCC-InfoList-r12>
+                                                                                    <intraBandContiguousCC-InfoList-r12/>
                                                                                 </intraBandContiguousCC-InfoList-r12>
-                                                                            </bandParametersDL-v1270>
-                                                                            <bandParametersDL-v1270>
-                                                                                <intraBandContiguousCC-InfoList-r12/>
                                                                             </bandParametersDL-v1270>
                                                                         </bandParametersDL-v1270>
                                                                     </bandParameterList-v1270>
@@ -18902,14 +18898,10 @@
                                                                                 <intraBandContiguousCC-InfoList-r12>
                                                                                     <intraBandContiguousCC-InfoList-r12>
                                                                                         <fourLayerTM3-TM4-perCC-r12>supported</fourLayerTM3-TM4-perCC-r12>
-                                                                                    </intraBandContiguousCC-InfoList-r12>
-                                                                                    <intraBandContiguousCC-InfoList-r12>
                                                                                         <supportedMIMO-CapabilityDL-r12>fourLayers</supportedMIMO-CapabilityDL-r12>
                                                                                     </intraBandContiguousCC-InfoList-r12>
+                                                                                    <intraBandContiguousCC-InfoList-r12/>
                                                                                 </intraBandContiguousCC-InfoList-r12>
-                                                                            </bandParametersDL-v1270>
-                                                                            <bandParametersDL-v1270>
-                                                                                <intraBandContiguousCC-InfoList-r12/>
                                                                             </bandParametersDL-v1270>
                                                                         </bandParametersDL-v1270>
                                                                     </bandParameterList-v1270>
