@@ -32,6 +32,18 @@ class WiresharkNRRRCTests : AbstractTests() {
 
     @Test
     @Throws(Exception::class)
+    fun testUeMrdcCapabilityKirin() {
+        test(
+            "UE-MRDC-Capability",
+            "/data/Wireshark/UeMrdcCapabilityKirin.txt",
+            "/data/oracle/UeMrdcCapabilityKirin.json",
+            "/data/oracle/UeMrdcCapabilityKirin.xml"
+        )
+
+    }
+
+    @Test
+    @Throws(Exception::class)
     fun testUeNrCapability() {
         test(
             "UE-NR-Capability",
@@ -40,6 +52,18 @@ class WiresharkNRRRCTests : AbstractTests() {
             "/data/oracle/UeNrCapability.xml"
         )
     }
+
+    @Test
+    @Throws(Exception::class)
+    fun testUeNrCapabilityKirin() {
+        test(
+            "UE-NR-Capability",
+            "/data/Wireshark/UeNrCapabilityKirin.txt",
+            "/data/oracle/UeNrCapabilityKirin.json",
+            "/data/oracle/UeNrCapabilityKirin.xml"
+        )
+    }
+
     companion object {
         @BeforeAll
         @JvmStatic

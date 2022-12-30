@@ -27,7 +27,17 @@ class Nsg4NRRRCTests : AbstractTests() {
             "/data/oracle/UeMrdcCapability.json",
             "/data/oracle/UeMrdcCapability.xml"
         )
+    }
 
+    @Test
+    @Throws(Exception::class)
+    fun testUeMrdcCapabilityKirin() {
+        test(
+            "UE-MRDC-Capability",
+            "/data/NSG4/UeMrdcCapabilityKirin.txt",
+            "/data/oracle/UeMrdcCapabilityKirin.json",
+            "/data/oracle/UeMrdcCapabilityKirin.xml"
+        )
     }
 
     @Test
@@ -38,6 +48,17 @@ class Nsg4NRRRCTests : AbstractTests() {
             "/data/NSG4/UeNrCapability.txt",
             "/data/oracle/UeNrCapability.json",
             "/data/oracle/UeNrCapability.xml"
+        )
+    }
+
+    @Test
+    @Throws(Exception::class)
+    fun testUeNrCapabilityKirin() {
+        test(
+            "UE-NR-Capability",
+            "/data/NSG4/UeNrCapabilityKirin.txt",
+            "/data/oracle/UeNrCapabilityKirin.json",
+            "/data/oracle/UeNrCapabilityKirin.xml"
         )
     }
 

@@ -60,6 +60,17 @@ class Nsg4LTERRCTests : AbstractTests() {
         )
     }
 
+    @Test
+    @Throws(Exception::class)
+    fun testUeEutraCapabilityKirin() {
+        test(
+            "UE-EUTRA-Capability",
+            "/data/NSG4/UeEutraCapabilityKirin.txt",
+            "/data/oracle/UeEutraCapabilityKirin.json",
+            "/data/oracle/UeEutraCapabilityKirin.xml"
+        )
+    }
+
     companion object {
         @BeforeAll
         @JvmStatic

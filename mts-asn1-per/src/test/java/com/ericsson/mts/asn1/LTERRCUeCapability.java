@@ -50,4 +50,10 @@ public class LTERRCUeCapability extends AbstractTests {
     void testUEEutraCapabilitySkipFallback() throws Exception {
         test("UE-EUTRA-Capability", "/data/LTERRC/UL_DCCH/UEEutraCapabilitySkipFallback.bin", "/data/LTERRC/UL_DCCH/UEEutraCapabilitySkipFallback.json", "/data/LTERRC/UL_DCCH/UEEutraCapabilitySkipFallback.xml");
     }
+
+    @Test
+    void testUeEutraCapabilityKirin() throws Exception {
+        test("UE-EUTRA-Capability", "/data/LTERRC/UL_DCCH/UeEutraCapabilityKirin.bin", "/data/LTERRC/UL_DCCH/UeEutraCapabilityKirin.json", "/data/LTERRC/UL_DCCH/UeEutraCapabilityKirin.xml");
+    }
+
 }

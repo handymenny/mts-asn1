@@ -1,0 +1,790 @@
+                                                accessStratumRelease: rel15 (0)
+                                                pdcp-Parameters
+                                                    supportedROHC-Profiles
+                                                        .... ..0. profile0x0000: False
+                                                        .... ...0 profile0x0001: False
+                                                        0... .... profile0x0002: False
+                                                        .0.. .... profile0x0003: False
+                                                        ..0. .... profile0x0004: False
+                                                        ...0 .... profile0x0006: False
+                                                        .... 0... profile0x0101: False
+                                                        .... .0.. profile0x0102: False
+                                                        .... ..0. profile0x0103: False
+                                                        .... ...0 profile0x0104: False
+                                                    maxNumberROHC-ContextSessions: cs2 (0)
+                                                rlc-Parameters
+                                                    am-WithShortSN: supported (0)
+                                                    um-WithShortSN: supported (0)
+                                                    um-WithLongSN: supported (0)
+                                                mac-Parameters
+                                                    mac-ParametersXDD-Diff
+                                                        skipUplinkTxDynamic: supported (0)
+                                                        logicalChannelSR-DelayTimer: supported (0)
+                                                        longDRX-Cycle: supported (0)
+                                                        shortDRX-Cycle: supported (0)
+                                                phy-Parameters
+                                                    phy-ParametersCommon
+                                                        nzp-CSI-RS-IntefMgmt: supported (0)
+                                                        dynamicHARQ-ACK-Codebook: supported (0)
+                                                        semiStaticHARQ-ACK-Codebook: supported (0)
+                                                        ra-Type0-PUSCH: supported (0)
+                                                        dynamicSwitchRA-Type0-1-PDSCH: supported (0)
+                                                        dynamicSwitchRA-Type0-1-PUSCH: supported (0)
+                                                        pdsch-MappingTypeA: supported (0)
+                                                        pdsch-MappingTypeB: supported (0)
+                                                        rateMatchingResrcSetSemi-Static: supported (0)
+                                                        rateMatchingResrcSetDynamic: supported (0)
+                                                        bwp-SwitchingDelay: type1 (0)
+                                                        maxNumberSearchSpaces: n10 (0)
+                                                        rateMatchingCtrlResrcSetDynamic: supported (0)
+                                                        maxLayersMIMO-Indication: supported (0)
+                                                    phy-ParametersFRX-Diff
+                                                        twoFL-DMRS: c0 [bit length 2, 6 LSB pad bits, 11.. .... decimal value 3]
+                                                        supportedDMRS-TypeDL: type1 (0)
+                                                        supportedDMRS-TypeUL: type1 (0)
+                                                        csi-ReportWithoutPMI: supported (0)
+                                                        pucch-F2-WithFH: supported (0)
+                                                        pucch-F3-WithFH: supported (0)
+                                                        pucch-F4-WithFH: supported (0)
+                                                        almostContiguousCP-OFDM-UL: supported (0)
+                                                        mux-SR-HARQ-ACK-CSI-PUCCH-OncePerSlot
+                                                            sameSymbol: supported (0)
+                                                        oneFL-DMRS-TwoAdditionalDMRS-UL: supported (0)
+                                                        twoFL-DMRS-TwoAdditionalDMRS-UL: supported (0)
+                                                    phy-ParametersFR1
+                                                        pdcch-MonitoringSingleOccasion: supported (0)
+                                                        pdsch-256QAM-FR1: supported (0)
+                                                        pdsch-RE-MappingFR1-PerSymbol: n10 (0)
+                                                        pdsch-RE-MappingFR1-PerSlot: n16 (0)
+                                                rf-Parameters
+                                                    supportedBandListNR: 8 items
+                                                        Item 0
+                                                            BandNR
+                                                                bandNR: 1
+                                                                mimo-ParametersPerBand
+                                                                    tci-StatePDSCH
+                                                                        maxNumberConfiguredTCIstatesPerCC: n16 (2)
+                                                                        maxNumberActiveTCI-PerBWP: n1 (0)
+                                                                    pusch-TransCoherence: nonCoherent (0)
+                                                                    periodicBeamReport: supported (0)
+                                                                    aperiodicBeamReport: supported (0)
+                                                                    maxNumberNonGroupBeamReporting: n1 (0)
+                                                                    dummy5
+                                                                        maxNumberAperiodicSRS-PerBWP: n16 (4)
+                                                                        maxNumberAperiodicSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberPeriodicSRS-PerBWP: n16 (4)
+                                                                        maxNumberPeriodicSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberSemiPersistentSRS-PerBWP: n16 (4)
+                                                                        maxNumberSemiPersistentSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberSRS-Ports-PerResource: n1 (0)
+                                                                    beamManagementSSB-CSI-RS
+                                                                        maxNumberSSB-CSI-RS-ResourceOneTx: n8 (1)
+                                                                        maxNumberCSI-RS-Resource: n0 (0)
+                                                                        maxNumberCSI-RS-ResourceTwoTx: n0 (0)
+                                                                        maxNumberAperiodicCSI-RS-Resource: n4 (2)
+                                                                    codebookParameters
+                                                                        type1
+                                                                            singlePanel
+                                                                                supportedCSI-RS-ResourceList: 1 item
+                                                                                    Item 0
+                                                                                        SupportedCSI-RS-Resource
+                                                                                            maxNumberTxPortsPerResource: p16 (4)
+                                                                                            maxNumberResourcesPerBand: 8
+                                                                                            totalNumberTxPortsPerBand: 16
+                                                                                modes: mode1andMode2 (1)
+                                                                                maxNumberCSI-RS-PerResourceSet: 8
+                                                                    csi-RS-IM-ReceptionForFeedback
+                                                                        maxConfigNumberNZP-CSI-RS-PerCC: 8
+                                                                        maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC: 16
+                                                                        maxConfigNumberCSI-IM-PerCC: n4 (2)
+                                                                        maxNumberSimultaneousNZP-CSI-RS-PerCC: 4
+                                                                        totalNumberPortsSimultaneousNZP-CSI-RS-PerCC: 16
+                                                                    csi-ReportFramework
+                                                                        maxNumberPeriodicCSI-PerBWP-ForCSI-Report: 1
+                                                                        maxNumberAperiodicCSI-PerBWP-ForCSI-Report: 1
+                                                                        maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report: 0
+                                                                        maxNumberPeriodicCSI-PerBWP-ForBeamReport: 1
+                                                                        maxNumberAperiodicCSI-PerBWP-ForBeamReport: 1
+                                                                        maxNumberAperiodicCSI-triggeringStatePerCC: n15 (2)
+                                                                        maxNumberSemiPersistentCSI-PerBWP-ForBeamReport: 0
+                                                                        simultaneousCSI-ReportsPerCC: 2
+                                                                    csi-RS-ForTracking
+                                                                        maxBurstLength: 2
+                                                                        maxSimultaneousResourceSetsPerCC: 2
+                                                                        maxConfiguredResourceSetsPerCC: 16
+                                                                        maxConfiguredResourceSetsAllCC: 32
+                                                                multipleTCI: supported (0)
+                                                                bwp-SameNumerology: upto4 (1)
+                                                                pusch-256QAM: supported (0)
+                                                                rateMatchingLTE-CRS: supported (0)
+                                                                channelBWs-DL: fr1 (0)
+                                                                    fr1
+                                                                        scs-30kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                        scs-60kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                channelBWs-UL: fr1 (0)
+                                                                    fr1
+                                                                        scs-30kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                        scs-60kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                        Item 1
+                                                            BandNR
+                                                                bandNR: 3
+                                                                mimo-ParametersPerBand
+                                                                    tci-StatePDSCH
+                                                                        maxNumberConfiguredTCIstatesPerCC: n16 (2)
+                                                                        maxNumberActiveTCI-PerBWP: n1 (0)
+                                                                    pusch-TransCoherence: nonCoherent (0)
+                                                                    periodicBeamReport: supported (0)
+                                                                    aperiodicBeamReport: supported (0)
+                                                                    maxNumberNonGroupBeamReporting: n1 (0)
+                                                                    dummy5
+                                                                        maxNumberAperiodicSRS-PerBWP: n16 (4)
+                                                                        maxNumberAperiodicSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberPeriodicSRS-PerBWP: n16 (4)
+                                                                        maxNumberPeriodicSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberSemiPersistentSRS-PerBWP: n16 (4)
+                                                                        maxNumberSemiPersistentSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberSRS-Ports-PerResource: n1 (0)
+                                                                    beamManagementSSB-CSI-RS
+                                                                        maxNumberSSB-CSI-RS-ResourceOneTx: n8 (1)
+                                                                        maxNumberCSI-RS-Resource: n0 (0)
+                                                                        maxNumberCSI-RS-ResourceTwoTx: n0 (0)
+                                                                        maxNumberAperiodicCSI-RS-Resource: n4 (2)
+                                                                    codebookParameters
+                                                                        type1
+                                                                            singlePanel
+                                                                                supportedCSI-RS-ResourceList: 1 item
+                                                                                    Item 0
+                                                                                        SupportedCSI-RS-Resource
+                                                                                            maxNumberTxPortsPerResource: p16 (4)
+                                                                                            maxNumberResourcesPerBand: 8
+                                                                                            totalNumberTxPortsPerBand: 16
+                                                                                modes: mode1andMode2 (1)
+                                                                                maxNumberCSI-RS-PerResourceSet: 8
+                                                                    csi-RS-IM-ReceptionForFeedback
+                                                                        maxConfigNumberNZP-CSI-RS-PerCC: 8
+                                                                        maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC: 16
+                                                                        maxConfigNumberCSI-IM-PerCC: n4 (2)
+                                                                        maxNumberSimultaneousNZP-CSI-RS-PerCC: 4
+                                                                        totalNumberPortsSimultaneousNZP-CSI-RS-PerCC: 16
+                                                                    csi-ReportFramework
+                                                                        maxNumberPeriodicCSI-PerBWP-ForCSI-Report: 1
+                                                                        maxNumberAperiodicCSI-PerBWP-ForCSI-Report: 1
+                                                                        maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report: 0
+                                                                        maxNumberPeriodicCSI-PerBWP-ForBeamReport: 1
+                                                                        maxNumberAperiodicCSI-PerBWP-ForBeamReport: 1
+                                                                        maxNumberAperiodicCSI-triggeringStatePerCC: n15 (2)
+                                                                        maxNumberSemiPersistentCSI-PerBWP-ForBeamReport: 0
+                                                                        simultaneousCSI-ReportsPerCC: 2
+                                                                    csi-RS-ForTracking
+                                                                        maxBurstLength: 2
+                                                                        maxSimultaneousResourceSetsPerCC: 2
+                                                                        maxConfiguredResourceSetsPerCC: 16
+                                                                        maxConfiguredResourceSetsAllCC: 32
+                                                                multipleTCI: supported (0)
+                                                                bwp-SameNumerology: upto4 (1)
+                                                                pusch-256QAM: supported (0)
+                                                                rateMatchingLTE-CRS: supported (0)
+                                                                channelBWs-DL: fr1 (0)
+                                                                    fr1
+                                                                        scs-30kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                        scs-60kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                channelBWs-UL: fr1 (0)
+                                                                    fr1
+                                                                        scs-30kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                        scs-60kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                        Item 2
+                                                            BandNR
+                                                                bandNR: 28
+                                                                mimo-ParametersPerBand
+                                                                    tci-StatePDSCH
+                                                                        maxNumberConfiguredTCIstatesPerCC: n16 (2)
+                                                                        maxNumberActiveTCI-PerBWP: n1 (0)
+                                                                    pusch-TransCoherence: nonCoherent (0)
+                                                                    periodicBeamReport: supported (0)
+                                                                    aperiodicBeamReport: supported (0)
+                                                                    maxNumberNonGroupBeamReporting: n1 (0)
+                                                                    dummy5
+                                                                        maxNumberAperiodicSRS-PerBWP: n16 (4)
+                                                                        maxNumberAperiodicSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberPeriodicSRS-PerBWP: n16 (4)
+                                                                        maxNumberPeriodicSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberSemiPersistentSRS-PerBWP: n16 (4)
+                                                                        maxNumberSemiPersistentSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberSRS-Ports-PerResource: n1 (0)
+                                                                    beamManagementSSB-CSI-RS
+                                                                        maxNumberSSB-CSI-RS-ResourceOneTx: n8 (1)
+                                                                        maxNumberCSI-RS-Resource: n0 (0)
+                                                                        maxNumberCSI-RS-ResourceTwoTx: n0 (0)
+                                                                        maxNumberAperiodicCSI-RS-Resource: n4 (2)
+                                                                    codebookParameters
+                                                                        type1
+                                                                            singlePanel
+                                                                                supportedCSI-RS-ResourceList: 1 item
+                                                                                    Item 0
+                                                                                        SupportedCSI-RS-Resource
+                                                                                            maxNumberTxPortsPerResource: p16 (4)
+                                                                                            maxNumberResourcesPerBand: 8
+                                                                                            totalNumberTxPortsPerBand: 16
+                                                                                modes: mode1andMode2 (1)
+                                                                                maxNumberCSI-RS-PerResourceSet: 8
+                                                                    csi-RS-IM-ReceptionForFeedback
+                                                                        maxConfigNumberNZP-CSI-RS-PerCC: 8
+                                                                        maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC: 16
+                                                                        maxConfigNumberCSI-IM-PerCC: n4 (2)
+                                                                        maxNumberSimultaneousNZP-CSI-RS-PerCC: 4
+                                                                        totalNumberPortsSimultaneousNZP-CSI-RS-PerCC: 16
+                                                                    csi-ReportFramework
+                                                                        maxNumberPeriodicCSI-PerBWP-ForCSI-Report: 1
+                                                                        maxNumberAperiodicCSI-PerBWP-ForCSI-Report: 1
+                                                                        maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report: 0
+                                                                        maxNumberPeriodicCSI-PerBWP-ForBeamReport: 1
+                                                                        maxNumberAperiodicCSI-PerBWP-ForBeamReport: 1
+                                                                        maxNumberAperiodicCSI-triggeringStatePerCC: n15 (2)
+                                                                        maxNumberSemiPersistentCSI-PerBWP-ForBeamReport: 0
+                                                                        simultaneousCSI-ReportsPerCC: 2
+                                                                    csi-RS-ForTracking
+                                                                        maxBurstLength: 2
+                                                                        maxSimultaneousResourceSetsPerCC: 2
+                                                                        maxConfiguredResourceSetsPerCC: 16
+                                                                        maxConfiguredResourceSetsAllCC: 32
+                                                                multipleTCI: supported (0)
+                                                                bwp-SameNumerology: upto4 (1)
+                                                                pusch-256QAM: supported (0)
+                                                                rateMatchingLTE-CRS: supported (0)
+                                                                channelBWs-DL: fr1 (0)
+                                                                    fr1
+                                                                        scs-30kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                channelBWs-UL: fr1 (0)
+                                                                    fr1
+                                                                        scs-30kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                        Item 3
+                                                            BandNR
+                                                                bandNR: 38
+                                                                mimo-ParametersPerBand
+                                                                    tci-StatePDSCH
+                                                                        maxNumberConfiguredTCIstatesPerCC: n16 (2)
+                                                                        maxNumberActiveTCI-PerBWP: n1 (0)
+                                                                    pusch-TransCoherence: nonCoherent (0)
+                                                                    periodicBeamReport: supported (0)
+                                                                    aperiodicBeamReport: supported (0)
+                                                                    maxNumberNonGroupBeamReporting: n1 (0)
+                                                                    dummy5
+                                                                        maxNumberAperiodicSRS-PerBWP: n16 (4)
+                                                                        maxNumberAperiodicSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberPeriodicSRS-PerBWP: n16 (4)
+                                                                        maxNumberPeriodicSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberSemiPersistentSRS-PerBWP: n16 (4)
+                                                                        maxNumberSemiPersistentSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberSRS-Ports-PerResource: n1 (0)
+                                                                    beamManagementSSB-CSI-RS
+                                                                        maxNumberSSB-CSI-RS-ResourceOneTx: n8 (1)
+                                                                        maxNumberCSI-RS-Resource: n0 (0)
+                                                                        maxNumberCSI-RS-ResourceTwoTx: n0 (0)
+                                                                        maxNumberAperiodicCSI-RS-Resource: n4 (2)
+                                                                    codebookParameters
+                                                                        type1
+                                                                            singlePanel
+                                                                                supportedCSI-RS-ResourceList: 1 item
+                                                                                    Item 0
+                                                                                        SupportedCSI-RS-Resource
+                                                                                            maxNumberTxPortsPerResource: p16 (4)
+                                                                                            maxNumberResourcesPerBand: 8
+                                                                                            totalNumberTxPortsPerBand: 16
+                                                                                modes: mode1andMode2 (1)
+                                                                                maxNumberCSI-RS-PerResourceSet: 8
+                                                                    csi-RS-IM-ReceptionForFeedback
+                                                                        maxConfigNumberNZP-CSI-RS-PerCC: 8
+                                                                        maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC: 16
+                                                                        maxConfigNumberCSI-IM-PerCC: n4 (2)
+                                                                        maxNumberSimultaneousNZP-CSI-RS-PerCC: 4
+                                                                        totalNumberPortsSimultaneousNZP-CSI-RS-PerCC: 16
+                                                                    csi-ReportFramework
+                                                                        maxNumberPeriodicCSI-PerBWP-ForCSI-Report: 1
+                                                                        maxNumberAperiodicCSI-PerBWP-ForCSI-Report: 1
+                                                                        maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report: 0
+                                                                        maxNumberPeriodicCSI-PerBWP-ForBeamReport: 1
+                                                                        maxNumberAperiodicCSI-PerBWP-ForBeamReport: 1
+                                                                        maxNumberAperiodicCSI-triggeringStatePerCC: n15 (2)
+                                                                        maxNumberSemiPersistentCSI-PerBWP-ForBeamReport: 0
+                                                                        simultaneousCSI-ReportsPerCC: 2
+                                                                    csi-RS-ForTracking
+                                                                        maxBurstLength: 2
+                                                                        maxSimultaneousResourceSetsPerCC: 2
+                                                                        maxConfiguredResourceSetsPerCC: 16
+                                                                        maxConfiguredResourceSetsAllCC: 32
+                                                                multipleTCI: supported (0)
+                                                                bwp-SameNumerology: upto4 (1)
+                                                                pusch-256QAM: supported (0)
+                                                                channelBWs-DL: fr1 (0)
+                                                                    fr1
+                                                                        scs-15kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                        scs-60kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                channelBWs-UL: fr1 (0)
+                                                                    fr1
+                                                                        scs-15kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                        scs-60kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                        Item 4
+                                                            BandNR
+                                                                bandNR: 41
+                                                                mimo-ParametersPerBand
+                                                                    tci-StatePDSCH
+                                                                        maxNumberConfiguredTCIstatesPerCC: n16 (2)
+                                                                        maxNumberActiveTCI-PerBWP: n1 (0)
+                                                                    pusch-TransCoherence: nonCoherent (0)
+                                                                    periodicBeamReport: supported (0)
+                                                                    aperiodicBeamReport: supported (0)
+                                                                    maxNumberNonGroupBeamReporting: n1 (0)
+                                                                    dummy5
+                                                                        maxNumberAperiodicSRS-PerBWP: n16 (4)
+                                                                        maxNumberAperiodicSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberPeriodicSRS-PerBWP: n16 (4)
+                                                                        maxNumberPeriodicSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberSemiPersistentSRS-PerBWP: n16 (4)
+                                                                        maxNumberSemiPersistentSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberSRS-Ports-PerResource: n1 (0)
+                                                                    beamManagementSSB-CSI-RS
+                                                                        maxNumberSSB-CSI-RS-ResourceOneTx: n8 (1)
+                                                                        maxNumberCSI-RS-Resource: n0 (0)
+                                                                        maxNumberCSI-RS-ResourceTwoTx: n0 (0)
+                                                                        maxNumberAperiodicCSI-RS-Resource: n4 (2)
+                                                                    codebookParameters
+                                                                        type1
+                                                                            singlePanel
+                                                                                supportedCSI-RS-ResourceList: 1 item
+                                                                                    Item 0
+                                                                                        SupportedCSI-RS-Resource
+                                                                                            maxNumberTxPortsPerResource: p16 (4)
+                                                                                            maxNumberResourcesPerBand: 8
+                                                                                            totalNumberTxPortsPerBand: 16
+                                                                                modes: mode1andMode2 (1)
+                                                                                maxNumberCSI-RS-PerResourceSet: 8
+                                                                    csi-RS-IM-ReceptionForFeedback
+                                                                        maxConfigNumberNZP-CSI-RS-PerCC: 8
+                                                                        maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC: 16
+                                                                        maxConfigNumberCSI-IM-PerCC: n4 (2)
+                                                                        maxNumberSimultaneousNZP-CSI-RS-PerCC: 4
+                                                                        totalNumberPortsSimultaneousNZP-CSI-RS-PerCC: 16
+                                                                    csi-ReportFramework
+                                                                        maxNumberPeriodicCSI-PerBWP-ForCSI-Report: 1
+                                                                        maxNumberAperiodicCSI-PerBWP-ForCSI-Report: 1
+                                                                        maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report: 0
+                                                                        maxNumberPeriodicCSI-PerBWP-ForBeamReport: 1
+                                                                        maxNumberAperiodicCSI-PerBWP-ForBeamReport: 1
+                                                                        maxNumberAperiodicCSI-triggeringStatePerCC: n15 (2)
+                                                                        maxNumberSemiPersistentCSI-PerBWP-ForBeamReport: 0
+                                                                        simultaneousCSI-ReportsPerCC: 2
+                                                                    csi-RS-ForTracking
+                                                                        maxBurstLength: 2
+                                                                        maxSimultaneousResourceSetsPerCC: 2
+                                                                        maxConfiguredResourceSetsPerCC: 16
+                                                                        maxConfiguredResourceSetsAllCC: 32
+                                                                multipleTCI: supported (0)
+                                                                bwp-SameNumerology: upto4 (1)
+                                                                pusch-256QAM: supported (0)
+                                                                ue-PowerClass: pc2 (1)
+                                                                channelBWs-DL: fr1 (0)
+                                                                    fr1
+                                                                        scs-15kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                        scs-30kHz: 13c0 [bit length 10, 6 LSB pad bits, 0001 0011  11.. .... decimal value 79]
+                                                                        scs-60kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                channelBWs-UL: fr1 (0)
+                                                                    fr1
+                                                                        scs-15kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                        scs-30kHz: 13c0 [bit length 10, 6 LSB pad bits, 0001 0011  11.. .... decimal value 79]
+                                                                        scs-60kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                        Item 5
+                                                            BandNR
+                                                                bandNR: 77
+                                                                mimo-ParametersPerBand
+                                                                    tci-StatePDSCH
+                                                                        maxNumberConfiguredTCIstatesPerCC: n16 (2)
+                                                                        maxNumberActiveTCI-PerBWP: n1 (0)
+                                                                    pusch-TransCoherence: nonCoherent (0)
+                                                                    periodicBeamReport: supported (0)
+                                                                    aperiodicBeamReport: supported (0)
+                                                                    maxNumberNonGroupBeamReporting: n1 (0)
+                                                                    dummy5
+                                                                        maxNumberAperiodicSRS-PerBWP: n16 (4)
+                                                                        maxNumberAperiodicSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberPeriodicSRS-PerBWP: n16 (4)
+                                                                        maxNumberPeriodicSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberSemiPersistentSRS-PerBWP: n16 (4)
+                                                                        maxNumberSemiPersistentSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberSRS-Ports-PerResource: n1 (0)
+                                                                    beamManagementSSB-CSI-RS
+                                                                        maxNumberSSB-CSI-RS-ResourceOneTx: n8 (1)
+                                                                        maxNumberCSI-RS-Resource: n0 (0)
+                                                                        maxNumberCSI-RS-ResourceTwoTx: n0 (0)
+                                                                        maxNumberAperiodicCSI-RS-Resource: n4 (2)
+                                                                    codebookParameters
+                                                                        type1
+                                                                            singlePanel
+                                                                                supportedCSI-RS-ResourceList: 1 item
+                                                                                    Item 0
+                                                                                        SupportedCSI-RS-Resource
+                                                                                            maxNumberTxPortsPerResource: p16 (4)
+                                                                                            maxNumberResourcesPerBand: 8
+                                                                                            totalNumberTxPortsPerBand: 16
+                                                                                modes: mode1andMode2 (1)
+                                                                                maxNumberCSI-RS-PerResourceSet: 8
+                                                                    csi-RS-IM-ReceptionForFeedback
+                                                                        maxConfigNumberNZP-CSI-RS-PerCC: 8
+                                                                        maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC: 16
+                                                                        maxConfigNumberCSI-IM-PerCC: n4 (2)
+                                                                        maxNumberSimultaneousNZP-CSI-RS-PerCC: 4
+                                                                        totalNumberPortsSimultaneousNZP-CSI-RS-PerCC: 16
+                                                                    csi-ReportFramework
+                                                                        maxNumberPeriodicCSI-PerBWP-ForCSI-Report: 1
+                                                                        maxNumberAperiodicCSI-PerBWP-ForCSI-Report: 1
+                                                                        maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report: 0
+                                                                        maxNumberPeriodicCSI-PerBWP-ForBeamReport: 1
+                                                                        maxNumberAperiodicCSI-PerBWP-ForBeamReport: 1
+                                                                        maxNumberAperiodicCSI-triggeringStatePerCC: n15 (2)
+                                                                        maxNumberSemiPersistentCSI-PerBWP-ForBeamReport: 0
+                                                                        simultaneousCSI-ReportsPerCC: 2
+                                                                    csi-RS-ForTracking
+                                                                        maxBurstLength: 2
+                                                                        maxSimultaneousResourceSetsPerCC: 2
+                                                                        maxConfiguredResourceSetsPerCC: 16
+                                                                        maxConfiguredResourceSetsAllCC: 32
+                                                                multipleTCI: supported (0)
+                                                                bwp-SameNumerology: upto4 (1)
+                                                                pusch-256QAM: supported (0)
+                                                                channelBWs-DL: fr1 (0)
+                                                                    fr1
+                                                                        scs-15kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                        scs-30kHz: 13c0 [bit length 10, 6 LSB pad bits, 0001 0011  11.. .... decimal value 79]
+                                                                        scs-60kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                channelBWs-UL: fr1 (0)
+                                                                    fr1
+                                                                        scs-15kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                        scs-30kHz: 13c0 [bit length 10, 6 LSB pad bits, 0001 0011  11.. .... decimal value 79]
+                                                                        scs-60kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                        Item 6
+                                                            BandNR
+                                                                bandNR: 78
+                                                                mimo-ParametersPerBand
+                                                                    tci-StatePDSCH
+                                                                        maxNumberConfiguredTCIstatesPerCC: n16 (2)
+                                                                        maxNumberActiveTCI-PerBWP: n1 (0)
+                                                                    pusch-TransCoherence: nonCoherent (0)
+                                                                    periodicBeamReport: supported (0)
+                                                                    aperiodicBeamReport: supported (0)
+                                                                    maxNumberNonGroupBeamReporting: n1 (0)
+                                                                    dummy5
+                                                                        maxNumberAperiodicSRS-PerBWP: n16 (4)
+                                                                        maxNumberAperiodicSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberPeriodicSRS-PerBWP: n16 (4)
+                                                                        maxNumberPeriodicSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberSemiPersistentSRS-PerBWP: n16 (4)
+                                                                        maxNumberSemiPersistentSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberSRS-Ports-PerResource: n1 (0)
+                                                                    beamManagementSSB-CSI-RS
+                                                                        maxNumberSSB-CSI-RS-ResourceOneTx: n8 (1)
+                                                                        maxNumberCSI-RS-Resource: n0 (0)
+                                                                        maxNumberCSI-RS-ResourceTwoTx: n0 (0)
+                                                                        maxNumberAperiodicCSI-RS-Resource: n4 (2)
+                                                                    codebookParameters
+                                                                        type1
+                                                                            singlePanel
+                                                                                supportedCSI-RS-ResourceList: 1 item
+                                                                                    Item 0
+                                                                                        SupportedCSI-RS-Resource
+                                                                                            maxNumberTxPortsPerResource: p16 (4)
+                                                                                            maxNumberResourcesPerBand: 8
+                                                                                            totalNumberTxPortsPerBand: 16
+                                                                                modes: mode1andMode2 (1)
+                                                                                maxNumberCSI-RS-PerResourceSet: 8
+                                                                    csi-RS-IM-ReceptionForFeedback
+                                                                        maxConfigNumberNZP-CSI-RS-PerCC: 8
+                                                                        maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC: 16
+                                                                        maxConfigNumberCSI-IM-PerCC: n4 (2)
+                                                                        maxNumberSimultaneousNZP-CSI-RS-PerCC: 4
+                                                                        totalNumberPortsSimultaneousNZP-CSI-RS-PerCC: 16
+                                                                    csi-ReportFramework
+                                                                        maxNumberPeriodicCSI-PerBWP-ForCSI-Report: 1
+                                                                        maxNumberAperiodicCSI-PerBWP-ForCSI-Report: 1
+                                                                        maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report: 0
+                                                                        maxNumberPeriodicCSI-PerBWP-ForBeamReport: 1
+                                                                        maxNumberAperiodicCSI-PerBWP-ForBeamReport: 1
+                                                                        maxNumberAperiodicCSI-triggeringStatePerCC: n15 (2)
+                                                                        maxNumberSemiPersistentCSI-PerBWP-ForBeamReport: 0
+                                                                        simultaneousCSI-ReportsPerCC: 2
+                                                                    csi-RS-ForTracking
+                                                                        maxBurstLength: 2
+                                                                        maxSimultaneousResourceSetsPerCC: 2
+                                                                        maxConfiguredResourceSetsPerCC: 16
+                                                                        maxConfiguredResourceSetsAllCC: 32
+                                                                multipleTCI: supported (0)
+                                                                bwp-SameNumerology: upto4 (1)
+                                                                pusch-256QAM: supported (0)
+                                                                ue-PowerClass: pc2 (1)
+                                                                channelBWs-DL: fr1 (0)
+                                                                    fr1
+                                                                        scs-15kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                        scs-30kHz: 13c0 [bit length 10, 6 LSB pad bits, 0001 0011  11.. .... decimal value 79]
+                                                                        scs-60kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                channelBWs-UL: fr1 (0)
+                                                                    fr1
+                                                                        scs-15kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                        scs-30kHz: 13c0 [bit length 10, 6 LSB pad bits, 0001 0011  11.. .... decimal value 79]
+                                                                        scs-60kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                        Item 7
+                                                            BandNR
+                                                                bandNR: 79
+                                                                mimo-ParametersPerBand
+                                                                    tci-StatePDSCH
+                                                                        maxNumberConfiguredTCIstatesPerCC: n16 (2)
+                                                                        maxNumberActiveTCI-PerBWP: n1 (0)
+                                                                    pusch-TransCoherence: nonCoherent (0)
+                                                                    periodicBeamReport: supported (0)
+                                                                    aperiodicBeamReport: supported (0)
+                                                                    maxNumberNonGroupBeamReporting: n1 (0)
+                                                                    dummy5
+                                                                        maxNumberAperiodicSRS-PerBWP: n16 (4)
+                                                                        maxNumberAperiodicSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberPeriodicSRS-PerBWP: n16 (4)
+                                                                        maxNumberPeriodicSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberSemiPersistentSRS-PerBWP: n16 (4)
+                                                                        maxNumberSemiPersistentSRS-PerBWP-PerSlot: 6
+                                                                        maxNumberSRS-Ports-PerResource: n1 (0)
+                                                                    beamManagementSSB-CSI-RS
+                                                                        maxNumberSSB-CSI-RS-ResourceOneTx: n8 (1)
+                                                                        maxNumberCSI-RS-Resource: n0 (0)
+                                                                        maxNumberCSI-RS-ResourceTwoTx: n0 (0)
+                                                                        maxNumberAperiodicCSI-RS-Resource: n4 (2)
+                                                                    codebookParameters
+                                                                        type1
+                                                                            singlePanel
+                                                                                supportedCSI-RS-ResourceList: 1 item
+                                                                                    Item 0
+                                                                                        SupportedCSI-RS-Resource
+                                                                                            maxNumberTxPortsPerResource: p16 (4)
+                                                                                            maxNumberResourcesPerBand: 8
+                                                                                            totalNumberTxPortsPerBand: 16
+                                                                                modes: mode1andMode2 (1)
+                                                                                maxNumberCSI-RS-PerResourceSet: 8
+                                                                    csi-RS-IM-ReceptionForFeedback
+                                                                        maxConfigNumberNZP-CSI-RS-PerCC: 8
+                                                                        maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC: 16
+                                                                        maxConfigNumberCSI-IM-PerCC: n4 (2)
+                                                                        maxNumberSimultaneousNZP-CSI-RS-PerCC: 4
+                                                                        totalNumberPortsSimultaneousNZP-CSI-RS-PerCC: 16
+                                                                    csi-ReportFramework
+                                                                        maxNumberPeriodicCSI-PerBWP-ForCSI-Report: 1
+                                                                        maxNumberAperiodicCSI-PerBWP-ForCSI-Report: 1
+                                                                        maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report: 0
+                                                                        maxNumberPeriodicCSI-PerBWP-ForBeamReport: 1
+                                                                        maxNumberAperiodicCSI-PerBWP-ForBeamReport: 1
+                                                                        maxNumberAperiodicCSI-triggeringStatePerCC: n15 (2)
+                                                                        maxNumberSemiPersistentCSI-PerBWP-ForBeamReport: 0
+                                                                        simultaneousCSI-ReportsPerCC: 2
+                                                                    csi-RS-ForTracking
+                                                                        maxBurstLength: 2
+                                                                        maxSimultaneousResourceSetsPerCC: 2
+                                                                        maxConfiguredResourceSetsPerCC: 16
+                                                                        maxConfiguredResourceSetsAllCC: 32
+                                                                multipleTCI: supported (0)
+                                                                bwp-SameNumerology: upto4 (1)
+                                                                pusch-256QAM: supported (0)
+                                                                ue-PowerClass: pc2 (1)
+                                                                channelBWs-DL: fr1 (0)
+                                                                    fr1
+                                                                        scs-15kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                        scs-60kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                channelBWs-UL: fr1 (0)
+                                                                    fr1
+                                                                        scs-15kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                                        scs-60kHz: 0000 [bit length 10, 6 LSB pad bits, 0000 0000  00.. .... decimal value 0]
+                                                    appliedFreqBandListFilter: 8 items
+                                                        Item 0
+                                                            FreqBandInformation: bandInformationEUTRA (0)
+                                                                bandInformationEUTRA
+                                                                    bandEUTRA: 1
+                                                        Item 1
+                                                            FreqBandInformation: bandInformationEUTRA (0)
+                                                                bandInformationEUTRA
+                                                                    bandEUTRA: 3
+                                                        Item 2
+                                                            FreqBandInformation: bandInformationEUTRA (0)
+                                                                bandInformationEUTRA
+                                                                    bandEUTRA: 7
+                                                        Item 3
+                                                            FreqBandInformation: bandInformationEUTRA (0)
+                                                                bandInformationEUTRA
+                                                                    bandEUTRA: 20
+                                                        Item 4
+                                                            FreqBandInformation: bandInformationEUTRA (0)
+                                                                bandInformationEUTRA
+                                                                    bandEUTRA: 38
+                                                        Item 5
+                                                            FreqBandInformation: bandInformationNR (1)
+                                                                bandInformationNR
+                                                                    bandNR: 3
+                                                        Item 6
+                                                            FreqBandInformation: bandInformationNR (1)
+                                                                bandInformationNR
+                                                                    bandNR: 7
+                                                        Item 7
+                                                            FreqBandInformation: bandInformationNR (1)
+                                                                bandInformationNR
+                                                                    bandNR: 78
+                                                measAndMobParameters
+                                                    measAndMobParametersCommon
+                                                        ssb-RLM: supported (0)
+                                                        eventB-MeasAndReport: supported (0)
+                                                        handoverFDD-TDD: supported (0)
+                                                        eutra-CGI-Reporting: supported (0)
+                                                        nr-CGI-Reporting: supported (0)
+                                                        periodicEUTRA-MeasAndReport: supported (0)
+                                                    measAndMobParametersXDD-Diff
+                                                        intraAndInterF-MeasAndReport: supported (0)
+                                                        eventA-MeasAndReport: supported (0)
+                                                        handoverInterF: supported (0)
+                                                        handoverLTE-EPC: supported (0)
+                                                    measAndMobParametersFRX-Diff
+                                                        ss-SINR-Meas: supported (0)
+                                                        csi-RS-RLM: supported (0)
+                                                        handoverInterF: supported (0)
+                                                        handoverLTE-EPC: supported (0)
+                                                        maxNumberResource-CSI-RS-RLM: n4 (1)
+                                                featureSets
+                                                    featureSetsDownlink: 2 items
+                                                        Item 0
+                                                            FeatureSetDownlink
+                                                                featureSetListPerDownlinkCC: 1 item
+                                                                    Item 0
+                                                                        FeatureSetDownlinkPerCC-Id: 1
+                                                        Item 1
+                                                            FeatureSetDownlink
+                                                                featureSetListPerDownlinkCC: 1 item
+                                                                    Item 0
+                                                                        FeatureSetDownlinkPerCC-Id: 2
+                                                    featureSetsDownlinkPerCC: 2 items
+                                                        Item 0
+                                                            FeatureSetDownlinkPerCC
+                                                                supportedSubcarrierSpacingDL: kHz30 (1)
+                                                                supportedBandwidthDL: fr1 (0)
+                                                                    fr1: mhz100 (10)
+                                                                channelBW-90mhz: supported (0)
+                                                                maxNumberMIMO-LayersPDSCH: fourLayers (1)
+                                                                supportedModulationOrderDL: qam256 (5)
+                                                        Item 1
+                                                            FeatureSetDownlinkPerCC
+                                                                supportedSubcarrierSpacingDL: kHz15 (0)
+                                                                supportedBandwidthDL: fr1 (0)
+                                                                    fr1: mhz30 (5)
+                                                                maxNumberMIMO-LayersPDSCH: twoLayers (0)
+                                                                supportedModulationOrderDL: qam256 (5)
+                                                    featureSetsUplink: 2 items
+                                                        Item 0
+                                                            FeatureSetUplink
+                                                                featureSetListPerUplinkCC: 1 item
+                                                                    Item 0
+                                                                        FeatureSetUplinkPerCC-Id: 1
+                                                                supportedSRS-Resources
+                                                                    maxNumberAperiodicSRS-PerBWP: n16 (4)
+                                                                    maxNumberAperiodicSRS-PerBWP-PerSlot: 6
+                                                                    maxNumberPeriodicSRS-PerBWP: n16 (4)
+                                                                    maxNumberPeriodicSRS-PerBWP-PerSlot: 6
+                                                                    maxNumberSemiPersistentSRS-PerBWP: n16 (4)
+                                                                    maxNumberSemiPersistentSRS-PerBWP-PerSlot: 6
+                                                                    maxNumberSRS-Ports-PerResource: n1 (0)
+                                                        Item 1
+                                                            FeatureSetUplink
+                                                                featureSetListPerUplinkCC: 1 item
+                                                                    Item 0
+                                                                        FeatureSetUplinkPerCC-Id: 2
+                                                                supportedSRS-Resources
+                                                                    maxNumberAperiodicSRS-PerBWP: n16 (4)
+                                                                    maxNumberAperiodicSRS-PerBWP-PerSlot: 6
+                                                                    maxNumberPeriodicSRS-PerBWP: n16 (4)
+                                                                    maxNumberPeriodicSRS-PerBWP-PerSlot: 6
+                                                                    maxNumberSemiPersistentSRS-PerBWP: n16 (4)
+                                                                    maxNumberSemiPersistentSRS-PerBWP-PerSlot: 6
+                                                                    maxNumberSRS-Ports-PerResource: n1 (0)
+                                                    featureSetsUplinkPerCC: 2 items
+                                                        Item 0
+                                                            FeatureSetUplinkPerCC
+                                                                supportedSubcarrierSpacingUL: kHz30 (1)
+                                                                supportedBandwidthUL: fr1 (0)
+                                                                    fr1: mhz100 (10)
+                                                                channelBW-90mhz: supported (0)
+                                                                mimo-CB-PUSCH
+                                                                    maxNumberMIMO-LayersCB-PUSCH: oneLayer (0)
+                                                                    maxNumberSRS-ResourcePerSet: 1
+                                                                supportedModulationOrderUL: qam256 (5)
+                                                        Item 1
+                                                            FeatureSetUplinkPerCC
+                                                                supportedSubcarrierSpacingUL: kHz15 (0)
+                                                                supportedBandwidthUL: fr1 (0)
+                                                                    fr1: mhz30 (5)
+                                                                mimo-CB-PUSCH
+                                                                    maxNumberMIMO-LayersCB-PUSCH: oneLayer (0)
+                                                                    maxNumberSRS-ResourcePerSet: 1
+                                                                supportedModulationOrderUL: qam256 (5)
+                                                    featureSetsDownlink-v1540: 2 items
+                                                        Item 0
+                                                            FeatureSetDownlink-v1540
+                                                                oneFL-DMRS-TwoAdditionalDMRS-DL: supported (0)
+                                                                additionalDMRS-DL-Alt: supported (0)
+                                                                twoFL-DMRS-TwoAdditionalDMRS-DL: supported (0)
+                                                                oneFL-DMRS-ThreeAdditionalDMRS-DL: supported (0)
+                                                        Item 1
+                                                            FeatureSetDownlink-v1540
+                                                                oneFL-DMRS-TwoAdditionalDMRS-DL: supported (0)
+                                                                additionalDMRS-DL-Alt: supported (0)
+                                                                twoFL-DMRS-TwoAdditionalDMRS-DL: supported (0)
+                                                                oneFL-DMRS-ThreeAdditionalDMRS-DL: supported (0)
+                                                nonCriticalExtension
+                                                    interRAT-Parameters
+                                                        eutra
+                                                            supportedBandListEUTRA: 21 items
+                                                                Item 0
+                                                                    FreqBandIndicatorEUTRA: 1
+                                                                Item 1
+                                                                    FreqBandIndicatorEUTRA: 2
+                                                                Item 2
+                                                                    FreqBandIndicatorEUTRA: 3
+                                                                Item 3
+                                                                    FreqBandIndicatorEUTRA: 4
+                                                                Item 4
+                                                                    FreqBandIndicatorEUTRA: 5
+                                                                Item 5
+                                                                    FreqBandIndicatorEUTRA: 6
+                                                                Item 6
+                                                                    FreqBandIndicatorEUTRA: 7
+                                                                Item 7
+                                                                    FreqBandIndicatorEUTRA: 8
+                                                                Item 8
+                                                                    FreqBandIndicatorEUTRA: 12
+                                                                Item 9
+                                                                    FreqBandIndicatorEUTRA: 17
+                                                                Item 10
+                                                                    FreqBandIndicatorEUTRA: 18
+                                                                Item 11
+                                                                    FreqBandIndicatorEUTRA: 19
+                                                                Item 12
+                                                                    FreqBandIndicatorEUTRA: 20
+                                                                Item 13
+                                                                    FreqBandIndicatorEUTRA: 26
+                                                                Item 14
+                                                                    FreqBandIndicatorEUTRA: 28
+                                                                Item 15
+                                                                    FreqBandIndicatorEUTRA: 34
+                                                                Item 16
+                                                                    FreqBandIndicatorEUTRA: 38
+                                                                Item 17
+                                                                    FreqBandIndicatorEUTRA: 39
+                                                                Item 18
+                                                                    FreqBandIndicatorEUTRA: 40
+                                                                Item 19
+                                                                    FreqBandIndicatorEUTRA: 41
+                                                                Item 20
+                                                                    FreqBandIndicatorEUTRA: 66
+                                                            eutra-ParametersCommon
+                                                                mfbi-EUTRA: supported (0)
+                                                                rs-SINR-MeasEUTRA: supported (0)
+                                                            eutra-ParametersXDD-Diff
+                                                                rsrqMeasWidebandEUTRA: supported (0)
+                                                    inactiveState: supported (0)

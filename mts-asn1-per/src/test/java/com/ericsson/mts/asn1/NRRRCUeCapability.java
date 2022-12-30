@@ -23,8 +23,20 @@ public class NRRRCUeCapability extends AbstractTests {
     }
 
     @Test
+    void testUeMrdcCapabilityKirin() throws Exception {
+        /* This message contains extensions, the encoding test may fail if a specification other than "3GPP TS 38.331 V17.2.0" is used */
+        test("UE-MRDC-Capability", "/data/NRRRC/UeMrdcCapabilityKirin.bin", "/data/NRRRC/UeMrdcCapabilityKirin.json", "/data/NRRRC/UeMrdcCapabilityKirin.xml");
+    }
+
+    @Test
     void testUeNrCapability() throws Exception {
         /* This message contains extensions, the encoding test may fail if a specification other than "3GPP TS 38.331 V17.2.0" is used */
         test("UE-NR-Capability", "/data/NRRRC/UeNrCapability.bin", "/data/NRRRC/UeNrCapability.json", "/data/NRRRC/UeNrCapability.xml");
+    }
+
+    @Test
+    void testUeNrCapabilityKirin() throws Exception {
+        /* This message contains extensions, the encoding test may fail if a specification other than "3GPP TS 38.331 V17.2.0" is used */
+        test("UE-NR-Capability", "/data/NRRRC/UeNrCapabilityKirin.bin", "/data/NRRRC/UeNrCapabilityKirin.json", "/data/NRRRC/UeNrCapabilityKirin.xml");
     }
 }
