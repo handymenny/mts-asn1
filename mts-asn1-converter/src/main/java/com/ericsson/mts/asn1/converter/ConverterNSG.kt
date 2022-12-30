@@ -362,7 +362,7 @@ class ConverterNSG : AbstractConverter() {
 
 
     private fun getStringValue(identifier: String, line: String): String? {
-        return "$identifier\\s:\\s(\\w*)".toRegex().find(line)?.groups?.get(1)?.value
+        return "$identifier\\s:\\s([\\w-]*)".toRegex().find(line)?.groups?.get(1)?.value
     }
 
     private fun getIntValue(identifier: String, line: String): BigInteger? {
