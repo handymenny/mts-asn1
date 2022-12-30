@@ -1,27 +1,3 @@
-LTE RRC Signaling Messages
-  Version : 12
-  RRC Release Number : 11
-  RRC Version Minor : 4
-  RRC Version Major : 7
-  RB ID : 1
-  Physical Cell ID : 423
-  E-ARFCN : 6400
-  SFN : 0
-  Channel : 8
-  Bitmask of SIBS : 0
-  Message Length : 83
-  ul-dcch
-    message
-      c1
-        ueCapabilityInformation
-          rrc-TransactionIdentifier : 1
-          criticalExtensions
-            c1
-              ueCapabilityInformation-r8
-                ue-CapabilityRAT-ContainerList
-                  UE-CapabilityRAT-ContainerList[0]
-                    rat-Type : eutra
-                    ueCapabilityRAT-Container
                       accessStratumRelease : rel10
                       ue-Category : 4
                       pdcp-Parameters
