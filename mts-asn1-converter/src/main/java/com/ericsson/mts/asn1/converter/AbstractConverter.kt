@@ -91,13 +91,27 @@ abstract class AbstractConverter {
             return 1
         }
 
-        val identifier = overrideIdentifier ?: getIdentifier(line)
         val indentation = overrideIndentation ?: getIndentationLevel(line)
 
-        if(!disablePop)
+        if (!disablePop)
             popStacks(indentation)
 
-        return when (val type = overrideType ?: getType(identifier)) {
+        var identifier = overrideIdentifier ?: getIdentifier(line)
+        var type = overrideType ?: getType(identifier)
+
+        if (type == null) {
+            /* Try to find even types that have changed name in recent specs.
+             * Ex. profile-0x0001 -> profile-0x0001-r15, dynamicPowerSharing -> dynamicPowerSharingENDC,
+             * channelBWs-DL-v1530 -> channelBWs-DL
+             */
+            val similarIdentifier = findSimilarComponent(identifier)
+            if (similarIdentifier != null) {
+                identifier = similarIdentifier
+                type = getType(identifier)
+            }
+        }
+
+        return when (type) {
             is BitStringTypeContext -> parseBitString(index, lineArray, identifier, indentation, type)
             is CharacterStringTypeContext -> parseCharacterString(index, lineArray, identifier, indentation, type)
             is ChoiceTypeContext -> parseChoiceType(index, lineArray, identifier, indentation, type)
@@ -573,5 +587,33 @@ abstract class AbstractConverter {
         return componentTypeList!!.find {
             it.IDENTIFIER().text == identifier
         }?.asnType()
+    }
+
+    // Return the identifier of a component whose identifier contains the given identifier or viceversa.
+    // Difference between output identifier and input identifier will always be < 7, to limit false-positives
+    private fun findSimilarComponent(identifier: String, componentTypes: List<NamedTypeContext>? = null): String? {
+        var componentTypeList = componentTypes
+
+        if (componentTypeList == null) {
+            if (typesStack.isEmpty()) {
+                return null
+            }
+            componentTypeList = typesStack.peek()
+        }
+
+        return componentTypeList!!.find {
+            val text = it.IDENTIFIER().text
+            when (text.length - identifier.length) {
+                in 1..6 -> {
+                    text.contains(identifier)
+                }
+                in -6..-1 -> {
+                    identifier.contains(text)
+                }
+                else -> {
+                    false
+                }
+            }
+        }?.IDENTIFIER()?.text
     }
 }
