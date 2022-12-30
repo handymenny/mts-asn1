@@ -3,15 +3,15 @@
   "ue-Category": 4,
   "pdcp-Parameters": {
     "supportedROHC-Profiles": {
-      "profile0x0001": true,
-      "profile0x0002": true,
-      "profile0x0003": false,
-      "profile0x0004": false,
-      "profile0x0006": false,
-      "profile0x0101": false,
-      "profile0x0102": false,
-      "profile0x0103": false,
-      "profile0x0104": false
+      "profile0x0001-r15": true,
+      "profile0x0002-r15": true,
+      "profile0x0003-r15": false,
+      "profile0x0004-r15": false,
+      "profile0x0006-r15": false,
+      "profile0x0101-r15": false,
+      "profile0x0102-r15": false,
+      "profile0x0103-r15": false,
+      "profile0x0104-r15": false
     },
     "maxNumberROHC-ContextSessions": "cs24"
   },
