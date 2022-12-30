@@ -82,7 +82,7 @@ class ConverterWireshark : AbstractConverter() {
         context: EnumeratedTypeContext
     ): Int {
         val identifierCustom = getArrayIdentifier() ?: identifier
-        writer.stringValue(identifierCustom, getStringValue(identifier, lineArray[index]))
+        writer.stringValue(identifierCustom, getStringValue(lineArray[index]))
         return 1
     }
 
@@ -118,7 +118,7 @@ class ConverterWireshark : AbstractConverter() {
         context: IntegerTypeContext
     ): Int {
         val identifierCustom = getArrayIdentifier() ?: identifier
-        writer.intValue(identifierCustom, getIntValue(identifier, lineArray[index]), null)
+        writer.intValue(identifierCustom, getIntValue(lineArray[index]), null)
         return 1
     }
 
@@ -151,7 +151,7 @@ class ConverterWireshark : AbstractConverter() {
     ): Int {
         if (context.BOOLEAN_LITERAL() != null) {
             val identifierCustom = getArrayIdentifier() ?: identifier
-            writer.booleanValue(identifierCustom, getBooleanValue(identifier, lineArray[index]))
+            writer.booleanValue(identifierCustom, getBooleanValue(lineArray[index]))
         }
         return 1
     }
@@ -242,19 +242,19 @@ class ConverterWireshark : AbstractConverter() {
         return 1
     }
 
-    private fun getStringValue(identifier: String, line: String): String? {
-        return "$identifier:\\s([\\w-]*)".toRegex().find(line)?.groups?.get(1)?.value
+    private fun getStringValue(line: String): String? {
+        return ":\\s([\\w-]*)".toRegex().find(line)?.groups?.get(1)?.value
     }
 
-    private fun getIntValue(identifier: String, line: String): BigInteger? {
-        val value = "$identifier:\\s(\\d*)".toRegex().find(line)?.groups?.get(1)?.value
+    private fun getIntValue(line: String): BigInteger? {
+        val value = ":\\s(\\d*)".toRegex().find(line)?.groups?.get(1)?.value
         return value?.let {
             BigInteger(value)
         }
     }
 
-    private fun getBooleanValue(identifier: String, line: String): Boolean {
-        return "True" == "$identifier:\\s(True|False)".toRegex().find(line)?.groups?.get(1)?.value
+    private fun getBooleanValue(line: String): Boolean {
+        return "True" == ":\\s(True|False)".toRegex().find(line)?.groups?.get(1)?.value
     }
 
     private fun getBitsValue(line: String): String? {
