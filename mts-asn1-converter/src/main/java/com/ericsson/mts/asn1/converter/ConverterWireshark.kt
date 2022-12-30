@@ -102,7 +102,7 @@ class ConverterWireshark : AbstractConverter() {
         }
         val identifierCustom = getArrayIdentifier() ?: identifier
         // Get min number of bits
-        var bits = getBitsValue(lineArray[index])?.dropLastWhile { it == '0' } ?: "0"
+        var bits = getBitsValue(lineArray[index]) ?: "0"
         val minLength = getLowerBound(identifier)?.intValueExact() ?: 0
         // Pad if needed
         bits = bits.padEnd(minLength, '0')

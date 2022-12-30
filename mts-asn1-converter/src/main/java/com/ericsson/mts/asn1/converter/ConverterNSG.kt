@@ -76,10 +76,6 @@ class ConverterNSG : AbstractConverter() {
                 } while (newLevel == getIndentationLevel(nextLine))
             }
         }
-        if (bits.length >= minLength) {
-            // Min number of bits
-            bits = bits.dropLastWhile { it == '0' }
-        }
         if (bits.length < minLength) {
             // Pad if needed
             bits = bits.padEnd(minLength, '0')
@@ -386,6 +382,8 @@ class ConverterNSG : AbstractConverter() {
             val match = "$identifier\\s:\\s([0-9A-F]+)\\((\\d+)\\sbit".toRegex().find(line)
             return match?.groups?.get(1)?.value?.let {
                 BigInteger(it, 16).toString(2).padStart(
+                    match.groups[2]?.value?.toInt() ?: 0, '0'
+                ).dropLastWhile { it == '0' }.padEnd(
                     match.groups[2]?.value?.toInt() ?: 0, '0'
                 )
             }
