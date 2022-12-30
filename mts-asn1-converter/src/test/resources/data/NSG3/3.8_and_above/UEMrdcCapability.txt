@@ -1,0 +1,1176 @@
+      measAndMobParametersMRDC
+       measAndMobParametersMRDC-FRX-Diff
+        simultaneousRxDataSSB-DiffNumerology : supported
+      rf-ParametersMRDC
+       supportedBandCombinationList
+        [0]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 1
+           ca-BandwidthClassDL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 3
+           ca-BandwidthClassDL-EUTRA : a
+          [2] -> eutra
+           bandEUTRA : 7
+           ca-BandwidthClassDL-EUTRA : a
+          [3] -> eutra
+           bandEUTRA : 20
+           ca-BandwidthClassDL-EUTRA : a
+           ca-BandwidthClassUL-EUTRA : a
+          [4] -> nr
+           bandNR : 78
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 0
+         ca-ParametersEUTRA
+          supportedBandwidthCombinationSetEUTRA-v1530 : '11'B(3)
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [1]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 1
+           ca-BandwidthClassDL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 3
+           ca-BandwidthClassDL-EUTRA : a
+          [2] -> eutra
+           bandEUTRA : 7
+           ca-BandwidthClassDL-EUTRA : a
+           ca-BandwidthClassUL-EUTRA : a
+          [3] -> eutra
+           bandEUTRA : 20
+           ca-BandwidthClassDL-EUTRA : a
+          [4] -> nr
+           bandNR : 78
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 1
+         ca-ParametersEUTRA
+          supportedBandwidthCombinationSetEUTRA-v1530 : '11'B(3)
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [2]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 1
+           ca-BandwidthClassDL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 3
+           ca-BandwidthClassDL-EUTRA : a
+           ca-BandwidthClassUL-EUTRA : a
+          [2] -> eutra
+           bandEUTRA : 7
+           ca-BandwidthClassDL-EUTRA : a
+          [3] -> eutra
+           bandEUTRA : 20
+           ca-BandwidthClassDL-EUTRA : a
+          [4] -> nr
+           bandNR : 78
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 2
+         ca-ParametersEUTRA
+          supportedBandwidthCombinationSetEUTRA-v1530 : '11'B(3)
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [3]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 1
+           ca-BandwidthClassDL-EUTRA : a
+           ca-BandwidthClassUL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 3
+           ca-BandwidthClassDL-EUTRA : a
+          [2] -> eutra
+           bandEUTRA : 7
+           ca-BandwidthClassDL-EUTRA : a
+          [3] -> eutra
+           bandEUTRA : 20
+           ca-BandwidthClassDL-EUTRA : a
+          [4] -> nr
+           bandNR : 78
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 3
+         ca-ParametersEUTRA
+          supportedBandwidthCombinationSetEUTRA-v1530 : '11'B(3)
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [4]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 1
+           ca-BandwidthClassDL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 3
+           ca-BandwidthClassDL-EUTRA : c
+          [2] -> eutra
+           bandEUTRA : 7
+           ca-BandwidthClassDL-EUTRA : c
+           ca-BandwidthClassUL-EUTRA : a
+          [3] -> nr
+           bandNR : 78
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 4
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [5]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 1
+           ca-BandwidthClassDL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 3
+           ca-BandwidthClassDL-EUTRA : c
+           ca-BandwidthClassUL-EUTRA : a
+          [2] -> eutra
+           bandEUTRA : 7
+           ca-BandwidthClassDL-EUTRA : c
+          [3] -> nr
+           bandNR : 78
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 5
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [6]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 1
+           ca-BandwidthClassDL-EUTRA : a
+           ca-BandwidthClassUL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 3
+           ca-BandwidthClassDL-EUTRA : c
+          [2] -> eutra
+           bandEUTRA : 7
+           ca-BandwidthClassDL-EUTRA : c
+          [3] -> nr
+           bandNR : 78
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 6
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [7]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 1
+           ca-BandwidthClassDL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 3
+           ca-BandwidthClassDL-EUTRA : a
+          [2] -> eutra
+           bandEUTRA : 7
+           ca-BandwidthClassDL-EUTRA : a
+           ca-BandwidthClassUL-EUTRA : a
+          [3] -> eutra
+           bandEUTRA : 7
+           ca-BandwidthClassDL-EUTRA : a
+          [4] -> nr
+           bandNR : 78
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 7
+         ca-ParametersEUTRA
+          supportedBandwidthCombinationSetEUTRA-v1530 : '11'B(3)
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [8]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 1
+           ca-BandwidthClassDL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 3
+           ca-BandwidthClassDL-EUTRA : a
+           ca-BandwidthClassUL-EUTRA : a
+          [2] -> eutra
+           bandEUTRA : 7
+           ca-BandwidthClassDL-EUTRA : a
+          [3] -> eutra
+           bandEUTRA : 7
+           ca-BandwidthClassDL-EUTRA : a
+          [4] -> nr
+           bandNR : 78
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 8
+         ca-ParametersEUTRA
+          supportedBandwidthCombinationSetEUTRA-v1530 : '11'B(3)
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [9]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 1
+           ca-BandwidthClassDL-EUTRA : a
+           ca-BandwidthClassUL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 3
+           ca-BandwidthClassDL-EUTRA : a
+          [2] -> eutra
+           bandEUTRA : 7
+           ca-BandwidthClassDL-EUTRA : a
+          [3] -> eutra
+           bandEUTRA : 7
+           ca-BandwidthClassDL-EUTRA : a
+          [4] -> nr
+           bandNR : 78
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 9
+         ca-ParametersEUTRA
+          supportedBandwidthCombinationSetEUTRA-v1530 : '11'B(3)
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [10]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 1
+           ca-BandwidthClassDL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 3
+           ca-BandwidthClassDL-EUTRA : a
+           ca-BandwidthClassUL-EUTRA : a
+          [2] -> nr
+           bandNR : 7
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 10
+         ca-ParametersEUTRA
+          supportedBandwidthCombinationSetEUTRA-v1530 : '11'B(3)
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [11]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 1
+           ca-BandwidthClassDL-EUTRA : a
+           ca-BandwidthClassUL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 3
+           ca-BandwidthClassDL-EUTRA : a
+          [2] -> nr
+           bandNR : 7
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 11
+         ca-ParametersEUTRA
+          supportedBandwidthCombinationSetEUTRA-v1530 : '11'B(3)
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [12]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 1
+           ca-BandwidthClassDL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 7
+           ca-BandwidthClassDL-EUTRA : a
+          [2] -> eutra
+           bandEUTRA : 20
+           ca-BandwidthClassDL-EUTRA : a
+           ca-BandwidthClassUL-EUTRA : a
+          [3] -> nr
+           bandNR : 3
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 12
+         ca-ParametersEUTRA
+          supportedBandwidthCombinationSetEUTRA-v1530 : '111'B(7)
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [13]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 1
+           ca-BandwidthClassDL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 7
+           ca-BandwidthClassDL-EUTRA : a
+           ca-BandwidthClassUL-EUTRA : a
+          [2] -> eutra
+           bandEUTRA : 20
+           ca-BandwidthClassDL-EUTRA : a
+          [3] -> nr
+           bandNR : 3
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 13
+         ca-ParametersEUTRA
+          supportedBandwidthCombinationSetEUTRA-v1530 : '111'B(7)
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [14]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 1
+           ca-BandwidthClassDL-EUTRA : a
+           ca-BandwidthClassUL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 7
+           ca-BandwidthClassDL-EUTRA : a
+          [2] -> eutra
+           bandEUTRA : 20
+           ca-BandwidthClassDL-EUTRA : a
+          [3] -> nr
+           bandNR : 3
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 14
+         ca-ParametersEUTRA
+          supportedBandwidthCombinationSetEUTRA-v1530 : '111'B(7)
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [15]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 3
+           ca-BandwidthClassDL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 20
+           ca-BandwidthClassDL-EUTRA : a
+           ca-BandwidthClassUL-EUTRA : a
+          [2] -> nr
+           bandNR : 7
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 15
+         ca-ParametersEUTRA
+          supportedBandwidthCombinationSetEUTRA-v1530 : '11'B(3)
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [16]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 3
+           ca-BandwidthClassDL-EUTRA : a
+           ca-BandwidthClassUL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 20
+           ca-BandwidthClassDL-EUTRA : a
+          [2] -> nr
+           bandNR : 7
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 16
+         ca-ParametersEUTRA
+          supportedBandwidthCombinationSetEUTRA-v1530 : '11'B(3)
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [17]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 3
+           ca-BandwidthClassDL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 38
+           ca-BandwidthClassDL-EUTRA : a
+           ca-BandwidthClassUL-EUTRA : a
+          [2] -> nr
+           bandNR : 78
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 17
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [18]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 3
+           ca-BandwidthClassDL-EUTRA : a
+           ca-BandwidthClassUL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 38
+           ca-BandwidthClassDL-EUTRA : a
+          [2] -> nr
+           bandNR : 78
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 18
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+        [19]
+         bandList
+          [0] -> eutra
+           bandEUTRA : 3
+           ca-BandwidthClassDL-EUTRA : a
+           ca-BandwidthClassUL-EUTRA : a
+          [1] -> eutra
+           bandEUTRA : 3
+           ca-BandwidthClassDL-EUTRA : a
+          [2] -> nr
+           bandNR : 78
+           ca-BandwidthClassDL-NR : a
+           ca-BandwidthClassUL-NR : a
+         featureSetCombination : 19
+         ca-ParametersEUTRA
+          supportedBandwidthCombinationSetEUTRA-v1530 : '111'B(7)
+         mrdc-Parameters
+          dynamicPowerSharingENDC : supported
+          simultaneousRxTxInterBandENDC : supported
+       appliedFreqBandListFilter
+        [0] -> bandInformationEUTRA
+         bandEUTRA : 1
+        [1] -> bandInformationEUTRA
+         bandEUTRA : 3
+        [2] -> bandInformationEUTRA
+         bandEUTRA : 7
+        [3] -> bandInformationEUTRA
+         bandEUTRA : 20
+        [4] -> bandInformationEUTRA
+         bandEUTRA : 38
+        [5] -> bandInformationNR
+         bandNR : 3
+        [6] -> bandInformationNR
+         bandNR : 7
+        [7] -> bandInformationNR
+         bandNR : 78
+       supportedBandCombinationList-v1540
+        [0]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [3]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [4]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : t1r2
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [1]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [3]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [4]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : t1r2
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [2]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [3]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [4]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : t1r2
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [3]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [3]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [4]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : t1r2
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [4]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [3]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : t1r2
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [5]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [3]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : t1r2
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [6]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [3]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : t1r2
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [7]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [3]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [4]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : t1r2
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [8]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [3]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [4]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : t1r2
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [9]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [3]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [4]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : t1r2
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [10]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [11]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [12]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [3]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [13]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [3]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [14]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [3]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [15]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [16]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [17]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : t1r2
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [18]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : t1r2
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+        [19]
+         bandList-v1540
+          [0]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [1]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : notSupported
+          [2]
+           srs-TxSwitch
+            supportedSRS-TxPortSwitch : t1r2
+         ca-ParametersNR-v1540
+          csi-RS-IM-ReceptionForFeedbackPerBandComb
+           maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC : 8
+           totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC : 64
+          simultaneousCSI-ReportsAllCC : 8
+      generalParametersMRDC
+       splitDRB-withUL-Both-MCG-SCG : supported
+      featureSetCombinations
+       [0]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [2]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [3]
+         [0] -> eutra
+          downlinkSetEUTRA : 2
+          uplinkSetEUTRA : 1
+        [4]
+         [0] -> nr
+          downlinkSetNR : 1
+          uplinkSetNR : 1
+       [1]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [2]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 1
+        [3]
+         [0] -> eutra
+          downlinkSetEUTRA : 2
+          uplinkSetEUTRA : 0
+        [4]
+         [0] -> nr
+          downlinkSetNR : 1
+          uplinkSetNR : 1
+       [2]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 1
+        [2]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [3]
+         [0] -> eutra
+          downlinkSetEUTRA : 2
+          uplinkSetEUTRA : 0
+        [4]
+         [0] -> nr
+          downlinkSetNR : 1
+          uplinkSetNR : 1
+       [3]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 1
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [2]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [3]
+         [0] -> eutra
+          downlinkSetEUTRA : 2
+          uplinkSetEUTRA : 0
+        [4]
+         [0] -> nr
+          downlinkSetNR : 1
+          uplinkSetNR : 1
+       [4]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 3
+          uplinkSetEUTRA : 0
+        [2]
+         [0] -> eutra
+          downlinkSetEUTRA : 3
+          uplinkSetEUTRA : 1
+        [3]
+         [0] -> nr
+          downlinkSetNR : 1
+          uplinkSetNR : 1
+       [5]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 3
+          uplinkSetEUTRA : 1
+        [2]
+         [0] -> eutra
+          downlinkSetEUTRA : 3
+          uplinkSetEUTRA : 0
+        [3]
+         [0] -> nr
+          downlinkSetNR : 1
+          uplinkSetNR : 1
+       [6]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 1
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 3
+          uplinkSetEUTRA : 0
+        [2]
+         [0] -> eutra
+          downlinkSetEUTRA : 3
+          uplinkSetEUTRA : 0
+        [3]
+         [0] -> nr
+          downlinkSetNR : 1
+          uplinkSetNR : 1
+       [7]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [2]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 1
+        [3]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [4]
+         [0] -> nr
+          downlinkSetNR : 1
+          uplinkSetNR : 1
+       [8]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 1
+        [2]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [3]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [4]
+         [0] -> nr
+          downlinkSetNR : 1
+          uplinkSetNR : 1
+       [9]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 1
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [2]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [3]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [4]
+         [0] -> nr
+          downlinkSetNR : 1
+          uplinkSetNR : 1
+       [10]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 1
+        [2]
+         [0] -> nr
+          downlinkSetNR : 3
+          uplinkSetNR : 2
+       [11]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 1
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [2]
+         [0] -> nr
+          downlinkSetNR : 3
+          uplinkSetNR : 2
+       [12]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 2
+          uplinkSetEUTRA : 0
+        [2]
+         [0] -> eutra
+          downlinkSetEUTRA : 2
+          uplinkSetEUTRA : 1
+        [3]
+         [0] -> nr
+          downlinkSetNR : 3
+          uplinkSetNR : 2
+       [13]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 2
+          uplinkSetEUTRA : 1
+        [2]
+         [0] -> eutra
+          downlinkSetEUTRA : 2
+          uplinkSetEUTRA : 0
+        [3]
+         [0] -> nr
+          downlinkSetNR : 3
+          uplinkSetNR : 2
+       [14]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 1
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 2
+          uplinkSetEUTRA : 0
+        [2]
+         [0] -> eutra
+          downlinkSetEUTRA : 2
+          uplinkSetEUTRA : 0
+        [3]
+         [0] -> nr
+          downlinkSetNR : 3
+          uplinkSetNR : 2
+       [15]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 2
+          uplinkSetEUTRA : 1
+        [2]
+         [0] -> nr
+          downlinkSetNR : 3
+          uplinkSetNR : 2
+       [16]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 1
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 2
+          uplinkSetEUTRA : 0
+        [2]
+         [0] -> nr
+          downlinkSetNR : 3
+          uplinkSetNR : 2
+       [17]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 2
+          uplinkSetEUTRA : 1
+        [2]
+         [0] -> nr
+          downlinkSetNR : 1
+          uplinkSetNR : 1
+       [18]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 1
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 2
+          uplinkSetEUTRA : 0
+        [2]
+         [0] -> nr
+          downlinkSetNR : 1
+          uplinkSetNR : 1
+       [19]
+        [0]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 1
+        [1]
+         [0] -> eutra
+          downlinkSetEUTRA : 1
+          uplinkSetEUTRA : 0
+        [2]
+         [0] -> nr
+          downlinkSetNR : 1
+          uplinkSetNR : 1

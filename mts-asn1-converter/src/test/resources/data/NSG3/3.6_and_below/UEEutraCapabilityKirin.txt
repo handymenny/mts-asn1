@@ -1,0 +1,3983 @@
+    accessStratumRelease : rel13
+    ue-Category : 4
+    pdcp-Parameters
+     supportedROHC-Profiles
+      profile0x0001-r15 : true
+      profile0x0002-r15 : true
+      profile0x0003-r15 : true
+      profile0x0004-r15 : true
+      profile0x0006-r15 : false
+      profile0x0101-r15 : false
+      profile0x0102-r15 : false
+      profile0x0103-r15 : false
+      profile0x0104-r15 : false
+     maxNumberROHC-ContextSessions : cs16
+    phyLayerParameters
+     ue-TxAntennaSelectionSupported : false
+     ue-SpecificRefSigsSupported : false
+    rf-Parameters
+     supportedBandListEUTRA[0]
+      bandEUTRA : 38
+      halfDuplex : false
+     supportedBandListEUTRA[1]
+      bandEUTRA : 39
+      halfDuplex : false
+     supportedBandListEUTRA[2]
+      bandEUTRA : 40
+      halfDuplex : false
+     supportedBandListEUTRA[3]
+      bandEUTRA : 41
+      halfDuplex : false
+     supportedBandListEUTRA[4]
+      bandEUTRA : 34
+      halfDuplex : false
+     supportedBandListEUTRA[5]
+      bandEUTRA : 3
+      halfDuplex : false
+     supportedBandListEUTRA[6]
+      bandEUTRA : 7
+      halfDuplex : false
+     supportedBandListEUTRA[7]
+      bandEUTRA : 20
+      halfDuplex : false
+     supportedBandListEUTRA[8]
+      bandEUTRA : 1
+      halfDuplex : false
+     supportedBandListEUTRA[9]
+      bandEUTRA : 8
+      halfDuplex : false
+     supportedBandListEUTRA[10]
+      bandEUTRA : 26
+      halfDuplex : false
+     supportedBandListEUTRA[11]
+      bandEUTRA : 18
+      halfDuplex : false
+     supportedBandListEUTRA[12]
+      bandEUTRA : 5
+      halfDuplex : false
+     supportedBandListEUTRA[13]
+      bandEUTRA : 6
+      halfDuplex : false
+     supportedBandListEUTRA[14]
+      bandEUTRA : 19
+      halfDuplex : false
+     supportedBandListEUTRA[15]
+      bandEUTRA : 28
+      halfDuplex : false
+     supportedBandListEUTRA[16]
+      bandEUTRA : 4
+      halfDuplex : false
+     supportedBandListEUTRA[17]
+      bandEUTRA : 2
+      halfDuplex : false
+     supportedBandListEUTRA[18]
+      bandEUTRA : 12
+      halfDuplex : false
+     supportedBandListEUTRA[19]
+      bandEUTRA : 17
+      halfDuplex : false
+     supportedBandListEUTRA[20]
+      bandEUTRA : 64
+      halfDuplex : false
+    measParameters
+     bandListEUTRA[0]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[1]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[2]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[3]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[4]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[5]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[6]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[7]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[8]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[9]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[10]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[11]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[12]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[13]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[14]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[15]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[16]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[17]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[18]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[19]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+     bandListEUTRA[20]
+      interFreqBandList[0]
+       interFreqNeedForGaps : true
+      interFreqBandList[1]
+       interFreqNeedForGaps : true
+      interFreqBandList[2]
+       interFreqNeedForGaps : true
+      interFreqBandList[3]
+       interFreqNeedForGaps : true
+      interFreqBandList[4]
+       interFreqNeedForGaps : true
+      interFreqBandList[5]
+       interFreqNeedForGaps : true
+      interFreqBandList[6]
+       interFreqNeedForGaps : true
+      interFreqBandList[7]
+       interFreqNeedForGaps : true
+      interFreqBandList[8]
+       interFreqNeedForGaps : true
+      interFreqBandList[9]
+       interFreqNeedForGaps : true
+      interFreqBandList[10]
+       interFreqNeedForGaps : true
+      interFreqBandList[11]
+       interFreqNeedForGaps : true
+      interFreqBandList[12]
+       interFreqNeedForGaps : true
+      interFreqBandList[13]
+       interFreqNeedForGaps : true
+      interFreqBandList[14]
+       interFreqNeedForGaps : true
+      interFreqBandList[15]
+       interFreqNeedForGaps : true
+      interFreqBandList[16]
+       interFreqNeedForGaps : true
+      interFreqBandList[17]
+       interFreqNeedForGaps : true
+      interFreqBandList[18]
+       interFreqNeedForGaps : true
+      interFreqBandList[19]
+       interFreqNeedForGaps : true
+      interFreqBandList[20]
+       interFreqNeedForGaps : true
+      interRAT-BandList[0]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[1]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[2]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[3]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[4]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[5]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[6]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[7]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[8]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[9]
+       interRAT-NeedForGaps : true
+      interRAT-BandList[10]
+       interRAT-NeedForGaps : true
+    featureGroupIndicators : '11111111 01001111 00011110 10111110'B(4283375294)
+    interRAT-Parameters
+     utraFDD
+      supportedBandListUTRA-FDD[0] : bandI
+      supportedBandListUTRA-FDD[1] : bandII
+      supportedBandListUTRA-FDD[2] : bandIV
+      supportedBandListUTRA-FDD[3] : bandV
+      supportedBandListUTRA-FDD[4] : bandVI
+      supportedBandListUTRA-FDD[5] : bandVIII
+      supportedBandListUTRA-FDD[6] : bandXIX-8a0
+     geran
+      supportedBandListGERAN[0] : gsm850
+      supportedBandListGERAN[1] : gsm900E
+      supportedBandListGERAN[2] : gsm1800
+      supportedBandListGERAN[3] : gsm1900
+      interRAT-PS-HO-ToGERAN : false
+    nonCriticalExtension
+     phyLayerParameters-v920
+      enhancedDualLayerTDD-r9 : supported
+     interRAT-ParametersGERAN-v920
+      e-RedirectionGERAN-r9 : supported
+     interRAT-ParametersUTRA-v920
+      e-RedirectionUTRA-r9 : supported
+     csg-ProximityIndicationParameters-r9
+     neighCellSI-AcquisitionParameters-r9
+     son-Parameters-r9
+      rach-Report-r9 : supported
+     nonCriticalExtension
+      lateNonCriticalExtension
+       featureGroupIndRel9Add-r9 : '11000111 10000000 00000000 00000000'B(3347054592)
+       nonCriticalExtension
+        nonCriticalExtension
+         nonCriticalExtension
+          rf-Parameters-v9e0
+           supportedBandListEUTRA-v9e0[0]
+           supportedBandListEUTRA-v9e0[1]
+           supportedBandListEUTRA-v9e0[2]
+           supportedBandListEUTRA-v9e0[3]
+           supportedBandListEUTRA-v9e0[4]
+           supportedBandListEUTRA-v9e0[5]
+           supportedBandListEUTRA-v9e0[6]
+           supportedBandListEUTRA-v9e0[7]
+           supportedBandListEUTRA-v9e0[8]
+           supportedBandListEUTRA-v9e0[9]
+           supportedBandListEUTRA-v9e0[10]
+           supportedBandListEUTRA-v9e0[11]
+           supportedBandListEUTRA-v9e0[12]
+           supportedBandListEUTRA-v9e0[13]
+           supportedBandListEUTRA-v9e0[14]
+           supportedBandListEUTRA-v9e0[15]
+           supportedBandListEUTRA-v9e0[16]
+           supportedBandListEUTRA-v9e0[17]
+           supportedBandListEUTRA-v9e0[18]
+           supportedBandListEUTRA-v9e0[19]
+           supportedBandListEUTRA-v9e0[20]
+            bandEUTRA-v9e0 : 66
+          nonCriticalExtension
+           nonCriticalExtension
+            nonCriticalExtension
+             nonCriticalExtension
+              rf-Parameters-v10i0
+               supportedBandCombination-v10i0[0]
+                bandParameterList-v10i0[0]
+                 bandParametersDL-v10i0[0]
+                  fourLayerTM3-TM4-r10 : supported
+               supportedBandCombination-v10i0[1]
+               supportedBandCombination-v10i0[2]
+               supportedBandCombination-v10i0[3]
+               supportedBandCombination-v10i0[4]
+               supportedBandCombination-v10i0[5]
+               supportedBandCombination-v10i0[6]
+               supportedBandCombination-v10i0[7]
+               supportedBandCombination-v10i0[8]
+               supportedBandCombination-v10i0[9]
+               supportedBandCombination-v10i0[10]
+               supportedBandCombination-v10i0[11]
+               supportedBandCombination-v10i0[12]
+               supportedBandCombination-v10i0[13]
+               supportedBandCombination-v10i0[14]
+               supportedBandCombination-v10i0[15]
+               supportedBandCombination-v10i0[16]
+               supportedBandCombination-v10i0[17]
+               supportedBandCombination-v10i0[18]
+               supportedBandCombination-v10i0[19]
+               supportedBandCombination-v10i0[20]
+               supportedBandCombination-v10i0[21]
+               supportedBandCombination-v10i0[22]
+               supportedBandCombination-v10i0[23]
+               supportedBandCombination-v10i0[24]
+               supportedBandCombination-v10i0[25]
+               supportedBandCombination-v10i0[26]
+               supportedBandCombination-v10i0[27]
+              nonCriticalExtension
+               nonCriticalExtension
+                nonCriticalExtension
+                 rf-Parameters-v12b0
+                  maxLayersMIMO-Indication-r12 : supported
+      nonCriticalExtension
+       ue-Category-v1020 : 7
+       rf-Parameters-v1020
+        supportedBandCombination-r10[0]
+         [0]
+          bandEUTRA-r10 : 38
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : fourLayers
+        supportedBandCombination-r10[1]
+         [0]
+          bandEUTRA-r10 : 1
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 3
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[2]
+         [0]
+          bandEUTRA-r10 : 1
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 3
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[3]
+         [0]
+          bandEUTRA-r10 : 1
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 7
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[4]
+         [0]
+          bandEUTRA-r10 : 1
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 7
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[5]
+         [0]
+          bandEUTRA-r10 : 3
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 7
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[6]
+         [0]
+          bandEUTRA-r10 : 3
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 7
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[7]
+         [0]
+          bandEUTRA-r10 : 3
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 20
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[8]
+         [0]
+          bandEUTRA-r10 : 3
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 20
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[9]
+         [0]
+          bandEUTRA-r10 : 3
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 38
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[10]
+         [0]
+          bandEUTRA-r10 : 7
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 20
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[11]
+         [0]
+          bandEUTRA-r10 : 7
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 20
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[12]
+         [0]
+          bandEUTRA-r10 : 1
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 20
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[13]
+         [0]
+          bandEUTRA-r10 : 1
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 20
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[14]
+         [0]
+          bandEUTRA-r10 : 1
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 38
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[15]
+         [0]
+          bandEUTRA-r10 : 20
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 38
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[16]
+         [0]
+          bandEUTRA-r10 : 1
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 3
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [2]
+          bandEUTRA-r10 : 7
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[17]
+         [0]
+          bandEUTRA-r10 : 1
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 3
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [2]
+          bandEUTRA-r10 : 7
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[18]
+         [0]
+          bandEUTRA-r10 : 1
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 3
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [2]
+          bandEUTRA-r10 : 7
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[19]
+         [0]
+          bandEUTRA-r10 : 1
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 3
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [2]
+          bandEUTRA-r10 : 20
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[20]
+         [0]
+          bandEUTRA-r10 : 1
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 3
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [2]
+          bandEUTRA-r10 : 20
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[21]
+         [0]
+          bandEUTRA-r10 : 1
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 3
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [2]
+          bandEUTRA-r10 : 20
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[22]
+         [0]
+          bandEUTRA-r10 : 1
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 7
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [2]
+          bandEUTRA-r10 : 20
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[23]
+         [0]
+          bandEUTRA-r10 : 1
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 7
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [2]
+          bandEUTRA-r10 : 20
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[24]
+         [0]
+          bandEUTRA-r10 : 1
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 7
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [2]
+          bandEUTRA-r10 : 20
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[25]
+         [0]
+          bandEUTRA-r10 : 3
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 7
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [2]
+          bandEUTRA-r10 : 20
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[26]
+         [0]
+          bandEUTRA-r10 : 3
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 7
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [2]
+          bandEUTRA-r10 : 20
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+        supportedBandCombination-r10[27]
+         [0]
+          bandEUTRA-r10 : 3
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [1]
+          bandEUTRA-r10 : 7
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+         [2]
+          bandEUTRA-r10 : 20
+          bandParametersUL-r10[0]
+           ca-BandwidthClassUL-r10 : a
+          bandParametersDL-r10[0]
+           ca-BandwidthClassDL-r10 : a
+           supportedMIMO-CapabilityDL-r10 : twoLayers
+       measParameters-v1020
+        bandCombinationListEUTRA-r10[0]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[1]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[2]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[3]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[4]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[5]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[6]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[7]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[8]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[9]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[10]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[11]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[12]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[13]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[14]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[15]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[16]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[17]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[18]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[19]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[20]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[21]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[22]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[23]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[24]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[25]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[26]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+        bandCombinationListEUTRA-r10[27]
+         interFreqBandList[0]
+          interFreqNeedForGaps : true
+         interFreqBandList[1]
+          interFreqNeedForGaps : true
+         interFreqBandList[2]
+          interFreqNeedForGaps : true
+         interFreqBandList[3]
+          interFreqNeedForGaps : true
+         interFreqBandList[4]
+          interFreqNeedForGaps : true
+         interFreqBandList[5]
+          interFreqNeedForGaps : true
+         interFreqBandList[6]
+          interFreqNeedForGaps : true
+         interFreqBandList[7]
+          interFreqNeedForGaps : true
+         interFreqBandList[8]
+          interFreqNeedForGaps : true
+         interFreqBandList[9]
+          interFreqNeedForGaps : true
+         interFreqBandList[10]
+          interFreqNeedForGaps : true
+         interFreqBandList[11]
+          interFreqNeedForGaps : true
+         interFreqBandList[12]
+          interFreqNeedForGaps : true
+         interFreqBandList[13]
+          interFreqNeedForGaps : true
+         interFreqBandList[14]
+          interFreqNeedForGaps : true
+         interFreqBandList[15]
+          interFreqNeedForGaps : true
+         interFreqBandList[16]
+          interFreqNeedForGaps : true
+         interFreqBandList[17]
+          interFreqNeedForGaps : true
+         interFreqBandList[18]
+          interFreqNeedForGaps : true
+         interFreqBandList[19]
+          interFreqNeedForGaps : true
+         interFreqBandList[20]
+          interFreqNeedForGaps : true
+         interRAT-BandList[0]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[1]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[2]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[3]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[4]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[5]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[6]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[7]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[8]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[9]
+          interRAT-NeedForGaps : true
+         interRAT-BandList[10]
+          interRAT-NeedForGaps : true
+       featureGroupIndRel10-r10 : '01010000 00110100 00000000 00000000'B(1345585152)
+       nonCriticalExtension
+        fdd-Add-UE-EUTRA-Capabilities-v1060
+         featureGroupIndRel10-v1060 : '01010000 00111100 00000000 00000000'B(1346109440)
+        tdd-Add-UE-EUTRA-Capabilities-v1060
+         featureGroupIndRel10-v1060 : '01111111 11111100 00000000 00000000'B(2147221504)
+        rf-Parameters-v1060
+         supportedBandCombinationExt-r10[0]
+         supportedBandCombinationExt-r10[1]
+          supportedBandwidthCombinationSet-r10 : '11000000 00000000 00000000 00000000'B(3221225472)
+         supportedBandCombinationExt-r10[2]
+          supportedBandwidthCombinationSet-r10 : '11000000 00000000 00000000 00000000'B(3221225472)
+         supportedBandCombinationExt-r10[3]
+         supportedBandCombinationExt-r10[4]
+         supportedBandCombinationExt-r10[5]
+          supportedBandwidthCombinationSet-r10 : '11000000 00000000 00000000 00000000'B(3221225472)
+         supportedBandCombinationExt-r10[6]
+          supportedBandwidthCombinationSet-r10 : '11000000 00000000 00000000 00000000'B(3221225472)
+         supportedBandCombinationExt-r10[7]
+          supportedBandwidthCombinationSet-r10 : '11000000 00000000 00000000 00000000'B(3221225472)
+         supportedBandCombinationExt-r10[8]
+          supportedBandwidthCombinationSet-r10 : '11000000 00000000 00000000 00000000'B(3221225472)
+         supportedBandCombinationExt-r10[9]
+         supportedBandCombinationExt-r10[10]
+          supportedBandwidthCombinationSet-r10 : '11000000 00000000 00000000 00000000'B(3221225472)
+         supportedBandCombinationExt-r10[11]
+          supportedBandwidthCombinationSet-r10 : '11000000 00000000 00000000 00000000'B(3221225472)
+         supportedBandCombinationExt-r10[12]
+         supportedBandCombinationExt-r10[13]
+         supportedBandCombinationExt-r10[14]
+         supportedBandCombinationExt-r10[15]
+         supportedBandCombinationExt-r10[16]
+         supportedBandCombinationExt-r10[17]
+         supportedBandCombinationExt-r10[18]
+         supportedBandCombinationExt-r10[19]
+         supportedBandCombinationExt-r10[20]
+         supportedBandCombinationExt-r10[21]
+         supportedBandCombinationExt-r10[22]
+          supportedBandwidthCombinationSet-r10 : '11000000 00000000 00000000 00000000'B(3221225472)
+         supportedBandCombinationExt-r10[23]
+          supportedBandwidthCombinationSet-r10 : '11000000 00000000 00000000 00000000'B(3221225472)
+         supportedBandCombinationExt-r10[24]
+          supportedBandwidthCombinationSet-r10 : '11000000 00000000 00000000 00000000'B(3221225472)
+         supportedBandCombinationExt-r10[25]
+         supportedBandCombinationExt-r10[26]
+         supportedBandCombinationExt-r10[27]
+        nonCriticalExtension
+         nonCriticalExtension
+          pdcp-Parameters-v1130
+           pdcp-SN-Extension-r11 : supported
+          phyLayerParameters-v1130
+           multiACK-CSI-Reporting-r11 : supported
+           tdd-SpecialSubframe-r11 : supported
+          rf-Parameters-v1130
+          measParameters-v1130
+          interRAT-ParametersCDMA2000-v1130
+          otherParameters-r11
+          nonCriticalExtension
+           ue-Category-v1170 : 10
+           nonCriticalExtension
+            rf-Parameters-v1180
+             freqBandRetrieval-r11 : supported
+             requestedBands-r11[0] : 1
+             requestedBands-r11[1] : 3
+             requestedBands-r11[2] : 7
+             requestedBands-r11[3] : 20
+             requestedBands-r11[4] : 38
+            nonCriticalExtension
+             ue-Category-v11a0 : 12
+             nonCriticalExtension
+              rf-Parameters-v1250
+               supportedBandListEUTRA-v1250[0]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[1]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[2]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[3]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[4]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[5]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[6]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[7]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[8]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[9]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[10]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[11]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[12]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[13]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[14]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[15]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[16]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[17]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[18]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[19]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               supportedBandListEUTRA-v1250[20]
+                dl-256QAM-r12 : supported
+                ul-64QAM-r12 : supported
+               freqBandPriorityAdjustment-r12 : supported
+              ue-CategoryDL-r12 : 12
+              ue-CategoryUL-r12 : 13
+              nonCriticalExtension
+               nonCriticalExtension
+                nonCriticalExtension
+                 nonCriticalExtension
+                  pdcp-Parameters-v1310
+                  rlc-Parameters-v1310
+                  interRAT-ParametersWLAN-r13
+                  wlan-IW-Parameters-v1310
+                  lwip-Parameters-r13
+                  nonCriticalExtension
+                   nonCriticalExtension
+                    nonCriticalExtension
+                     nonCriticalExtension
+                      ce-Parameters-v1350
+                      nonCriticalExtension
+                       nonCriticalExtension
+                        phyLayerParameters-v1430
+                        rlc-Parameters-v1430
+                        otherParameters-v1430
+                        ce-Parameters-v1430
+                        nonCriticalExtension
+                         lwa-Parameters-v1440
+                         mac-Parameters-v1440
+                         nonCriticalExtension
+                          otherParameters-v1450
+                          nonCriticalExtension
+                           otherParameters-v1460
+                           nonCriticalExtension
+                            irat-ParametersNR-r15
+                             en-DC-r15 : supported
+                             supportedBandListEN-DC-r15[0]
+                              bandNR-r15 : 41
+                             supportedBandListEN-DC-r15[1]
+                              bandNR-r15 : 77
+                             supportedBandListEN-DC-r15[2]
+                              bandNR-r15 : 78
+                             supportedBandListEN-DC-r15[3]
+                              bandNR-r15 : 79
+                             supportedBandListEN-DC-r15[4]
+                              bandNR-r15 : 1
+                             supportedBandListEN-DC-r15[5]
+                              bandNR-r15 : 3
+                             supportedBandListEN-DC-r15[6]
+                              bandNR-r15 : 28
+                             supportedBandListEN-DC-r15[7]
+                              bandNR-r15 : 38
+                            featureSetsEUTRA-r15
+                             featureSetsDL-r15[0]
+                              featureSetPerCC-ListDL-r15[0] : 0
+                             featureSetsDL-r15[1]
+                              featureSetPerCC-ListDL-r15[0] : 1
+                             featureSetsDL-PerCC-r15[0]
+                              supportedMIMO-CapabilityDL-MRDC-r15 : twoLayers
+                             featureSetsDL-PerCC-r15[1]
+                              fourLayerTM3-TM4-r15 : supported
+                              supportedMIMO-CapabilityDL-MRDC-r15 : fourLayers
+                             featureSetsUL-r15[0]
+                              featureSetPerCC-ListUL-r15[0] : 0
+                             featureSetsUL-PerCC-r15[0]
