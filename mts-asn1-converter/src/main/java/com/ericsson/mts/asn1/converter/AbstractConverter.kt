@@ -570,14 +570,8 @@ abstract class AbstractConverter {
             componentTypeList = typesStack.peek()
         }
 
-        val componentType = componentTypeList!!.find {
+        return componentTypeList!!.find {
             it.IDENTIFIER().text == identifier
-        } ?: componentTypeList.find {
-            /* Try to find even types that have changed name in recent specs
-            example profile-0x0001 -> profile-0x0001-r15 */
-            it.IDENTIFIER().text.dropLastWhile { it != '-'
-            }.removeSuffix("-") == identifier
-        }
-        return componentType?.asnType()
+        }?.asnType()
     }
 }
