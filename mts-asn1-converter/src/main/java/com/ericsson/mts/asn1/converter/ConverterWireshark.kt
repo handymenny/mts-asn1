@@ -42,7 +42,8 @@ class ConverterWireshark : AbstractConverter() {
             result = result.replace(it, "")
         }
         // tshark doesn't correctly indent elements that are too nested
-        val addSpaceWorkarounds = listOf("eLCID-Support-r15", "FeatureSetDL-PerCC-Id-r15", "FeatureSetUL-PerCC-Id-r15")
+        val addSpaceWorkarounds = listOf("eLCID-Support-r15", "FeatureSetDL-PerCC-Id-r15", "FeatureSetUL-PerCC-Id-r15",
+            "eutra-CGI-Reporting-ENDC-r15", "utra-GERAN-CGI-Reporting-ENDC-r15")
         addSpaceWorkarounds.forEach {
             result = result.replace(it, " $it")
         }
