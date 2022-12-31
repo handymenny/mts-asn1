@@ -104,6 +104,28 @@ class WiresharkLTERRCTests : AbstractTests() {
         )
     }
 
+    @Test
+    @Throws(Exception::class)
+    fun testUEEutraCapabilityIntel() {
+        test(
+            "UE-EUTRA-Capability",
+            "/data/Wireshark/UeEutraCapabilityIntel.txt",
+            "/data/oracle/UeEutraCapabilityIntel.json",
+            "/data/oracle/UeEutraCapabilityIntel.xml"
+        )
+    }
+
+    @Test
+    @Throws(Exception::class)
+    fun testUEEutraCapabilityIntel2() {
+        test(
+            "UE-EUTRA-Capability",
+            "/data/Wireshark/UeEutraCapabilityIntel2.txt",
+            "/data/oracle/UeEutraCapabilityIntel2.json",
+            "/data/oracle/UeEutraCapabilityIntel2.xml"
+        )
+    }
+
     companion object {
         @BeforeAll
         @JvmStatic

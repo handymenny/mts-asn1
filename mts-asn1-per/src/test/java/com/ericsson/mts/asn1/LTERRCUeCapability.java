@@ -61,4 +61,15 @@ public class LTERRCUeCapability extends AbstractTests {
         test("UE-EUTRA-Capability", "/data/LTERRC/UL_DCCH/UeEutraCapabilityMediatek.bin", "/data/LTERRC/UL_DCCH/UeEutraCapabilityMediatek.json", "/data/LTERRC/UL_DCCH/UeEutraCapabilityMediatek.xml");
     }
 
+    @Test
+    void testUeEutraCapabilityIntel() throws Exception {
+        test("UE-EUTRA-Capability", "/data/LTERRC/UL_DCCH/UeEutraCapabilityIntel.bin", "/data/LTERRC/UL_DCCH/UeEutraCapabilityIntel.json", "/data/LTERRC/UL_DCCH/UeEutraCapabilityIntel.xml");
+    }
+
+    @Test
+    void testUeEutraCapabilityIntel2() throws Exception {
+        test("UE-EUTRA-Capability", "/data/LTERRC/UL_DCCH/UeEutraCapabilityIntel2.bin", "/data/LTERRC/UL_DCCH/UeEutraCapabilityIntel2.json", "/data/LTERRC/UL_DCCH/UeEutraCapabilityIntel2.xml");
+    }
+
+
 }
