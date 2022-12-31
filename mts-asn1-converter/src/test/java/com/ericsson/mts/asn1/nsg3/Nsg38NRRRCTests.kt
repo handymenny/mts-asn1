@@ -23,7 +23,7 @@ class Nsg38NRRRCTests : AbstractTests() {
     fun testUeMrdcCapability() {
         test(
             "UE-MRDC-Capability",
-            "/data/NSG3/3.8_and_above/UEMrdcCapability.txt",
+            "/data/NSG3/3.8_and_above/UeMrdcCapability.txt",
             "/data/oracle/UeMrdcCapability.json",
             "/data/oracle/UeMrdcCapability.xml"
         )

@@ -23,9 +23,9 @@ class Nsg38LTERRCTests : AbstractTests() {
     fun testUEEutraCapability() {
         test(
             "UE-EUTRA-Capability",
-            "/data/NSG3/3.8_and_above/UEEutraCapability.txt",
-            "/data/oracle/UEEutraCapability.json",
-            "/data/oracle/UEEutraCapability.xml"
+            "/data/NSG3/3.8_and_above/UeEutraCapability.txt",
+            "/data/oracle/UeEutraCapability.json",
+            "/data/oracle/UeEutraCapability.xml"
         )
     }
 
@@ -34,9 +34,9 @@ class Nsg38LTERRCTests : AbstractTests() {
     fun testUEEutraCapabilityKirin() {
         test(
             "UE-EUTRA-Capability",
-            "/data/NSG3/3.8_and_above/UEEutraCapabilityKirin.txt",
-            "/data/oracle/UEEutraCapabilityKirin.json",
-            "/data/oracle/UEEutraCapabilityKirin.xml"
+            "/data/NSG3/3.8_and_above/UeEutraCapabilityKirin.txt",
+            "/data/oracle/UeEutraCapabilityKirin.json",
+            "/data/oracle/UeEutraCapabilityKirin.xml"
         )
     }
 
@@ -46,9 +46,9 @@ class Nsg38LTERRCTests : AbstractTests() {
     fun testUEEutraCapabilityRequestDiffFallback() {
         test(
             "UE-EUTRA-Capability",
-            "/data/NSG3/3.8_and_above/UEEutraCapabilityRequestDiffFallback.txt",
-            "/data/oracle/UEEutraCapabilityRequestDiffFallback.json",
-            "/data/oracle/UEEutraCapabilityRequestDiffFallback.xml"
+            "/data/NSG3/3.8_and_above/UeEutraCapabilityRequestDiffFallback.txt",
+            "/data/oracle/UeEutraCapabilityRequestDiffFallback.json",
+            "/data/oracle/UeEutraCapabilityRequestDiffFallback.xml"
         )
     }
 
@@ -57,9 +57,9 @@ class Nsg38LTERRCTests : AbstractTests() {
     fun testUEEutraCapabilitySkipFallback() {
         test(
             "UE-EUTRA-Capability",
-            "/data/NSG3/3.8_and_above/UEEutraCapabilitySkipFallback.txt",
-            "/data/oracle/UEEutraCapabilitySkipFallback.json",
-            "/data/oracle/UEEutraCapabilitySkipFallback.xml"
+            "/data/NSG3/3.8_and_above/UeEutraCapabilitySkipFallback.txt",
+            "/data/oracle/UeEutraCapabilitySkipFallback.json",
+            "/data/oracle/UeEutraCapabilitySkipFallback.xml"
         )
     }
 

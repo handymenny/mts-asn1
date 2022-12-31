@@ -22,8 +22,8 @@ class Nsg2LTERRCTests : AbstractTests() {
     fun testUeEutraCapability2() {
         test(
             "UE-EUTRA-Capability",
-            "/data/NSG2/UEEutraCapability2.txt",
-            "/data/oracle/UEEutraCapability2.json",
+            "/data/NSG2/UeEutraCapability2.txt",
+            "/data/oracle/UeEutraCapability2.json",
             "/data/oracle/UeEutraCapability2.xml"
         )
     }
@@ -33,8 +33,8 @@ class Nsg2LTERRCTests : AbstractTests() {
     fun testUeEutraCapability3() {
         test(
             "UE-EUTRA-Capability",
-            "/data/NSG2/UEEutraCapability3.txt",
-            "/data/oracle/UEEutraCapability3.json",
+            "/data/NSG2/UeEutraCapability3.txt",
+            "/data/oracle/UeEutraCapability3.json",
             "/data/oracle/UeEutraCapability3.xml"
         )
     }
@@ -44,8 +44,8 @@ class Nsg2LTERRCTests : AbstractTests() {
     fun testUeEutraCapability4() {
         test(
             "UE-EUTRA-Capability",
-            "/data/NSG2/UEEutraCapability4.txt",
-            "/data/oracle/UEEutraCapability4.json",
+            "/data/NSG2/UeEutraCapability4.txt",
+            "/data/oracle/UeEutraCapability4.json",
             "/data/oracle/UeEutraCapability4.xml"
         )
     }
@@ -55,8 +55,8 @@ class Nsg2LTERRCTests : AbstractTests() {
     fun testUeEutraCapability5() {
         test(
             "UE-EUTRA-Capability",
-            "/data/NSG2/UEEutraCapability5.txt",
-            "/data/oracle/UEEutraCapability5.json",
+            "/data/NSG2/UeEutraCapability5.txt",
+            "/data/oracle/UeEutraCapability5.json",
             "/data/oracle/UeEutraCapability5.xml"
         )
     }

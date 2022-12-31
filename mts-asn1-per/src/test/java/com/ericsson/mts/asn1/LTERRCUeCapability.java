@@ -18,7 +18,7 @@ public class LTERRCUeCapability extends AbstractTests {
 
     @Test
     void testUeCapabilityInformation() throws Exception {
-        test("UL-DCCH-Message", "/data/LTERRC/UL_DCCH/UECapabilityInformation.bin", "/data/LTERRC/UL_DCCH/UECapabilityInformation.json", "/data/LTERRC/UL_DCCH/UECapabilityInformation.xml");
+        test("UL-DCCH-Message", "/data/LTERRC/UL_DCCH/UeCapabilityInformation.bin", "/data/LTERRC/UL_DCCH/UeCapabilityInformation.json", "/data/LTERRC/UL_DCCH/UeCapabilityInformation.xml");
     }
 
     @Test
@@ -43,12 +43,12 @@ public class LTERRCUeCapability extends AbstractTests {
 
     @Test
     void testUEEutraCapabilityRequestDiffFallback() throws Exception {
-        test("UE-EUTRA-Capability", "/data/LTERRC/UL_DCCH/UEEutraCapabilityRequestDiffFallback.bin", "/data/LTERRC/UL_DCCH/UEEutraCapabilityRequestDiffFallback.json", "/data/LTERRC/UL_DCCH/UEEutraCapabilityRequestDiffFallback.xml");
+        test("UE-EUTRA-Capability", "/data/LTERRC/UL_DCCH/UeEutraCapabilityRequestDiffFallback.bin", "/data/LTERRC/UL_DCCH/UeEutraCapabilityRequestDiffFallback.json", "/data/LTERRC/UL_DCCH/UeEutraCapabilityRequestDiffFallback.xml");
     }
 
     @Test
     void testUEEutraCapabilitySkipFallback() throws Exception {
-        test("UE-EUTRA-Capability", "/data/LTERRC/UL_DCCH/UEEutraCapabilitySkipFallback.bin", "/data/LTERRC/UL_DCCH/UEEutraCapabilitySkipFallback.json", "/data/LTERRC/UL_DCCH/UEEutraCapabilitySkipFallback.xml");
+        test("UE-EUTRA-Capability", "/data/LTERRC/UL_DCCH/UeEutraCapabilitySkipFallback.bin", "/data/LTERRC/UL_DCCH/UeEutraCapabilitySkipFallback.json", "/data/LTERRC/UL_DCCH/UeEutraCapabilitySkipFallback.xml");
     }
 
     @Test

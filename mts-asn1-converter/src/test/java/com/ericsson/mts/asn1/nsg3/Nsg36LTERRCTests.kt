@@ -22,9 +22,9 @@ class Nsg36LTERRCTests : AbstractTests() {
     fun testUEEutraCapabilityRequestDiffFallback() {
         test(
             "UE-EUTRA-Capability",
-            "/data/NSG3/3.6_and_below/UEEutraCapabilityRequestDiffFallback.txt",
-            "/data/oracle/UEEutraCapabilityRequestDiffFallback.json",
-            "/data/oracle/UEEutraCapabilityRequestDiffFallback.xml"
+            "/data/NSG3/3.6_and_below/UeEutraCapabilityRequestDiffFallback.txt",
+            "/data/oracle/UeEutraCapabilityRequestDiffFallback.json",
+            "/data/oracle/UeEutraCapabilityRequestDiffFallback.xml"
         )
     }
 
@@ -33,9 +33,9 @@ class Nsg36LTERRCTests : AbstractTests() {
     fun testUEEutraCapabilitySkipFallback() {
         test(
             "UE-EUTRA-Capability",
-            "/data/NSG3/3.6_and_below/UEEutraCapabilitySkipFallback.txt",
-            "/data/oracle/UEEutraCapabilitySkipFallback.json",
-            "/data/oracle/UEEutraCapabilitySkipFallback.xml"
+            "/data/NSG3/3.6_and_below/UeEutraCapabilitySkipFallback.txt",
+            "/data/oracle/UeEutraCapabilitySkipFallback.json",
+            "/data/oracle/UeEutraCapabilitySkipFallback.xml"
         )
     }
 

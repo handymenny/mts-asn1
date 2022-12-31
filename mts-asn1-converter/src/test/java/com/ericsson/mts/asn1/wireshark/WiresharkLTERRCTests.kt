@@ -21,7 +21,7 @@ class WiresharkLTERRCTests : AbstractTests() {
     fun testUeEutraCapability() {
         test(
             "UE-EUTRA-Capability",
-            "/data/Wireshark/UEEutraCapability.txt",
+            "/data/Wireshark/UeEutraCapability.txt",
             "/data/oracle/UeEutraCapability.json",
             "/data/oracle/UeEutraCapability.xml"
         )
@@ -65,9 +65,9 @@ class WiresharkLTERRCTests : AbstractTests() {
     fun testUEEutraCapabilityRequestDiffFallback() {
         test(
             "UE-EUTRA-Capability",
-            "/data/Wireshark/UEEutraCapabilityRequestDiffFallback.txt",
-            "/data/oracle/UEEutraCapabilityRequestDiffFallback.json",
-            "/data/oracle/UEEutraCapabilityRequestDiffFallback.xml"
+            "/data/Wireshark/UeEutraCapabilityRequestDiffFallback.txt",
+            "/data/oracle/UeEutraCapabilityRequestDiffFallback.json",
+            "/data/oracle/UeEutraCapabilityRequestDiffFallback.xml"
         )
     }
 
@@ -76,9 +76,9 @@ class WiresharkLTERRCTests : AbstractTests() {
     fun testUEEutraCapabilitySkipFallback() {
         test(
             "UE-EUTRA-Capability",
-            "/data/Wireshark/UEEutraCapabilitySkipFallback.txt",
-            "/data/oracle/UEEutraCapabilitySkipFallback.json",
-            "/data/oracle/UEEutraCapabilitySkipFallback.xml"
+            "/data/Wireshark/UeEutraCapabilitySkipFallback.txt",
+            "/data/oracle/UeEutraCapabilitySkipFallback.json",
+            "/data/oracle/UeEutraCapabilitySkipFallback.xml"
         )
     }
 
@@ -87,9 +87,9 @@ class WiresharkLTERRCTests : AbstractTests() {
     fun testUEEutraCapabilityKirin() {
         test(
             "UE-EUTRA-Capability",
-            "/data/Wireshark/UEEutraCapabilityKirin.txt",
-            "/data/oracle/UEEutraCapabilityKirin.json",
-            "/data/oracle/UEEutraCapabilityKirin.xml"
+            "/data/Wireshark/UeEutraCapabilityKirin.txt",
+            "/data/oracle/UeEutraCapabilityKirin.json",
+            "/data/oracle/UeEutraCapabilityKirin.xml"
         )
     }
 
@@ -98,9 +98,9 @@ class WiresharkLTERRCTests : AbstractTests() {
     fun testUEEutraCapabilityMediatek() {
         test(
             "UE-EUTRA-Capability",
-            "/data/Wireshark/UEEutraCapabilityMediatek.txt",
-            "/data/oracle/UEEutraCapabilityMediatek.json",
-            "/data/oracle/UEEutraCapabilityMediatek.xml"
+            "/data/Wireshark/UeEutraCapabilityMediatek.txt",
+            "/data/oracle/UeEutraCapabilityMediatek.json",
+            "/data/oracle/UeEutraCapabilityMediatek.xml"
         )
     }
 
