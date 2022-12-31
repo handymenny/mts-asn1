@@ -15,6 +15,7 @@ import com.ericsson.mts.asn1.registry.ConverterRegistry
 import org.antlr.v4.runtime.ParserRuleContext
 import java.math.BigInteger
 import java.util.*
+import com.ericsson.mts.asn1.util.peekOrNull
 
 /**
  *
@@ -575,16 +576,9 @@ abstract class AbstractConverter {
     }
 
     protected fun findIdInComponentTypes(identifier: String, componentTypes: List<NamedTypeContext>? = null): AsnTypeContext? {
-        var componentTypeList = componentTypes
+        val componentTypeList = componentTypes ?: typesStack.peekOrNull()
 
-        if (componentTypeList == null) {
-            if (typesStack.isEmpty()) {
-                return null
-            }
-            componentTypeList = typesStack.peek()
-        }
-
-        return componentTypeList!!.find {
+        return componentTypeList?.find {
             it.IDENTIFIER().text == identifier
         }?.asnType()
     }
@@ -592,16 +586,9 @@ abstract class AbstractConverter {
     // Return the identifier of a component whose identifier contains the given identifier or viceversa.
     // Difference between output identifier and input identifier will always be < 7, to limit false-positives
     private fun findSimilarComponent(identifier: String, componentTypes: List<NamedTypeContext>? = null): String? {
-        var componentTypeList = componentTypes
+        val componentTypeList = componentTypes ?: typesStack.peekOrNull()
 
-        if (componentTypeList == null) {
-            if (typesStack.isEmpty()) {
-                return null
-            }
-            componentTypeList = typesStack.peek()
-        }
-
-        return componentTypeList!!.find {
+        return componentTypeList?.find {
             val text = it.IDENTIFIER().text
             when (text.length - identifier.length) {
                 in 1..6 -> {
