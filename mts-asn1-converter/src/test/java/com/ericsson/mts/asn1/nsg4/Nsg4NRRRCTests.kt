@@ -42,6 +42,17 @@ class Nsg4NRRRCTests : AbstractTests() {
 
     @Test
     @Throws(Exception::class)
+    fun testUeMrdcCapabilityMediatek() {
+        test(
+            "UE-MRDC-Capability",
+            "/data/NSG4/UeMrdcCapabilityMediatek.txt",
+            "/data/oracle/UeMrdcCapabilityMediatek.json",
+            "/data/oracle/UeMrdcCapabilityMediatek.xml"
+        )
+    }
+
+    @Test
+    @Throws(Exception::class)
     fun testUeNrCapability() {
         test(
             "UE-NR-Capability",
@@ -59,6 +70,17 @@ class Nsg4NRRRCTests : AbstractTests() {
             "/data/NSG4/UeNrCapabilityKirin.txt",
             "/data/oracle/UeNrCapabilityKirin.json",
             "/data/oracle/UeNrCapabilityKirin.xml"
+        )
+    }
+
+    @Test
+    @Throws(Exception::class)
+    fun testUeNrCapabilityMediatek() {
+        test(
+            "UE-NR-Capability",
+            "/data/NSG4/UeNrCapabilityMediatek.txt",
+            "/data/oracle/UeNrCapabilityMediatek.json",
+            "/data/oracle/UeNrCapabilityMediatek.xml"
         )
     }
 

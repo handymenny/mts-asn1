@@ -1,0 +1,1858 @@
+                                measAndMobParametersMRDC
+                                    measAndMobParametersMRDC-XDD-Diff
+                                        sftd-MeasPSCell: supported (0)
+                                        sftd-MeasNR-Cell: supported (0)
+                                    measAndMobParametersMRDC-FRX-Diff
+                                        simultaneousRxDataSSB-DiffNumerology: supported (0)
+                                rf-ParametersMRDC
+                                    supportedBandCombinationList: 20 items
+                                        Item 0
+                                            BandCombination
+                                                bandList: 3 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 1
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 1
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 2
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 0
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 1
+                                            BandCombination
+                                                bandList: 3 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 1
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 20
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 2
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 1
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 2
+                                            BandCombination
+                                                bandList: 4 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 1
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 1
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 2
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 3
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 3
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 2
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 3
+                                            BandCombination
+                                                bandList: 4 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 1
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 1
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 2
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 3
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 3
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 3
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 4
+                                            BandCombination
+                                                bandList: 4 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 1
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 7
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 2
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 7
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 3
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 4
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 5
+                                            BandCombination
+                                                bandList: 4 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 1
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 7
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 2
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 7
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 3
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 5
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 6
+                                            BandCombination
+                                                bandList: 4 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 1
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 7
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 2
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 20
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 3
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 4
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 7
+                                            BandCombination
+                                                bandList: 5 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 1
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 3
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 2
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 7
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 3
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 20
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 4
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 6
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 8
+                                            BandCombination
+                                                bandList: 5 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 1
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 3
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 2
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 7
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 3
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 20
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 4
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 7
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 9
+                                            BandCombination
+                                                bandList: 5 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 1
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 3
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 2
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 7
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 3
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 20
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 4
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 8
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 10
+                                            BandCombination
+                                                bandList: 5 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 1
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 3
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 2
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 7
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 3
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 20
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 4
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 9
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 11
+                                            BandCombination
+                                                bandList: 2 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 3
+                                                                ca-BandwidthClassDL-EUTRA: c (2)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 10
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 12
+                                            BandCombination
+                                                bandList: 3 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 3
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 20
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 2
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 1
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 13
+                                            BandCombination
+                                                bandList: 4 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 3
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 3
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 2
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 7
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 3
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 11
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 14
+                                            BandCombination
+                                                bandList: 4 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 3
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 3
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 2
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 7
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 3
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 12
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 15
+                                            BandCombination
+                                                bandList: 4 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 3
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 7
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 2
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 7
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 3
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 4
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 16
+                                            BandCombination
+                                                bandList: 4 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 3
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 7
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 2
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 7
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 3
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 5
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 17
+                                            BandCombination
+                                                bandList: 4 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 3
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 7
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 2
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 20
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 3
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 4
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 18
+                                            BandCombination
+                                                bandList: 2 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 7
+                                                                ca-BandwidthClassDL-EUTRA: c (2)
+                                                                ca-BandwidthClassUL-EUTRA: c (2)
+                                                    Item 1
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 13
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                        Item 19
+                                            BandCombination
+                                                bandList: 3 items
+                                                    Item 0
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 7
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                    Item 1
+                                                        BandParameters: eutra (0)
+                                                            eutra
+                                                                bandEUTRA: 20
+                                                                ca-BandwidthClassDL-EUTRA: a (0)
+                                                                ca-BandwidthClassUL-EUTRA: a (0)
+                                                    Item 2
+                                                        BandParameters: nr (1)
+                                                            nr
+                                                                bandNR: 78
+                                                                ca-BandwidthClassDL-NR: a (0)
+                                                                ca-BandwidthClassUL-NR: a (0)
+                                                featureSetCombination: 1
+                                                ca-ParametersNR
+                                                    diffNumerologyWithinPUCCH-GroupSmallerSCS: supported (0)
+                                                mrdc-Parameters
+                                                    dynamicPowerSharingENDC: supported (0)
+                                                    tdm-Pattern: supported (0)
+                                                    ul-SharingEUTRA-NR: tdm (0)
+                                                    ul-SwitchingTimeEUTRA-NR: type1 (0)
+                                                    simultaneousRxTxInterBandENDC: supported (0)
+                                                supportedBandwidthCombinationSet: 80 [bit length 1, 7 LSB pad bits, 1... .... decimal value 1]
+                                    appliedFreqBandListFilter: 5 items
+                                        Item 0
+                                            FreqBandInformation: bandInformationEUTRA (0)
+                                                bandInformationEUTRA
+                                                    bandEUTRA: 1
+                                        Item 1
+                                            FreqBandInformation: bandInformationEUTRA (0)
+                                                bandInformationEUTRA
+                                                    bandEUTRA: 3
+                                        Item 2
+                                            FreqBandInformation: bandInformationEUTRA (0)
+                                                bandInformationEUTRA
+                                                    bandEUTRA: 7
+                                        Item 3
+                                            FreqBandInformation: bandInformationEUTRA (0)
+                                                bandInformationEUTRA
+                                                    bandEUTRA: 20
+                                        Item 4
+                                            FreqBandInformation: bandInformationNR (1)
+                                                bandInformationNR
+                                                    bandNR: 78
+                                    supportedBandCombinationList-v1540: 20 items
+                                        Item 0
+                                            BandCombination-v1540
+                                                bandList-v1540: 3 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 2
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 1
+                                            BandCombination-v1540
+                                                bandList-v1540: 3 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 2
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 2
+                                            BandCombination-v1540
+                                                bandList-v1540: 4 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 2
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 3
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 3
+                                            BandCombination-v1540
+                                                bandList-v1540: 4 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 2
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 3
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 4
+                                            BandCombination-v1540
+                                                bandList-v1540: 4 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 2
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 3
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 5
+                                            BandCombination-v1540
+                                                bandList-v1540: 4 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 2
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 3
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 6
+                                            BandCombination-v1540
+                                                bandList-v1540: 4 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 2
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 3
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 7
+                                            BandCombination-v1540
+                                                bandList-v1540: 5 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 2
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 3
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 4
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 8
+                                            BandCombination-v1540
+                                                bandList-v1540: 5 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 2
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 3
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 4
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 9
+                                            BandCombination-v1540
+                                                bandList-v1540: 5 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 2
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 3
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 4
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 10
+                                            BandCombination-v1540
+                                                bandList-v1540: 5 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 2
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 3
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 4
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 11
+                                            BandCombination-v1540
+                                                bandList-v1540: 2 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 12
+                                            BandCombination-v1540
+                                                bandList-v1540: 3 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 2
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 13
+                                            BandCombination-v1540
+                                                bandList-v1540: 4 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 2
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 3
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 14
+                                            BandCombination-v1540
+                                                bandList-v1540: 4 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 2
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 3
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 15
+                                            BandCombination-v1540
+                                                bandList-v1540: 4 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 2
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 3
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 16
+                                            BandCombination-v1540
+                                                bandList-v1540: 4 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 2
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 3
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 17
+                                            BandCombination-v1540
+                                                bandList-v1540: 4 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 2
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 3
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 18
+                                            BandCombination-v1540
+                                                bandList-v1540: 2 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                        Item 19
+                                            BandCombination-v1540
+                                                bandList-v1540: 3 items
+                                                    Item 0
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 1
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: notSupported (7)
+                                                    Item 2
+                                                        BandParameters-v1540
+                                                            srs-TxSwitch
+                                                                supportedSRS-TxPortSwitch: t1r2 (0)
+                                                ca-ParametersNR-v1540
+                                                    csi-RS-IM-ReceptionForFeedbackPerBandComb
+                                                        maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC: 10
+                                                        totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC: 64
+                                                    simultaneousCSI-ReportsAllCC: 5
+                                generalParametersMRDC
+                                    splitSRB-WithOneUL-Path: supported (0)
+                                    splitDRB-withUL-Both-MCG-SCG: supported (0)
+                                    srb3: supported (0)
+                                featureSetCombinations: 14 items
+                                    Item 0
+                                        FeatureSetCombination: 3 items
+                                            Item 0
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 1
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 1
+                                            Item 1
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 0
+                                            Item 2
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 1
+                                                                uplinkSetNR: 1
+                                                    Item 1
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 2
+                                                                uplinkSetNR: 2
+                                    Item 1
+                                        FeatureSetCombination: 3 items
+                                            Item 0
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 0
+                                            Item 1
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 1
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 1
+                                            Item 2
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 1
+                                                                uplinkSetNR: 1
+                                                    Item 1
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 2
+                                                                uplinkSetNR: 2
+                                    Item 2
+                                        FeatureSetCombination: 4 items
+                                            Item 0
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 1
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 1
+                                            Item 1
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 2
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 3
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 1
+                                                                uplinkSetNR: 1
+                                                    Item 1
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 2
+                                                                uplinkSetNR: 2
+                                    Item 3
+                                        FeatureSetCombination: 4 items
+                                            Item 0
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 1
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 2
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 1
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 1
+                                            Item 3
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 1
+                                                                uplinkSetNR: 1
+                                                    Item 1
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 2
+                                                                uplinkSetNR: 2
+                                    Item 4
+                                        FeatureSetCombination: 4 items
+                                            Item 0
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 1
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 1
+                                            Item 1
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 2
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 3
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 1
+                                                                uplinkSetNR: 1
+                                                    Item 1
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 2
+                                                                uplinkSetNR: 2
+                                    Item 5
+                                        FeatureSetCombination: 4 items
+                                            Item 0
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 1
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 1
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 1
+                                            Item 2
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 0
+                                            Item 3
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 1
+                                                                uplinkSetNR: 1
+                                                    Item 1
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 2
+                                                                uplinkSetNR: 2
+                                    Item 6
+                                        FeatureSetCombination: 5 items
+                                            Item 0
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 1
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 1
+                                            Item 1
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 2
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 3
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 4
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 1
+                                                                uplinkSetNR: 1
+                                                    Item 1
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 2
+                                                                uplinkSetNR: 2
+                                    Item 7
+                                        FeatureSetCombination: 5 items
+                                            Item 0
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 1
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 1
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 1
+                                            Item 2
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 3
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 4
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 1
+                                                                uplinkSetNR: 1
+                                                    Item 1
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 2
+                                                                uplinkSetNR: 2
+                                    Item 8
+                                        FeatureSetCombination: 5 items
+                                            Item 0
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 1
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 2
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 1
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 1
+                                            Item 3
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 4
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 1
+                                                                uplinkSetNR: 1
+                                                    Item 1
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 2
+                                                                uplinkSetNR: 2
+                                    Item 9
+                                        FeatureSetCombination: 5 items
+                                            Item 0
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 1
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 2
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 3
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 1
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 1
+                                            Item 4
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 1
+                                                                uplinkSetNR: 1
+                                                    Item 1
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 2
+                                                                uplinkSetNR: 2
+                                    Item 10
+                                        FeatureSetCombination: 2 items
+                                            Item 0
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 3
+                                                                uplinkSetEUTRA: 1
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 3
+                                                                uplinkSetEUTRA: 1
+                                            Item 1
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 1
+                                                                uplinkSetNR: 1
+                                                    Item 1
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 2
+                                                                uplinkSetNR: 2
+                                    Item 11
+                                        FeatureSetCombination: 4 items
+                                            Item 0
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 1
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 1
+                                            Item 1
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 0
+                                            Item 2
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 3
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 1
+                                                                uplinkSetNR: 1
+                                                    Item 1
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 2
+                                                                uplinkSetNR: 2
+                                    Item 12
+                                        FeatureSetCombination: 4 items
+                                            Item 0
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 1
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 2
+                                                                uplinkSetEUTRA: 0
+                                            Item 2
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 1
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 1
+                                                                uplinkSetEUTRA: 1
+                                            Item 3
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 1
+                                                                uplinkSetNR: 1
+                                                    Item 1
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 2
+                                                                uplinkSetNR: 2
+                                    Item 13
+                                        FeatureSetCombination: 2 items
+                                            Item 0
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 3
+                                                                uplinkSetEUTRA: 2
+                                                    Item 1
+                                                        FeatureSet: eutra (0)
+                                                            eutra
+                                                                downlinkSetEUTRA: 3
+                                                                uplinkSetEUTRA: 2
+                                            Item 1
+                                                FeatureSetsPerBand: 2 items
+                                                    Item 0
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 1
+                                                                uplinkSetNR: 1
+                                                    Item 1
+                                                        FeatureSet: nr (1)
+                                                            nr
+                                                                downlinkSetNR: 2
+                                                                uplinkSetNR: 2
+                                pdcp-ParametersMRDC-v1530
+                                    pdcp-DuplicationSplitSRB: supported (0)
+                                    pdcp-DuplicationSplitDRB: supported (0)

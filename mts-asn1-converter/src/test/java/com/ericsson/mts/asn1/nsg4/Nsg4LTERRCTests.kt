@@ -71,6 +71,17 @@ class Nsg4LTERRCTests : AbstractTests() {
         )
     }
 
+    @Test
+    @Throws(Exception::class)
+    fun testUeEutraCapabilityMediatek() {
+        test(
+            "UE-EUTRA-Capability",
+            "/data/NSG4/UeEutraCapabilityMediatek.txt",
+            "/data/oracle/UeEutraCapabilityMediatek.json",
+            "/data/oracle/UeEutraCapabilityMediatek.xml"
+        )
+    }
+
     companion object {
         @BeforeAll
         @JvmStatic
