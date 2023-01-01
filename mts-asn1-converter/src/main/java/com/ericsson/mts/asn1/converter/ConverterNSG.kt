@@ -59,21 +59,20 @@ class ConverterNSG : AbstractConverter() {
         val line = lineArray[index]
         var read = 1
         val minLength = getLowerBound(identifier)?.intValueExact() ?: 0
-        var bits = getBitsValue(line, minLength)
-        if (bits.isNullOrBlank()) {
-            bits = ""
-            var nextLine = lineArray[index + read]
+        var bits = getBitsValue(line, minLength) ?: ""
+        var nextLine = lineArray.getOrNull(index + read)
+        if (bits.isEmpty() && nextLine != null) {
             val newLevel = getIndentationLevel(nextLine)
             if (newLevel > indentation) {
                 do {
-                    bits += if (getBooleanValueCustom(nextLine, "supported")) {
+                    bits += if (getBooleanValueCustom(nextLine!!, "supported")) {
                         "1"
                     } else {
                         "0"
                     }
                     read++
-                    nextLine = lineArray[index + read]
-                } while (newLevel == getIndentationLevel(nextLine))
+                    nextLine = lineArray.getOrNull(index + read) ?: break
+                } while (newLevel == getIndentationLevel(nextLine!!))
             }
         }
         if (bits.length < minLength) {
@@ -162,8 +161,8 @@ class ConverterNSG : AbstractConverter() {
                 if (useNsg36path) {
                     read = 0
                 }
-                var nextLine = lineArray[index + read]
-                var newLevel = getIndentationLevel(nextLine)
+                var nextLine: String? = lineArray.getOrNull(index + read) ?: return read
+                var newLevel = getIndentationLevel(nextLine!!)
                 while (indentation < newLevel || (indentation <= newLevel && useNsg36path)) {
 
                     if (!useNsg36path) {
@@ -174,7 +173,7 @@ class ConverterNSG : AbstractConverter() {
                     var objectFound = false
 
                     // NSG 2.x = SupportedBandList[0], NSG 3.6 = supportedBandlist[0], NSG 4.x = [0]
-                    val newIdentifier = getIdentifier(nextLine)
+                    val newIdentifier = getIdentifier(nextLine!!)
 
                     if (!useNsg36path && newIdentifier.isNotBlank()) {
                         // NSG 2.x path
@@ -203,16 +202,16 @@ class ConverterNSG : AbstractConverter() {
                         }
                         read += processLines(index + read, lineArray, disablePop = useNsg36path)
                     }
-                    nextLine = lineArray[index + read]
+                    nextLine = lineArray.getOrNull(index + read) ?: break
                     newLevel = getIndentationLevel(nextLine)
                 }
             }
             is EnumeratedTypeContext -> {
-                var nextLine = lineArray[index + read]
+                var nextLine = lineArray.getOrNull(index + read) ?: return read
                 while (nextLine.matches("^.*\\[\\d+]\\s*:.*$".toRegex())) {
                     writer.stringValue(identifier, getStringValue(nextLine))
                     read++
-                    nextLine = lineArray[index + read]
+                    nextLine = lineArray.getOrNull(index + read) ?: return read
                 }
             }
             is SequenceOfTypeContext -> {
@@ -221,7 +220,7 @@ class ConverterNSG : AbstractConverter() {
                     nsgVersion36 = true
                     read = 0
                 }
-                var nextLine = lineArray[index + read]
+                var nextLine = lineArray.getOrNull(index + read) ?: return read
                 var newLevel = getIndentationLevel(nextLine)
                 while (indentation < newLevel || (useNsg36path && indentation <= newLevel)) {
                     if (indentation == newLevel) {
@@ -231,7 +230,7 @@ class ConverterNSG : AbstractConverter() {
                         popStacks(newLevel)
                     }
                     read += processLines(index + read, lineArray, overrideType = subType, overrideIdentifier = identifier)
-                    nextLine = lineArray[index + read]
+                    nextLine = lineArray.getOrNull(index + read) ?: return read
                     newLevel = getIndentationLevel(nextLine)
                 }
 
@@ -240,11 +239,11 @@ class ConverterNSG : AbstractConverter() {
                 if (lineArray[index].matches("^.*\\[\\d+]\\s*:.*$".toRegex())) {
                     read = 0
                 }
-                var nextLine = lineArray[index + read]
+                var nextLine = lineArray.getOrNull(index + read) ?: return read
                 while (nextLine.matches("^.*\\[\\d+]\\s*:.*$".toRegex())) {
                     writer.intValue(identifier, getIntValue(nextLine), null)
                     read++
-                    nextLine = lineArray[index + read]
+                    nextLine = lineArray.getOrNull(index + read) ?: return read
                 }
             }
             is ChoiceTypeContext -> {
@@ -253,7 +252,7 @@ class ConverterNSG : AbstractConverter() {
                     read = 0
                 }
                 val indentationObject = subType.alternativeTypeLists().rootAlternativeTypeList().alternativeTypeList().namedType()
-                var nextLine = lineArray[index + read]
+                var nextLine = lineArray.getOrNull(index + read) ?: return read
                 var newLevel = getIndentationLevel(nextLine)
                 while (indentation < newLevel || (useNsg36path && indentation <= newLevel)) {
                     if (!useNsg36path) {
@@ -282,7 +281,7 @@ class ConverterNSG : AbstractConverter() {
                         }
                         read += processLines(index + read, lineArray)
                     }
-                    nextLine = lineArray[index + read]
+                    nextLine = lineArray.getOrNull(index + read) ?: return read
                     newLevel = getIndentationLevel(nextLine)
                 }
             }

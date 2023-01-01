@@ -95,12 +95,19 @@ class ConverterWireshark : AbstractConverter() {
         context: BitStringTypeContext
     ): Int {
         var read = 1
-        val newLevel = getIndentationLevel(lineArray[index + read])
+        val newLevel = lineArray.getOrNull(index + read)?.let {
+            getIndentationLevel(it)
+        } ?: return read
         if (newLevel > indentation) {
             // Skip description lines
             do {
                 read++
-            } while (newLevel == getIndentationLevel(lineArray[index + read]))
+            } while (
+                newLevel ==
+                lineArray.getOrNull(index + read)?.let {
+                    getIndentationLevel(it)
+                }
+            )
         }
         val identifierCustom = getArrayIdentifier() ?: identifier
         // Get min number of bits
