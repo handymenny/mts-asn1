@@ -144,7 +144,12 @@ public class XMLFormatReader implements FormatReader {
             } else if ("false".equals(value)) {
                 return false;
             } else {
-                throw new RuntimeException();
+                try {
+                    logger.warn("XML corrupted or produced by a different encoder, the decoding may be incomplete or incorrect");
+                    return node.getElementsByTagName("true").getLength() > 0;
+                } catch (Exception ex) {
+                    throw new RuntimeException();
+                }
             }
         }
         throw new RuntimeException(String.valueOf(currentNode.getNodeType()));
@@ -205,7 +210,20 @@ public class XMLFormatReader implements FormatReader {
             if (name != null) {
                 node = getChildNode(node, name);
             }
-            return node.getTextContent().trim();
+            String text = node.getTextContent().trim();
+            if (text.length() == 0) {
+                logger.warn("XML corrupted or produced by a different encoder, the decoding may be incomplete or incorrect");
+                if (name != null) {
+                    for (int i = 0; i < node.getChildNodes().getLength(); i++) {
+                        if (node.getChildNodes().item(i).getNodeType() != Node.TEXT_NODE) {
+                            text = ((Element) node.getChildNodes().item(i)).getTagName();
+                        }
+                    }
+                } else {
+                    text = node.getTagName();
+                }
+            }
+            return text;
         }
         throw new RuntimeException(String.valueOf(currentNode.getNodeType()));
     }
@@ -219,6 +237,12 @@ public class XMLFormatReader implements FormatReader {
         NodeList nodeList = node.getChildNodes();
         for (int i = 0; i < nodeList.getLength(); i++) {
             if (nodeList.item(i).getNodeName().equals(name)) {
+                return (Element) nodeList.item(i);
+            }
+        }
+        logger.warn("XML corrupted or produced by a different encoder, the decoding may be incomplete or incorrect");
+        for (int i = 0; i < nodeList.getLength(); i++) {
+            if (nodeList.item(i).getNodeType() != Node.TEXT_NODE) {
                 return (Element) nodeList.item(i);
             }
         }
