@@ -137,6 +137,17 @@ class WiresharkLTERRCTests : AbstractTests() {
         )
     }
 
+    @Test
+    @Throws(Exception::class)
+    fun testUEEutraCapabilityGCT() {
+        test(
+            "UE-EUTRA-Capability",
+            "/data/Wireshark/UeEutraCapabilityGCT.txt",
+            "/data/oracle/UeEutraCapabilityGCT.json",
+            "/data/oracle/UeEutraCapabilityGCT.xml"
+        )
+    }
+
     companion object {
         @BeforeAll
         @JvmStatic
