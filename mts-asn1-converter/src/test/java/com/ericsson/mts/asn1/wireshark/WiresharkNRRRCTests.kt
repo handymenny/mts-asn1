@@ -56,6 +56,17 @@ class WiresharkNRRRCTests : AbstractTests() {
 
     @Test
     @Throws(Exception::class)
+    fun testUeMrdcCapabilityExynos() {
+        test(
+            "UE-MRDC-Capability",
+            "/data/Wireshark/UeMrdcCapabilityExynos.txt",
+            "/data/oracle/UeMrdcCapabilityExynos.json",
+            "/data/oracle/UeMrdcCapabilityExynos.xml"
+        )
+    }
+
+    @Test
+    @Throws(Exception::class)
     fun testUeNrCapability() {
         test(
             "UE-NR-Capability",
@@ -84,6 +95,17 @@ class WiresharkNRRRCTests : AbstractTests() {
             "/data/Wireshark/UeNrCapabilityMediatek.txt",
             "/data/oracle/UeNrCapabilityMediatek.json",
             "/data/oracle/UeNrCapabilityMediatek.xml"
+        )
+    }
+
+    @Test
+    @Throws(Exception::class)
+    fun testUeNrCapabilityExynos() {
+        test(
+            "UE-NR-Capability",
+            "/data/Wireshark/UeNrCapabilityExynos.txt",
+            "/data/oracle/UeNrCapabilityExynos.json",
+            "/data/oracle/UeNrCapabilityExynos.xml"
         )
     }
 

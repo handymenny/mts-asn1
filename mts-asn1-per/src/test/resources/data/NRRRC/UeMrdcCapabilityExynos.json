@@ -1,0 +1,6781 @@
+{
+  "measAndMobParametersMRDC": {
+    "measAndMobParametersMRDC-Common": {
+      "independentGapConfig": "supported"
+    },
+    "measAndMobParametersMRDC-XDD-Diff": {
+      "sftd-MeasPSCell": "supported"
+    },
+    "measAndMobParametersMRDC-FRX-Diff": {
+      "simultaneousRxDataSSB-DiffNumerology": "supported"
+    }
+  },
+  "rf-ParametersMRDC": {
+    "supportedBandCombinationList": [
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 0,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 1,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 2,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 3,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 4,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 5,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 6,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 7,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 8,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 9,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 10,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 11,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 12,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 13,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 14,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 15,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 16,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 17,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 38,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 18,
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 38,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 19,
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 38,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 20,
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 38,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 21,
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 7,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 22,
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        }
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 7,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 23,
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        }
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 7,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 24,
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        }
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 25,
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 26,
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 27,
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 28,
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 29,
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 30,
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 38,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 3,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 31,
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        }
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 38,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 3,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 32,
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        }
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 3,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 33,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "111"
+        },
+        "ca-ParametersNR": {
+          "simultaneousRxTxInterBandCA": "supported",
+          "diffNumerologyWithinPUCCH-GroupSmallerSCS": "supported"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "11",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 3,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 34,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "111"
+        },
+        "ca-ParametersNR": {
+          "simultaneousRxTxInterBandCA": "supported",
+          "diffNumerologyWithinPUCCH-GroupSmallerSCS": "supported"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "11"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 3,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 35,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "111"
+        },
+        "ca-ParametersNR": {
+          "simultaneousRxTxInterBandCA": "supported",
+          "diffNumerologyWithinPUCCH-GroupSmallerSCS": "supported"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "11",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 3,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 36,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "111"
+        },
+        "ca-ParametersNR": {
+          "simultaneousRxTxInterBandCA": "supported",
+          "diffNumerologyWithinPUCCH-GroupSmallerSCS": "supported"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "11"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 3,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 37,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "111"
+        },
+        "ca-ParametersNR": {
+          "simultaneousRxTxInterBandCA": "supported",
+          "diffNumerologyWithinPUCCH-GroupSmallerSCS": "supported"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "11",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 3,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 38,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "111"
+        },
+        "ca-ParametersNR": {
+          "simultaneousRxTxInterBandCA": "supported",
+          "diffNumerologyWithinPUCCH-GroupSmallerSCS": "supported"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "11"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 3,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 23,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "111"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        }
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 25,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "111"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 26,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "111"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 27,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "111"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 28,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "111"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 29,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "111"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 30,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "111"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 38,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 3,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 39,
+        "ca-ParametersNR": {
+          "simultaneousRxTxInterBandCA": "supported",
+          "diffNumerologyWithinPUCCH-GroupSmallerSCS": "supported"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "11",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 38,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 3,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 40,
+        "ca-ParametersNR": {
+          "simultaneousRxTxInterBandCA": "supported",
+          "diffNumerologyWithinPUCCH-GroupSmallerSCS": "supported"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "11"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 38,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 3,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 41,
+        "ca-ParametersNR": {
+          "simultaneousRxTxInterBandCA": "supported",
+          "diffNumerologyWithinPUCCH-GroupSmallerSCS": "supported"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "11",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 38,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 3,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 42,
+        "ca-ParametersNR": {
+          "simultaneousRxTxInterBandCA": "supported",
+          "diffNumerologyWithinPUCCH-GroupSmallerSCS": "supported"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "11"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 38,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 3,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 43,
+        "ca-ParametersNR": {
+          "simultaneousRxTxInterBandCA": "supported",
+          "diffNumerologyWithinPUCCH-GroupSmallerSCS": "supported"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "11",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 38,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 3,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 44,
+        "ca-ParametersNR": {
+          "simultaneousRxTxInterBandCA": "supported",
+          "diffNumerologyWithinPUCCH-GroupSmallerSCS": "supported"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "11"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 1,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 38,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 3,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 45,
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        }
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 25,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 26,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 27,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 28,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 29,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      },
+      {
+        "bandList": [
+          {
+            "eutra": {
+              "bandEUTRA": 3,
+              "ca-BandwidthClassDL-EUTRA": "a",
+              "ca-BandwidthClassUL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 7,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "eutra": {
+              "bandEUTRA": 20,
+              "ca-BandwidthClassDL-EUTRA": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a",
+              "ca-BandwidthClassUL-NR": "a"
+            }
+          },
+          {
+            "nr": {
+              "bandNR": 78,
+              "ca-BandwidthClassDL-NR": "a"
+            }
+          }
+        ],
+        "featureSetCombination": 30,
+        "ca-ParametersEUTRA": {
+          "supportedBandwidthCombinationSetEUTRA-v1530": "11"
+        },
+        "mrdc-Parameters": {
+          "dynamicPowerSharingENDC": "supported",
+          "simultaneousRxTxInterBandENDC": "supported",
+          "asyncIntraBandENDC": "supported"
+        },
+        "supportedBandwidthCombinationSet": "111",
+        "powerClass-v1530": "pc2"
+      }
+    ],
+    "appliedFreqBandListFilter": [
+      {
+        "bandInformationEUTRA": {
+          "bandEUTRA": 1
+        }
+      },
+      {
+        "bandInformationEUTRA": {
+          "bandEUTRA": 3
+        }
+      },
+      {
+        "bandInformationEUTRA": {
+          "bandEUTRA": 7
+        }
+      },
+      {
+        "bandInformationEUTRA": {
+          "bandEUTRA": 20
+        }
+      },
+      {
+        "bandInformationEUTRA": {
+          "bandEUTRA": 38
+        }
+      },
+      {
+        "bandInformationNR": {
+          "bandNR": 3
+        }
+      },
+      {
+        "bandInformationNR": {
+          "bandNR": 7
+        }
+      },
+      {
+        "bandInformationNR": {
+          "bandNR": 78
+        }
+      }
+    ],
+    "supportedBandCombinationList-v1540": [
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      },
+      {
+        "bandList-v1540": [
+          {},
+          {},
+          {},
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "t1r2"
+            }
+          },
+          {
+            "srs-TxSwitch": {
+              "supportedSRS-TxPortSwitch": "notSupported"
+            }
+          }
+        ],
+        "ca-ParametersNR-v1540": {
+          "csi-RS-IM-ReceptionForFeedbackPerBandComb": {
+            "maxNumberSimultaneousNZP-CSI-RS-ActBWP-AllCC": 8,
+            "totalNumberPortsSimultaneousNZP-CSI-RS-ActBWP-AllCC": 64
+          },
+          "simultaneousCSI-ReportsAllCC": 8
+        }
+      }
+    ],
+    "supportedBandCombinationList-v1560": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "ca-ParametersNR-v1560": {
+          "diffNumerologyWithinPUCCH-GroupLargerSCS": "supported"
+        }
+      },
+      {
+        "ca-ParametersNR-v1560": {
+          "diffNumerologyWithinPUCCH-GroupLargerSCS": "supported"
+        }
+      },
+      {
+        "ca-ParametersNR-v1560": {
+          "diffNumerologyWithinPUCCH-GroupLargerSCS": "supported"
+        }
+      },
+      {
+        "ca-ParametersNR-v1560": {
+          "diffNumerologyWithinPUCCH-GroupLargerSCS": "supported"
+        }
+      },
+      {
+        "ca-ParametersNR-v1560": {
+          "diffNumerologyWithinPUCCH-GroupLargerSCS": "supported"
+        }
+      },
+      {
+        "ca-ParametersNR-v1560": {
+          "diffNumerologyWithinPUCCH-GroupLargerSCS": "supported"
+        }
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {
+        "ca-ParametersNR-v1560": {
+          "diffNumerologyWithinPUCCH-GroupLargerSCS": "supported"
+        }
+      },
+      {
+        "ca-ParametersNR-v1560": {
+          "diffNumerologyWithinPUCCH-GroupLargerSCS": "supported"
+        }
+      },
+      {
+        "ca-ParametersNR-v1560": {
+          "diffNumerologyWithinPUCCH-GroupLargerSCS": "supported"
+        }
+      },
+      {
+        "ca-ParametersNR-v1560": {
+          "diffNumerologyWithinPUCCH-GroupLargerSCS": "supported"
+        }
+      },
+      {
+        "ca-ParametersNR-v1560": {
+          "diffNumerologyWithinPUCCH-GroupLargerSCS": "supported"
+        }
+      },
+      {
+        "ca-ParametersNR-v1560": {
+          "diffNumerologyWithinPUCCH-GroupLargerSCS": "supported"
+        }
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "supportedBandCombinationList-v1570": [
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      },
+      {
+        "ca-ParametersEUTRA-v1570": {}
+      }
+    ],
+    "supportedBandCombinationList-v1580": [
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      },
+      {
+        "mrdc-Parameters-v1580": {}
+      }
+    ],
+    "supportedBandCombinationList-v1590": [
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      },
+      {
+        "mrdc-Parameters-v1590": {}
+      }
+    ]
+  },
+  "generalParametersMRDC": {
+    "splitDRB-withUL-Both-MCG-SCG": "supported",
+    "srb3": "supported"
+  },
+  "featureSetCombinations": [
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 2
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 0
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 2
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 0
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 2
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 0
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 2
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 0
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 2
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 0
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 2
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 0
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 2
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 0
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 3,
+            "uplinkSetNR": 3
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 3,
+            "uplinkSetNR": 3
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 3,
+            "uplinkSetNR": 3
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 2
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 0
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 2
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 0
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 2
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 2,
+            "uplinkSetNR": 0
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 3,
+            "uplinkSetNR": 3
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 3,
+            "uplinkSetNR": 3
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 3,
+            "uplinkSetNR": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 3,
+            "uplinkSetNR": 3
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 0
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 3,
+            "uplinkSetNR": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 3,
+            "uplinkSetNR": 3
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 0
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 3,
+            "uplinkSetNR": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 3,
+            "uplinkSetNR": 3
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 0
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 4,
+            "uplinkSetNR": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 4,
+            "uplinkSetNR": 3
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 0
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 3,
+            "uplinkSetNR": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 3,
+            "uplinkSetNR": 3
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 0
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 3,
+            "uplinkSetNR": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 1
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 3,
+            "uplinkSetNR": 3
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 1,
+            "uplinkSetNR": 0
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 2,
+            "uplinkSetEUTRA": 0
+          }
+        }
+      ],
+      [
+        {
+          "eutra": {
+            "downlinkSetEUTRA": 1,
+            "uplinkSetEUTRA": 2
+          }
+        }
+      ],
+      [
+        {
+          "nr": {
+            "downlinkSetNR": 4,
+            "uplinkSetNR": 3
+          }
+        }
+      ]
+    ]
+  ]
+}

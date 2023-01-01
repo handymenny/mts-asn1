@@ -82,6 +82,17 @@ class Nsg4LTERRCTests : AbstractTests() {
         )
     }
 
+    @Test
+    @Throws(Exception::class)
+    fun testUeEutraCapabilityExynos() {
+        test(
+            "UE-EUTRA-Capability",
+            "/data/NSG4/UeEutraCapabilityExynos.txt",
+            "/data/oracle/UeEutraCapabilityExynos.json",
+            "/data/oracle/UeEutraCapabilityExynos.xml"
+        )
+    }
+
     companion object {
         @BeforeAll
         @JvmStatic

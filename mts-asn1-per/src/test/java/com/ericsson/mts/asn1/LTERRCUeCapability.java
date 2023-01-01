@@ -71,5 +71,9 @@ public class LTERRCUeCapability extends AbstractTests {
         test("UE-EUTRA-Capability", "/data/LTERRC/UL_DCCH/UeEutraCapabilityIntel2.bin", "/data/LTERRC/UL_DCCH/UeEutraCapabilityIntel2.json", "/data/LTERRC/UL_DCCH/UeEutraCapabilityIntel2.xml");
     }
 
+    @Test
+    void testUeEutraCapabilityExynos() throws Exception {
+        test("UE-EUTRA-Capability", "/data/LTERRC/UL_DCCH/UeEutraCapabilityExynos.bin", "/data/LTERRC/UL_DCCH/UeEutraCapabilityExynos.json", "/data/LTERRC/UL_DCCH/UeEutraCapabilityExynos.xml");
+    }
 
 }

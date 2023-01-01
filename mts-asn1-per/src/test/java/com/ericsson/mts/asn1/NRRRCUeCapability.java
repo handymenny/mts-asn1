@@ -35,6 +35,12 @@ public class NRRRCUeCapability extends AbstractTests {
     }
 
     @Test
+    void testUeMrdcCapabilityExynos() throws Exception {
+        /* This message contains extensions, the encoding test may fail if a specification other than "3GPP TS 38.331 V17.2.0" is used */
+        test("UE-MRDC-Capability", "/data/NRRRC/UeMrdcCapabilityExynos.bin", "/data/NRRRC/UeMrdcCapabilityExynos.json", "/data/NRRRC/UeMrdcCapabilityExynos.xml");
+    }
+
+    @Test
     void testUeNrCapability() throws Exception {
         /* This message contains extensions, the encoding test may fail if a specification other than "3GPP TS 38.331 V17.2.0" is used */
         test("UE-NR-Capability", "/data/NRRRC/UeNrCapability.bin", "/data/NRRRC/UeNrCapability.json", "/data/NRRRC/UeNrCapability.xml");
@@ -50,5 +56,11 @@ public class NRRRCUeCapability extends AbstractTests {
     void testUeNrCapabilityMediatek() throws Exception {
         /* This message contains extensions, the encoding test may fail if a specification other than "3GPP TS 38.331 V17.2.0" is used */
         test("UE-NR-Capability", "/data/NRRRC/UeNrCapabilityMediatek.bin", "/data/NRRRC/UeNrCapabilityMediatek.json", "/data/NRRRC/UeNrCapabilityMediatek.xml");
+    }
+
+    @Test
+    void testUeNrCapabilityExynos() throws Exception {
+        /* This message contains extensions, the encoding test may fail if a specification other than "3GPP TS 38.331 V17.2.0" is used */
+        test("UE-NR-Capability", "/data/NRRRC/UeNrCapabilityExynos.bin", "/data/NRRRC/UeNrCapabilityExynos.json", "/data/NRRRC/UeNrCapabilityExynos.xml");
     }
 }
