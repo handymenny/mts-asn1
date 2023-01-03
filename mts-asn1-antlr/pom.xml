@@ -14,7 +14,7 @@
     <properties>
         <antlr4.visitor>true</antlr4.visitor>
         <antlr4.listener>false</antlr4.listener>
-        <antlr4.version>4.11.1</antlr4.version>
+        <antlr4.version>4.9.3</antlr4.version>
     </properties>
 
 
