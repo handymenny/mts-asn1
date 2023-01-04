@@ -38,7 +38,7 @@ class ASN1Converter(private val converter: AbstractConverter, asnDefinitions: Li
      * @param messageBody the content of the ASN message.
      * @param formatWriter the [FormatWriter] that will store the result of the conversion
      */
-    fun convert(messageType: String, messageBody: String, formatWriter: FormatWriter) {
+    fun convert(messageType: String, messageBody: InputStream, formatWriter: FormatWriter) {
         converter.convert(messageType, messageBody, formatWriter, registry)
     }
 

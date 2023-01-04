@@ -35,7 +35,7 @@ open class AbstractTests {
         //JSON conversion test
         run {
             val formatWriter = JSONFormatWriter()
-            asn1Converter?.convert(type, getResourceAsText(textPath)!!, formatWriter)
+            asn1Converter?.convert(type, getResourceAsStream(textPath)!!, formatWriter)
             val actual = writer.writeValueAsString(formatWriter.jsonNode)
             val expected = getResourceAsText(expectedJsonPath)!!
             JsonAssert.assertJsonEquals(expected, actual)
@@ -44,7 +44,7 @@ open class AbstractTests {
         //XML conversion test
         run {
             val formatWriter = XMLFormatWriter()
-            asn1Converter?.convert(type, getResourceAsText(textPath)!!, formatWriter)
+            asn1Converter?.convert(type, getResourceAsStream(textPath)!!, formatWriter)
             val tf = TransformerFactory.newInstance()
             val transformer = tf.newTransformer()
             transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes")

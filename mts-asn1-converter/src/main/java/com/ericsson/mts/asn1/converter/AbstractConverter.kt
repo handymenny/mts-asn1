@@ -16,6 +16,7 @@ import org.antlr.v4.runtime.ParserRuleContext
 import java.math.BigInteger
 import java.util.*
 import com.ericsson.mts.asn1.util.peekOrNull
+import java.io.InputStream
 
 /**
  *
@@ -44,11 +45,13 @@ abstract class AbstractConverter {
      * @param formatWriter an [FormatWriter] that will store the result of the conversion
      * @param converterRegistry the registry that stores the ASN.1 definitions
      */
-    fun convert(messageType: String, messageBody: String, formatWriter: FormatWriter, converterRegistry: ConverterRegistry) {
+    fun convert(messageType: String, messageBody: InputStream, formatWriter: FormatWriter, converterRegistry: ConverterRegistry) {
         writer = formatWriter
         registry = converterRegistry
         resetStatus()
-        val lineArray = cleanup(messageBody.lines())
+        val lineArray = messageBody.bufferedReader().use {
+            cleanup(it.readLines())
+        }
         var index = -1
 
         // Process messageType, using special -1 indentation
