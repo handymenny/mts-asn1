@@ -373,45 +373,45 @@ class ConverterNSG : AbstractConverter() {
 
 
     private fun getStringValue(line: String): String? {
-        return stringRegex.find(line)?.groups?.get(1)?.value
+        return stringRegex.find(line)?.groupValues?.get(1)
     }
 
     private fun getIntValue(line: String): BigInteger? {
-        val value = intRegex.find(line)?.groups?.get(1)?.value
+        val value = intRegex.find(line)?.groupValues?.get(1)
         return value?.let {
             BigInteger(value)
         }
     }
 
     private fun getBooleanValue(line: String): Boolean {
-        return "true" == booleanRegex.find(line)?.groups?.get(1)?.value
+        return "true" == booleanRegex.find(line)?.groupValues?.get(1)
     }
 
     private fun getBitsValue(line: String, lowerBound: Int = 0): String? {
         // NSG 2.x = F(4 bits) or F0(4 bits) or 'F'H '1'B (31)
         if (line.contains("bits")) {
             val match = bitsRegexNsg2.find(line)
-            return match?.groups?.get(1)?.value?.let {
+            return match?.groupValues?.get(1)?.let {
                 BigInteger(it, 16).toString(2).padStart(
-                    match.groups[2]?.value?.toInt() ?: 0, '0'
+                    match.groupValues[2].toInt(), '0'
                 ).dropLastWhile { it == '0' }.padEnd(
-                    match.groups[2]?.value?.toInt() ?: 0, '0'
+                    match.groupValues[2].toInt(), '0'
                 )
             }
         } else if(line.contains("'H")) {
             return bitsRegexHex.find(line)
-                ?.groups?.get(1)?.value?.let {
+                ?.groupValues?.get(1)?.let {
                 BigInteger(it).toString(2).padStart(
                     lowerBound, '0'
                 )
             }
         }
         // NSG 3.x and 4.x '11000000 00000000 00000000 00000000'B(3221225472) or '11'B(3)
-        return bitsRegexNsg4.find(line)?.groups?.get(1)?.value?.replace(" ", "")
+        return bitsRegexNsg4.find(line)?.groupValues?.get(1)?.replace(" ", "")
 
     }
 
     private fun getBooleanValueSupported(line: String): Boolean {
-        return "supported" == booleanSupportedRegex.find(line)?.groups?.get(1)?.value
+        return "supported" == booleanSupportedRegex.find(line)?.groupValues?.get(1)
     }
 }

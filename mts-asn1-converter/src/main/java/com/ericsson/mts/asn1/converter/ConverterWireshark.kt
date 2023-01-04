@@ -262,21 +262,21 @@ class ConverterWireshark : AbstractConverter() {
     }
 
     private fun getStringValue(line: String): String? {
-        return stringRegex.find(line)?.groups?.get(1)?.value
+        return stringRegex.find(line)?.groupValues?.get(1)
     }
     private fun getIntValue(line: String): BigInteger? {
-        val value = intRegex.find(line)?.groups?.get(1)?.value
+        val value = intRegex.find(line)?.groupValues?.get(1)
         return value?.let {
             BigInteger(value)
         }
     }
 
     private fun getBooleanValue(line: String): Boolean {
-        return "True" == booleanRegex.find(line)?.groups?.get(1)?.value
+        return "True" == booleanRegex.find(line)?.groupValues?.get(1)
     }
 
     private fun getBitsValue(line: String): String? {
-        return bitsRegex.find(line)?.groups?.get(1)?.value
+        return bitsRegex.find(line)?.groupValues?.get(1)
             ?.replace(" ", "")?.replace(".", "")
     }
 }
