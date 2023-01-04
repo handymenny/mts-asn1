@@ -30,6 +30,7 @@ abstract class AbstractConverter {
     protected val indentationArrayStack: Stack<Int> = Stack()
     protected lateinit var writer: FormatWriter
     private lateinit var registry: ConverterRegistry
+    private val identifierRegex = "[A-Za-z][\\w\\-]+".toRegex()
 
     /**
      *
@@ -511,7 +512,7 @@ abstract class AbstractConverter {
      *
      */
     protected fun getIdentifier(line: String): String {
-        return "([A-Za-z][A-Za-z\\-_0-9]+)".toRegex().find(line)?.groups?.get(0)?.value ?: ""
+        return identifierRegex.find(line)?.value ?: ""
     }
 
     /**
