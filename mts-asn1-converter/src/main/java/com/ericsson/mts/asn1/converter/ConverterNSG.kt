@@ -10,11 +10,11 @@ class ConverterNSG : AbstractConverter() {
     private var nsgVersion36 = false
     private val stringRegex by lazy { ":\\s([\\w-]*)".toRegex() }
     private val intRegex by lazy { ":\\s(\\d*)".toRegex() }
-    private val booleanRegex by lazy { ":\\s(true|false)".toRegex() }
-    private val booleanSupportedRegex by lazy { ":\\s(supported)".toRegex() }
     private val bitsRegexNsg2 by lazy { ":\\s([0-9A-F]+)\\((\\d+)\\sbit".toRegex() }
     private val bitsRegexHex by lazy { ":\\s'[0-9A-F]*'?H?\\s?'?[0-1]*'?B?\\s?\\((\\d+)\\)".toRegex() }
     private val bitsRegexNsg4 by lazy { "\\s'([0-1\\s]+)'B".toRegex() }
+    private val booleanString = ": true"
+    private val booleanSupportedString = ": supported"
 
     override fun resetStatus() {
         super.resetStatus()
@@ -384,7 +384,7 @@ class ConverterNSG : AbstractConverter() {
     }
 
     private fun getBooleanValue(line: String): Boolean {
-        return "true" == booleanRegex.find(line)?.groupValues?.get(1)
+        return booleanString in line
     }
 
     private fun getBitsValue(line: String, lowerBound: Int = 0): String? {
@@ -412,6 +412,6 @@ class ConverterNSG : AbstractConverter() {
     }
 
     private fun getBooleanValueSupported(line: String): Boolean {
-        return "supported" == booleanSupportedRegex.find(line)?.groupValues?.get(1)
+        return booleanSupportedString in line
     }
 }

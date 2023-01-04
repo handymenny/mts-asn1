@@ -13,8 +13,8 @@ class ConverterWireshark : AbstractConverter() {
     private val ignoredIdentifiers = listOf("Item", "Items")
     private val stringRegex by lazy { ":\\s([\\w-]*)".toRegex() }
     private val intRegex by lazy { ":\\s(\\d*)".toRegex() }
-    private val booleanRegex by lazy { ":\\s(True|False)".toRegex() }
     private val bitsRegex by lazy { ",\\s+([01\\s.]*)\\s+decimal\\s+value".toRegex() }
+    private val booleanString = ": True"
 
     override fun resetStatus() {
         super.resetStatus()
@@ -272,7 +272,7 @@ class ConverterWireshark : AbstractConverter() {
     }
 
     private fun getBooleanValue(line: String): Boolean {
-        return "True" == booleanRegex.find(line)?.groupValues?.get(1)
+        return booleanString in line
     }
 
     private fun getBitsValue(line: String): String? {
