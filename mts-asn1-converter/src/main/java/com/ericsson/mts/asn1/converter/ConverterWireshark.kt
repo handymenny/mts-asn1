@@ -10,6 +10,7 @@ import java.util.Stack
 class ConverterWireshark : AbstractConverter() {
     private var previousWasContaining = false
     private var identifierArrayStack = Stack<String>()
+    private val ignoredIdentifiers = listOf("Item", "Items")
 
     override fun resetStatus() {
         super.resetStatus()
@@ -36,11 +37,7 @@ class ConverterWireshark : AbstractConverter() {
     }
 
     override fun cleanup(text: String): String {
-        val cleanupRegex = listOf("^\\s*\\[.*\r?\n".toRegex(RegexOption.MULTILINE), "^\\s*Item\\s\\d+\r?\n".toRegex(RegexOption.MULTILINE))
-        var result: String = text
-        cleanupRegex.forEach {
-            result = result.replace(it, "")
-        }
+        var result = text
         // tshark doesn't correctly indent elements that are too nested
         val addSpaceWorkarounds = listOf("eLCID-Support-r15", "FeatureSetDL-PerCC-Id-r15", "FeatureSetUL-PerCC-Id-r15",
             "eutra-CGI-Reporting-ENDC-r15", "utra-GERAN-CGI-Reporting-ENDC-r15")
@@ -48,6 +45,12 @@ class ConverterWireshark : AbstractConverter() {
             result = result.replace(it, " $it")
         }
         return result
+    }
+
+    override fun skipLine(line: String, identifier: String, indentationLevel: Int): Boolean {
+        return indentationLevel == line.length || // Skip blank lines
+                identifier in ignoredIdentifiers || // Skip Item X, Items X
+                line[indentationLevel] == '[' // Skip wireshark comments
     }
 
     override fun parseSequence(

@@ -88,9 +88,10 @@ abstract class AbstractConverter {
     ): Int {
         val line = lineArray[index]
         val indentationWidth = getIndentationLevel(line)
+        val originalIdentifier = getIdentifier(line)
 
-        // Skip blank lines
-        if (indentationWidth == line.length) {
+        // Skip lines
+        if (skipLine(line, originalIdentifier, indentationWidth)) {
             return 1
         }
 
@@ -99,7 +100,7 @@ abstract class AbstractConverter {
         if (!disablePop)
             popStacks(indentation)
 
-        var identifier = overrideIdentifier ?: getIdentifier(line)
+        var identifier = overrideIdentifier ?: originalIdentifier
         var type = overrideType ?: getType(identifier)
 
         if (type == null) {
@@ -134,6 +135,17 @@ abstract class AbstractConverter {
     }
 
     protected abstract fun cleanup(text: String): String
+
+    /**
+     * If this method returns true processLines will not process the given [line].
+     * [identifier] and [indentationLevel] of the given line are passed to avoid recalculate them
+     *
+     * @param line the line to skip or not
+     * @param identifier the result of [getIdentifier]
+     * @param indentationLevel the result of [getIndentationLevel]
+     * @return true if processLines must skip this lines, false otherwise
+     */
+    protected abstract fun skipLine(line: String, identifier: String, indentationLevel: Int): Boolean
 
     /**
      *
