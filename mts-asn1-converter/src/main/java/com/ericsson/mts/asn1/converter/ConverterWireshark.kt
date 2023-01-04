@@ -11,6 +11,10 @@ class ConverterWireshark : AbstractConverter() {
     private var previousWasContaining = false
     private var identifierArrayStack = Stack<String>()
     private val ignoredIdentifiers = listOf("Item", "Items")
+    private val stringRegex by lazy { ":\\s([\\w-]*)".toRegex() }
+    private val intRegex by lazy { ":\\s(\\d*)".toRegex() }
+    private val booleanRegex by lazy { ":\\s(True|False)".toRegex() }
+    private val bitsRegex by lazy { ",\\s+([01\\s.]*)\\s+decimal\\s+value".toRegex() }
 
     override fun resetStatus() {
         super.resetStatus()
@@ -258,22 +262,21 @@ class ConverterWireshark : AbstractConverter() {
     }
 
     private fun getStringValue(line: String): String? {
-        return ":\\s([\\w-]*)".toRegex().find(line)?.groups?.get(1)?.value
+        return stringRegex.find(line)?.groups?.get(1)?.value
     }
-
     private fun getIntValue(line: String): BigInteger? {
-        val value = ":\\s(\\d*)".toRegex().find(line)?.groups?.get(1)?.value
+        val value = intRegex.find(line)?.groups?.get(1)?.value
         return value?.let {
             BigInteger(value)
         }
     }
 
     private fun getBooleanValue(line: String): Boolean {
-        return "True" == ":\\s(True|False)".toRegex().find(line)?.groups?.get(1)?.value
+        return "True" == booleanRegex.find(line)?.groups?.get(1)?.value
     }
 
     private fun getBitsValue(line: String): String? {
-        return ",\\s+([01\\s.]*)\\s+decimal\\s+value".toRegex()
-            .find(line)?.groups?.get(1)?.value?.replace(" ", "")?.replace(".", "")
+        return bitsRegex.find(line)?.groups?.get(1)?.value
+            ?.replace(" ", "")?.replace(".", "")
     }
 }
