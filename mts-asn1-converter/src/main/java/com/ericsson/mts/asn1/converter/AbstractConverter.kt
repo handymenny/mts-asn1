@@ -119,20 +119,20 @@ abstract class AbstractConverter {
         }
 
         return when (type) {
-            is BitStringTypeContext -> parseBitString(index, lineArray, identifier, indentation, type)
-            is CharacterStringTypeContext -> parseCharacterString(index, lineArray, identifier, indentation, type)
-            is ChoiceTypeContext -> parseChoiceType(index, lineArray, identifier, indentation, type)
             is EnumeratedTypeContext -> parseEnumerated(index, lineArray, identifier, indentation, type)
+            is SequenceTypeContext -> parseSequence(index, lineArray, identifier, indentation, type)
+            is BuiltinTypeContext -> parseBuiltin(index, lineArray, identifier, indentation, type)
+            is SequenceOfTypeContext -> parseSequenceOf(index, lineArray, identifier, indentation, type)
             is IntegerTypeContext -> parseInteger(index, lineArray, identifier, indentation, type)
+            is BitStringTypeContext -> parseBitString(index, lineArray, identifier, indentation, type)
+            is ChoiceTypeContext -> parseChoiceType(index, lineArray, identifier, indentation, type)
+            is OctetStringTypeContext -> parseOctetString(index, lineArray, identifier, indentation, type)
+            is CharacterStringTypeContext -> parseCharacterString(index, lineArray, identifier, indentation, type)
             is ObjectClassFieldTypeContext -> parseObjectClassField(index, lineArray, identifier, indentation, type)
             is ObjectidentifiertypeContext -> parseObjectidentifier(index, lineArray, identifier, indentation, type)
-            is OctetStringTypeContext -> parseOctetString(index, lineArray, identifier, indentation, type)
             is RealTypeContext -> parseReal(index, lineArray, identifier, indentation, type)
-            is SequenceOfTypeContext -> parseSequenceOf(index, lineArray, identifier, indentation, type)
-            is SequenceTypeContext -> parseSequence(index, lineArray, identifier, indentation, type)
             is SetOfTypeContext -> parseSetOf(index, lineArray, identifier, indentation, type)
             is SetTypeContext -> parseSet(index, lineArray, identifier, indentation, type)
-            is BuiltinTypeContext -> parseBuiltin(index, lineArray, identifier, indentation, type)
             else -> return 1
         }
     }

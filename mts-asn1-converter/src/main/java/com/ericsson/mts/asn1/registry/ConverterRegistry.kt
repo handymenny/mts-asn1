@@ -122,17 +122,17 @@ class ConverterRegistry {
             }
         }
 
-        return builtin.bitStringType()
-            ?: builtin.characterStringType()
-            ?: builtin.choiceType()
-            ?: builtin.enumeratedType()
+        return builtin.enumeratedType()
+            ?: builtin.sequenceType()
+            ?: builtin.sequenceOfType()
             ?: builtin.integerType()
+            ?: builtin.bitStringType()
+            ?: builtin.choiceType()
+            ?: builtin.octetStringType()
+            ?: builtin.characterStringType()
             ?: builtin.objectClassFieldType()
             ?: builtin.objectidentifiertype()
-            ?: builtin.octetStringType()
             ?: builtin.realType()
-            ?: builtin.sequenceOfType()
-            ?: builtin.sequenceType()
             ?: builtin.setOfType()
             ?: builtin.setType()
             ?: builtin
