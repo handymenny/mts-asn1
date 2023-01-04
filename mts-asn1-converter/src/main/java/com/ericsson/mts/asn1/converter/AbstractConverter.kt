@@ -521,19 +521,8 @@ abstract class AbstractConverter {
      * @return the length of the indentation
      */
     protected fun getIndentationLevel(line: String): Int {
-        return getIndentation(line)?.length ?: 0
-    }
-
-    /**
-     *
-     * This method extracts the spaces preceding the first non-space character in the given [line].
-     *
-     * @param line the string from which to extract the indentation
-     * @return the indentation of the given [line]
-     *
-     */
-    protected fun getIndentation(line: String): String? {
-        return "^\\s*".toRegex().find(line)?.groups?.get(0)?.value
+        // Kotlin stdlib implementation
+        return line.indexOfFirst { !it.isWhitespace() }.let { if (it == -1) line.length else it }
     }
 
     /**
