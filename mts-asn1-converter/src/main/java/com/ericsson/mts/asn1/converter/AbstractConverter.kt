@@ -86,13 +86,14 @@ abstract class AbstractConverter {
         disablePop: Boolean = false
     ): Int {
         val line = lineArray[index]
+        val indentationWidth = getIndentationLevel(line)
 
         // Skip blank lines
-        if (line.isBlank()) {
+        if (indentationWidth == line.length) {
             return 1
         }
 
-        val indentation = overrideIndentation ?: getIndentationLevel(line)
+        val indentation = overrideIndentation ?: indentationWidth
 
         if (!disablePop)
             popStacks(indentation)
