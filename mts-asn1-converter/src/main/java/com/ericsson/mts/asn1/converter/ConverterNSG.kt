@@ -14,8 +14,8 @@ class ConverterNSG : AbstractConverter() {
         nsgVersion36 = false
     }
 
-    override fun cleanup(text: String): String {
-       return text
+    override fun cleanup(lines: List<String>): List<String> {
+       return lines
     }
 
     override fun skipLine(line: String, identifier: String, indentationLevel: Int): Boolean {

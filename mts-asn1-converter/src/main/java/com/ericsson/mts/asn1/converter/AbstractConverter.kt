@@ -48,7 +48,7 @@ abstract class AbstractConverter {
         writer = formatWriter
         registry = converterRegistry
         resetStatus()
-        val lineArray = cleanup(messageBody).lines()
+        val lineArray = cleanup(messageBody.lines())
         var index = -1
 
         // Process messageType, using special -1 indentation
@@ -134,7 +134,7 @@ abstract class AbstractConverter {
         }
     }
 
-    protected abstract fun cleanup(text: String): String
+    protected abstract fun cleanup(lines: List<String>): List<String>
 
     /**
      * If this method returns true processLines will not process the given [line].

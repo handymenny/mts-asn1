@@ -36,15 +36,18 @@ class ConverterWireshark : AbstractConverter() {
         return null
     }
 
-    override fun cleanup(text: String): String {
-        var result = text
+    override fun cleanup(lines: List<String>): List<String> {
         // tshark doesn't correctly indent elements that are too nested
         val addSpaceWorkarounds = listOf("eLCID-Support-r15", "FeatureSetDL-PerCC-Id-r15", "FeatureSetUL-PerCC-Id-r15",
             "eutra-CGI-Reporting-ENDC-r15", "utra-GERAN-CGI-Reporting-ENDC-r15")
-        addSpaceWorkarounds.forEach {
-            result = result.replace(it, " $it")
+        val mutableLines = lines.toMutableList()
+        for (i in mutableLines.indices) {
+            val line = mutableLines[i]
+            if (addSpaceWorkarounds.any { it in line }) {
+                mutableLines[i] = " ".plus(line)
+            }
         }
-        return result
+        return mutableLines
     }
 
     override fun skipLine(line: String, identifier: String, indentationLevel: Int): Boolean {
