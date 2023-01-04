@@ -91,7 +91,7 @@ abstract class AbstractConverter {
     ): Int {
         val line = lineArray[index]
         val indentationWidth = getIndentationLevel(line)
-        val originalIdentifier = getIdentifier(line)
+        val originalIdentifier = getIdentifier(line.substring(indentationWidth))
 
         // Skip lines
         if (skipLine(line, originalIdentifier, indentationWidth)) {

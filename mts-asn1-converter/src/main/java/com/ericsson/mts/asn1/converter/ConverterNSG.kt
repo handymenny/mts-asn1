@@ -185,7 +185,7 @@ class ConverterNSG : AbstractConverter() {
                     var objectFound = false
 
                     // NSG 2.x = SupportedBandList[0], NSG 3.6 = supportedBandlist[0], NSG 4.x = [0]
-                    val newIdentifier = getIdentifier(nextLine!!)
+                    val newIdentifier = getIdentifier(nextLine!!.substring(newLevel))
 
                     if (!useNsg36path && newIdentifier.isNotBlank()) {
                         // NSG 2.x path
@@ -270,7 +270,7 @@ class ConverterNSG : AbstractConverter() {
                     if (!useNsg36path) {
                         popStacks(newLevel)
                     }
-                    val newIdentifier = getIdentifier(nextLine)
+                    val newIdentifier = getIdentifier(nextLine.substring(newLevel))
                     if (nextLine.matches("^.*\\[\\d+]\\s*.*".toRegex()) && (!useNsg36path || newIdentifier == "" || identifier == newIdentifier)) {
                         if(useNsg36path) {
                             popStacks(newLevel + 1)
