@@ -274,6 +274,6 @@ class ConverterWireshark : AbstractConverter() {
 
     private fun getBitsValue(line: String): String? {
         return ",\\s+([01\\s.]*)\\s+decimal\\s+value".toRegex()
-            .find(line)?.groups?.get(1)?.value?.replace("[\\s.]".toRegex(), "")
+            .find(line)?.groups?.get(1)?.value?.replace(" ", "")?.replace(".", "")
     }
 }

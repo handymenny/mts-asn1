@@ -400,7 +400,7 @@ class ConverterNSG : AbstractConverter() {
             }
         }
         // NSG 3.x and 4.x '11000000 00000000 00000000 00000000'B(3221225472) or '11'B(3)
-        return "\\s:\\s'([0-1\\s]+)'B".toRegex().find(line)?.groups?.get(1)?.value?.replace("[\\s.]".toRegex(), "")
+        return "\\s:\\s'([0-1\\s]+)'B".toRegex().find(line)?.groups?.get(1)?.value?.replace(" ", "")
 
     }
 
