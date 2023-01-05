@@ -148,6 +148,28 @@ class WiresharkLTERRCTests : AbstractTests() {
         )
     }
 
+    @Test
+    @Throws(Exception::class)
+    fun testUEEutraCapabilityBandCombination1024qam() {
+        test(
+            "UE-EUTRA-Capability",
+            "/data/Wireshark/UeEutraCapabilityBandCombination1024qam.txt",
+            "/data/oracle/UeEutraCapabilityBandCombination1024qam.json",
+            "/data/oracle/UeEutraCapabilityBandCombination1024qam.xml"
+        )
+    }
+
+    @Test
+    @Throws(Exception::class)
+    fun testUEEutraCapabilityBandCombinationReduced1024qam() {
+        test(
+            "UE-EUTRA-Capability",
+            "/data/Wireshark/UeEutraCapabilityBandCombinationReduced1024qam.txt",
+            "/data/oracle/UeEutraCapabilityBandCombinationReduced1024qam.json",
+            "/data/oracle/UeEutraCapabilityBandCombinationReduced1024qam.xml"
+        )
+    }
+
     companion object {
         @BeforeAll
         @JvmStatic
