@@ -42,13 +42,24 @@ class ConverterWireshark : AbstractConverter() {
 
     override fun cleanup(lines: List<String>): List<String> {
         // tshark doesn't correctly indent elements that are too nested
-        val addSpaceWorkarounds = listOf("eLCID-Support-r15", "FeatureSetDL-PerCC-Id-r15", "FeatureSetUL-PerCC-Id-r15",
-            "eutra-CGI-Reporting-ENDC-r15", "utra-GERAN-CGI-Reporting-ENDC-r15")
+        // TODO: Find a universal solution
+        val spaceWorkarounds = mapOf(
+            "eLCID-Support-r15" to 1,
+            "FeatureSetDL-PerCC-Id-r15" to 1,
+            "FeatureSetUL-PerCC-Id-r15" to 1,
+            "eutra-CGI-Reporting-ENDC-r15" to 1,
+            "utra-GERAN-CGI-Reporting-ENDC-r15" to 1,
+            "ul-256QAM-perCC-r14" to 1,
+            "bandParameterList-v1530" to 1,
+            "BandParameters-v1530" to 2,
+            "dl-1024QAM-r15" to 3
+        )
         val mutableLines = lines.toMutableList()
         for (i in mutableLines.indices) {
             val line = mutableLines[i]
-            if (addSpaceWorkarounds.any { it in line }) {
-                mutableLines[i] = " ".plus(line)
+            spaceWorkarounds.keys.find { it in line }?.let {
+                val spaces = spaceWorkarounds[it] ?: 0
+                mutableLines[i] = " ".repeat(spaces).plus(line)
             }
         }
         return mutableLines
