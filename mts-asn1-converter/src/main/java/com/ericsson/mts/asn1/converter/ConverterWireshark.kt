@@ -11,9 +11,9 @@ class ConverterWireshark : AbstractConverter() {
     private var previousWasContaining = false
     private var identifierArrayStack = Stack<String>()
     private val ignoredIdentifiers = listOf("Item", "Items")
-    private val stringRegex by lazy { ":\\s([\\w-]*)".toRegex() }
-    private val intRegex by lazy { ":\\s(\\d*)".toRegex() }
-    private val bitsRegex by lazy { ",\\s+([01\\s.]*)\\s+decimal\\s+value".toRegex() }
+    private val stringRegex by lazy { """:\s([\w-]*)""".toRegex() }
+    private val intRegex by lazy { """:\s(\d*)""".toRegex() }
+    private val bitsRegex by lazy { """,\s+([01\s.]*)\s+decimal\s+value""".toRegex() }
     private val booleanString = ": True"
 
     override fun resetStatus() {

@@ -31,7 +31,7 @@ abstract class AbstractConverter {
     protected val indentationArrayStack: Stack<Int> = Stack()
     protected lateinit var writer: FormatWriter
     private lateinit var registry: ConverterRegistry
-    private val identifierRegex = "[A-Za-z][\\w\\-]+".toRegex()
+    private val identifierRegex = """[A-Za-z][\w\-]+""".toRegex()
 
     /**
      *
