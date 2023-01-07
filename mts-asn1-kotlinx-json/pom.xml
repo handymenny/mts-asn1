@@ -12,7 +12,7 @@
     <artifactId>mts-asn1-kotlinx-json</artifactId>
 
     <properties>
-        <kotlin.version>1.7.22</kotlin.version>
+        <kotlin.version>1.8.0</kotlin.version>
         <serialization.version>1.4.1</serialization.version>
     </properties>
 
@@ -24,7 +24,7 @@
         </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-stdlib-jdk8</artifactId>
+            <artifactId>kotlin-stdlib</artifactId>
             <version>${kotlin.version}</version>
         </dependency>
         <dependency>
