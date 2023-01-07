@@ -22,8 +22,6 @@ import javax.xml.transform.dom.DOMSource
 import javax.xml.transform.stream.StreamResult
 
 open class AbstractTests {
-    private val mapper = ObjectMapper()
-    private val writer = mapper.writer()
 
     @Throws(Exception::class)
     fun test(type: String, textPath: String, expectedJsonPath: String, expectedXmlPath: String) {
@@ -34,9 +32,9 @@ open class AbstractTests {
     fun testConversion(type: String, textPath: String, expectedJsonPath: String, expectedXmlPath: String) {
         //JSON conversion test
         run {
-            val formatWriter = JSONFormatWriter()
+            val formatWriter = KotlinJsonFormatWriter()
             asn1Converter?.convert(type, getResourceAsStream(textPath)!!, formatWriter)
-            val actual = writer.writeValueAsString(formatWriter.jsonNode)
+            val actual = formatWriter.jsonNode.toString()
             val expected = getResourceAsText(expectedJsonPath)!!
             JsonAssert.assertJsonEquals(expected, actual)
         }

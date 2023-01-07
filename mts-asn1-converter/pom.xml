@@ -47,8 +47,14 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.14.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
             <groupId>io.github.ericsson-mts</groupId>
-            <artifactId>mts-asn1-json</artifactId>
+            <artifactId>mts-asn1-kotlinx-json</artifactId>
             <version>master-SNAPSHOT</version>
             <scope>test</scope>
         </dependency>

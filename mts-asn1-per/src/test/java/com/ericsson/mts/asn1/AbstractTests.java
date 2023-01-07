@@ -10,8 +10,6 @@
 
 package com.ericsson.mts.asn1;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectWriter;
 import org.apache.commons.io.IOUtils;
 import org.custommonkey.xmlunit.Diff;
 import org.custommonkey.xmlunit.XMLUnit;
@@ -35,8 +33,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class AbstractTests {
     static ASN1Translator asn1Translator;
-    private ObjectMapper mapper = new ObjectMapper();
-    private ObjectWriter writer = mapper.writer();
     protected Logger logger = LoggerFactory.getLogger(this.getClass().getSimpleName());
 
     void test(String type, String binaryPath, String expectedJsonPath, String expectedXmlPath) throws Exception {
@@ -49,9 +45,9 @@ public class AbstractTests {
     void testDecode(String type, String binaryPath, String expectedJsonPath, String expectedXmlPath) throws Exception {
         //JSON decode test
         {
-            JSONFormatWriter formatWriter = new JSONFormatWriter();
+            KotlinJsonFormatWriter formatWriter = new KotlinJsonFormatWriter();
             asn1Translator.decode(type, this.getClass().getResourceAsStream(binaryPath), formatWriter);
-            String actual = writer.writeValueAsString(formatWriter.getJsonNode());
+            String actual = formatWriter.getJsonNode().toString();
             String expected = IOUtils.toString(this.getClass().getResourceAsStream(expectedJsonPath), StandardCharsets.UTF_8);
             assertJsonEquals(expected, actual);
         }
@@ -83,7 +79,7 @@ public class AbstractTests {
         //JSON encode test
         {
 
-            JSONFormatReader jsonFormatReader = new JSONFormatReader(this.getClass().getResourceAsStream(expectedJsonPath), type);
+            KotlinJsonFormatReader jsonFormatReader = new KotlinJsonFormatReader(this.getClass().getResourceAsStream(expectedJsonPath), type);
             BitArray bitArray = new BitArray();
             asn1Translator.encode(type, bitArray, jsonFormatReader);
 
@@ -126,10 +122,10 @@ public class AbstractTests {
     void updateDataformatFileTest(String type, String binaryPath, String targetJsonPath, String targetXmlPath) throws Exception {
         //JSON decode test
         {
-            JSONFormatWriter formatWriter = new JSONFormatWriter();
+            KotlinJsonFormatWriter formatWriter = new KotlinJsonFormatWriter();
             asn1Translator.decode(type, this.getClass().getResourceAsStream(binaryPath), formatWriter);
             PrintWriter printWriter = new PrintWriter(new File(this.getClass().getResource(targetJsonPath).getPath()));
-            printWriter.print(writer.writeValueAsString(formatWriter.getJsonNode()));
+            printWriter.print(formatWriter.getJsonNode().toString());
             printWriter.close();
         }
 
@@ -146,7 +142,7 @@ public class AbstractTests {
             StringWriter writer = new StringWriter();
             transformer.transform(new DOMSource(formatWriter.getResult()), new StreamResult(writer));
             PrintWriter printWriter = new PrintWriter(new File(this.getClass().getResource(targetXmlPath).getPath()));
-            printWriter.print(writer.toString());
+            printWriter.print(writer);
             printWriter.close();
         }
     }
