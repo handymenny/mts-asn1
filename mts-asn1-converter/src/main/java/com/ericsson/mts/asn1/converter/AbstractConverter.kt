@@ -133,7 +133,7 @@ abstract class AbstractConverter {
             is RealTypeContext -> parseReal(index, lineArray, identifier, indentation, type)
             is SetOfTypeContext -> parseSetOf(index, lineArray, identifier, indentation, type)
             is SetTypeContext -> parseSet(index, lineArray, identifier, indentation, type)
-            else -> return 1
+            else -> 1
         }
     }
 
