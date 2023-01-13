@@ -1,0 +1,1525 @@
+      accessStratumRelease = 0 (rel15)
+      pdcp-Parameters
+         supportedROHC-Profiles
+            profile0x0000 = TRUE
+            profile0x0001 = TRUE
+            profile0x0002 = TRUE
+            profile0x0003 = FALSE
+            profile0x0004 = TRUE
+            profile0x0006 = FALSE
+            profile0x0101 = FALSE
+            profile0x0102 = FALSE
+            profile0x0103 = FALSE
+            profile0x0104 = FALSE
+         maxNumberROHC-ContextSessions = 4 (cs16)
+         outOfOrderDelivery = 0 (supported)
+         shortSN = 0 (supported)
+         pdcp-DuplicationSRB = 0 (supported)
+         pdcp-DuplicationMCG-OrSCG-DRB = 0 (supported)
+      rlc-Parameters
+         am-WithShortSN = 0 (supported)
+         um-WithShortSN = 0 (supported)
+         um-WithLongSN = 0 (supported)
+      mac-Parameters
+         mac-ParametersXDD-Diff
+            logicalChannelSR-DelayTimer = 0 (supported)
+            longDRX-Cycle = 0 (supported)
+            shortDRX-Cycle = 0 (supported)
+      phy-Parameters
+         phy-ParametersCommon
+            dynamicPRB-BundlingDL = 0 (supported)
+            sp-CSI-ReportPUCCH = 0 (supported)
+            sp-CSI-ReportPUSCH = 0 (supported)
+            type2-SP-CSI-Feedback-LongPUCCH = 0 (supported)
+            precoderGranularityCORESET = 0 (supported)
+            dynamicHARQ-ACK-Codebook = 0 (supported)
+            semiStaticHARQ-ACK-Codebook = 0 (supported)
+            spatialBundlingHARQ-ACK = 0 (supported)
+            dynamicBetaOffsetInd-HARQ-ACK-CSI = 0 (supported)
+            pucch-Repetition-F1-3-4 = 0 (supported)
+            ra-Type0-PUSCH = 0 (supported)
+            dynamicSwitchRA-Type0-1-PDSCH = 0 (supported)
+            dynamicSwitchRA-Type0-1-PUSCH = 0 (supported)
+            pdsch-MappingTypeA = 0 (supported)
+            pdsch-MappingTypeB = 0 (supported)
+            interleavingVRB-ToPRB-PDSCH = 0 (supported)
+            interSlotFreqHopping-PUSCH = 0 (supported)
+            type1-PUSCH-RepetitionMultiSlots = 0 (supported)
+            type2-PUSCH-RepetitionMultiSlots = 0 (supported)
+            pusch-RepetitionMultiSlots = 0 (supported)
+            pdsch-RepetitionMultiSlots = 0 (supported)
+            downlinkSPS = 0 (supported)
+            configuredUL-GrantType1 = 0 (supported)
+            configuredUL-GrantType2 = 0 (supported)
+            cbg-TransIndication-DL = 0 (supported)
+            cbg-FlushIndication-DL = 0 (supported)
+            dynamicHARQ-ACK-CodeB-CBG-Retx-DL = 0 (supported)
+            rateMatchingResrcSetSemi-Static = 0 (supported)
+            rateMatchingResrcSetDynamic = 0 (supported)
+            bwp-SwitchingDelay = 1 (type2)
+            maxNumberSearchSpaces = 0 (n10)
+            rateMatchingCtrlResrcSetDynamic = 0 (supported)
+            maxLayersMIMO-Indication = 0 (supported)
+         phy-ParametersXDD-Diff
+            twoPUCCH-F0-2-ConsecSymbols = 0 (supported)
+            twoDifferentTPC-Loop-PUSCH = 0 (supported)
+            twoDifferentTPC-Loop-PUCCH = 0 (supported)
+            dl-SchedulingOffset-PDSCH-TypeA = 0 (supported)
+            dl-SchedulingOffset-PDSCH-TypeB = 0 (supported)
+            ul-SchedulingOffset = 0 (supported)
+         phy-ParametersFRX-Diff
+            twoFL-DMRS = '11'B
+            supportedDMRS-TypeDL = 1 (type1And2)
+            supportedDMRS-TypeUL = 1 (type1And2)
+            semiOpenLoopCSI = 0 (supported)
+            csi-ReportWithoutPMI = 0 (supported)
+            onePortsPTRS = '00'B
+            twoPUCCH-F0-2-ConsecSymbols = 0 (supported)
+            pucch-F2-WithFH = 0 (supported)
+            pucch-F3-WithFH = 0 (supported)
+            pucch-F4-WithFH = 0 (supported)
+            mux-SR-HARQ-ACK-CSI-PUCCH-MultiPerSlot = 0 (supported)
+            uci-CodeBlockSegmentation = 0 (supported)
+            onePUCCH-LongAndShortFormat = 0 (supported)
+            twoPUCCH-AnyOthersInSlot = 0 (supported)
+            intraSlotFreqHopping-PUSCH = 0 (supported)
+            pusch-LBRM = 0 (supported)
+            pdcch-BlindDetectionCA = 4
+            tpc-PUSCH-RNTI = 0 (supported)
+            tpc-PUCCH-RNTI = 0 (supported)
+            tpc-SRS-RNTI = 0 (supported)
+            absoluteTPC-Command = 0 (supported)
+            twoDifferentTPC-Loop-PUSCH = 0 (supported)
+            twoDifferentTPC-Loop-PUCCH = 0 (supported)
+            pusch-HalfPi-BPSK = 0 (supported)
+            pucch-F3-4-HalfPi-BPSK = 0 (supported)
+            almostContiguousCP-OFDM-UL = 0 (supported)
+            sp-CSI-RS = 0 (supported)
+            sp-CSI-IM = 0 (supported)
+            tdd-MultiDL-UL-SwitchPerSlot = 0 (supported)
+            multipleCORESET = 0 (supported)
+            mux-SR-HARQ-ACK-CSI-PUCCH-OncePerSlot
+               sameSymbol = 0 (supported)
+               diffSymbol = 0 (supported)
+            mux-SR-HARQ-ACK-PUCCH = 0 (supported)
+            dl-SchedulingOffset-PDSCH-TypeA = 0 (supported)
+            dl-SchedulingOffset-PDSCH-TypeB = 0 (supported)
+            ul-SchedulingOffset = 0 (supported)
+            dl-64QAM-MCS-TableAlt = 0 (supported)
+            ul-64QAM-MCS-TableAlt = 0 (supported)
+            oneFL-DMRS-TwoAdditionalDMRS-UL = 0 (supported)
+            twoFL-DMRS-TwoAdditionalDMRS-UL = 0 (supported)
+            oneFL-DMRS-ThreeAdditionalDMRS-UL = 0 (supported)
+            mux-HARQ-ACK-PUSCH-DiffSymbol = 0 (supported)
+         phy-ParametersFR1
+            pdcch-MonitoringSingleOccasion = 0 (supported)
+            pdsch-256QAM-FR1 = 0 (supported)
+            pdsch-RE-MappingFR1-PerSymbol = 1 (n20)
+            pdsch-RE-MappingFR1-PerSlot = 15 (n256)
+      rf-Parameters
+         supportedBandListNR
+            supportedBandListNR nr 0
+               bandNR = 1
+               mimo-ParametersPerBand
+                  tci-StatePDSCH
+                     maxNumberConfiguredTCIstatesPerCC = 5 (n128)
+                     maxNumberActiveTCI-PerBWP = 2 (n4)
+                  additionalActiveTCI-StatePDCCH = 0 (supported)
+                  pusch-TransCoherence = 0 (nonCoherent)
+                  periodicBeamReport = 0 (supported)
+                  aperiodicBeamReport = 0 (supported)
+                  sp-BeamReportPUCCH = 0 (supported)
+                  sp-BeamReportPUSCH = 0 (supported)
+                  maxNumberNonGroupBeamReporting = 2 (n4)
+                  maxNumberCSI-RS-BFD = 2
+                  maxNumberSSB-BFD = 2
+                  maxNumberCSI-RS-SSB-CBD = 16
+                  beamReportTiming
+                     scs-15kHz = 2 (sym8)
+                     scs-30kHz = 2 (sym14)
+                  beamManagementSSB-CSI-RS
+                     maxNumberSSB-CSI-RS-ResourceOneTx = 2 (n16)
+                     maxNumberCSI-RS-Resource = 4 (n32)
+                     maxNumberCSI-RS-ResourceTwoTx = 3 (n16)
+                     supportedCSI-RS-Density = 2 (oneAndThree)
+                     maxNumberAperiodicCSI-RS-Resource = 4 (n16)
+                  codebookParameters
+                     type1
+                        singlePanel
+                           supportedCSI-RS-ResourceList
+                              supportedCSI-RS-ResourceList nr 0
+                                 maxNumberTxPortsPerResource = 6 (p32)
+                                 maxNumberResourcesPerBand = 10
+                                 totalNumberTxPortsPerBand = 64
+                           modes = 1 (mode1andMode2)
+                           maxNumberCSI-RS-PerResourceSet = 4
+                  csi-RS-IM-ReceptionForFeedback
+                     maxConfigNumberNZP-CSI-RS-PerCC = 5
+                     maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC = 32
+                     maxConfigNumberCSI-IM-PerCC = 2 (n4)
+                     maxNumberSimultaneousNZP-CSI-RS-PerCC = 5
+                     totalNumberPortsSimultaneousNZP-CSI-RS-PerCC = 32
+                  csi-ReportFramework
+                     maxNumberPeriodicCSI-PerBWP-ForCSI-Report = 1
+                     maxNumberAperiodicCSI-PerBWP-ForCSI-Report = 2
+                     maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report = 0
+                     maxNumberPeriodicCSI-PerBWP-ForBeamReport = 1
+                     maxNumberAperiodicCSI-PerBWP-ForBeamReport = 2
+                     maxNumberAperiodicCSI-triggeringStatePerCC = 2 (n15)
+                     maxNumberSemiPersistentCSI-PerBWP-ForBeamReport = 0
+                     simultaneousCSI-ReportsPerCC = 5
+                  csi-RS-ForTracking
+                     maxBurstLength = 2
+                     maxSimultaneousResourceSetsPerCC = 4
+                     maxConfiguredResourceSetsPerCC = 32
+                     maxConfiguredResourceSetsAllCC = 64
+               multipleTCI = 0 (supported)
+               bwp-SameNumerology = 1 (upto4)
+               bwp-DiffNumerology = 0 (upto4)
+               crossCarrierScheduling-SameSCS = 0 (supported)
+               pusch-256QAM = 0 (supported)
+               ue-PowerClass = 2 (pc3)
+               rateMatchingLTE-CRS = 0 (supported)
+               channelBWs-DL = fr1
+                  fr1
+                     scs-15kHz = '11111111 00'B
+                     scs-30kHz = '01111111 00'B
+                     scs-60kHz = '00000000 00'B
+               channelBWs-UL = fr1
+                  fr1
+                     scs-15kHz = '11111111 00'B
+                     scs-30kHz = '01111111 00'B
+                     scs-60kHz = '00000000 00'B
+               powerBoosting-pi2BPSK = 0 (supported)
+               maxUplinkDutyCycle-FR2 = 10 (n100)
+            supportedBandListNR nr 1
+               bandNR = 3
+               mimo-ParametersPerBand
+                  tci-StatePDSCH
+                     maxNumberConfiguredTCIstatesPerCC = 5 (n128)
+                     maxNumberActiveTCI-PerBWP = 2 (n4)
+                  additionalActiveTCI-StatePDCCH = 0 (supported)
+                  pusch-TransCoherence = 0 (nonCoherent)
+                  periodicBeamReport = 0 (supported)
+                  aperiodicBeamReport = 0 (supported)
+                  sp-BeamReportPUCCH = 0 (supported)
+                  sp-BeamReportPUSCH = 0 (supported)
+                  maxNumberNonGroupBeamReporting = 2 (n4)
+                  maxNumberCSI-RS-BFD = 2
+                  maxNumberSSB-BFD = 2
+                  maxNumberCSI-RS-SSB-CBD = 16
+                  beamReportTiming
+                     scs-15kHz = 2 (sym8)
+                     scs-30kHz = 2 (sym14)
+                  beamManagementSSB-CSI-RS
+                     maxNumberSSB-CSI-RS-ResourceOneTx = 2 (n16)
+                     maxNumberCSI-RS-Resource = 4 (n32)
+                     maxNumberCSI-RS-ResourceTwoTx = 3 (n16)
+                     supportedCSI-RS-Density = 2 (oneAndThree)
+                     maxNumberAperiodicCSI-RS-Resource = 4 (n16)
+                  codebookParameters
+                     type1
+                        singlePanel
+                           supportedCSI-RS-ResourceList
+                              supportedCSI-RS-ResourceList nr 0
+                                 maxNumberTxPortsPerResource = 6 (p32)
+                                 maxNumberResourcesPerBand = 10
+                                 totalNumberTxPortsPerBand = 64
+                           modes = 1 (mode1andMode2)
+                           maxNumberCSI-RS-PerResourceSet = 4
+                  csi-RS-IM-ReceptionForFeedback
+                     maxConfigNumberNZP-CSI-RS-PerCC = 5
+                     maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC = 32
+                     maxConfigNumberCSI-IM-PerCC = 2 (n4)
+                     maxNumberSimultaneousNZP-CSI-RS-PerCC = 5
+                     totalNumberPortsSimultaneousNZP-CSI-RS-PerCC = 32
+                  csi-ReportFramework
+                     maxNumberPeriodicCSI-PerBWP-ForCSI-Report = 1
+                     maxNumberAperiodicCSI-PerBWP-ForCSI-Report = 2
+                     maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report = 0
+                     maxNumberPeriodicCSI-PerBWP-ForBeamReport = 1
+                     maxNumberAperiodicCSI-PerBWP-ForBeamReport = 2
+                     maxNumberAperiodicCSI-triggeringStatePerCC = 2 (n15)
+                     maxNumberSemiPersistentCSI-PerBWP-ForBeamReport = 0
+                     simultaneousCSI-ReportsPerCC = 5
+                  csi-RS-ForTracking
+                     maxBurstLength = 2
+                     maxSimultaneousResourceSetsPerCC = 4
+                     maxConfiguredResourceSetsPerCC = 32
+                     maxConfiguredResourceSetsAllCC = 64
+               multipleTCI = 0 (supported)
+               bwp-SameNumerology = 1 (upto4)
+               bwp-DiffNumerology = 0 (upto4)
+               crossCarrierScheduling-SameSCS = 0 (supported)
+               pusch-256QAM = 0 (supported)
+               ue-PowerClass = 2 (pc3)
+               rateMatchingLTE-CRS = 0 (supported)
+               channelBWs-DL = fr1
+                  fr1
+                     scs-15kHz = '11111110 00'B
+                     scs-30kHz = '01111110 00'B
+                     scs-60kHz = '00000000 00'B
+               channelBWs-UL = fr1
+                  fr1
+                     scs-15kHz = '11111110 00'B
+                     scs-30kHz = '01111110 00'B
+                     scs-60kHz = '00000000 00'B
+               powerBoosting-pi2BPSK = 0 (supported)
+               maxUplinkDutyCycle-FR2 = 10 (n100)
+            supportedBandListNR nr 2
+               bandNR = 5
+               mimo-ParametersPerBand
+                  tci-StatePDSCH
+                     maxNumberConfiguredTCIstatesPerCC = 5 (n128)
+                     maxNumberActiveTCI-PerBWP = 2 (n4)
+                  additionalActiveTCI-StatePDCCH = 0 (supported)
+                  pusch-TransCoherence = 0 (nonCoherent)
+                  periodicBeamReport = 0 (supported)
+                  aperiodicBeamReport = 0 (supported)
+                  sp-BeamReportPUCCH = 0 (supported)
+                  sp-BeamReportPUSCH = 0 (supported)
+                  maxNumberNonGroupBeamReporting = 2 (n4)
+                  maxNumberCSI-RS-BFD = 2
+                  maxNumberSSB-BFD = 2
+                  maxNumberCSI-RS-SSB-CBD = 16
+                  beamReportTiming
+                     scs-15kHz = 2 (sym8)
+                     scs-30kHz = 2 (sym14)
+                  beamManagementSSB-CSI-RS
+                     maxNumberSSB-CSI-RS-ResourceOneTx = 2 (n16)
+                     maxNumberCSI-RS-Resource = 4 (n32)
+                     maxNumberCSI-RS-ResourceTwoTx = 3 (n16)
+                     supportedCSI-RS-Density = 2 (oneAndThree)
+                     maxNumberAperiodicCSI-RS-Resource = 4 (n16)
+                  codebookParameters
+                     type1
+                        singlePanel
+                           supportedCSI-RS-ResourceList
+                              supportedCSI-RS-ResourceList nr 0
+                                 maxNumberTxPortsPerResource = 6 (p32)
+                                 maxNumberResourcesPerBand = 10
+                                 totalNumberTxPortsPerBand = 64
+                           modes = 1 (mode1andMode2)
+                           maxNumberCSI-RS-PerResourceSet = 4
+                  csi-RS-IM-ReceptionForFeedback
+                     maxConfigNumberNZP-CSI-RS-PerCC = 5
+                     maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC = 32
+                     maxConfigNumberCSI-IM-PerCC = 2 (n4)
+                     maxNumberSimultaneousNZP-CSI-RS-PerCC = 5
+                     totalNumberPortsSimultaneousNZP-CSI-RS-PerCC = 32
+                  csi-ReportFramework
+                     maxNumberPeriodicCSI-PerBWP-ForCSI-Report = 1
+                     maxNumberAperiodicCSI-PerBWP-ForCSI-Report = 2
+                     maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report = 0
+                     maxNumberPeriodicCSI-PerBWP-ForBeamReport = 1
+                     maxNumberAperiodicCSI-PerBWP-ForBeamReport = 2
+                     maxNumberAperiodicCSI-triggeringStatePerCC = 2 (n15)
+                     maxNumberSemiPersistentCSI-PerBWP-ForBeamReport = 0
+                     simultaneousCSI-ReportsPerCC = 5
+                  csi-RS-ForTracking
+                     maxBurstLength = 2
+                     maxSimultaneousResourceSetsPerCC = 4
+                     maxConfiguredResourceSetsPerCC = 32
+                     maxConfiguredResourceSetsAllCC = 64
+               multipleTCI = 0 (supported)
+               bwp-SameNumerology = 1 (upto4)
+               bwp-DiffNumerology = 0 (upto4)
+               crossCarrierScheduling-SameSCS = 0 (supported)
+               pusch-256QAM = 0 (supported)
+               ue-PowerClass = 2 (pc3)
+               rateMatchingLTE-CRS = 0 (supported)
+               channelBWs-DL = fr1
+                  fr1
+                     scs-15kHz = '11111100 00'B
+                     scs-30kHz = '01111100 00'B
+                     scs-60kHz = '00000000 00'B
+               channelBWs-UL = fr1
+                  fr1
+                     scs-15kHz = '11111100 00'B
+                     scs-30kHz = '01111100 00'B
+                     scs-60kHz = '00000000 00'B
+               powerBoosting-pi2BPSK = 0 (supported)
+               maxUplinkDutyCycle-FR2 = 10 (n100)
+            supportedBandListNR nr 3
+               bandNR = 7
+               mimo-ParametersPerBand
+                  tci-StatePDSCH
+                     maxNumberConfiguredTCIstatesPerCC = 5 (n128)
+                     maxNumberActiveTCI-PerBWP = 2 (n4)
+                  additionalActiveTCI-StatePDCCH = 0 (supported)
+                  pusch-TransCoherence = 0 (nonCoherent)
+                  periodicBeamReport = 0 (supported)
+                  aperiodicBeamReport = 0 (supported)
+                  sp-BeamReportPUCCH = 0 (supported)
+                  sp-BeamReportPUSCH = 0 (supported)
+                  maxNumberNonGroupBeamReporting = 2 (n4)
+                  maxNumberCSI-RS-BFD = 2
+                  maxNumberSSB-BFD = 2
+                  maxNumberCSI-RS-SSB-CBD = 16
+                  beamReportTiming
+                     scs-15kHz = 2 (sym8)
+                     scs-30kHz = 2 (sym14)
+                  beamManagementSSB-CSI-RS
+                     maxNumberSSB-CSI-RS-ResourceOneTx = 2 (n16)
+                     maxNumberCSI-RS-Resource = 4 (n32)
+                     maxNumberCSI-RS-ResourceTwoTx = 3 (n16)
+                     supportedCSI-RS-Density = 2 (oneAndThree)
+                     maxNumberAperiodicCSI-RS-Resource = 4 (n16)
+                  codebookParameters
+                     type1
+                        singlePanel
+                           supportedCSI-RS-ResourceList
+                              supportedCSI-RS-ResourceList nr 0
+                                 maxNumberTxPortsPerResource = 6 (p32)
+                                 maxNumberResourcesPerBand = 10
+                                 totalNumberTxPortsPerBand = 64
+                           modes = 1 (mode1andMode2)
+                           maxNumberCSI-RS-PerResourceSet = 4
+                  csi-RS-IM-ReceptionForFeedback
+                     maxConfigNumberNZP-CSI-RS-PerCC = 5
+                     maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC = 32
+                     maxConfigNumberCSI-IM-PerCC = 2 (n4)
+                     maxNumberSimultaneousNZP-CSI-RS-PerCC = 5
+                     totalNumberPortsSimultaneousNZP-CSI-RS-PerCC = 32
+                  csi-ReportFramework
+                     maxNumberPeriodicCSI-PerBWP-ForCSI-Report = 1
+                     maxNumberAperiodicCSI-PerBWP-ForCSI-Report = 2
+                     maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report = 0
+                     maxNumberPeriodicCSI-PerBWP-ForBeamReport = 1
+                     maxNumberAperiodicCSI-PerBWP-ForBeamReport = 2
+                     maxNumberAperiodicCSI-triggeringStatePerCC = 2 (n15)
+                     maxNumberSemiPersistentCSI-PerBWP-ForBeamReport = 0
+                     simultaneousCSI-ReportsPerCC = 5
+                  csi-RS-ForTracking
+                     maxBurstLength = 2
+                     maxSimultaneousResourceSetsPerCC = 4
+                     maxConfiguredResourceSetsPerCC = 32
+                     maxConfiguredResourceSetsAllCC = 64
+               multipleTCI = 0 (supported)
+               bwp-SameNumerology = 1 (upto4)
+               bwp-DiffNumerology = 0 (upto4)
+               crossCarrierScheduling-SameSCS = 0 (supported)
+               pusch-256QAM = 0 (supported)
+               ue-PowerClass = 2 (pc3)
+               rateMatchingLTE-CRS = 0 (supported)
+               channelBWs-DL = fr1
+                  fr1
+                     scs-15kHz = '11111111 00'B
+                     scs-30kHz = '01111111 00'B
+                     scs-60kHz = '00000000 00'B
+               channelBWs-UL = fr1
+                  fr1
+                     scs-15kHz = '11111111 00'B
+                     scs-30kHz = '01111111 00'B
+                     scs-60kHz = '00000000 00'B
+               powerBoosting-pi2BPSK = 0 (supported)
+               maxUplinkDutyCycle-FR2 = 10 (n100)
+            supportedBandListNR nr 4
+               bandNR = 8
+               mimo-ParametersPerBand
+                  tci-StatePDSCH
+                     maxNumberConfiguredTCIstatesPerCC = 5 (n128)
+                     maxNumberActiveTCI-PerBWP = 2 (n4)
+                  additionalActiveTCI-StatePDCCH = 0 (supported)
+                  pusch-TransCoherence = 0 (nonCoherent)
+                  periodicBeamReport = 0 (supported)
+                  aperiodicBeamReport = 0 (supported)
+                  sp-BeamReportPUCCH = 0 (supported)
+                  sp-BeamReportPUSCH = 0 (supported)
+                  maxNumberNonGroupBeamReporting = 2 (n4)
+                  maxNumberCSI-RS-BFD = 2
+                  maxNumberSSB-BFD = 2
+                  maxNumberCSI-RS-SSB-CBD = 16
+                  beamReportTiming
+                     scs-15kHz = 2 (sym8)
+                     scs-30kHz = 2 (sym14)
+                  beamManagementSSB-CSI-RS
+                     maxNumberSSB-CSI-RS-ResourceOneTx = 2 (n16)
+                     maxNumberCSI-RS-Resource = 4 (n32)
+                     maxNumberCSI-RS-ResourceTwoTx = 3 (n16)
+                     supportedCSI-RS-Density = 2 (oneAndThree)
+                     maxNumberAperiodicCSI-RS-Resource = 4 (n16)
+                  codebookParameters
+                     type1
+                        singlePanel
+                           supportedCSI-RS-ResourceList
+                              supportedCSI-RS-ResourceList nr 0
+                                 maxNumberTxPortsPerResource = 6 (p32)
+                                 maxNumberResourcesPerBand = 10
+                                 totalNumberTxPortsPerBand = 64
+                           modes = 1 (mode1andMode2)
+                           maxNumberCSI-RS-PerResourceSet = 4
+                  csi-RS-IM-ReceptionForFeedback
+                     maxConfigNumberNZP-CSI-RS-PerCC = 5
+                     maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC = 32
+                     maxConfigNumberCSI-IM-PerCC = 2 (n4)
+                     maxNumberSimultaneousNZP-CSI-RS-PerCC = 5
+                     totalNumberPortsSimultaneousNZP-CSI-RS-PerCC = 32
+                  csi-ReportFramework
+                     maxNumberPeriodicCSI-PerBWP-ForCSI-Report = 1
+                     maxNumberAperiodicCSI-PerBWP-ForCSI-Report = 2
+                     maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report = 0
+                     maxNumberPeriodicCSI-PerBWP-ForBeamReport = 1
+                     maxNumberAperiodicCSI-PerBWP-ForBeamReport = 2
+                     maxNumberAperiodicCSI-triggeringStatePerCC = 2 (n15)
+                     maxNumberSemiPersistentCSI-PerBWP-ForBeamReport = 0
+                     simultaneousCSI-ReportsPerCC = 5
+                  csi-RS-ForTracking
+                     maxBurstLength = 2
+                     maxSimultaneousResourceSetsPerCC = 4
+                     maxConfiguredResourceSetsPerCC = 32
+                     maxConfiguredResourceSetsAllCC = 64
+               multipleTCI = 0 (supported)
+               bwp-SameNumerology = 1 (upto4)
+               bwp-DiffNumerology = 0 (upto4)
+               crossCarrierScheduling-SameSCS = 0 (supported)
+               pusch-256QAM = 0 (supported)
+               ue-PowerClass = 2 (pc3)
+               rateMatchingLTE-CRS = 0 (supported)
+               channelBWs-DL = fr1
+                  fr1
+                     scs-60kHz = '00000000 00'B
+               channelBWs-UL = fr1
+                  fr1
+                     scs-60kHz = '00000000 00'B
+               powerBoosting-pi2BPSK = 0 (supported)
+               maxUplinkDutyCycle-FR2 = 10 (n100)
+            supportedBandListNR nr 5
+               bandNR = 20
+               mimo-ParametersPerBand
+                  tci-StatePDSCH
+                     maxNumberConfiguredTCIstatesPerCC = 5 (n128)
+                     maxNumberActiveTCI-PerBWP = 2 (n4)
+                  additionalActiveTCI-StatePDCCH = 0 (supported)
+                  pusch-TransCoherence = 0 (nonCoherent)
+                  periodicBeamReport = 0 (supported)
+                  aperiodicBeamReport = 0 (supported)
+                  sp-BeamReportPUCCH = 0 (supported)
+                  sp-BeamReportPUSCH = 0 (supported)
+                  maxNumberNonGroupBeamReporting = 2 (n4)
+                  maxNumberCSI-RS-BFD = 2
+                  maxNumberSSB-BFD = 2
+                  maxNumberCSI-RS-SSB-CBD = 16
+                  beamReportTiming
+                     scs-15kHz = 2 (sym8)
+                     scs-30kHz = 2 (sym14)
+                  beamManagementSSB-CSI-RS
+                     maxNumberSSB-CSI-RS-ResourceOneTx = 2 (n16)
+                     maxNumberCSI-RS-Resource = 4 (n32)
+                     maxNumberCSI-RS-ResourceTwoTx = 3 (n16)
+                     supportedCSI-RS-Density = 2 (oneAndThree)
+                     maxNumberAperiodicCSI-RS-Resource = 4 (n16)
+                  codebookParameters
+                     type1
+                        singlePanel
+                           supportedCSI-RS-ResourceList
+                              supportedCSI-RS-ResourceList nr 0
+                                 maxNumberTxPortsPerResource = 6 (p32)
+                                 maxNumberResourcesPerBand = 10
+                                 totalNumberTxPortsPerBand = 64
+                           modes = 1 (mode1andMode2)
+                           maxNumberCSI-RS-PerResourceSet = 4
+                  csi-RS-IM-ReceptionForFeedback
+                     maxConfigNumberNZP-CSI-RS-PerCC = 5
+                     maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC = 32
+                     maxConfigNumberCSI-IM-PerCC = 2 (n4)
+                     maxNumberSimultaneousNZP-CSI-RS-PerCC = 5
+                     totalNumberPortsSimultaneousNZP-CSI-RS-PerCC = 32
+                  csi-ReportFramework
+                     maxNumberPeriodicCSI-PerBWP-ForCSI-Report = 1
+                     maxNumberAperiodicCSI-PerBWP-ForCSI-Report = 2
+                     maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report = 0
+                     maxNumberPeriodicCSI-PerBWP-ForBeamReport = 1
+                     maxNumberAperiodicCSI-PerBWP-ForBeamReport = 2
+                     maxNumberAperiodicCSI-triggeringStatePerCC = 2 (n15)
+                     maxNumberSemiPersistentCSI-PerBWP-ForBeamReport = 0
+                     simultaneousCSI-ReportsPerCC = 5
+                  csi-RS-ForTracking
+                     maxBurstLength = 2
+                     maxSimultaneousResourceSetsPerCC = 4
+                     maxConfiguredResourceSetsPerCC = 32
+                     maxConfiguredResourceSetsAllCC = 64
+               multipleTCI = 0 (supported)
+               bwp-SameNumerology = 1 (upto4)
+               bwp-DiffNumerology = 0 (upto4)
+               crossCarrierScheduling-SameSCS = 0 (supported)
+               pusch-256QAM = 0 (supported)
+               ue-PowerClass = 2 (pc3)
+               rateMatchingLTE-CRS = 0 (supported)
+               channelBWs-DL = fr1
+                  fr1
+                     scs-60kHz = '00000000 00'B
+               channelBWs-UL = fr1
+                  fr1
+                     scs-60kHz = '00000000 00'B
+               powerBoosting-pi2BPSK = 0 (supported)
+               maxUplinkDutyCycle-FR2 = 10 (n100)
+            supportedBandListNR nr 6
+               bandNR = 28
+               mimo-ParametersPerBand
+                  tci-StatePDSCH
+                     maxNumberConfiguredTCIstatesPerCC = 5 (n128)
+                     maxNumberActiveTCI-PerBWP = 2 (n4)
+                  additionalActiveTCI-StatePDCCH = 0 (supported)
+                  pusch-TransCoherence = 0 (nonCoherent)
+                  periodicBeamReport = 0 (supported)
+                  aperiodicBeamReport = 0 (supported)
+                  sp-BeamReportPUCCH = 0 (supported)
+                  sp-BeamReportPUSCH = 0 (supported)
+                  maxNumberNonGroupBeamReporting = 2 (n4)
+                  maxNumberCSI-RS-BFD = 2
+                  maxNumberSSB-BFD = 2
+                  maxNumberCSI-RS-SSB-CBD = 16
+                  beamReportTiming
+                     scs-15kHz = 2 (sym8)
+                     scs-30kHz = 2 (sym14)
+                  beamManagementSSB-CSI-RS
+                     maxNumberSSB-CSI-RS-ResourceOneTx = 2 (n16)
+                     maxNumberCSI-RS-Resource = 4 (n32)
+                     maxNumberCSI-RS-ResourceTwoTx = 3 (n16)
+                     supportedCSI-RS-Density = 2 (oneAndThree)
+                     maxNumberAperiodicCSI-RS-Resource = 4 (n16)
+                  codebookParameters
+                     type1
+                        singlePanel
+                           supportedCSI-RS-ResourceList
+                              supportedCSI-RS-ResourceList nr 0
+                                 maxNumberTxPortsPerResource = 6 (p32)
+                                 maxNumberResourcesPerBand = 10
+                                 totalNumberTxPortsPerBand = 64
+                           modes = 1 (mode1andMode2)
+                           maxNumberCSI-RS-PerResourceSet = 4
+                  csi-RS-IM-ReceptionForFeedback
+                     maxConfigNumberNZP-CSI-RS-PerCC = 5
+                     maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC = 32
+                     maxConfigNumberCSI-IM-PerCC = 2 (n4)
+                     maxNumberSimultaneousNZP-CSI-RS-PerCC = 5
+                     totalNumberPortsSimultaneousNZP-CSI-RS-PerCC = 32
+                  csi-ReportFramework
+                     maxNumberPeriodicCSI-PerBWP-ForCSI-Report = 1
+                     maxNumberAperiodicCSI-PerBWP-ForCSI-Report = 2
+                     maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report = 0
+                     maxNumberPeriodicCSI-PerBWP-ForBeamReport = 1
+                     maxNumberAperiodicCSI-PerBWP-ForBeamReport = 2
+                     maxNumberAperiodicCSI-triggeringStatePerCC = 2 (n15)
+                     maxNumberSemiPersistentCSI-PerBWP-ForBeamReport = 0
+                     simultaneousCSI-ReportsPerCC = 5
+                  csi-RS-ForTracking
+                     maxBurstLength = 2
+                     maxSimultaneousResourceSetsPerCC = 4
+                     maxConfiguredResourceSetsPerCC = 32
+                     maxConfiguredResourceSetsAllCC = 64
+               multipleTCI = 0 (supported)
+               bwp-SameNumerology = 1 (upto4)
+               bwp-DiffNumerology = 0 (upto4)
+               crossCarrierScheduling-SameSCS = 0 (supported)
+               pusch-256QAM = 0 (supported)
+               ue-PowerClass = 2 (pc3)
+               rateMatchingLTE-CRS = 0 (supported)
+               channelBWs-DL = fr1
+                  fr1
+                     scs-15kHz = '11110100 00'B
+                     scs-30kHz = '01110100 00'B
+                     scs-60kHz = '00000000 00'B
+               channelBWs-UL = fr1
+                  fr1
+                     scs-15kHz = '11110100 00'B
+                     scs-30kHz = '01110100 00'B
+                     scs-60kHz = '00000000 00'B
+               powerBoosting-pi2BPSK = 0 (supported)
+               maxUplinkDutyCycle-FR2 = 10 (n100)
+            supportedBandListNR nr 7
+               bandNR = 38
+               mimo-ParametersPerBand
+                  tci-StatePDSCH
+                     maxNumberConfiguredTCIstatesPerCC = 5 (n128)
+                     maxNumberActiveTCI-PerBWP = 2 (n4)
+                  additionalActiveTCI-StatePDCCH = 0 (supported)
+                  pusch-TransCoherence = 0 (nonCoherent)
+                  periodicBeamReport = 0 (supported)
+                  aperiodicBeamReport = 0 (supported)
+                  sp-BeamReportPUCCH = 0 (supported)
+                  sp-BeamReportPUSCH = 0 (supported)
+                  maxNumberNonGroupBeamReporting = 2 (n4)
+                  maxNumberCSI-RS-BFD = 2
+                  maxNumberSSB-BFD = 2
+                  maxNumberCSI-RS-SSB-CBD = 16
+                  beamReportTiming
+                     scs-15kHz = 2 (sym8)
+                     scs-30kHz = 2 (sym14)
+                  beamManagementSSB-CSI-RS
+                     maxNumberSSB-CSI-RS-ResourceOneTx = 2 (n16)
+                     maxNumberCSI-RS-Resource = 4 (n32)
+                     maxNumberCSI-RS-ResourceTwoTx = 3 (n16)
+                     supportedCSI-RS-Density = 2 (oneAndThree)
+                     maxNumberAperiodicCSI-RS-Resource = 4 (n16)
+                  codebookParameters
+                     type1
+                        singlePanel
+                           supportedCSI-RS-ResourceList
+                              supportedCSI-RS-ResourceList nr 0
+                                 maxNumberTxPortsPerResource = 6 (p32)
+                                 maxNumberResourcesPerBand = 10
+                                 totalNumberTxPortsPerBand = 64
+                           modes = 1 (mode1andMode2)
+                           maxNumberCSI-RS-PerResourceSet = 4
+                  csi-RS-IM-ReceptionForFeedback
+                     maxConfigNumberNZP-CSI-RS-PerCC = 5
+                     maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC = 32
+                     maxConfigNumberCSI-IM-PerCC = 2 (n4)
+                     maxNumberSimultaneousNZP-CSI-RS-PerCC = 5
+                     totalNumberPortsSimultaneousNZP-CSI-RS-PerCC = 32
+                  csi-ReportFramework
+                     maxNumberPeriodicCSI-PerBWP-ForCSI-Report = 1
+                     maxNumberAperiodicCSI-PerBWP-ForCSI-Report = 2
+                     maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report = 0
+                     maxNumberPeriodicCSI-PerBWP-ForBeamReport = 1
+                     maxNumberAperiodicCSI-PerBWP-ForBeamReport = 2
+                     maxNumberAperiodicCSI-triggeringStatePerCC = 2 (n15)
+                     maxNumberSemiPersistentCSI-PerBWP-ForBeamReport = 0
+                     simultaneousCSI-ReportsPerCC = 5
+                  csi-RS-ForTracking
+                     maxBurstLength = 2
+                     maxSimultaneousResourceSetsPerCC = 4
+                     maxConfiguredResourceSetsPerCC = 32
+                     maxConfiguredResourceSetsAllCC = 64
+               multipleTCI = 0 (supported)
+               bwp-SameNumerology = 1 (upto4)
+               bwp-DiffNumerology = 0 (upto4)
+               crossCarrierScheduling-SameSCS = 0 (supported)
+               pusch-256QAM = 0 (supported)
+               ue-PowerClass = 2 (pc3)
+               rateMatchingLTE-CRS = 0 (supported)
+               channelBWs-DL = fr1
+                  fr1
+                     scs-15kHz = '11111110 00'B
+                     scs-30kHz = '01111110 00'B
+                     scs-60kHz = '00000000 00'B
+               channelBWs-UL = fr1
+                  fr1
+                     scs-15kHz = '11111110 00'B
+                     scs-30kHz = '01111110 00'B
+                     scs-60kHz = '00000000 00'B
+               powerBoosting-pi2BPSK = 0 (supported)
+               maxUplinkDutyCycle-FR2 = 10 (n100)
+            supportedBandListNR nr 8
+               bandNR = 40
+               mimo-ParametersPerBand
+                  tci-StatePDSCH
+                     maxNumberConfiguredTCIstatesPerCC = 5 (n128)
+                     maxNumberActiveTCI-PerBWP = 2 (n4)
+                  additionalActiveTCI-StatePDCCH = 0 (supported)
+                  pusch-TransCoherence = 0 (nonCoherent)
+                  periodicBeamReport = 0 (supported)
+                  aperiodicBeamReport = 0 (supported)
+                  sp-BeamReportPUCCH = 0 (supported)
+                  sp-BeamReportPUSCH = 0 (supported)
+                  maxNumberNonGroupBeamReporting = 2 (n4)
+                  maxNumberCSI-RS-BFD = 2
+                  maxNumberSSB-BFD = 2
+                  maxNumberCSI-RS-SSB-CBD = 16
+                  beamReportTiming
+                     scs-15kHz = 2 (sym8)
+                     scs-30kHz = 2 (sym14)
+                  beamManagementSSB-CSI-RS
+                     maxNumberSSB-CSI-RS-ResourceOneTx = 2 (n16)
+                     maxNumberCSI-RS-Resource = 4 (n32)
+                     maxNumberCSI-RS-ResourceTwoTx = 3 (n16)
+                     supportedCSI-RS-Density = 2 (oneAndThree)
+                     maxNumberAperiodicCSI-RS-Resource = 4 (n16)
+                  codebookParameters
+                     type1
+                        singlePanel
+                           supportedCSI-RS-ResourceList
+                              supportedCSI-RS-ResourceList nr 0
+                                 maxNumberTxPortsPerResource = 6 (p32)
+                                 maxNumberResourcesPerBand = 10
+                                 totalNumberTxPortsPerBand = 64
+                           modes = 1 (mode1andMode2)
+                           maxNumberCSI-RS-PerResourceSet = 4
+                  csi-RS-IM-ReceptionForFeedback
+                     maxConfigNumberNZP-CSI-RS-PerCC = 5
+                     maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC = 32
+                     maxConfigNumberCSI-IM-PerCC = 2 (n4)
+                     maxNumberSimultaneousNZP-CSI-RS-PerCC = 5
+                     totalNumberPortsSimultaneousNZP-CSI-RS-PerCC = 32
+                  csi-ReportFramework
+                     maxNumberPeriodicCSI-PerBWP-ForCSI-Report = 1
+                     maxNumberAperiodicCSI-PerBWP-ForCSI-Report = 2
+                     maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report = 0
+                     maxNumberPeriodicCSI-PerBWP-ForBeamReport = 1
+                     maxNumberAperiodicCSI-PerBWP-ForBeamReport = 2
+                     maxNumberAperiodicCSI-triggeringStatePerCC = 2 (n15)
+                     maxNumberSemiPersistentCSI-PerBWP-ForBeamReport = 0
+                     simultaneousCSI-ReportsPerCC = 5
+                  csi-RS-ForTracking
+                     maxBurstLength = 2
+                     maxSimultaneousResourceSetsPerCC = 4
+                     maxConfiguredResourceSetsPerCC = 32
+                     maxConfiguredResourceSetsAllCC = 64
+               multipleTCI = 0 (supported)
+               bwp-SameNumerology = 1 (upto4)
+               bwp-DiffNumerology = 0 (upto4)
+               crossCarrierScheduling-SameSCS = 0 (supported)
+               pusch-256QAM = 0 (supported)
+               ue-PowerClass = 2 (pc3)
+               rateMatchingLTE-CRS = 0 (supported)
+               channelBWs-DL = fr1
+                  fr1
+                     scs-60kHz = '00000000 00'B
+               channelBWs-UL = fr1
+                  fr1
+                     scs-60kHz = '00000000 00'B
+               powerBoosting-pi2BPSK = 0 (supported)
+               maxUplinkDutyCycle-FR2 = 10 (n100)
+            supportedBandListNR nr 9
+               bandNR = 41
+               mimo-ParametersPerBand
+                  tci-StatePDSCH
+                     maxNumberConfiguredTCIstatesPerCC = 5 (n128)
+                     maxNumberActiveTCI-PerBWP = 2 (n4)
+                  additionalActiveTCI-StatePDCCH = 0 (supported)
+                  pusch-TransCoherence = 0 (nonCoherent)
+                  periodicBeamReport = 0 (supported)
+                  aperiodicBeamReport = 0 (supported)
+                  sp-BeamReportPUCCH = 0 (supported)
+                  sp-BeamReportPUSCH = 0 (supported)
+                  maxNumberNonGroupBeamReporting = 2 (n4)
+                  maxNumberCSI-RS-BFD = 2
+                  maxNumberSSB-BFD = 2
+                  maxNumberCSI-RS-SSB-CBD = 16
+                  beamReportTiming
+                     scs-15kHz = 2 (sym8)
+                     scs-30kHz = 2 (sym14)
+                  beamManagementSSB-CSI-RS
+                     maxNumberSSB-CSI-RS-ResourceOneTx = 2 (n16)
+                     maxNumberCSI-RS-Resource = 4 (n32)
+                     maxNumberCSI-RS-ResourceTwoTx = 3 (n16)
+                     supportedCSI-RS-Density = 2 (oneAndThree)
+                     maxNumberAperiodicCSI-RS-Resource = 4 (n16)
+                  codebookParameters
+                     type1
+                        singlePanel
+                           supportedCSI-RS-ResourceList
+                              supportedCSI-RS-ResourceList nr 0
+                                 maxNumberTxPortsPerResource = 6 (p32)
+                                 maxNumberResourcesPerBand = 10
+                                 totalNumberTxPortsPerBand = 64
+                           modes = 1 (mode1andMode2)
+                           maxNumberCSI-RS-PerResourceSet = 4
+                  csi-RS-IM-ReceptionForFeedback
+                     maxConfigNumberNZP-CSI-RS-PerCC = 5
+                     maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC = 32
+                     maxConfigNumberCSI-IM-PerCC = 2 (n4)
+                     maxNumberSimultaneousNZP-CSI-RS-PerCC = 5
+                     totalNumberPortsSimultaneousNZP-CSI-RS-PerCC = 32
+                  csi-ReportFramework
+                     maxNumberPeriodicCSI-PerBWP-ForCSI-Report = 1
+                     maxNumberAperiodicCSI-PerBWP-ForCSI-Report = 2
+                     maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report = 0
+                     maxNumberPeriodicCSI-PerBWP-ForBeamReport = 1
+                     maxNumberAperiodicCSI-PerBWP-ForBeamReport = 2
+                     maxNumberAperiodicCSI-triggeringStatePerCC = 2 (n15)
+                     maxNumberSemiPersistentCSI-PerBWP-ForBeamReport = 0
+                     simultaneousCSI-ReportsPerCC = 5
+                  csi-RS-ForTracking
+                     maxBurstLength = 2
+                     maxSimultaneousResourceSetsPerCC = 4
+                     maxConfiguredResourceSetsPerCC = 32
+                     maxConfiguredResourceSetsAllCC = 64
+               multipleTCI = 0 (supported)
+               bwp-SameNumerology = 1 (upto4)
+               bwp-DiffNumerology = 0 (upto4)
+               crossCarrierScheduling-SameSCS = 0 (supported)
+               pusch-256QAM = 0 (supported)
+               ue-PowerClass = 1 (pc2)
+               rateMatchingLTE-CRS = 0 (supported)
+               channelBWs-DL = fr1
+                  fr1
+                     scs-15kHz = '01110111 00'B
+                     scs-30kHz = '01110111 11'B
+                     scs-60kHz = '00000000 00'B
+               channelBWs-UL = fr1
+                  fr1
+                     scs-15kHz = '01110111 00'B
+                     scs-30kHz = '01110111 11'B
+                     scs-60kHz = '00000000 00'B
+               powerBoosting-pi2BPSK = 0 (supported)
+               maxUplinkDutyCycle-FR2 = 10 (n100)
+               channelBWs-DL-v1590 = fr1
+                  fr1
+                     scs-30kHz = '10000000 00000000'B
+               channelBWs-UL-v1590 = fr1
+                  fr1
+                     scs-30kHz = '10000000 00000000'B
+            supportedBandListNR nr 10
+               bandNR = 77
+               mimo-ParametersPerBand
+                  tci-StatePDSCH
+                     maxNumberConfiguredTCIstatesPerCC = 5 (n128)
+                     maxNumberActiveTCI-PerBWP = 2 (n4)
+                  additionalActiveTCI-StatePDCCH = 0 (supported)
+                  pusch-TransCoherence = 0 (nonCoherent)
+                  periodicBeamReport = 0 (supported)
+                  aperiodicBeamReport = 0 (supported)
+                  sp-BeamReportPUCCH = 0 (supported)
+                  sp-BeamReportPUSCH = 0 (supported)
+                  maxNumberNonGroupBeamReporting = 2 (n4)
+                  maxNumberCSI-RS-BFD = 2
+                  maxNumberSSB-BFD = 2
+                  maxNumberCSI-RS-SSB-CBD = 16
+                  beamReportTiming
+                     scs-15kHz = 2 (sym8)
+                     scs-30kHz = 2 (sym14)
+                  beamManagementSSB-CSI-RS
+                     maxNumberSSB-CSI-RS-ResourceOneTx = 2 (n16)
+                     maxNumberCSI-RS-Resource = 4 (n32)
+                     maxNumberCSI-RS-ResourceTwoTx = 3 (n16)
+                     supportedCSI-RS-Density = 2 (oneAndThree)
+                     maxNumberAperiodicCSI-RS-Resource = 4 (n16)
+                  codebookParameters
+                     type1
+                        singlePanel
+                           supportedCSI-RS-ResourceList
+                              supportedCSI-RS-ResourceList nr 0
+                                 maxNumberTxPortsPerResource = 6 (p32)
+                                 maxNumberResourcesPerBand = 10
+                                 totalNumberTxPortsPerBand = 64
+                           modes = 1 (mode1andMode2)
+                           maxNumberCSI-RS-PerResourceSet = 4
+                  csi-RS-IM-ReceptionForFeedback
+                     maxConfigNumberNZP-CSI-RS-PerCC = 5
+                     maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC = 32
+                     maxConfigNumberCSI-IM-PerCC = 2 (n4)
+                     maxNumberSimultaneousNZP-CSI-RS-PerCC = 5
+                     totalNumberPortsSimultaneousNZP-CSI-RS-PerCC = 32
+                  csi-ReportFramework
+                     maxNumberPeriodicCSI-PerBWP-ForCSI-Report = 1
+                     maxNumberAperiodicCSI-PerBWP-ForCSI-Report = 2
+                     maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report = 0
+                     maxNumberPeriodicCSI-PerBWP-ForBeamReport = 1
+                     maxNumberAperiodicCSI-PerBWP-ForBeamReport = 2
+                     maxNumberAperiodicCSI-triggeringStatePerCC = 2 (n15)
+                     maxNumberSemiPersistentCSI-PerBWP-ForBeamReport = 0
+                     simultaneousCSI-ReportsPerCC = 5
+                  csi-RS-ForTracking
+                     maxBurstLength = 2
+                     maxSimultaneousResourceSetsPerCC = 4
+                     maxConfiguredResourceSetsPerCC = 32
+                     maxConfiguredResourceSetsAllCC = 64
+               multipleTCI = 0 (supported)
+               bwp-SameNumerology = 1 (upto4)
+               bwp-DiffNumerology = 0 (upto4)
+               crossCarrierScheduling-SameSCS = 0 (supported)
+               pusch-256QAM = 0 (supported)
+               ue-PowerClass = 2 (pc3)
+               rateMatchingLTE-CRS = 0 (supported)
+               channelBWs-DL = fr1
+                  fr1
+                     scs-60kHz = '00000000 00'B
+               channelBWs-UL = fr1
+                  fr1
+                     scs-60kHz = '00000000 00'B
+               powerBoosting-pi2BPSK = 0 (supported)
+               maxUplinkDutyCycle-FR2 = 10 (n100)
+               channelBWs-DL-v1590 = fr1
+                  fr1
+                     scs-30kHz = '10000000 00000000'B
+               channelBWs-UL-v1590 = fr1
+                  fr1
+                     scs-30kHz = '10000000 00000000'B
+            supportedBandListNR nr 11
+               bandNR = 78
+               mimo-ParametersPerBand
+                  tci-StatePDSCH
+                     maxNumberConfiguredTCIstatesPerCC = 5 (n128)
+                     maxNumberActiveTCI-PerBWP = 2 (n4)
+                  additionalActiveTCI-StatePDCCH = 0 (supported)
+                  pusch-TransCoherence = 0 (nonCoherent)
+                  periodicBeamReport = 0 (supported)
+                  aperiodicBeamReport = 0 (supported)
+                  sp-BeamReportPUCCH = 0 (supported)
+                  sp-BeamReportPUSCH = 0 (supported)
+                  maxNumberNonGroupBeamReporting = 2 (n4)
+                  maxNumberCSI-RS-BFD = 2
+                  maxNumberSSB-BFD = 2
+                  maxNumberCSI-RS-SSB-CBD = 16
+                  beamReportTiming
+                     scs-15kHz = 2 (sym8)
+                     scs-30kHz = 2 (sym14)
+                  beamManagementSSB-CSI-RS
+                     maxNumberSSB-CSI-RS-ResourceOneTx = 2 (n16)
+                     maxNumberCSI-RS-Resource = 4 (n32)
+                     maxNumberCSI-RS-ResourceTwoTx = 3 (n16)
+                     supportedCSI-RS-Density = 2 (oneAndThree)
+                     maxNumberAperiodicCSI-RS-Resource = 4 (n16)
+                  codebookParameters
+                     type1
+                        singlePanel
+                           supportedCSI-RS-ResourceList
+                              supportedCSI-RS-ResourceList nr 0
+                                 maxNumberTxPortsPerResource = 6 (p32)
+                                 maxNumberResourcesPerBand = 10
+                                 totalNumberTxPortsPerBand = 64
+                           modes = 1 (mode1andMode2)
+                           maxNumberCSI-RS-PerResourceSet = 4
+                  csi-RS-IM-ReceptionForFeedback
+                     maxConfigNumberNZP-CSI-RS-PerCC = 5
+                     maxConfigNumberPortsAcrossNZP-CSI-RS-PerCC = 32
+                     maxConfigNumberCSI-IM-PerCC = 2 (n4)
+                     maxNumberSimultaneousNZP-CSI-RS-PerCC = 5
+                     totalNumberPortsSimultaneousNZP-CSI-RS-PerCC = 32
+                  csi-ReportFramework
+                     maxNumberPeriodicCSI-PerBWP-ForCSI-Report = 1
+                     maxNumberAperiodicCSI-PerBWP-ForCSI-Report = 2
+                     maxNumberSemiPersistentCSI-PerBWP-ForCSI-Report = 0
+                     maxNumberPeriodicCSI-PerBWP-ForBeamReport = 1
+                     maxNumberAperiodicCSI-PerBWP-ForBeamReport = 2
+                     maxNumberAperiodicCSI-triggeringStatePerCC = 2 (n15)
+                     maxNumberSemiPersistentCSI-PerBWP-ForBeamReport = 0
+                     simultaneousCSI-ReportsPerCC = 5
+                  csi-RS-ForTracking
+                     maxBurstLength = 2
+                     maxSimultaneousResourceSetsPerCC = 4
+                     maxConfiguredResourceSetsPerCC = 32
+                     maxConfiguredResourceSetsAllCC = 64
+               multipleTCI = 0 (supported)
+               bwp-SameNumerology = 1 (upto4)
+               bwp-DiffNumerology = 0 (upto4)
+               crossCarrierScheduling-SameSCS = 0 (supported)
+               pusch-256QAM = 0 (supported)
+               ue-PowerClass = 1 (pc2)
+               rateMatchingLTE-CRS = 0 (supported)
+               channelBWs-DL = fr1
+                  fr1
+                     scs-15kHz = '01110111 00'B
+                     scs-30kHz = '01110111 11'B
+                     scs-60kHz = '00000000 00'B
+               channelBWs-UL = fr1
+                  fr1
+                     scs-15kHz = '01110111 00'B
+                     scs-30kHz = '01110111 11'B
+                     scs-60kHz = '00000000 00'B
+               powerBoosting-pi2BPSK = 0 (supported)
+               maxUplinkDutyCycle-FR2 = 10 (n100)
+               channelBWs-DL-v1590 = fr1
+                  fr1
+                     scs-30kHz = '10000000 00000000'B
+               channelBWs-UL-v1590 = fr1
+                  fr1
+                     scs-30kHz = '10000000 00000000'B
+      measAndMobParameters
+         measAndMobParametersCommon
+            supportedGapPattern = '00110000 00000000 000000'B
+            ssb-RLM = 0 (supported)
+            ssb-AndCSI-RS-RLM = 0 (supported)
+            eventB-MeasAndReport = 0 (supported)
+            handoverFDD-TDD = 0 (supported)
+            eutra-CGI-Reporting = 0 (supported)
+            nr-CGI-Reporting = 0 (supported)
+            periodicEUTRA-MeasAndReport = 0 (supported)
+            nr-CGI-Reporting-ENDC = 0 (supported)
+         measAndMobParametersXDD-Diff
+            intraAndInterF-MeasAndReport = 0 (supported)
+            eventA-MeasAndReport = 0 (supported)
+            handoverInterF = 0 (supported)
+            handoverLTE-EPC = 0 (supported)
+         measAndMobParametersFRX-Diff
+            ss-SINR-Meas = 0 (supported)
+            csi-RS-RLM = 0 (supported)
+            handoverInterF = 0 (supported)
+            handoverLTE-EPC = 0 (supported)
+            maxNumberResource-CSI-RS-RLM = 2 (n6)
+            simultaneousRxDataSSB-DiffNumerology = 0 (supported)
+      featureSets
+         featureSetsDownlink
+            featureSetsDownlink nr 0
+               featureSetListPerDownlinkCC
+                  featureSetListPerDownlinkCC nr 0 = 1
+                  featureSetListPerDownlinkCC nr 1 = 1
+               scellWithoutSSB = 0 (supported)
+               ue-SpecificUL-DL-Assignment = 0 (supported)
+            featureSetsDownlink nr 1
+               featureSetListPerDownlinkCC
+                  featureSetListPerDownlinkCC nr 0 = 1
+                  featureSetListPerDownlinkCC nr 1 = 2
+               scellWithoutSSB = 0 (supported)
+               ue-SpecificUL-DL-Assignment = 0 (supported)
+            featureSetsDownlink nr 2
+               featureSetListPerDownlinkCC
+                  featureSetListPerDownlinkCC nr 0 = 2
+                  featureSetListPerDownlinkCC nr 1 = 1
+               scellWithoutSSB = 0 (supported)
+               ue-SpecificUL-DL-Assignment = 0 (supported)
+            featureSetsDownlink nr 3
+               featureSetListPerDownlinkCC
+                  featureSetListPerDownlinkCC nr 0 = 2
+                  featureSetListPerDownlinkCC nr 1 = 2
+               scellWithoutSSB = 0 (supported)
+               ue-SpecificUL-DL-Assignment = 0 (supported)
+            featureSetsDownlink nr 4
+               featureSetListPerDownlinkCC
+                  featureSetListPerDownlinkCC nr 0 = 3
+               scellWithoutSSB = 0 (supported)
+               ue-SpecificUL-DL-Assignment = 0 (supported)
+            featureSetsDownlink nr 5
+               featureSetListPerDownlinkCC
+                  featureSetListPerDownlinkCC nr 0 = 4
+               scellWithoutSSB = 0 (supported)
+               ue-SpecificUL-DL-Assignment = 0 (supported)
+            featureSetsDownlink nr 6
+               featureSetListPerDownlinkCC
+                  featureSetListPerDownlinkCC nr 0 = 1
+               scellWithoutSSB = 0 (supported)
+               ue-SpecificUL-DL-Assignment = 0 (supported)
+            featureSetsDownlink nr 7
+               featureSetListPerDownlinkCC
+                  featureSetListPerDownlinkCC nr 0 = 2
+               scellWithoutSSB = 0 (supported)
+               ue-SpecificUL-DL-Assignment = 0 (supported)
+            featureSetsDownlink nr 8
+               featureSetListPerDownlinkCC
+                  featureSetListPerDownlinkCC nr 0 = 5
+               scellWithoutSSB = 0 (supported)
+               ue-SpecificUL-DL-Assignment = 0 (supported)
+            featureSetsDownlink nr 9
+               featureSetListPerDownlinkCC
+                  featureSetListPerDownlinkCC nr 0 = 6
+               scellWithoutSSB = 0 (supported)
+               ue-SpecificUL-DL-Assignment = 0 (supported)
+            featureSetsDownlink nr 10
+               featureSetListPerDownlinkCC
+                  featureSetListPerDownlinkCC nr 0 = 7
+               scellWithoutSSB = 0 (supported)
+               ue-SpecificUL-DL-Assignment = 0 (supported)
+            featureSetsDownlink nr 11
+               featureSetListPerDownlinkCC
+                  featureSetListPerDownlinkCC nr 0 = 8
+               scellWithoutSSB = 0 (supported)
+               ue-SpecificUL-DL-Assignment = 0 (supported)
+         featureSetsDownlinkPerCC
+            featureSetsDownlinkPerCC nr 0
+               supportedSubcarrierSpacingDL = 0 (kHz15)
+               supportedBandwidthDL = fr1
+                  fr1 = 7 (mhz50)
+               maxNumberMIMO-LayersPDSCH = 1 (fourLayers)
+               supportedModulationOrderDL = 5 (qam256)
+            featureSetsDownlinkPerCC nr 1
+               supportedSubcarrierSpacingDL = 1 (kHz30)
+               supportedBandwidthDL = fr1
+                  fr1 = 10 (mhz100)
+               channelBW-90mhz = 0 (supported)
+               maxNumberMIMO-LayersPDSCH = 1 (fourLayers)
+               supportedModulationOrderDL = 5 (qam256)
+            featureSetsDownlinkPerCC nr 2
+               supportedSubcarrierSpacingDL = 0 (kHz15)
+               supportedBandwidthDL = fr1
+                  fr1 = 6 (mhz40)
+               maxNumberMIMO-LayersPDSCH = 1 (fourLayers)
+               supportedModulationOrderDL = 5 (qam256)
+            featureSetsDownlinkPerCC nr 3
+               supportedSubcarrierSpacingDL = 1 (kHz30)
+               supportedBandwidthDL = fr1
+                  fr1 = 6 (mhz40)
+               maxNumberMIMO-LayersPDSCH = 1 (fourLayers)
+               supportedModulationOrderDL = 5 (qam256)
+            featureSetsDownlinkPerCC nr 4
+               supportedSubcarrierSpacingDL = 0 (kHz15)
+               supportedBandwidthDL = fr1
+                  fr1 = 7 (mhz50)
+               maxNumberMIMO-LayersPDSCH = 0 (twoLayers)
+               supportedModulationOrderDL = 5 (qam256)
+            featureSetsDownlinkPerCC nr 5
+               supportedSubcarrierSpacingDL = 1 (kHz30)
+               supportedBandwidthDL = fr1
+                  fr1 = 10 (mhz100)
+               channelBW-90mhz = 0 (supported)
+               maxNumberMIMO-LayersPDSCH = 0 (twoLayers)
+               supportedModulationOrderDL = 5 (qam256)
+            featureSetsDownlinkPerCC nr 6
+               supportedSubcarrierSpacingDL = 0 (kHz15)
+               supportedBandwidthDL = fr1
+                  fr1 = 5 (mhz30)
+               maxNumberMIMO-LayersPDSCH = 0 (twoLayers)
+               supportedModulationOrderDL = 5 (qam256)
+            featureSetsDownlinkPerCC nr 7
+               supportedSubcarrierSpacingDL = 1 (kHz30)
+               supportedBandwidthDL = fr1
+                  fr1 = 5 (mhz30)
+               maxNumberMIMO-LayersPDSCH = 0 (twoLayers)
+               supportedModulationOrderDL = 5 (qam256)
+         featureSetsUplink
+            featureSetsUplink nr 0
+               featureSetListPerUplinkCC
+                  featureSetListPerUplinkCC nr 0 = 1
+               supportedSRS-Resources
+                  maxNumberAperiodicSRS-PerBWP = 4 (n16)
+                  maxNumberAperiodicSRS-PerBWP-PerSlot = 6
+                  maxNumberPeriodicSRS-PerBWP = 4 (n16)
+                  maxNumberPeriodicSRS-PerBWP-PerSlot = 6
+                  maxNumberSemiPersistentSRS-PerBWP = 4 (n16)
+                  maxNumberSemiPersistentSRS-PerBWP-PerSlot = 6
+                  maxNumberSRS-Ports-PerResource = 0 (n1)
+            featureSetsUplink nr 1
+               featureSetListPerUplinkCC
+                  featureSetListPerUplinkCC nr 0 = 2
+               supportedSRS-Resources
+                  maxNumberAperiodicSRS-PerBWP = 4 (n16)
+                  maxNumberAperiodicSRS-PerBWP-PerSlot = 6
+                  maxNumberPeriodicSRS-PerBWP = 4 (n16)
+                  maxNumberPeriodicSRS-PerBWP-PerSlot = 6
+                  maxNumberSemiPersistentSRS-PerBWP = 4 (n16)
+                  maxNumberSemiPersistentSRS-PerBWP-PerSlot = 6
+                  maxNumberSRS-Ports-PerResource = 0 (n1)
+            featureSetsUplink nr 2
+               featureSetListPerUplinkCC
+                  featureSetListPerUplinkCC nr 0 = 3
+               supportedSRS-Resources
+                  maxNumberAperiodicSRS-PerBWP = 4 (n16)
+                  maxNumberAperiodicSRS-PerBWP-PerSlot = 6
+                  maxNumberPeriodicSRS-PerBWP = 4 (n16)
+                  maxNumberPeriodicSRS-PerBWP-PerSlot = 6
+                  maxNumberSemiPersistentSRS-PerBWP = 4 (n16)
+                  maxNumberSemiPersistentSRS-PerBWP-PerSlot = 6
+                  maxNumberSRS-Ports-PerResource = 0 (n1)
+            featureSetsUplink nr 3
+               featureSetListPerUplinkCC
+                  featureSetListPerUplinkCC nr 0 = 4
+               supportedSRS-Resources
+                  maxNumberAperiodicSRS-PerBWP = 4 (n16)
+                  maxNumberAperiodicSRS-PerBWP-PerSlot = 6
+                  maxNumberPeriodicSRS-PerBWP = 4 (n16)
+                  maxNumberPeriodicSRS-PerBWP-PerSlot = 6
+                  maxNumberSemiPersistentSRS-PerBWP = 4 (n16)
+                  maxNumberSemiPersistentSRS-PerBWP-PerSlot = 6
+                  maxNumberSRS-Ports-PerResource = 0 (n1)
+            featureSetsUplink nr 4
+               featureSetListPerUplinkCC
+                  featureSetListPerUplinkCC nr 0 = 5
+               supportedSRS-Resources
+                  maxNumberAperiodicSRS-PerBWP = 4 (n16)
+                  maxNumberAperiodicSRS-PerBWP-PerSlot = 6
+                  maxNumberPeriodicSRS-PerBWP = 4 (n16)
+                  maxNumberPeriodicSRS-PerBWP-PerSlot = 6
+                  maxNumberSemiPersistentSRS-PerBWP = 4 (n16)
+                  maxNumberSemiPersistentSRS-PerBWP-PerSlot = 6
+                  maxNumberSRS-Ports-PerResource = 0 (n1)
+            featureSetsUplink nr 5
+               featureSetListPerUplinkCC
+                  featureSetListPerUplinkCC nr 0 = 6
+               supportedSRS-Resources
+                  maxNumberAperiodicSRS-PerBWP = 4 (n16)
+                  maxNumberAperiodicSRS-PerBWP-PerSlot = 6
+                  maxNumberPeriodicSRS-PerBWP = 4 (n16)
+                  maxNumberPeriodicSRS-PerBWP-PerSlot = 6
+                  maxNumberSemiPersistentSRS-PerBWP = 4 (n16)
+                  maxNumberSemiPersistentSRS-PerBWP-PerSlot = 6
+                  maxNumberSRS-Ports-PerResource = 0 (n1)
+         featureSetsUplinkPerCC
+            featureSetsUplinkPerCC nr 0
+               supportedSubcarrierSpacingUL = 0 (kHz15)
+               supportedBandwidthUL = fr1
+                  fr1 = 7 (mhz50)
+               mimo-CB-PUSCH
+                  maxNumberMIMO-LayersCB-PUSCH = 0 (oneLayer)
+                  maxNumberSRS-ResourcePerSet = 1
+               supportedModulationOrderUL = 5 (qam256)
+            featureSetsUplinkPerCC nr 1
+               supportedSubcarrierSpacingUL = 1 (kHz30)
+               supportedBandwidthUL = fr1
+                  fr1 = 10 (mhz100)
+               channelBW-90mhz = 0 (supported)
+               mimo-CB-PUSCH
+                  maxNumberMIMO-LayersCB-PUSCH = 0 (oneLayer)
+                  maxNumberSRS-ResourcePerSet = 1
+               supportedModulationOrderUL = 5 (qam256)
+            featureSetsUplinkPerCC nr 2
+               supportedSubcarrierSpacingUL = 0 (kHz15)
+               supportedBandwidthUL = fr1
+                  fr1 = 6 (mhz40)
+               mimo-CB-PUSCH
+                  maxNumberMIMO-LayersCB-PUSCH = 0 (oneLayer)
+                  maxNumberSRS-ResourcePerSet = 1
+               supportedModulationOrderUL = 5 (qam256)
+            featureSetsUplinkPerCC nr 3
+               supportedSubcarrierSpacingUL = 1 (kHz30)
+               supportedBandwidthUL = fr1
+                  fr1 = 6 (mhz40)
+               mimo-CB-PUSCH
+                  maxNumberMIMO-LayersCB-PUSCH = 0 (oneLayer)
+                  maxNumberSRS-ResourcePerSet = 1
+               supportedModulationOrderUL = 5 (qam256)
+            featureSetsUplinkPerCC nr 4
+               supportedSubcarrierSpacingUL = 0 (kHz15)
+               supportedBandwidthUL = fr1
+                  fr1 = 5 (mhz30)
+               mimo-CB-PUSCH
+                  maxNumberMIMO-LayersCB-PUSCH = 0 (oneLayer)
+                  maxNumberSRS-ResourcePerSet = 1
+               supportedModulationOrderUL = 5 (qam256)
+            featureSetsUplinkPerCC nr 5
+               supportedSubcarrierSpacingUL = 1 (kHz30)
+               supportedBandwidthUL = fr1
+                  fr1 = 5 (mhz30)
+               mimo-CB-PUSCH
+                  maxNumberMIMO-LayersCB-PUSCH = 0 (oneLayer)
+                  maxNumberSRS-ResourcePerSet = 1
+               supportedModulationOrderUL = 5 (qam256)
+         featureSetsDownlink-v1540
+            featureSetsDownlink-v1540 nr 0
+               oneFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               additionalDMRS-DL-Alt = 0 (supported)
+               twoFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               oneFL-DMRS-ThreeAdditionalDMRS-DL = 0 (supported)
+               pdsch-ProcessingType2
+                  scs-15kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-30kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-60kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+               pdsch-ProcessingType2-Limited
+                  differentTB-PerSlot-SCS-30kHz = 0 (upto1)
+            featureSetsDownlink-v1540 nr 1
+               oneFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               additionalDMRS-DL-Alt = 0 (supported)
+               twoFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               oneFL-DMRS-ThreeAdditionalDMRS-DL = 0 (supported)
+               pdsch-ProcessingType2
+                  scs-15kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-30kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-60kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+               pdsch-ProcessingType2-Limited
+                  differentTB-PerSlot-SCS-30kHz = 0 (upto1)
+            featureSetsDownlink-v1540 nr 2
+               oneFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               additionalDMRS-DL-Alt = 0 (supported)
+               twoFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               oneFL-DMRS-ThreeAdditionalDMRS-DL = 0 (supported)
+               pdsch-ProcessingType2
+                  scs-15kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-30kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-60kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+               pdsch-ProcessingType2-Limited
+                  differentTB-PerSlot-SCS-30kHz = 0 (upto1)
+            featureSetsDownlink-v1540 nr 3
+               oneFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               twoFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               oneFL-DMRS-ThreeAdditionalDMRS-DL = 0 (supported)
+               pdsch-ProcessingType2
+                  scs-15kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-30kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-60kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+               pdsch-ProcessingType2-Limited
+                  differentTB-PerSlot-SCS-30kHz = 0 (upto1)
+            featureSetsDownlink-v1540 nr 4
+               oneFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               additionalDMRS-DL-Alt = 0 (supported)
+               twoFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               oneFL-DMRS-ThreeAdditionalDMRS-DL = 0 (supported)
+               pdsch-ProcessingType2
+                  scs-15kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-30kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-60kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+               pdsch-ProcessingType2-Limited
+                  differentTB-PerSlot-SCS-30kHz = 0 (upto1)
+            featureSetsDownlink-v1540 nr 5
+               oneFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               twoFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               oneFL-DMRS-ThreeAdditionalDMRS-DL = 0 (supported)
+               pdsch-ProcessingType2
+                  scs-15kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-30kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-60kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+               pdsch-ProcessingType2-Limited
+                  differentTB-PerSlot-SCS-30kHz = 0 (upto1)
+            featureSetsDownlink-v1540 nr 6
+               oneFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               additionalDMRS-DL-Alt = 0 (supported)
+               twoFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               oneFL-DMRS-ThreeAdditionalDMRS-DL = 0 (supported)
+               pdsch-ProcessingType2
+                  scs-15kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-30kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-60kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+               pdsch-ProcessingType2-Limited
+                  differentTB-PerSlot-SCS-30kHz = 0 (upto1)
+            featureSetsDownlink-v1540 nr 7
+               oneFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               twoFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               oneFL-DMRS-ThreeAdditionalDMRS-DL = 0 (supported)
+               pdsch-ProcessingType2
+                  scs-15kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-30kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-60kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+               pdsch-ProcessingType2-Limited
+                  differentTB-PerSlot-SCS-30kHz = 0 (upto1)
+            featureSetsDownlink-v1540 nr 8
+               oneFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               additionalDMRS-DL-Alt = 0 (supported)
+               twoFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               oneFL-DMRS-ThreeAdditionalDMRS-DL = 0 (supported)
+               pdsch-ProcessingType2
+                  scs-15kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-30kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-60kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+               pdsch-ProcessingType2-Limited
+                  differentTB-PerSlot-SCS-30kHz = 0 (upto1)
+            featureSetsDownlink-v1540 nr 9
+               oneFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               twoFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               oneFL-DMRS-ThreeAdditionalDMRS-DL = 0 (supported)
+               pdsch-ProcessingType2
+                  scs-15kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-30kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-60kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+               pdsch-ProcessingType2-Limited
+                  differentTB-PerSlot-SCS-30kHz = 0 (upto1)
+            featureSetsDownlink-v1540 nr 10
+               oneFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               additionalDMRS-DL-Alt = 0 (supported)
+               twoFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               oneFL-DMRS-ThreeAdditionalDMRS-DL = 0 (supported)
+               pdsch-ProcessingType2
+                  scs-15kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-30kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-60kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+               pdsch-ProcessingType2-Limited
+                  differentTB-PerSlot-SCS-30kHz = 0 (upto1)
+            featureSetsDownlink-v1540 nr 11
+               oneFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               twoFL-DMRS-TwoAdditionalDMRS-DL = 0 (supported)
+               oneFL-DMRS-ThreeAdditionalDMRS-DL = 0 (supported)
+               pdsch-ProcessingType2
+                  scs-15kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-30kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+                  scs-60kHz
+                     fallback = 1 (cap1-only)
+                     differentTB-PerSlot
+                        upto1 = 1
+               pdsch-ProcessingType2-Limited
+                  differentTB-PerSlot-SCS-30kHz = 0 (upto1)
+      nonCriticalExtension
+         interRAT-Parameters
+            eutra
+               supportedBandListEUTRA
+                  supportedBandListEUTRA nr 0 = 1
+                  supportedBandListEUTRA nr 1 = 3
+                  supportedBandListEUTRA nr 2 = 7
+                  supportedBandListEUTRA nr 3 = 8
+                  supportedBandListEUTRA nr 4 = 20
+                  supportedBandListEUTRA nr 5 = 28
+                  supportedBandListEUTRA nr 6 = 32
+                  supportedBandListEUTRA nr 7 = 38
+                  supportedBandListEUTRA nr 8 = 40
+                  supportedBandListEUTRA nr 9 = 42
+                  supportedBandListEUTRA nr 10 = 43
+               eutra-ParametersCommon
+                  mfbi-EUTRA = 0 (supported)
+                  modifiedMPR-BehaviorEUTRA = '11100000 00000000 00000000 00000000'B
+                  multiNS-Pmax-EUTRA = 0 (supported)
+               eutra-ParametersXDD-Diff
+                  rsrqMeasWidebandEUTRA = 0 (supported)
+         inactiveState = 0 (supported)
