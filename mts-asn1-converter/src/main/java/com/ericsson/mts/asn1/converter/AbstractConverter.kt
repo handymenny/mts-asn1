@@ -32,6 +32,7 @@ abstract class AbstractConverter {
     protected lateinit var writer: FormatWriter
     private lateinit var registry: ConverterRegistry
     private val identifierRegex = """[A-Za-z][\w\-]+""".toRegex()
+    protected var firstIndentation = 0
 
     /**
      *
@@ -52,6 +53,9 @@ abstract class AbstractConverter {
         val lineArray = messageBody.bufferedReader().use {
             cleanup(it.readLines())
         }
+
+        setInitialIndentation(lineArray)
+
         var index = -1
 
         // Process messageType, using special -1 indentation
@@ -63,6 +67,12 @@ abstract class AbstractConverter {
         }
         // pops -1 indentation
         popStacks(-1)
+    }
+
+    private fun setInitialIndentation(lineArray: List<String>) {
+        var i = -1
+        while(++i < lineArray.size && lineArray[i].isBlank());
+        firstIndentation = lineArray.getOrNull(i)?.let { getIndentationLevel(it) } ?: 0
     }
 
     /**
@@ -99,6 +109,12 @@ abstract class AbstractConverter {
         }
 
         val indentation = overrideIndentation ?: indentationWidth
+
+        if (indentation in 0 until firstIndentation) {
+            // stop processing lines if indendation is below firstIndentation
+            // if indentation is < 0 ignore this check
+            return lineArray.size
+        }
 
         if (!disablePop)
             popStacks(indentation)
@@ -456,6 +472,7 @@ abstract class AbstractConverter {
      *
      */
     protected open fun resetStatus() {
+        firstIndentation = 0
         typesStack.clear()
         indentationObjectStack.clear()
         indentationArrayStack.clear()
