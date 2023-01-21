@@ -16,6 +16,7 @@ import com.ericsson.mts.asn1.registry.ConverterRegistry
 import com.ericsson.mts.asn1.visitor.ConverterVisitor
 import org.antlr.v4.runtime.CharStreams
 import org.antlr.v4.runtime.CommonTokenStream
+import org.antlr.v4.runtime.atn.PredictionMode
 import java.io.IOException
 import java.io.InputStream
 
@@ -48,6 +49,7 @@ class ASN1Converter(private val converter: AbstractConverter, asnDefinitions: Li
         val asn1Lexer = ASN1Lexer(inputStream)
         val commonTokenStream = CommonTokenStream(asn1Lexer)
         val asn1Parser = ASN1Parser(commonTokenStream)
+        asn1Parser.interpreter.predictionMode = PredictionMode.SLL
         ConverterVisitor(registry).visitModuleDefinition(asn1Parser.moduleDefinition())
     }
 }

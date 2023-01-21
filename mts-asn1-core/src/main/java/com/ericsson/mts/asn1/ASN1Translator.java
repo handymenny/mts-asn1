@@ -18,6 +18,7 @@ import com.ericsson.mts.asn1.visitor.TopLevelVisitor;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
+import org.antlr.v4.runtime.atn.PredictionMode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -49,6 +50,7 @@ public class ASN1Translator {
         ASN1Lexer asn1Lexer = new ASN1Lexer(inputStream);
         CommonTokenStream commonTokenStream = new CommonTokenStream(asn1Lexer);
         ASN1Parser asn1Parser = new ASN1Parser(commonTokenStream);
+        asn1Parser.getInterpreter().setPredictionMode(PredictionMode.SLL);
         new TopLevelVisitor(registry).visitModuleDefinition(asn1Parser.moduleDefinition());
     }
 
