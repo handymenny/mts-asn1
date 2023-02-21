@@ -169,7 +169,7 @@ class ConverterNSG : AbstractConverter() {
                         subType.componentTypeLists().extensionAdditions()?.extensionAdditionList()
                             ?.extensionAddition() ?: emptyList()
                     )
-                val useNsg36path = nsgVersion36 || lineArray[index].matches("^\\s*[a-z][A-Za-z\\-_0-9]+\\[0]$".toRegex())
+                val useNsg36path = nsgVersion36 || lineArray[index].matches("^\\h*[a-z][A-Za-z\\-_0-9]+\\[0]$".toRegex())
                 if (useNsg36path) {
                     read = 0
                 }
@@ -219,6 +219,12 @@ class ConverterNSG : AbstractConverter() {
                 }
             }
             is EnumeratedTypeContext -> {
+                val useNsg36path = nsgVersion36 || lineArray[index]
+                    .matches("^\\h*[a-z][A-Za-z\\-_0-9]+\\[0]\\s:\\s*[a-z][A-Za-z\\-_0-9]+$".toRegex())
+                if (useNsg36path) {
+                    nsgVersion36 = true
+                    read = 0
+                }
                 var nextLine = lineArray.getOrNull(index + read) ?: return read
                 while (nextLine.matches("^.*\\[\\d+]\\s*:.*$".toRegex())) {
                     writer.stringValue(identifier, getStringValue(nextLine))
@@ -227,7 +233,7 @@ class ConverterNSG : AbstractConverter() {
                 }
             }
             is SequenceOfTypeContext -> {
-                val useNsg36path = nsgVersion36 || lineArray[index].matches("^\\s*[a-z][A-Za-z\\-_0-9]+\\[0]\$".toRegex())
+                val useNsg36path = nsgVersion36 || lineArray[index].matches("^\\h*[a-z][A-Za-z\\-_0-9]+\\[0]\$".toRegex())
                 if (useNsg36path) {
                     nsgVersion36 = true
                     read = 0
@@ -259,7 +265,7 @@ class ConverterNSG : AbstractConverter() {
                 }
             }
             is ChoiceTypeContext -> {
-                val useNsg36path = nsgVersion36 || lineArray[index].matches("^\\s*[a-z][A-Za-z\\-_0-9]+\\[0]\$".toRegex())
+                val useNsg36path = nsgVersion36 || lineArray[index].matches("^\\h*[a-z][A-Za-z\\-_0-9]+\\[0]\$".toRegex())
                 if (useNsg36path) {
                     read = 0
                 }
