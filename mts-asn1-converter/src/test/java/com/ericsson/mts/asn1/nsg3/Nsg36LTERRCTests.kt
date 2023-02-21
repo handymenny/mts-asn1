@@ -30,6 +30,17 @@ class Nsg36LTERRCTests : AbstractTests() {
 
     @Test
     @Throws(Exception::class)
+    fun testUEEutraCapabilityKirin() {
+        test(
+            "UE-EUTRA-Capability",
+            "/data/NSG3/3.6_and_below/UeEutraCapabilityKirin.txt",
+            "/data/oracle/UeEutraCapabilityKirin.json",
+            "/data/oracle/UeEutraCapabilityKirin.xml"
+        )
+    }
+
+    @Test
+    @Throws(Exception::class)
     fun testUEEutraCapabilitySkipFallback() {
         test(
             "UE-EUTRA-Capability",
