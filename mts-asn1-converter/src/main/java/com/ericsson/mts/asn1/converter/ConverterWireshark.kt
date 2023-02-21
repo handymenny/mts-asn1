@@ -50,6 +50,8 @@ class ConverterWireshark : AbstractConverter() {
             "eutra-CGI-Reporting-ENDC-r15" to 1,
             "utra-GERAN-CGI-Reporting-ENDC-r15" to 1,
             "ul-256QAM-perCC-r14" to 1,
+            "SupportedBandNR-r15" to 1,
+            "bandNR-r15" to 2,
             "bandParameterList-v1530" to 1,
             "BandParameters-v1530" to 2,
             "dl-1024QAM-r15" to 3
