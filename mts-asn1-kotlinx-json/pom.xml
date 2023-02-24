@@ -12,7 +12,6 @@
     <artifactId>mts-asn1-kotlinx-json</artifactId>
 
     <properties>
-        <kotlin.version>1.8.0</kotlin.version>
         <serialization.version>1.4.1</serialization.version>
     </properties>
 
@@ -66,7 +65,7 @@
                         <compilerPlugins>
                             <plugin>kotlinx-serialization</plugin>
                         </compilerPlugins>
-                    <jvmTarget>1.8</jvmTarget>
+                    <jvmTarget>${jvm.target}</jvmTarget>
                 </configuration>
                 <dependencies>
                     <dependency>
