@@ -103,8 +103,8 @@ abstract class AbstractConverter {
         val indentationWidth = getIndentationLevel(line)
         val originalIdentifier = getIdentifier(line.substring(indentationWidth))
 
-        // Skip lines
-        if (skipLine(line, originalIdentifier, indentationWidth)) {
+        // preprocess line
+        if (preprocessLine(line, originalIdentifier, indentationWidth)) {
             return 1
         }
 
@@ -156,15 +156,15 @@ abstract class AbstractConverter {
     protected abstract fun cleanup(lines: List<String>): List<String>
 
     /**
-     * If this method returns true processLines will not process the given [line].
-     * [identifier] and [indentationLevel] of the given line are passed to avoid recalculate them
+     * This method is useful to preprocess a [line]. It will executed each time [processLines] is executed, at the early beginning.
+     * [identifier] and [indentationLevel] of the given line are passed to avoid recalculate them.
      *
-     * @param line the line to skip or not
+     * @param line the line to preprocess
      * @param identifier the result of [getIdentifier]
      * @param indentationLevel the result of [getIndentationLevel]
-     * @return true if processLines must skip this lines, false otherwise
+     * @return true if the line is "consumed" (e.g. processLines shouldn't process this line), false otherwise
      */
-    protected abstract fun skipLine(line: String, identifier: String, indentationLevel: Int): Boolean
+    protected abstract fun preprocessLine(line: String, identifier: String, indentationLevel: Int): Boolean
 
     /**
      *

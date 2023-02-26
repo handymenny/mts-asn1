@@ -25,7 +25,7 @@ class ConverterNSG : AbstractConverter() {
        return lines
     }
 
-    override fun skipLine(line: String, identifier: String, indentationLevel: Int): Boolean {
+    override fun preprocessLine(line: String, identifier: String, indentationLevel: Int): Boolean {
         // Skip blank lines
         return indentationLevel == line.length
     }

@@ -67,7 +67,7 @@ class ConverterWireshark : AbstractConverter() {
         return mutableLines
     }
 
-    override fun skipLine(line: String, identifier: String, indentationLevel: Int): Boolean {
+    override fun preprocessLine(line: String, identifier: String, indentationLevel: Int): Boolean {
         return indentationLevel == line.length || // Skip blank lines
                 identifier in ignoredIdentifiers || // Skip Item X, Items X
                 line[indentationLevel] == '[' // Skip wireshark comments
