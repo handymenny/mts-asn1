@@ -27,19 +27,19 @@ import java.util.List;
  * Parse(lazy parsing) and store all ASN.1 objects.
  */
 public class MainRegistry {
-    private AbstractTranslatorFactory abstractTranslatorFactory;
-    private IndexingRegistry indexingRegistry = new IndexingRegistry();
+    private final AbstractTranslatorFactory abstractTranslatorFactory;
+    private final IndexingRegistry indexingRegistry = new IndexingRegistry();
 
     //Constants
-    private ParsedRegistry<AbstractConstant> valueTranslatorParsedRegistry = new ParsedRegistry<>();
+    private final ParsedRegistry<AbstractConstant> valueTranslatorParsedRegistry = new ParsedRegistry<>();
     //Translator
-    private ParsedRegistry<AbstractTranslator> typeTranslatorParsedRegistry = new ParsedRegistry<>();
+    private final ParsedRegistry<TranslatorWrapper> typeTranslatorParsedRegistry = new ParsedRegistry<>();
     //Class
-    private ParsedRegistry<ClassHandler> classHandlerParsedRegistry = new ParsedRegistry<>();
+    private final ParsedRegistry<ClassHandler> classHandlerParsedRegistry = new ParsedRegistry<>();
     //Object
-    private ParsedRegistry<ClassObject> classObjectParsedRegistry = new ParsedRegistry<>();
+    private final ParsedRegistry<ClassObject> classObjectParsedRegistry = new ParsedRegistry<>();
     //Object set
-    private ParsedRegistry<ClassObjectSet> classObjectSetParsedRegistry = new ParsedRegistry<>();
+    private final ParsedRegistry<ClassObjectSet> classObjectSetParsedRegistry = new ParsedRegistry<>();
 
     public MainRegistry(AbstractTranslatorFactory abstractTranslatorFactory) {
         this.abstractTranslatorFactory = abstractTranslatorFactory;
@@ -99,16 +99,24 @@ public class MainRegistry {
     //Translators
 
     public synchronized AbstractTranslator getTranslatorFromName(final String identifier) {
-        AbstractTranslator abstractTranslator = typeTranslatorParsedRegistry.get(identifier);
-        if (null != abstractTranslator) {
-            return abstractTranslator;
+        TranslatorWrapper translatorWrapper = typeTranslatorParsedRegistry.get(identifier);
+        if (null != translatorWrapper) {
+            if (translatorWrapper.getTranslator() != null) {
+                // Return unwrapped translator if possibile
+                return translatorWrapper.getTranslator();
+            } else {
+                return translatorWrapper;
+            }
         }
 
         ASN1Parser.TypeAssignmentContext typeAssignmentContext = indexingRegistry.getTranslatorContext(identifier);
         if (typeAssignmentContext != null) {
-            abstractTranslator = getTranslator(typeAssignmentContext.asnType());
+            translatorWrapper = new TranslatorWrapper();
+            // Add to registry before recursion
+            typeTranslatorParsedRegistry.add(identifier, translatorWrapper);
+            AbstractTranslator abstractTranslator = getTranslator(typeAssignmentContext.asnType());
             abstractTranslator.setName(identifier);
-            typeTranslatorParsedRegistry.add(identifier, abstractTranslator);
+            translatorWrapper.setTranslator(abstractTranslator);
             return abstractTranslator;
         }
 
@@ -118,12 +126,17 @@ public class MainRegistry {
 
     public AbstractTranslator getTranslator(ASN1Parser.AsnTypeContext asnTypeContext) {
         if (asnTypeContext.builtinType() != null) {
-            return createTranslator(null, asnTypeContext.builtinType(), asnTypeContext.constraint());
+            return new TranslatorWrapper(createTranslator(null, asnTypeContext.builtinType(), asnTypeContext.constraint()));
         } else {
             String identifier = asnTypeContext.referencedType().definedType().IDENTIFIER(0).getText();
-            AbstractTranslator abstractTranslator = typeTranslatorParsedRegistry.get(identifier);
-            if (null != abstractTranslator) {
-                return abstractTranslator;
+            TranslatorWrapper translatorWrapper = typeTranslatorParsedRegistry.get(identifier);
+            if (null != translatorWrapper) {
+                if (translatorWrapper.getTranslator() != null) {
+                    // Return unwrapped translator if possibile
+                    return translatorWrapper.getTranslator();
+                } else {
+                    return translatorWrapper;
+                }
             }
 
             ASN1Parser.TypeAssignmentContext typeAssignmentContext = indexingRegistry.getTranslatorContext(identifier);
@@ -138,12 +151,16 @@ public class MainRegistry {
                 }
                 return getInternalParameterizedTranslator(identifier);
             }
+            translatorWrapper = new TranslatorWrapper();
+            // Add to registry before recursion
+            typeTranslatorParsedRegistry.add(identifier, translatorWrapper);
+            AbstractTranslator abstractTranslator;
             if (typeAssignmentContext.asnType().builtinType() != null) {
                 abstractTranslator = createTranslator(identifier, typeAssignmentContext.asnType().builtinType(), typeAssignmentContext.asnType().constraint());
             } else {
                 abstractTranslator = getTranslator(typeAssignmentContext.asnType());
             }
-            typeTranslatorParsedRegistry.add(identifier, abstractTranslator);
+            translatorWrapper.setTranslator(abstractTranslator);
             return abstractTranslator;
         }
     }
@@ -153,7 +170,7 @@ public class MainRegistry {
         if (parameterizedAssignmentContext != null) {
             if (parameterizedAssignmentContext.asnType() != null) {
                 AbstractTranslator abstractTranslator = createTranslator(identifier, parameterizedAssignmentContext.asnType(), parameterizedAssignmentContext.parameterList());
-                typeTranslatorParsedRegistry.add(identifier, abstractTranslator);
+                typeTranslatorParsedRegistry.add(identifier, new TranslatorWrapper(abstractTranslator));
                 return abstractTranslator;
             } else {
                 throw new NotHandledCaseException(parameterizedAssignmentContext.getChild(2).getClass().getSimpleName());
