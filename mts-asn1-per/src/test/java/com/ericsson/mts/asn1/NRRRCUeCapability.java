@@ -81,4 +81,10 @@ public class NRRRCUeCapability extends AbstractTests {
         /* This message contains extensions, the encoding test may fail if a specification other than "3GPP TS 38.331 V17.2.0" is used */
         test("UE-NR-Capability", "/data/NRRRC/UeNrCapability3CC.bin", "/data/NRRRC/UeNrCapability3CC.json", "/data/NRRRC/UeNrCapability3CC.xml");
     }
+
+    @Test
+    void testUeNrCapabilityInformation() throws Exception {
+        /* This message contains extensions, the encoding test may fail if a specification other than "3GPP TS 38.331 V17.2.0" is used */
+        test("UL-DCCH-Message", "/data/NRRRC/UeCapabilityInformation.bin", "/data/NRRRC/UeCapabilityInformation.json", "/data/NRRRC/UeCapabilityInformation.xml");
+    }
 }
