@@ -122,7 +122,7 @@ abstract class AbstractConverter {
         var identifier = overrideIdentifier ?: originalIdentifier
         var type = overrideType ?: getType(identifier)
 
-        if (type == null) {
+        if (type == null && identifier.isNotEmpty()) {
             /* Try to find even types that have changed name in recent specs.
              * Ex. profile-0x0001 -> profile-0x0001-r15, dynamicPowerSharing -> dynamicPowerSharingENDC,
              * channelBWs-DL-v1530 -> channelBWs-DL
