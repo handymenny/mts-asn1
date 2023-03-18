@@ -27,6 +27,17 @@ class QcatLTERRCTests : AbstractTests() {
         )
     }
 
+    @Test
+    @Throws(Exception::class)
+    fun testUeEutraCapability8() {
+        test(
+            "UE-EUTRA-Capability",
+            "/data/qcat/UeEutraCapability8.txt",
+            "/data/oracle/UeEutraCapability8.json",
+            "/data/oracle/UeEutraCapability8.xml"
+        )
+    }
+
     companion object {
         @BeforeAll
         @JvmStatic

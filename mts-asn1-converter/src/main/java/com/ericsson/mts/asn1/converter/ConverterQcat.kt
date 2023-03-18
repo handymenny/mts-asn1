@@ -169,7 +169,6 @@ class ConverterQcat : AbstractConverter() {
         val subtypeIdentifier = context.asnType().referencedType().definedType().IDENTIFIER()[0]
         when (val subType = getType(subtypeIdentifier.toString())) {
             is SequenceTypeContext -> {
-                read++
                 val subTypeComponents =
                     combineComponentListAndAdditions(
                         subType.componentTypeLists().rootComponentTypeList(0).componentTypeList()
