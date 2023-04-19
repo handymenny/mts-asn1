@@ -13,6 +13,10 @@ class ConverterNSG : AbstractConverter() {
     private val bitsRegexNsg2 = """:\s([0-9A-F]+)\((\d+)\sbit""".toRegex()
     private val bitsRegexHex = """:\s'[0-9A-F]*'?H?\s?'?[01]*'?B?\s?\((\d+)\)""".toRegex()
     private val bitsRegexNsg4 = """\s'([01\s]+)'B""".toRegex()
+    private val nsg36Check = """^\h*[a-z][A-Za-z\-_0-9]+\[0]$""".toRegex()
+    private val nsg36CheckWithColon = """^\h*[a-z][A-Za-z\-_0-9]+\[0]\s:\s*[a-z][A-Za-z\-_0-9]+$""".toRegex()
+    private val hasIndex = """^.*\[\d+]\s*.*""".toRegex()
+    private val hasIndexWithColon = """^.*\[\d+]\s*:.*$""".toRegex()
     private val booleanString = ": true"
     private val booleanSupportedString = ": supported"
 
@@ -169,7 +173,7 @@ class ConverterNSG : AbstractConverter() {
                         subType.componentTypeLists().extensionAdditions()?.extensionAdditionList()
                             ?.extensionAddition() ?: emptyList()
                     )
-                val useNsg36path = nsgVersion36 || lineArray[index].matches("^\\h*[a-z][A-Za-z\\-_0-9]+\\[0]$".toRegex())
+                val useNsg36path = nsgVersion36 || lineArray[index].matches(nsg36Check)
                 if (useNsg36path) {
                     read = 0
                 }
@@ -195,7 +199,7 @@ class ConverterNSG : AbstractConverter() {
                     }
 
                     if(!objectFound && (!useNsg36path || newIdentifier == "" || identifier == newIdentifier) &&
-                        nextLine.matches("^.*\\[\\d+]\\s*".toRegex())) {
+                        nextLine.matches(hasIndex)) {
                         if(useNsg36path) {
                             popStacks(newLevel + 1)
                             if (read > 0 && indentationObjectStack.isNotEmpty()) {
@@ -220,20 +224,20 @@ class ConverterNSG : AbstractConverter() {
             }
             is EnumeratedTypeContext -> {
                 val useNsg36path = nsgVersion36 || lineArray[index]
-                    .matches("^\\h*[a-z][A-Za-z\\-_0-9]+\\[0]\\s:\\s*[a-z][A-Za-z\\-_0-9]+$".toRegex())
+                    .matches(nsg36CheckWithColon)
                 if (useNsg36path) {
                     nsgVersion36 = true
                     read = 0
                 }
                 var nextLine = lineArray.getOrNull(index + read) ?: return read
-                while (nextLine.matches("^.*\\[\\d+]\\s*:.*$".toRegex())) {
+                while (nextLine.matches(hasIndexWithColon)) {
                     writer.stringValue(identifier, getStringValue(nextLine))
                     read++
                     nextLine = lineArray.getOrNull(index + read) ?: return read
                 }
             }
             is SequenceOfTypeContext -> {
-                val useNsg36path = nsgVersion36 || lineArray[index].matches("^\\h*[a-z][A-Za-z\\-_0-9]+\\[0]\$".toRegex())
+                val useNsg36path = nsgVersion36 || lineArray[index].matches(nsg36Check)
                 if (useNsg36path) {
                     nsgVersion36 = true
                     read = 0
@@ -254,18 +258,18 @@ class ConverterNSG : AbstractConverter() {
 
             }
             is IntegerTypeContext -> {
-                if (lineArray[index].matches("^.*\\[\\d+]\\s*:.*$".toRegex())) {
+                if (lineArray[index].matches(hasIndexWithColon)) {
                     read = 0
                 }
                 var nextLine = lineArray.getOrNull(index + read) ?: return read
-                while (nextLine.matches("^.*\\[\\d+]\\s*:.*$".toRegex())) {
+                while (nextLine.matches(hasIndexWithColon)) {
                     writer.intValue(identifier, getIntValue(nextLine), null)
                     read++
                     nextLine = lineArray.getOrNull(index + read) ?: return read
                 }
             }
             is ChoiceTypeContext -> {
-                val useNsg36path = nsgVersion36 || lineArray[index].matches("^\\h*[a-z][A-Za-z\\-_0-9]+\\[0]\$".toRegex())
+                val useNsg36path = nsgVersion36 || lineArray[index].matches(nsg36Check)
                 if (useNsg36path) {
                     read = 0
                 }
@@ -277,7 +281,7 @@ class ConverterNSG : AbstractConverter() {
                         popStacks(newLevel)
                     }
                     val newIdentifier = getIdentifier(nextLine.substring(newLevel))
-                    if (nextLine.matches("^.*\\[\\d+]\\s*.*".toRegex()) && (!useNsg36path || newIdentifier == "" || identifier == newIdentifier)) {
+                    if (nextLine.matches(hasIndex) && (!useNsg36path || newIdentifier == "" || identifier == newIdentifier)) {
                         if(useNsg36path) {
                             popStacks(newLevel + 1)
                             if (read > 0 && indentationObjectStack.isNotEmpty()) {
