@@ -7,9 +7,9 @@ import java.math.BigInteger
  * Implementation of [AbstractConverter] for Osix Logs
  */
 class ConverterOsix : AbstractConverter() {
-    private val stringRegex by lazy { """\s\(([\w-]*)\)""".toRegex() }
-    private val intRegex by lazy { """=\s(\d*)""".toRegex() }
-    private val bitsRegex by lazy { """\s'([01\s]+)'B""".toRegex() }
+    private val stringRegex = """\s\(([\w-]*)\)""".toRegex()
+    private val intRegex = """=\s(\d*)""".toRegex()
+    private val bitsRegex = """\s'([01\s]+)'B""".toRegex()
     private val booleanString = "= TRUE"
 
     override fun cleanup(lines: List<String>): List<String> {

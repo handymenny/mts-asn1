@@ -1,13 +1,13 @@
 package com.ericsson.mts.asn1.converter
 
 import com.ericsson.mts.asn1.ASN1Parser.*
-import java.util.*
+import java.util.Stack
 
 /**
  * Implementation of [AbstractConverter] for qcat Logs
  */
 class ConverterQcat : AbstractConverter() {
-    private val bitsRegex by lazy { """\s'([01\s]+)'B""".toRegex() }
+    private val bitsRegex = """\s'([01\s]+)'B""".toRegex()
 
     // false -> array, true -> Object
     private val isObjectStack: Stack<Boolean> = Stack()

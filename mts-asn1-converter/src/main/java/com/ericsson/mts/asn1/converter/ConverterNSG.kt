@@ -8,11 +8,11 @@ import java.math.BigInteger
  */
 class ConverterNSG : AbstractConverter() {
     private var nsgVersion36 = false
-    private val stringRegex by lazy { """:\s([\w-]*)""".toRegex() }
-    private val intRegex by lazy { """:\s(\d*)""".toRegex() }
-    private val bitsRegexNsg2 by lazy { """:\s([0-9A-F]+)\((\d+)\sbit""".toRegex() }
-    private val bitsRegexHex by lazy { """:\s'[0-9A-F]*'?H?\s?'?[01]*'?B?\s?\((\d+)\)""".toRegex() }
-    private val bitsRegexNsg4 by lazy { """\s'([01\s]+)'B""".toRegex() }
+    private val stringRegex = """:\s([\w-]*)""".toRegex()
+    private val intRegex = """:\s(\d*)""".toRegex()
+    private val bitsRegexNsg2 = """:\s([0-9A-F]+)\((\d+)\sbit""".toRegex()
+    private val bitsRegexHex = """:\s'[0-9A-F]*'?H?\s?'?[01]*'?B?\s?\((\d+)\)""".toRegex()
+    private val bitsRegexNsg4 = """\s'([01\s]+)'B""".toRegex()
     private val booleanString = ": true"
     private val booleanSupportedString = ": supported"
 
@@ -22,7 +22,7 @@ class ConverterNSG : AbstractConverter() {
     }
 
     override fun cleanup(lines: List<String>): List<String> {
-       return lines
+        return lines
     }
 
     override fun preprocessLine(line: String, identifier: String, indentationLevel: Int): Boolean {
