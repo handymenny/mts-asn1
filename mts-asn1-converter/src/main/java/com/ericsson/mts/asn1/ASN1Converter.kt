@@ -20,10 +20,17 @@ import org.antlr.v4.runtime.atn.PredictionMode
 import java.io.IOException
 import java.io.InputStream
 
-class ASN1Converter(private val converter: AbstractConverter, asnDefinitions: List<InputStream>) {
-    private val registry: ConverterRegistry = ConverterRegistry()
+class ASN1Converter(private val converter: AbstractConverter, preInitializedRegistry: ConverterRegistry) {
+    private val registry: ConverterRegistry
 
     init {
+        registry = preInitializedRegistry.clone()
+    }
+
+    constructor(converter: AbstractConverter, asnDefinitions: List<InputStream>) : this(
+        converter,
+        ConverterRegistry()
+    ) {
         for (inputStream in asnDefinitions) {
             beginVisit(inputStream)
         }
