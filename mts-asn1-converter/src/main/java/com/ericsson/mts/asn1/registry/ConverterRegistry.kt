@@ -19,8 +19,8 @@ import java.util.concurrent.ConcurrentHashMap
  * Used to store types from .asn files which are parsed with
  * [ConverterVisitor][com.ericsson.mts.asn1.visitor.ConverterVisitor]
  */
-class ConverterRegistry private constructor(private val typeIndexingRegistry: MutableMap<String, TypeAssignmentContext>) {
-    constructor(): this(ConcurrentHashMap<String, TypeAssignmentContext>())
+class ConverterRegistry {
+    private val typeIndexingRegistry: MutableMap<String, TypeAssignmentContext> = ConcurrentHashMap()
 
     fun addAssignment(assignmentContext: AssignmentContext) {
         if (null != assignmentContext.typeAssignment()) {
@@ -145,6 +145,4 @@ class ConverterRegistry private constructor(private val typeIndexingRegistry: Mu
     private fun referencedType(ctx: AsnTypeContext): String? {
         return ctx.referencedType()?.definedType()?.IDENTIFIER(0)?.text
     }
-
-    fun clone(): ConverterRegistry = ConverterRegistry(ConcurrentHashMap(typeIndexingRegistry))
 }
