@@ -17,17 +17,27 @@ import com.ericsson.mts.asn1.visitor.ConverterVisitor
 import org.antlr.v4.runtime.CharStreams
 import org.antlr.v4.runtime.CommonTokenStream
 import org.antlr.v4.runtime.atn.PredictionMode
+import org.antlr.v4.runtime.tree.ParseTree
 import java.io.IOException
 import java.io.InputStream
 
-class ASN1Converter(private val converter: AbstractConverter, asnDefinitions: List<InputStream>) {
+class ASN1Converter {
     private val registry: ConverterRegistry = ConverterRegistry()
+    private val converter: AbstractConverter
 
-    init {
-        for (inputStream in asnDefinitions) {
-            beginVisit(inputStream)
+    constructor(converter: AbstractConverter, tree: ParseTree) {
+        this.converter = converter
+        beginVisit(tree)
+    }
+
+    constructor(converter: AbstractConverter, asnDefinitions: List<InputStream>) {
+        this.converter = converter
+        for (stream in asnDefinitions) {
+            val tree = parseTreeFromStream(stream)
+            beginVisit(tree)
         }
     }
+
 
     /**
      *
@@ -44,12 +54,16 @@ class ASN1Converter(private val converter: AbstractConverter, asnDefinitions: Li
     }
 
     @Throws(IOException::class)
-    private fun beginVisit(stream: InputStream) {
+    private fun parseTreeFromStream(stream: InputStream): ParseTree {
         val inputStream = CharStreams.fromStream(stream)
         val asn1Lexer = ASN1Lexer(inputStream)
         val commonTokenStream = CommonTokenStream(asn1Lexer)
         val asn1Parser = ASN1Parser(commonTokenStream)
         asn1Parser.interpreter.predictionMode = PredictionMode.SLL
-        ConverterVisitor(registry).visitModuleDefinition(asn1Parser.moduleDefinition())
+        return asn1Parser.moduleDefinition()
+    }
+
+    private fun beginVisit(tree: ParseTree) {
+        ConverterVisitor(registry).visit(tree)
     }
 }
