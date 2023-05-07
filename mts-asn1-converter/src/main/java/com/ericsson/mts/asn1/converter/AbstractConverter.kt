@@ -12,11 +12,13 @@ package com.ericsson.mts.asn1.converter
 import com.ericsson.mts.asn1.ASN1Parser.*
 import com.ericsson.mts.asn1.factory.FormatWriter
 import com.ericsson.mts.asn1.registry.ConverterRegistry
+import com.ericsson.mts.asn1.util.bestFuzzyMatch
+import com.ericsson.mts.asn1.util.peekOrNull
 import org.antlr.v4.runtime.ParserRuleContext
+import org.apache.commons.text.similarity.LevenshteinDistance
+import java.io.InputStream
 import java.math.BigInteger
 import java.util.*
-import com.ericsson.mts.asn1.util.peekOrNull
-import java.io.InputStream
 
 /**
  *
@@ -606,24 +608,11 @@ abstract class AbstractConverter {
         }?.asnType()
     }
 
-    // Return the identifier of a component whose identifier contains the given identifier or viceversa.
-    // Difference between output identifier and input identifier will always be < 7, to limit false-positives
+    // Use fuzzy search to find a component whose identifier is the most similar to the given identifier
+    // Return null if all candidates are too different.
     private fun findSimilarComponent(identifier: String, componentTypes: List<NamedTypeContext>? = null): String? {
-        val componentTypeList = componentTypes ?: typesStack.peekOrNull()
+        val componentTypeList = componentTypes ?: typesStack.peekOrNull() ?: return null
 
-        return componentTypeList?.find {
-            val text = it.IDENTIFIER().text
-            when (text.length - identifier.length) {
-                in 1..6 -> {
-                    text.contains(identifier)
-                }
-                in -6..-1 -> {
-                    identifier.contains(text)
-                }
-                else -> {
-                    false
-                }
-            }
-        }?.IDENTIFIER()?.text
+        return bestFuzzyMatch(identifier, componentTypeList, 7) { x -> x.IDENTIFIER().text }
     }
 }

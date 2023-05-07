@@ -24510,6 +24510,7 @@
                               "rlc-Parameters-v1310": {},
                               "measParameters-v1310": {
                                 "rs-SINR-Meas-r13": "supported",
+                                "allowedCellList-r13": "supported",
                                 "extendedFreqPriorities-r13": "supported",
                                 "multiBandInfoReport-r13": "supported"
                               },

@@ -25402,6 +25402,7 @@
                                                             <rlc-Parameters-v1310/>
                                                             <measParameters-v1310>
                                                                 <rs-SINR-Meas-r13>supported</rs-SINR-Meas-r13>
+                                                                <allowedCellList-r13>supported</allowedCellList-r13>
                                                                 <extendedFreqPriorities-r13>supported
                                                                 </extendedFreqPriorities-r13>
                                                                 <multiBandInfoReport-r13>supported
