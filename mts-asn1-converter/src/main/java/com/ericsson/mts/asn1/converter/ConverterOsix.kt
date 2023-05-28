@@ -146,8 +146,7 @@ class ConverterOsix : AbstractConverter() {
         var read = 1
         writer.enterArray(identifier)
         indentationArrayStack.push(indentation)
-        val subtypeIdentifier = context.asnType().referencedType().definedType().IDENTIFIER()[0]
-        when (val subType = getType(subtypeIdentifier.toString())) {
+        when (val subType = getSubType(context.asnType())) {
             is SequenceTypeContext -> {
                 val subTypeComponents =
                     combineComponentListAndAdditions(

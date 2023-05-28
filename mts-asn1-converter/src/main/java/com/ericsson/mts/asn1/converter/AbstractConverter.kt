@@ -15,7 +15,6 @@ import com.ericsson.mts.asn1.registry.ConverterRegistry
 import com.ericsson.mts.asn1.util.bestFuzzyMatch
 import com.ericsson.mts.asn1.util.peekOrNull
 import org.antlr.v4.runtime.ParserRuleContext
-import org.apache.commons.text.similarity.LevenshteinDistance
 import java.io.InputStream
 import java.math.BigInteger
 import java.util.*
@@ -515,6 +514,20 @@ abstract class AbstractConverter {
             registry.getType(found)
         } else {
             registry.getType(found?.text ?: identifier)
+        }
+    }
+
+    /**
+     *
+     * This method returns the [ParserRuleContext] referenced by the given [typeContext].
+     *
+     */
+    protected fun getSubType(typeContext: AsnTypeContext): ParserRuleContext? {
+        return if (typeContext.builtinType() != null) {
+            registry.getType(typeContext)
+        } else {
+            val ref = typeContext.referencedType()?.definedType()
+            registry.getType(ref?.text ?: "")
         }
     }
 
