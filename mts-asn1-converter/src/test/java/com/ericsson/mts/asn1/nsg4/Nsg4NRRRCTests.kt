@@ -106,6 +106,17 @@ class Nsg4NRRRCTests : AbstractTests() {
         )
     }
 
+    @Test
+    @Throws(Exception::class)
+    fun testUeNrCapabilityOmitEnDc() {
+        test(
+            "UE-NR-Capability",
+            "/data/NSG4/UeNrCapabilityOmitEnDc.txt",
+            "/data/oracle/UeNrCapabilityOmitEnDc.json",
+            "/data/oracle/UeNrCapabilityOmitEnDc.xml"
+        )
+    }
+
     companion object {
         @BeforeAll
         @JvmStatic

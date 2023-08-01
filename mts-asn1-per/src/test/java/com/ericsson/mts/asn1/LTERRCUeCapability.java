@@ -92,4 +92,8 @@ public class LTERRCUeCapability extends AbstractTests {
         test("UE-EUTRA-Capability", "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationReduced1024qam.bin", "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationReduced1024qam.json", "/data/LTERRC/UL_DCCH/UeEutraCapabilityBandCombinationReduced1024qam.xml");
     }
 
+    @Test
+    void testUeEutraCapabilityOmitEnDc() throws Exception {
+        test("UE-EUTRA-Capability", "/data/LTERRC/UL_DCCH/UeEutraCapabilityOmitEnDc.bin", "/data/LTERRC/UL_DCCH/UeEutraCapabilityOmitEnDc.json", "/data/LTERRC/UL_DCCH/UeEutraCapabilityOmitEnDc.xml");
+    }
 }

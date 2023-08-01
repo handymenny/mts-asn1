@@ -115,6 +115,17 @@ class Nsg4LTERRCTests : AbstractTests() {
         )
     }
 
+    @Test
+    @Throws(Exception::class)
+    fun testUeEutraCapabilityOmitEnDc() {
+        test(
+            "UE-EUTRA-Capability",
+            "/data/NSG4/UeEutraCapabilityOmitEnDc.txt",
+            "/data/oracle/UeEutraCapabilityOmitEnDc.json",
+            "/data/oracle/UeEutraCapabilityOmitEnDc.xml"
+        )
+    }
+
     companion object {
         @BeforeAll
         @JvmStatic
