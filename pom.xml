@@ -30,7 +30,7 @@
             <email>gwenhael.pasquiers@ericsson.com</email>
         </developer>
     </developers>
-    
+
     <licenses>
         <license>
             <name>MIT License</name>
@@ -58,14 +58,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.9.0</junit.version>
         <kotlin.version>1.9.10</kotlin.version>
-        <jvm.target>11</jvm.target>
+        <jvm.target>1.8</jvm.target>
         <maven.compiler.source>${jvm.target}</maven.compiler.source>
         <maven.compiler.target>${jvm.target}</maven.compiler.target>
     </properties>
 
     <build>
         <plugins>
-            
+
         </plugins>
     </build>
 </project>
