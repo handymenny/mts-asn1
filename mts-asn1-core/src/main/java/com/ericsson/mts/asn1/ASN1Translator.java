@@ -25,6 +25,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Collections;
 import java.util.List;
 
 public class ASN1Translator {
@@ -37,6 +38,21 @@ public class ASN1Translator {
             ParseTree tree = parseTreeFromStream(inputStream);
             beginVisit(tree);
         }
+    }
+
+    public static ASN1Translator fromExternalTrees(AbstractTranslatorFactory factory, List<ParseTree> trees) {
+        ASN1Translator translator = null;
+        try {
+            translator = new ASN1Translator(factory, Collections.emptyList());
+            // add external trees
+            for (ParseTree tree : trees) {
+                translator.beginVisit(tree);
+            }
+        } catch (IOException ignored) {
+            // ignore
+        }
+
+        return translator;
     }
 
     private ASN1Parser.ModuleDefinitionContext parseTreeFromStream(InputStream stream) throws IOException {
@@ -58,11 +74,6 @@ public class ASN1Translator {
 
     private void beginVisit(ParseTree tree) {
         new TopLevelVisitor(registry).visit(tree);
-    }
-
-    public ASN1Translator(AbstractTranslatorFactory factory, ParseTree tree) {
-        registry = new MainRegistry(factory);
-        beginVisit(tree);
     }
 
     public void parseTranslators() {
