@@ -133,7 +133,7 @@
                 <bandNR>1</bandNR>
                 <mimo-ParametersPerBand>
                     <tci-StatePDSCH>
-                        <maxNumberConfiguredTCI-StatesPerCC>n128</maxNumberConfiguredTCI-StatesPerCC>
+                        <maxNumberConfiguredTCIstatesPerCC>n128</maxNumberConfiguredTCIstatesPerCC>
                         <maxNumberActiveTCI-PerBWP>n4</maxNumberActiveTCI-PerBWP>
                     </tci-StatePDSCH>
                     <additionalActiveTCI-StatePDCCH>supported</additionalActiveTCI-StatePDCCH>
@@ -230,7 +230,7 @@
                 <bandNR>3</bandNR>
                 <mimo-ParametersPerBand>
                     <tci-StatePDSCH>
-                        <maxNumberConfiguredTCI-StatesPerCC>n128</maxNumberConfiguredTCI-StatesPerCC>
+                        <maxNumberConfiguredTCIstatesPerCC>n128</maxNumberConfiguredTCIstatesPerCC>
                         <maxNumberActiveTCI-PerBWP>n4</maxNumberActiveTCI-PerBWP>
                     </tci-StatePDSCH>
                     <additionalActiveTCI-StatePDCCH>supported</additionalActiveTCI-StatePDCCH>
@@ -327,7 +327,7 @@
                 <bandNR>7</bandNR>
                 <mimo-ParametersPerBand>
                     <tci-StatePDSCH>
-                        <maxNumberConfiguredTCI-StatesPerCC>n128</maxNumberConfiguredTCI-StatesPerCC>
+                        <maxNumberConfiguredTCIstatesPerCC>n128</maxNumberConfiguredTCIstatesPerCC>
                         <maxNumberActiveTCI-PerBWP>n4</maxNumberActiveTCI-PerBWP>
                     </tci-StatePDSCH>
                     <additionalActiveTCI-StatePDCCH>supported</additionalActiveTCI-StatePDCCH>
@@ -424,7 +424,7 @@
                 <bandNR>28</bandNR>
                 <mimo-ParametersPerBand>
                     <tci-StatePDSCH>
-                        <maxNumberConfiguredTCI-StatesPerCC>n128</maxNumberConfiguredTCI-StatesPerCC>
+                        <maxNumberConfiguredTCIstatesPerCC>n128</maxNumberConfiguredTCIstatesPerCC>
                         <maxNumberActiveTCI-PerBWP>n4</maxNumberActiveTCI-PerBWP>
                     </tci-StatePDSCH>
                     <additionalActiveTCI-StatePDCCH>supported</additionalActiveTCI-StatePDCCH>
@@ -521,7 +521,7 @@
                 <bandNR>41</bandNR>
                 <mimo-ParametersPerBand>
                     <tci-StatePDSCH>
-                        <maxNumberConfiguredTCI-StatesPerCC>n128</maxNumberConfiguredTCI-StatesPerCC>
+                        <maxNumberConfiguredTCIstatesPerCC>n128</maxNumberConfiguredTCIstatesPerCC>
                         <maxNumberActiveTCI-PerBWP>n4</maxNumberActiveTCI-PerBWP>
                     </tci-StatePDSCH>
                     <additionalActiveTCI-StatePDCCH>supported</additionalActiveTCI-StatePDCCH>
@@ -618,7 +618,7 @@
                 <bandNR>78</bandNR>
                 <mimo-ParametersPerBand>
                     <tci-StatePDSCH>
-                        <maxNumberConfiguredTCI-StatesPerCC>n128</maxNumberConfiguredTCI-StatesPerCC>
+                        <maxNumberConfiguredTCIstatesPerCC>n128</maxNumberConfiguredTCIstatesPerCC>
                         <maxNumberActiveTCI-PerBWP>n4</maxNumberActiveTCI-PerBWP>
                     </tci-StatePDSCH>
                     <additionalActiveTCI-StatePDCCH>supported</additionalActiveTCI-StatePDCCH>

@@ -112,7 +112,7 @@
         "bandNR": 38,
         "mimo-ParametersPerBand": {
           "tci-StatePDSCH": {
-            "maxNumberConfiguredTCI-StatesPerCC": "n16",
+            "maxNumberConfiguredTCIstatesPerCC": "n16",
             "maxNumberActiveTCI-PerBWP": "n1"
           },
           "additionalActiveTCI-StatePDCCH": "supported",
@@ -213,7 +213,7 @@
         "bandNR": 3,
         "mimo-ParametersPerBand": {
           "tci-StatePDSCH": {
-            "maxNumberConfiguredTCI-StatesPerCC": "n16",
+            "maxNumberConfiguredTCIstatesPerCC": "n16",
             "maxNumberActiveTCI-PerBWP": "n1"
           },
           "additionalActiveTCI-StatePDCCH": "supported",
@@ -314,7 +314,7 @@
         "bandNR": 7,
         "mimo-ParametersPerBand": {
           "tci-StatePDSCH": {
-            "maxNumberConfiguredTCI-StatesPerCC": "n16",
+            "maxNumberConfiguredTCIstatesPerCC": "n16",
             "maxNumberActiveTCI-PerBWP": "n1"
           },
           "additionalActiveTCI-StatePDCCH": "supported",
@@ -415,7 +415,7 @@
         "bandNR": 28,
         "mimo-ParametersPerBand": {
           "tci-StatePDSCH": {
-            "maxNumberConfiguredTCI-StatesPerCC": "n16",
+            "maxNumberConfiguredTCIstatesPerCC": "n16",
             "maxNumberActiveTCI-PerBWP": "n1"
           },
           "additionalActiveTCI-StatePDCCH": "supported",
@@ -516,7 +516,7 @@
         "bandNR": 78,
         "mimo-ParametersPerBand": {
           "tci-StatePDSCH": {
-            "maxNumberConfiguredTCI-StatesPerCC": "n16",
+            "maxNumberConfiguredTCIstatesPerCC": "n16",
             "maxNumberActiveTCI-PerBWP": "n1"
           },
           "additionalActiveTCI-StatePDCCH": "supported",
@@ -623,7 +623,7 @@
         "bandNR": 1,
         "mimo-ParametersPerBand": {
           "tci-StatePDSCH": {
-            "maxNumberConfiguredTCI-StatesPerCC": "n16",
+            "maxNumberConfiguredTCIstatesPerCC": "n16",
             "maxNumberActiveTCI-PerBWP": "n1"
           },
           "additionalActiveTCI-StatePDCCH": "supported",
