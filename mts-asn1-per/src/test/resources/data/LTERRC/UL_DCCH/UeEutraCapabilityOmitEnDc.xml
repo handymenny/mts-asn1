@@ -2682,7 +2682,11 @@
                                                                                                                     <nonCriticalExtension>
                                                                                                                         <pdcp-ParametersNR-v1560/>
                                                                                                                         <irat-ParametersNR-v1560/>
-                                                                                                                        <appliedCapabilityFilterCommon-r15>60</appliedCapabilityFilterCommon-r15>
+                                                                                                                        <appliedCapabilityFilterCommon-r15>
+                                                                                                                            <mrdc-Request>
+                                                                                                                                <omitEN-DC>true</omitEN-DC>
+                                                                                                                            </mrdc-Request>
+                                                                                                                        </appliedCapabilityFilterCommon-r15>
                                                                                                                         <fdd-Add-UE-EUTRA-Capabilities-v1560>
                                                                                                                             <pdcp-ParametersNR-v1560/>
                                                                                                                         </fdd-Add-UE-EUTRA-Capabilities-v1560>
