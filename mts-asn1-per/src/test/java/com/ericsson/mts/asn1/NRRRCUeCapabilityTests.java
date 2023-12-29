@@ -5,12 +5,12 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Collections;
 
-public class NRRRCUeCapability extends AbstractTests {
+public class NRRRCUeCapabilityTests extends AbstractTests {
 
     @BeforeAll
     static void init() {
         try {
-            asn1Translator = new ASN1Translator(new PERTranslatorFactory(false), Collections.singletonList(S1APAuthWSyncFailure.class.getResourceAsStream("/grammar/NRRRC/NR-RRC-Definitions.asn")));
+            asn1Translator = new ASN1Translator(new PERTranslatorFactory(false), Collections.singletonList(S1APAuthWSyncFailureTests.class.getResourceAsStream("/grammar/NRRRC/NR-RRC-Definitions.asn")));
         } catch (Exception e) {
             e.printStackTrace();
         }

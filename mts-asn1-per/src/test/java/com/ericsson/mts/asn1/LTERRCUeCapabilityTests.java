@@ -5,12 +5,12 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Collections;
 
-public class LTERRCUeCapability extends AbstractTests {
+public class LTERRCUeCapabilityTests extends AbstractTests {
 
     @BeforeAll
     static void init() {
         try {
-            asn1Translator = new ASN1Translator(new PERTranslatorFactory(false), Collections.singletonList(S1APAuthWSyncFailure.class.getResourceAsStream("/grammar/LTERRC/EUTRA-RRC-Definitions.asn")));
+            asn1Translator = new ASN1Translator(new PERTranslatorFactory(false), Collections.singletonList(S1APAuthWSyncFailureTests.class.getResourceAsStream("/grammar/LTERRC/EUTRA-RRC-Definitions.asn")));
         } catch (Exception e) {
             e.printStackTrace();
         }

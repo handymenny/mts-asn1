@@ -15,12 +15,12 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Collections;
 
-public class S1APAuthWSyncFailure extends AbstractTests {
+public class S1APAuthWSyncFailureTests extends AbstractTests {
 
     @BeforeAll
     static void init() {
         try {
-            asn1Translator = new ASN1Translator(new PERTranslatorFactory(true), Collections.singletonList(S1APAuthWSyncFailure.class.getResourceAsStream("/grammar/S1AP/S1AP.asn")));
+            asn1Translator = new ASN1Translator(new PERTranslatorFactory(true), Collections.singletonList(S1APAuthWSyncFailureTests.class.getResourceAsStream("/grammar/S1AP/S1AP.asn")));
         } catch (Exception e) {
             e.printStackTrace();
         }
