@@ -145,7 +145,7 @@
                 <bandNR>28</bandNR>
                 <mimo-ParametersPerBand>
                     <tci-StatePDSCH>
-                        <maxNumberConfiguredTCI-StatesPerCC>n16</maxNumberConfiguredTCI-StatesPerCC>
+                        <maxNumberConfiguredTCIstatesPerCC>n16</maxNumberConfiguredTCIstatesPerCC>
                         <maxNumberActiveTCI-PerBWP>n1</maxNumberActiveTCI-PerBWP>
                     </tci-StatePDSCH>
                     <pusch-TransCoherence>nonCoherent</pusch-TransCoherence>
@@ -243,7 +243,7 @@
                 <bandNR>78</bandNR>
                 <mimo-ParametersPerBand>
                     <tci-StatePDSCH>
-                        <maxNumberConfiguredTCI-StatesPerCC>n16</maxNumberConfiguredTCI-StatesPerCC>
+                        <maxNumberConfiguredTCIstatesPerCC>n16</maxNumberConfiguredTCIstatesPerCC>
                         <maxNumberActiveTCI-PerBWP>n1</maxNumberActiveTCI-PerBWP>
                     </tci-StatePDSCH>
                     <pusch-TransCoherence>nonCoherent</pusch-TransCoherence>
@@ -355,7 +355,7 @@
                 <bandNR>3</bandNR>
                 <mimo-ParametersPerBand>
                     <tci-StatePDSCH>
-                        <maxNumberConfiguredTCI-StatesPerCC>n16</maxNumberConfiguredTCI-StatesPerCC>
+                        <maxNumberConfiguredTCIstatesPerCC>n16</maxNumberConfiguredTCIstatesPerCC>
                         <maxNumberActiveTCI-PerBWP>n1</maxNumberActiveTCI-PerBWP>
                     </tci-StatePDSCH>
                     <pusch-TransCoherence>nonCoherent</pusch-TransCoherence>
