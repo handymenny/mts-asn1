@@ -173,7 +173,7 @@ class ConverterTems : AbstractConverter() {
         if (nextLine[newLevel] != '[') {
             // we should read more
             read++
-            nextLine = lineArray.getOrNull(index + read)!!
+            nextLine = lineArray.getOrNull(index + read) ?: return read
             newLevel = getIndentationLevel(nextLine)
         }
 

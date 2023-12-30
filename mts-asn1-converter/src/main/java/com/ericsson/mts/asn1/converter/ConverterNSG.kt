@@ -176,8 +176,8 @@ class ConverterNSG : AbstractConverter() {
                 if (useNsg36path) {
                     read = 0
                 }
-                var nextLine: String? = lineArray.getOrNull(index + read) ?: return read
-                var newLevel = getIndentationLevel(nextLine!!)
+                var nextLine = lineArray.getOrNull(index + read) ?: return read
+                var newLevel = getIndentationLevel(nextLine)
                 while (indentation < newLevel || (indentation <= newLevel && useNsg36path)) {
 
                     if (!useNsg36path) {
@@ -188,7 +188,7 @@ class ConverterNSG : AbstractConverter() {
                     var objectFound = false
 
                     // NSG 2.x = SupportedBandList[0], NSG 3.6 = supportedBandlist[0], NSG 4.x = [0]
-                    val newIdentifier = getIdentifier(nextLine!!.substring(newLevel))
+                    val newIdentifier = getIdentifier(nextLine)
 
                     if (!useNsg36path && newIdentifier.isNotBlank()) {
                         // NSG 2.x path
@@ -279,7 +279,7 @@ class ConverterNSG : AbstractConverter() {
                     if (!useNsg36path) {
                         popStacks(newLevel)
                     }
-                    val newIdentifier = getIdentifier(nextLine.substring(newLevel))
+                    val newIdentifier = getIdentifier(nextLine)
                     if (nextLine.matches(hasIndex) && (!useNsg36path || newIdentifier == "" || identifier == newIdentifier)) {
                         if(useNsg36path) {
                             popStacks(newLevel + 1)

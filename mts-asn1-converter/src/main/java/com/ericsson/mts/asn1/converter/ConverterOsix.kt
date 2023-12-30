@@ -155,11 +155,11 @@ class ConverterOsix : AbstractConverter() {
                         subType.componentTypeLists().extensionAdditions()?.extensionAdditionList()
                             ?.extensionAddition() ?: emptyList()
                     )
-                var nextLine: String? = lineArray.getOrNull(index + read) ?: return read
-                var newLevel = getIndentationLevel(nextLine!!)
+                var nextLine = lineArray.getOrNull(index + read) ?: return read
+                var newLevel = getIndentationLevel(nextLine)
                 while (indentation < newLevel) {
                     // SupportedBandList nr 0
-                    val newIdentifier = getIdentifier(nextLine!!.substring(newLevel))
+                    val newIdentifier = getIdentifier(nextLine)
                     if (identifier == newIdentifier) {
                         popStacks(newLevel)
                         indentationObjectStack.push(newLevel)
