@@ -23,7 +23,7 @@ class ConverterQcat : AbstractConverter() {
         }
 
         // pop stacks when line contains "}"
-        if (line.substring(indentationLevel).startsWith("}")) {
+        if (line.contains("}")) {
             if (isObjectStack.size > 0) {
                 val isObject = isObjectStack.pop()
                 if (isObject) {

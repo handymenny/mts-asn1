@@ -102,7 +102,7 @@ abstract class AbstractConverter {
     ): Int {
         val line = lineArray[index]
         val indentationWidth = getIndentationLevel(line)
-        val originalIdentifier = getIdentifier(line.substring(indentationWidth))
+        val originalIdentifier = getIdentifier(line)
 
         // preprocess line
         if (preprocessLine(line, originalIdentifier, indentationWidth)) {
@@ -284,7 +284,7 @@ abstract class AbstractConverter {
      * @param identifier the ASN.1 object identifier.
      * @param context the [INTEGER context][IntegerTypeContext].
      * @return the number of lines processed.
-     */    
+     */
     protected abstract fun parseInteger(
         index: Int,
         lineArray: List<String>,
