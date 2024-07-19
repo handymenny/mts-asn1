@@ -237,12 +237,14 @@ class ConstraintVisitor {
                     SizeConstraint sizeConstraint = (SizeConstraint) abstractConstraint;
                     if (ctx.value(0).builtinValue().integerValue() != null) {
                         sizeConstraint.setLowerBound((ctx.value(0).getText()), true);
+                        sizeConstraint.setUpperBound(sizeConstraint.lowerBound, true);
                     } else if (ctx.value(0).builtinValue().enumeratedValue() != null) {
-                        sizeConstraint.setLowerBound(mainRegistry.getConstant(ctx.value(0).builtinValue()).getValue(), false);
+                        String enumerated = mainRegistry.getConstant(ctx.value(0).builtinValue()).getValue();
+                        sizeConstraint.setLowerBound(enumerated, false);
+                        sizeConstraint.setUpperBound(enumerated, true);
                     } else {
                         throw new ANTLRVisitorException(ctx.value(0).builtinValue().getText());
                     }
-                    sizeConstraint.setUpperBound(null, true);
                     return null;
                 } else {
                     //SingleValue
