@@ -12,7 +12,7 @@
     <artifactId>mts-asn1-kotlinx-json</artifactId>
 
     <properties>
-        <serialization.version>1.6.0</serialization.version>
+        <serialization.version>1.7.1</serialization.version>
     </properties>
 
     <dependencies>
