@@ -1,0 +1,9 @@
+<Message>
+    <foo>
+        <a>true</a>
+        <b>55</b>
+        <c>3</c>
+        <d>false</d>
+        <e>on</e>
+    </foo>
+</Message>
