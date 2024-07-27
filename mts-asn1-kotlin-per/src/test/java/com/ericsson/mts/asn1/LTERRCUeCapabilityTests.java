@@ -26,6 +26,11 @@ public class LTERRCUeCapabilityTests extends AbstractTests {
   }
 
   @Test
+  void testUeCapabilityInformationSegmented() throws Exception {
+   test("UL-DCCH-Message", "/data/LTERRC/UL_DCCH/UeCapabilityInformationSegmented.bin", "/data/LTERRC/UL_DCCH/UeCapabilityInformationSegmented.json", "/data/LTERRC/UL_DCCH/UeCapabilityInformationSegmented.xml");
+  }
+
+  @Test
   void testUeEutraCapability() throws Exception {
     test("UE-EUTRA-Capability", "/data/LTERRC/UL_DCCH/UeEutraCapability.bin", "/data/LTERRC/UL_DCCH/UeEutraCapability.json", "/data/LTERRC/UL_DCCH/UeEutraCapability.xml");
   }
