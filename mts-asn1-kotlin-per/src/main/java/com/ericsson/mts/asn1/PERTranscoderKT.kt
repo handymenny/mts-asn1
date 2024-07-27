@@ -265,12 +265,16 @@ class PERTranscoderKT @JvmOverloads constructor(val isAligned: Boolean, val isPe
     /**
      * Decode an unconstrained length determinant. ITU-T X.691 11.9.
      *
+     * Note: if the length is a multiple of [UNIT_16K], fragmentation applies.
+     *       To accept that, set handleFragmentation to true.
+     *
      * @param stream input stream
+     * @param handleFragmentation true if the caller handles fragmentation
      * @return length determinant
      * @throws IOException
      */
     @Throws(IOException::class)
-    fun decodeUnconstrainedLengthDeterminant(stream: BitInputStream): Int {
+    fun decodeUnconstrainedLengthDeterminant(stream: BitInputStream, handleFragmentation: Boolean = false): Int {
         skipAlignedBits(stream)
 
         var result = stream.read()
@@ -286,7 +290,12 @@ class PERTranscoderKT @JvmOverloads constructor(val isAligned: Boolean, val isPe
             result = result or stream.read()
         } else if (type == 0b11) {
             // 11.9.3.8: >= 16K
-            throw NotHandledCaseException("number of 16k chunks not supported")
+            if (handleFragmentation) {
+                val multiplier = (result and 0b111)
+                result = multiplier * UNIT_16K
+            } else {
+                throw NotHandledCaseException("Fragmentation not handled by the caller")
+            }
         }
 
         logger.trace("decoded Unconstrained len determinant {}", result)
@@ -295,13 +304,18 @@ class PERTranscoderKT @JvmOverloads constructor(val isAligned: Boolean, val isPe
 
     /**
      * Encode an unconstrained length determinant. ITU-T X.691 11.9.
+     * Note: if for length > [UNIT_16K], fragmentation applies.
+     * To handle handleFragmentation you should set handleFragmentation to true
+     * and call this function one time for each fragment.
+     * The length of fragments >= [UNIT_16K], should be exactly one of
+     * [UNIT_16K], [UNIT_32K], [UNIT_48K], [UNIT_64K].
      *
      * @param s output bitarray
      * @param length length to encode
      * @throws IOException
      */
     @Throws(IOException::class)
-    fun encodeUnconstrainedLengthDeterminant(s: BitArray, length: Int) {
+    fun encodeUnconstrainedLengthDeterminant(s: BitArray, length: Int, handleFragmentation: Boolean = false) {
         logger.trace("encodeLengthDeterminant : length={}", length)
         skipAlignedBits(s)
 
@@ -313,7 +327,16 @@ class PERTranscoderKT @JvmOverloads constructor(val isAligned: Boolean, val isPe
             s.write(firstByte)
             s.write(secondByte)
         } else {
-            throw NotHandledCaseException("number of 16k chunks not supported")
+            if (!handleFragmentation) {
+                throw NotHandledCaseException("Fragmentation not handled by the caller")
+            }
+            if (length % UNIT_16K == 0 && length <= UNIT_64K) {
+                val multiplier = length / UNIT_16K
+                val byte = multiplier or 0b11000000
+                s.write(byte)
+            } else {
+                throw NotHandledCaseException("Length >= 16k should be exactly one of 16k, 32k, 48k, 64k")
+            }
         }
     }
 
@@ -437,16 +460,12 @@ class PERTranscoderKT @JvmOverloads constructor(val isAligned: Boolean, val isPe
      */
     @Throws(IOException::class)
     fun decodeOctetString(stream: BitInputStream, len: Int, fixed: Boolean = true): ByteArray {
-        if (len < UNIT_64K) {
-            // Octet strings of fixed length less than or equal to two octets are not octet-aligned.
-            // All other octet strings are octet-aligned in the ALIGNED variant.
-            if (!isAligned || fixed && len <= 2) {
-                return stream.readUnalignedByteArray(len)
-            }
-            return stream.readAlignedByteArray(len)
-        } else {
-            throw NotHandledCaseException("number of 16k chunks not supported")
+        // Octet strings of fixed length less than or equal to two octets are not octet-aligned.
+        // All other octet strings are octet-aligned in the ALIGNED variant.
+        if (!isAligned || fixed && len <= 2) {
+            return stream.readUnalignedByteArray(len)
         }
+        return stream.readAlignedByteArray(len)
     }
 
     /**
