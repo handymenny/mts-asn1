@@ -46,7 +46,7 @@ class PEROctetStringTranslatorKT(private val perTranscoder: PERTranscoderKT) : A
             //17.8
             val length = value.length / 2 + value.length % 2
             if (ubUnset) {
-                perTranscoder.encodeUnconstrainedLengthDeterminant(s, length - lb)
+                perTranscoder.encodeUnconstrainedLengthDeterminant(s, length)
             } else {
                 perTranscoder.encodeConstrainedInteger(
                     s,
@@ -91,7 +91,7 @@ class PEROctetStringTranslatorKT(private val perTranscoder: PERTranscoderKT) : A
         } else {
             //17.8
             val length = if (ubUnset) {
-                perTranscoder.decodeUnconstrainedLengthDeterminant(s) + lb
+                perTranscoder.decodeUnconstrainedLengthDeterminant(s)
             } else {
                 perTranscoder.decodeConstrainedInteger(lb.toBigInteger(), ub.toBigInteger(), s).intValueExact()
             }
