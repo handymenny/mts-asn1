@@ -58,7 +58,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.9.0</junit.version>
-        <kotlin.version>2.0.0</kotlin.version>
+        <kotlin.version>2.0.10</kotlin.version>
         <jvm.target>11</jvm.target>
         <maven.compiler.source>${jvm.target}</maven.compiler.source>
         <maven.compiler.target>${jvm.target}</maven.compiler.target>
