@@ -44,7 +44,10 @@ public abstract class AbstractChoiceTranslator extends AbstractTranslator {
             if (ctx.alternativeTypeLists().extensionAdditionAlternatives().extensionAdditionAlternativesList() != null) {
                 ctx.alternativeTypeLists().extensionAdditionAlternatives().extensionAdditionAlternativesList().extensionAdditionAlternative().forEach(extensionAdditionAlternativeContext -> {
                     if (extensionAdditionAlternativeContext.extensionAdditionAlternativesGroup() != null) {
-                        throw new NotHandledCaseException();
+                        extensionAdditionAlternativeContext.extensionAdditionAlternativesGroup().alternativeTypeList().namedType().forEach(namedTypeContext -> {
+                            // do nothing
+                            logger.warn("Not Handled case: extensionAdditionAlternativesGroup {}", namedTypeContext.IDENTIFIER().getText());
+                        });
                     } else {
                         AbstractTranslator translator = mainRegistry.getTranslator(extensionAdditionAlternativeContext.namedType().asnType());
                         extensionFieldList.add(new Pair<>(extensionAdditionAlternativeContext.namedType().IDENTIFIER().getText(), translator));
